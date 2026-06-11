@@ -1,4 +1,4 @@
-/* WM 2026 BotBoard – Frontend-Logik (kein Build, keine Dependencies) */
+/* WM 2026 ShredBotSoccer Agent – Frontend-Logik (kein Build, keine Dependencies) */
 
 const ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard";
 const LIVE_INTERVAL_MS = 30000;

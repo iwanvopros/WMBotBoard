@@ -1,4 +1,4 @@
-# ⚽ WM 2026 · BotBoard
+# ⚽ WM 2026 · ShredBotSoccer Agent
 
 Täglicher Tipp-Agent für die Fussball-Weltmeisterschaft 2026 mit Live-Webinterface –
 **komplett ohne API-Keys**. Jeden Morgen um **07:00 (Europe/Zurich)** berechnet ein
