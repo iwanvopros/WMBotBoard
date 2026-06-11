@@ -9,17 +9,25 @@ statischen Website mit zwei Bereichen: **„Vor dem Spiel"** (Tipps) und **„Li
 ## Wie es funktioniert
 
 ```
-07:00 Cloud-Routine (agent/daily_run.md)
+07:00 Europe/Zurich  ──>  GitHub Actions (.github/workflows/daily.yml)   [gratis, kein API-Key]
   └─ scripts/run_daily.sh
-        ├─ build_history.py  Elo-Ratings aus 3 Jahren Länderspiel-Historie
+        ├─ build_history.py  Elo aus 3 Jahren Historie + fertige WM-Spiele live aus ESPN
         ├─ build_data.py     Spielplan, Teams, Gruppen, Quoten von ESPN
-        └─ predict.py        Basis-Tipps (Elo + Poisson + Quoten)  → latest.json
-  └─ Claude-Recherche        Quoten, Form, Verletzungen, News → verfeinert latest.json
-  └─ git push                GitHub Pages aktualisiert die Website automatisch
+        └─ predict.py        Tipps (Elo + Poisson + Quoten)  → latest.json
+  └─ git commit/push         GitHub Pages aktualisiert die Website automatisch
+
+(optional) Claude-Verfeinerung via agent/daily_run.md:
+  Form, Verletzungen, News, Quoten → reichert rationale_de & key_factors an.
 ```
 
 Das **Frontend** (`docs/`) liest die Tipps aus `docs/data/predictions/latest.json` und
 pollt für den Live-Bereich die ESPN-API direkt im Browser (alle 30 s).
+
+### Neubewertung während des Turniers
+- **Team-Stärke:** `build_history.py` lädt die Länderspiel-Historie täglich neu **und** speist
+  fertige WM-Spiele sofort aus ESPN ins Elo ein → Auf-/Abwertungen wirken nach jedem Spiel.
+- **Verletzungen/Form/News:** über die **täglich frisch geladenen Wettquoten** eingepreist
+  (Markt reagiert auf Ausfälle); optional zusätzlich durch die Claude-Recherche-Schicht.
 
 ## Datenquellen (alle frei, ohne Key)
 
@@ -64,9 +72,12 @@ scripts/       run_daily.sh – Modell-Pipeline + Publish
 
 ## Deployment
 
-1. Repo auf GitHub pushen.
-2. **Settings → Pages**: Source = `main` Branch, Ordner `/docs`.
-3. Cloud-Routine (z. B. via Claude Code Schedule) täglich `0 7 * * *` Europe/Zurich →
-   führt `agent/daily_run.md` aus.
+1. Repo (öffentlich) auf GitHub pushen.
+2. **Settings → Pages**: Source = `main` Branch, Ordner `/docs` → öffentliche URL.
+3. **GitHub Actions** ist über `.github/workflows/daily.yml` bereits eingerichtet: läuft
+   täglich 05:00 UTC (07:00 Europe/Zurich), kostenlos, committet die neuen Tipps. Manuell
+   testen: Tab **Actions → Tägliche WM-Tipps → Run workflow**.
+4. *(Optional)* Reichhaltigere Begründungen via Claude: `agent/daily_run.md` über eine
+   Claude-Code-Routine ausführen lassen (nutzt dein Abo, keine bezahlte API).
 
 > Tipps sind Modell-/Rechercheschätzungen und **keine** Wettempfehlung.

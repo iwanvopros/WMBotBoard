@@ -1,0 +1,47 @@
+name: Tägliche WM-Tipps
+
+# Läuft täglich um 05:00 UTC = 07:00 Europe/Zurich (während der WM gilt CEST = UTC+2).
+# Plus manuell auslösbar. Kostenlos für öffentliche Repos (GitHub Actions), kein API-Key.
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Datum YYYY-MM-DD (leer = heute, Europe/Zurich)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-tips
+  cancel-in-progress: false
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tipps berechnen & veröffentlichen
+        run: bash scripts/run_daily.sh "${{ github.event.inputs.date }}"
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Tipps $(TZ=Europe/Zurich date +%F) [auto]"
+            git push
+          fi

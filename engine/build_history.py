@@ -57,6 +57,46 @@ def k_for(tournament: str) -> float:
     return 30.0
 
 
+WC2026_START = "2026-06-11"
+
+
+def _ingest_espn_results(ratings, gf, ga, pts, last_played, wc_pairs, cutoff) -> int:
+    """Wendet fertige WM-2026-Spiele aus ESPN auf die Elo-Werte an (nur solche, die in der
+    Historie-CSV noch fehlen). Bei Netz-/Importfehler wird übersprungen."""
+    try:
+        import fetch_fixtures as ff
+        events = ff.fetch("20260611-20260719", limit=200)
+    except Exception as e:
+        print(f"Hinweis: ESPN-Ergebnisse nicht abgerufen ({e}).")
+        return 0
+
+    applied = 0
+    for m in sorted(events, key=lambda x: x.get("date_utc") or ""):
+        if m.get("state") != "post":
+            continue
+        try:
+            hs, as_ = int(m["home"]["score"]), int(m["away"]["score"])
+        except (TypeError, ValueError, KeyError):
+            continue
+        h, a = canon(m["home"]["name"]), canon(m["away"]["name"])
+        if not h or not a or frozenset((h, a)) in wc_pairs:
+            continue  # schon über die Historie erfasst
+        wc_pairs.add(frozenset((h, a)))
+        d = (m.get("date_utc") or "")[:10]
+        ratings[h], ratings[a] = update_ratings(ratings[h], ratings[a], hs, as_, k=60.0, neutral=True)
+        last_played[h] = d
+        last_played[a] = d
+        if d >= cutoff.isoformat():
+            gf[h].append(hs); ga[h].append(as_); gf[a].append(as_); ga[a].append(hs)
+            pts[h].append(3 if hs > as_ else 1 if hs == as_ else 0)
+            pts[a].append(3 if as_ > hs else 1 if as_ == hs else 0)
+        applied += 1
+
+    if applied:
+        print(f"{applied} fertige WM-Spiel(e) aus ESPN ins Elo eingespeist.")
+    return applied
+
+
 def build(as_of: date | None = None, years: int = 3) -> dict:
     as_of = as_of or date.today()
     cutoff = as_of.replace(year=as_of.year - years)
@@ -67,6 +107,7 @@ def build(as_of: date | None = None, years: int = 3) -> dict:
     ga = defaultdict(list)   # kassierte Tore
     pts = defaultdict(list)  # Punkte je Spiel (3/1/0)
     last_played = {}
+    wc_pairs = set()         # bereits in der Historie erfasste WM-2026-Paarungen (Dedup)
 
     rows = []
     with open(RESULTS, encoding="utf-8") as f:
@@ -96,6 +137,12 @@ def build(as_of: date | None = None, years: int = 3) -> dict:
             gf[a].append(as_); ga[a].append(hs)
             pts[h].append(3 if hs > as_ else 1 if hs == as_ else 0)
             pts[a].append(3 if as_ > hs else 1 if as_ == hs else 0)
+        if d >= WC2026_START:
+            wc_pairs.add(frozenset((h, a)))
+
+    # Während des Turniers: fertige WM-Spiele direkt aus ESPN ins Elo einspeisen,
+    # damit Auf-/Abwertungen sofort wirken (unabhängig vom Update der Historie-CSV).
+    _ingest_espn_results(ratings, gf, ga, pts, last_played, wc_pairs, cutoff)
 
     out = {}
     teams = set(ratings) | set(gf)
