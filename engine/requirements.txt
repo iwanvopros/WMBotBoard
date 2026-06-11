@@ -1,0 +1,2 @@
+# Keine externen Pakete nötig – die Engine nutzt ausschließlich die Python-Standardbibliothek.
+# (urllib, csv, json, math, datetime). Python >= 3.10 empfohlen.

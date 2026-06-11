@@ -1,0 +1,242 @@
+{
+  "date": "2026-06-13",
+  "generated_at": "2026-06-11T16:35:15+00:00",
+  "count": 3,
+  "source": "elo+poisson model + ESPN odds",
+  "matches": [
+    {
+      "id": "760420",
+      "kickoff_utc": "2026-06-13T19:00Z",
+      "venue": "Levi's Stadium",
+      "city": "Santa Clara, California",
+      "group": null,
+      "home": {
+        "code": "QAT",
+        "name": "Qatar",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+        "elo": 1586.6,
+        "form_ppg10": 0.7
+      },
+      "away": {
+        "code": "SUI",
+        "name": "Switzerland",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+        "elo": 1947.7,
+        "form_ppg10": 1.9
+      },
+      "prediction": {
+        "winner": "Switzerland",
+        "winner_code": "SUI",
+        "scoreline": "0:1",
+        "prob": {
+          "home": 0.1201,
+          "draw": 0.183,
+          "away": 0.6967
+        },
+        "confidence": "Hoch",
+        "expected_goals": {
+          "home": 0.868,
+          "away": 1.896
+        },
+        "over_2_5": 0.5216,
+        "btts": 0.4929,
+        "top_scorelines": [
+          {
+            "score": "0:1",
+            "p": 0.1196
+          },
+          {
+            "score": "0:2",
+            "p": 0.1133
+          },
+          {
+            "score": "1:1",
+            "p": 0.1038
+          },
+          {
+            "score": "1:2",
+            "p": 0.0983
+          },
+          {
+            "score": "0:3",
+            "p": 0.0716
+          }
+        ]
+      },
+      "odds_snapshot": {
+        "provider": "DraftKings",
+        "details": "SUI -425",
+        "over_under": 2.5,
+        "moneyline": {
+          "home": "+1200",
+          "draw": 550,
+          "away": "-425"
+        },
+        "implied": {
+          "home": 0.0739,
+          "draw": 0.1479,
+          "away": 0.7782
+        }
+      },
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht Switzerland vorne (70%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
+    },
+    {
+      "id": "760419",
+      "kickoff_utc": "2026-06-13T22:00Z",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford, New Jersey",
+      "group": null,
+      "home": {
+        "code": "BRA",
+        "name": "Brazil",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+        "elo": 2058.8,
+        "form_ppg10": 1.9
+      },
+      "away": {
+        "code": "MAR",
+        "name": "Morocco",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+        "elo": 2000.2,
+        "form_ppg10": 2.4
+      },
+      "prediction": {
+        "winner": "Brazil",
+        "winner_code": "BRA",
+        "scoreline": "1:0",
+        "prob": {
+          "home": 0.4713,
+          "draw": 0.257,
+          "away": 0.2718
+        },
+        "confidence": "Mittel",
+        "expected_goals": {
+          "home": 1.361,
+          "away": 1.35
+        },
+        "over_2_5": 0.509,
+        "btts": 0.5508,
+        "top_scorelines": [
+          {
+            "score": "1:1",
+            "p": 0.1221
+          },
+          {
+            "score": "1:0",
+            "p": 0.0905
+          },
+          {
+            "score": "0:1",
+            "p": 0.0897
+          },
+          {
+            "score": "2:1",
+            "p": 0.0831
+          },
+          {
+            "score": "1:2",
+            "p": 0.0824
+          }
+        ]
+      },
+      "odds_snapshot": {
+        "provider": "DraftKings",
+        "details": "BRA -145",
+        "over_under": 2.5,
+        "moneyline": {
+          "home": "-145",
+          "draw": 275,
+          "away": "+450"
+        },
+        "implied": {
+          "home": 0.5689,
+          "draw": 0.2563,
+          "away": 0.1748
+        }
+      },
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht Brazil vorne (47%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
+    },
+    {
+      "id": "760418",
+      "kickoff_utc": "2026-06-14T01:00Z",
+      "venue": "Gillette Stadium",
+      "city": "Foxborough, Massachusetts",
+      "group": null,
+      "home": {
+        "code": "HAI",
+        "name": "Haiti",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+        "elo": 1712.6,
+        "form_ppg10": 1.5
+      },
+      "away": {
+        "code": "SCO",
+        "name": "Scotland",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+        "elo": 1862.2,
+        "form_ppg10": 1.9
+      },
+      "prediction": {
+        "winner": "Scotland",
+        "winner_code": "SCO",
+        "scoreline": "0:1",
+        "prob": {
+          "home": 0.2369,
+          "draw": 0.2387,
+          "away": 0.5243
+        },
+        "confidence": "Mittel",
+        "expected_goals": {
+          "home": 1.275,
+          "away": 1.55
+        },
+        "over_2_5": 0.5365,
+        "btts": 0.5676,
+        "top_scorelines": [
+          {
+            "score": "1:1",
+            "p": 0.1172
+          },
+          {
+            "score": "0:1",
+            "p": 0.0919
+          },
+          {
+            "score": "1:2",
+            "p": 0.0908
+          },
+          {
+            "score": "1:0",
+            "p": 0.0756
+          },
+          {
+            "score": "2:1",
+            "p": 0.0747
+          }
+        ]
+      },
+      "odds_snapshot": {
+        "provider": "DraftKings",
+        "details": "SCO -175",
+        "over_under": 2.5,
+        "moneyline": {
+          "home": "+500",
+          "draw": 320,
+          "away": "-175"
+        },
+        "implied": {
+          "home": 0.1601,
+          "draw": 0.2287,
+          "away": 0.6112
+        }
+      },
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht Scotland vorne (52%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
+    }
+  ]
+}

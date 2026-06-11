@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WM 2026 · BotBoard</title>
+  <link rel="preconnect" href="https://a.espncdn.com" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="ball">⚽</span>
+      <div>
+        <h1>WM&nbsp;2026 · BotBoard</h1>
+        <p class="sub" id="subline">Tägliche Tipps & Live-Verfolgung</p>
+      </div>
+    </div>
+    <div class="updated" id="updated"></div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="pre">Vor dem Spiel</button>
+    <button class="tab" data-tab="live">
+      Live Games <span class="live-count" id="liveCount"></span>
+    </button>
+  </nav>
+
+  <main>
+    <section id="pre" class="panel active">
+      <div class="panel-head">
+        <h2 id="preTitle">Tipps des Tages</h2>
+        <span class="hint">Hybrid-Modell (Elo + Poisson) verfeinert mit Quoten, Form & News</span>
+      </div>
+      <div id="preCards" class="cards"></div>
+    </section>
+
+    <section id="live" class="panel">
+      <div class="panel-head">
+        <h2>Live & heute</h2>
+        <span class="hint">Aktualisiert automatisch alle 30&nbsp;Sekunden · Quelle: ESPN</span>
+      </div>
+      <div id="liveCards" class="cards"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>Keine API-Keys · Daten: ESPN, Länderspiel-Historie, Buchmacher-Quoten</span>
+    <span>Tipps sind Modellschätzungen, keine Wettempfehlung.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

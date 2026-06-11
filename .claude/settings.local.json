@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "Bash(curl -s --max-time 20 \"https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260611\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('events:',len\\(d.get\\('events',[]\\)\\)\\); e=d['events'][0] if d.get\\('events'\\) else {}; comp=e.get\\('competitions',[{}]\\)[0] if e else {}; print\\('has_odds:', 'odds' in comp\\); print\\('status:', e.get\\('status',{}\\).get\\('type',{}\\).get\\('description'\\) if e else None\\); print\\('name:', e.get\\('name'\\) if e else None\\)\")"
+    ]
+  }
+}

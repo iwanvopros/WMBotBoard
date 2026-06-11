@@ -1,0 +1,164 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T16:44:06+00:00",
+  "count": 2,
+  "source": "elo+poisson model + ESPN odds",
+  "matches": [
+    {
+      "id": "760415",
+      "kickoff_utc": "2026-06-11T19:00Z",
+      "venue": "Estadio Banorte",
+      "city": "Mexico City",
+      "group": null,
+      "home": {
+        "code": "MEX",
+        "name": "Mexico",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+        "elo": 1966.4,
+        "form_ppg10": 2.1
+      },
+      "away": {
+        "code": "RSA",
+        "name": "South Africa",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+        "elo": 1673.3,
+        "form_ppg10": 1.7
+      },
+      "prediction": {
+        "winner": "Mexico",
+        "winner_code": "MEX",
+        "scoreline": "1:0",
+        "prob": {
+          "home": 0.632,
+          "draw": 0.2242,
+          "away": 0.1438
+        },
+        "confidence": "Hoch",
+        "expected_goals": {
+          "home": 1.767,
+          "away": 0.84
+        },
+        "over_2_5": 0.4832,
+        "btts": 0.4711,
+        "top_scorelines": [
+          {
+            "score": "1:0",
+            "p": 0.1303
+          },
+          {
+            "score": "2:0",
+            "p": 0.1152
+          },
+          {
+            "score": "1:1",
+            "p": 0.1095
+          },
+          {
+            "score": "2:1",
+            "p": 0.0967
+          },
+          {
+            "score": "0:0",
+            "p": 0.0738
+          }
+        ]
+      },
+      "odds_snapshot": {
+        "provider": "DraftKings",
+        "details": "MEX -235",
+        "over_under": 2.5,
+        "moneyline": {
+          "home": "-235",
+          "draw": 340,
+          "away": "+750"
+        },
+        "implied": {
+          "home": 0.6704,
+          "draw": 0.2172,
+          "away": 0.1124
+        }
+      },
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht Mexico vorne (63%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
+    },
+    {
+      "id": "760414",
+      "kickoff_utc": "2026-06-12T02:00Z",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "group": null,
+      "home": {
+        "code": "KOR",
+        "name": "South Korea",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+        "elo": 1882.6,
+        "form_ppg10": 1.9
+      },
+      "away": {
+        "code": "CZE",
+        "name": "Czechia",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+        "elo": 1811.9,
+        "form_ppg10": 1.9
+      },
+      "prediction": {
+        "winner": "South Korea",
+        "winner_code": "KOR",
+        "scoreline": "1:0",
+        "prob": {
+          "home": 0.3911,
+          "draw": 0.2843,
+          "away": 0.3246
+        },
+        "confidence": "Niedrig",
+        "expected_goals": {
+          "home": 1.498,
+          "away": 1.272
+        },
+        "over_2_5": 0.5234,
+        "btts": 0.5588,
+        "top_scorelines": [
+          {
+            "score": "1:1",
+            "p": 0.1194
+          },
+          {
+            "score": "1:0",
+            "p": 0.0938
+          },
+          {
+            "score": "2:1",
+            "p": 0.0894
+          },
+          {
+            "score": "0:1",
+            "p": 0.0797
+          },
+          {
+            "score": "1:2",
+            "p": 0.076
+          }
+        ]
+      },
+      "odds_snapshot": {
+        "provider": "DraftKings",
+        "details": "KOR +170",
+        "over_under": 2.5,
+        "moneyline": {
+          "home": "+170",
+          "draw": 205,
+          "away": "+195"
+        },
+        "implied": {
+          "home": 0.3571,
+          "draw": 0.3161,
+          "away": 0.3268
+        }
+      },
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht South Korea vorne (39%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
+    }
+  ]
+}
