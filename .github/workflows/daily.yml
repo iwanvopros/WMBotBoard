@@ -1,10 +1,11 @@
 name: Tägliche WM-Tipps
 
-# Läuft täglich um 05:00 UTC = 07:00 Europe/Zurich (während der WM gilt CEST = UTC+2).
-# Plus manuell auslösbar. Kostenlos für öffentliche Repos (GitHub Actions), kein API-Key.
+# FALLBACK-Lauf: 05:30 UTC = 07:30 Europe/Zurich (CEST). Die primäre Claude-Routine läuft
+# um 07:00 und reichert die Tipps an; dieser Job springt nur ein, wenn sie ausgefallen ist
+# (predict.py überschreibt bereits angereicherte Tipps nicht). Gratis, kein API-Key.
 on:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "30 5 * * *"
   workflow_dispatch:
     inputs:
       date:

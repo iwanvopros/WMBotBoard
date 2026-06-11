@@ -136,8 +136,28 @@ def run(date_str: str) -> dict:
     }
 
 
+def _already_enriched(date_str: str) -> bool:
+    """True, wenn für den Tag bereits durch die Claude-Schicht angereicherte Tipps
+    vorliegen. Verhindert, dass der GitHub-Actions-Fallback diese überschreibt."""
+    path = os.path.join(PRED_DIR, f"{date_str}.json")
+    if not os.path.exists(path):
+        return False
+    try:
+        prev = json.load(open(path, encoding="utf-8"))
+    except Exception:
+        return False
+    return prev.get("matches") and any(m.get("enriched_by") == "claude" for m in prev["matches"])
+
+
 def main():
     date_str = sys.argv[1] if len(sys.argv) > 1 else datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    # Schutz: bereits angereicherte Tagestipps nicht durch die Modell-Basis überschreiben
+    # (Override mit WMBOT_FORCE=1).
+    if not os.environ.get("WMBOT_FORCE") and _already_enriched(date_str):
+        print(f"Tipps für {date_str} sind bereits angereichert – Neuberechnung übersprungen.")
+        return
+
     out = run(date_str)
     os.makedirs(PRED_DIR, exist_ok=True)
     for path in (os.path.join(PRED_DIR, f"{date_str}.json"), os.path.join(PRED_DIR, "latest.json")):
