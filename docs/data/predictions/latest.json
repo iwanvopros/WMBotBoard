@@ -1,8 +1,8 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T17:34:14+00:00",
+  "generated_at": "2026-06-11T17:47:53+00:00",
   "count": 2,
-  "source": "elo+poisson model + ESPN odds",
+  "source": "Hybrid: Elo+Poisson-Modell, Buchmacher-Quoten & Tagesrecherche",
   "matches": [
     {
       "id": "760415",
@@ -27,11 +27,11 @@
       "prediction": {
         "winner": "Mexico",
         "winner_code": "MEX",
-        "scoreline": "1:0",
+        "scoreline": "2:0",
         "prob": {
-          "home": 0.632,
-          "draw": 0.2242,
-          "away": 0.1438
+          "home": 0.66,
+          "draw": 0.21,
+          "away": 0.13
         },
         "confidence": "Hoch",
         "expected_goals": {
@@ -78,9 +78,15 @@
           "away": 0.1124
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Mexico vorne (63%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Heimvorteil Azteca + Höhe (2240 m)",
+        "Klarer Favorit (-235)",
+        "Südafrika ohne Morena & Nkota (verletzt)",
+        "Experten erwarten Mexico mit 2+ Toren",
+        "Mexico-Tormann Malagón verletzt – Rangel/Ochoa"
+      ],
+      "rationale_de": "Mexico eröffnet als Gastgeber im ausverkauften Estadio Azteca, in der Höhe und als klarer Favorit (-235). Südafrika fehlen die verletzten Morena und Nkota; die Experten sehen Mexico mit zwei Toren Unterschied vorne.",
+      "enriched_by": "claude"
     },
     {
       "id": "760414",
@@ -105,11 +111,11 @@
       "prediction": {
         "winner": "South Korea",
         "winner_code": "KOR",
-        "scoreline": "1:0",
+        "scoreline": "2:1",
         "prob": {
-          "home": 0.3911,
-          "draw": 0.2843,
-          "away": 0.3246
+          "home": 0.37,
+          "draw": 0.3,
+          "away": 0.33
         },
         "confidence": "Niedrig",
         "expected_goals": {
@@ -156,9 +162,15 @@
           "away": 0.3268
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht South Korea vorne (39%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Sehr offenes Spiel (Quoten fast 1:1:1)",
+        "Son Heung-min & Lee Kang-in als Qualitätsplus",
+        "Tschechien erstmals seit 2006 dabei, in Form",
+        "Bae Jun-ho (Knöchel) fraglich",
+        "Tschechiens letzte 5 Spiele über 2.5 Tore"
+      ],
+      "rationale_de": "Ein enges Auftaktduell – die Quoten liegen mit Korea (+165), Remis (+210) und Tschechien (+195) fast gleichauf. Koreas individuelle Klasse um Son und Lee Kang-in gibt einen hauchdünnen Vorteil; Tschechiens jüngste Spiele gingen aber alle über 2.5 Tore.",
+      "enriched_by": "claude"
     }
   ]
 }
