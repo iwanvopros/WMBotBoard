@@ -90,6 +90,20 @@ main { max-width: 1100px; margin: 0 auto; padding: 8px 24px 40px; }
 .vs { color: var(--muted); font-size: 12px; }
 .kickoff { color: var(--accent2); font-weight: 700; font-size: 13px; }
 
+/* bereits gespielte Spiele: kompakt & gedimmt */
+.card.played { opacity: .5; padding: 12px; }
+.card.played:hover { opacity: .85; }
+.card.played .team img { width: 30px; height: 30px; }
+.card.played .team .tname { font-size: 12px; }
+.card.played .score { font-size: 18px; }
+.card.played .rationale,
+.card.played .factors,
+.card.played .stats,
+.card.played .odds { display: none; }
+.card.played .probbar { margin: 10px 0 5px; height: 6px; }
+.card.played .tip { margin: 8px 0 0; }
+.card.played .group-badge { font-size: 10px; }
+
 /* prob bar */
 .probbar { display: flex; height: 9px; border-radius: 6px; overflow: hidden; margin: 14px 0 6px; background: var(--surface2); }
 .probbar i { display: block; height: 100%; }

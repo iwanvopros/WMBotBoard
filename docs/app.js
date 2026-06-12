@@ -79,25 +79,38 @@ async function loadPredictions() {
     }
     const mode = data.matches.some((m) => m.enriched_by === "claude") ? "Modell + Recherche" : "Modell (Basis)";
     $("#preTitle").textContent = "Tipps des Tages — " + mode;
-
-    box.innerHTML = "";
-    if (!data.matches.length) {
-      box.innerHTML = emptyHTML("📅", "Heute keine WM-Spiele angesetzt.");
-      return;
-    }
-    data.matches.forEach((m) => box.appendChild(predCard(m)));
+    renderPre();
+    // hält die "gespielt"-Dimmung aktuell, auch wenn die Seite offen bleibt
+    if (!state.preTimer) state.preTimer = setInterval(renderPre, 60000);
   } catch (e) {
     box.innerHTML = emptyHTML("⚠️", "Tipps konnten nicht geladen werden.<br><small>" + e + "</small>");
   }
 }
 
-function predCard(m) {
+function renderPre() {
+  const data = state.predictions;
+  if (!data) return;
+  const box = $("#preCards");
+  box.innerHTML = "";
+  if (!data.matches.length) {
+    box.innerHTML = emptyHTML("📅", "Heute keine WM-Spiele angesetzt.");
+    return;
+  }
+  // noch anstehende Spiele zuerst (voll), bereits gespielte danach (kompakt & gedimmt)
+  const now = Date.now();
+  const sorted = data.matches
+    .map((m) => ({ m, played: new Date(m.kickoff_utc).getTime() < now }))
+    .sort((a, b) => (a.played - b.played) || (new Date(a.m.kickoff_utc) - new Date(b.m.kickoff_utc)));
+  sorted.forEach(({ m, played }) => box.appendChild(predCard(m, played)));
+}
+
+function predCard(m, played = false) {
   const p = m.prediction, pr = p.prob;
-  const c = el("div", "card");
+  const c = el("div", played ? "card played" : "card");
 
   c.appendChild(el("div", "meta",
     `<span class="group-badge">${m.group ? "Gruppe " + m.group : "K.o."}</span>
-     <span>${m.venue ? m.venue + " · " : ""}${m.city || ""}</span>`));
+     <span>${played ? "✓ gespielt" : (m.venue ? m.venue + " · " : "") + (m.city || "")}</span>`));
 
   c.appendChild(el("div", "match", `
     ${teamHTML(m.home)}
