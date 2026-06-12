@@ -24,6 +24,7 @@
     <button class="tab" data-tab="live">
       Live Games <span class="live-count" id="liveCount"></span>
     </button>
+    <button class="tab" data-tab="results">Resultate</button>
   </nav>
 
   <main>
@@ -41,6 +42,15 @@
         <span class="hint">Aktualisiert automatisch alle 30&nbsp;Sekunden · Quelle: ESPN</span>
       </div>
       <div id="liveCards" class="cards"></div>
+    </section>
+
+    <section id="results" class="panel">
+      <div class="panel-head">
+        <h2>Resultate &amp; Trefferquote</h2>
+        <span class="hint">Gespielte Spiele nach Gruppe · Tipp vs. tatsächliches Resultat</span>
+      </div>
+      <div id="resultsSummary"></div>
+      <div id="resultsGroups"></div>
     </section>
   </main>
 

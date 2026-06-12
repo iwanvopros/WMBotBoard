@@ -101,7 +101,7 @@ def predict_match(m: dict, elo: dict, teams: dict) -> dict | None:
         "kickoff_utc": m["date_utc"],
         "venue": m["venue"],
         "city": m["city"],
-        "group": m.get("group"),
+        "group": teams[hc].get("group") if teams[hc].get("group") == teams[ac].get("group") else None,
         "home": {"code": hc, "name": m["home"]["name"], "logo": teams[hc]["logo"], "elo": he["rating"], "form_ppg10": he["form_ppg10"]},
         "away": {"code": ac, "name": m["away"]["name"], "logo": teams[ac]["logo"], "elo": ae["rating"], "form_ppg10": ae["form_ppg10"]},
         "prediction": {

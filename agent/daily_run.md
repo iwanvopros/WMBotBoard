@@ -52,7 +52,7 @@ Schreibe die Datei gültig als JSON zurück (UTF-8, eingerückt). Archiviere ide
 
 ## 4. Veröffentlichen & committen
 ```bash
-cp -f data/teams.json data/fixtures.json docs/data/ 2>/dev/null || true
+cp -f data/teams.json data/fixtures.json data/results.json docs/data/ 2>/dev/null || true
 cp -f data/predictions/*.json docs/data/predictions/
 git add -A
 git commit -m "Tipps $(TZ=Europe/Zurich date +%F)"

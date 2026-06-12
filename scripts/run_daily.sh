@@ -29,10 +29,14 @@ echo "--> Spielplan/Teams von ESPN aktualisieren"
 echo "--> Basis-Tipps berechnen"
 "$PY" engine/predict.py "$DATE"
 
+echo "--> Gespielte Spiele bewerten (Trefferquote)"
+"$PY" engine/results.py
+
 publish() {
   mkdir -p docs/data/predictions
   cp -f data/teams.json docs/data/teams.json
   cp -f data/fixtures.json docs/data/fixtures.json
+  cp -f data/results.json docs/data/results.json 2>/dev/null || true
   cp -f data/predictions/*.json docs/data/predictions/ 2>/dev/null || true
   echo "--> Nach docs/data/ veröffentlicht"
 }

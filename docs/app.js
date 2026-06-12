@@ -60,6 +60,7 @@ function switchTab(name) {
   document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("active", t.dataset.tab === name));
   document.querySelectorAll(".panel").forEach((p) => p.classList.toggle("active", p.id === name));
   if (name === "live") startLive();
+  if (name === "results") loadResults();
 }
 
 /* ---------- Vor dem Spiel ---------- */
@@ -240,6 +241,87 @@ function trackHTML(tip, g) {
   return el("div", "track",
     `Tipp war <b>${tip.prediction.winner} ${tip.prediction.scoreline}</b> · ` +
     `<span class="${ok ? "ok" : "no"}">${ok ? "✓" : "✗"} ${verb}</span>`);
+}
+
+/* ---------- Resultate & Trefferquote ---------- */
+async function loadResults() {
+  const sum = $("#resultsSummary"), box = $("#resultsGroups");
+  if (!box.children.length) box.innerHTML = '<div class="skeleton"></div>';
+  let data;
+  try {
+    data = await getJSON("data/results.json");
+  } catch (e) {
+    sum.innerHTML = "";
+    box.innerHTML = emptyHTML("📊", "Noch keine bewerteten Spiele.<br><small>" + e + "</small>");
+    return;
+  }
+  if (!data.count) {
+    sum.innerHTML = "";
+    box.innerHTML = emptyHTML("⏳", "Noch keine WM-Spiele abgeschlossen.<br><small>Sobald die ersten Partien gespielt sind, erscheint hier die Trefferquote.</small>");
+    return;
+  }
+  sum.innerHTML = resultSummary(data);
+  box.innerHTML = "";
+  data.groups.forEach((g) => box.appendChild(resultGroup(g)));
+}
+
+function resultSummary(d) {
+  const q = d.overall_quote;
+  return `<div class="quote-card">
+    <div class="quote-main">
+      <div class="quote-num ${scoreClass(q)}">${q}%</div>
+      <div class="quote-label">Gesamt-Trefferquote<br><small>${d.count} bewertete Spiele</small></div>
+    </div>
+    <div class="quote-bar"><i class="${scoreClass(q)}" style="width:${q}%"></i></div>
+    <div class="quote-sub">
+      <span><b>${d.tendency_rate}%</b> Tendenz richtig</span>
+      <span><b>${d.exact_rate}%</b> exaktes Resultat</span>
+    </div>
+    <div class="quote-legend">Punkte je Spiel: Tendenz +50 · Tordifferenz +20 · exakt +20 · Modell-Überzeugung +0–10</div>
+  </div>`;
+}
+
+function resultGroup(g) {
+  const wrap = el("div", "result-group");
+  wrap.appendChild(el("h3", "group-title", g.group.length === 1 ? "Gruppe " + g.group : g.group));
+  const cards = el("div", "cards");
+  g.matches.forEach((m) => cards.appendChild(resultCard(m)));
+  wrap.appendChild(cards);
+  return wrap;
+}
+
+function resultCard(m) {
+  const c = el("div", "card");
+  const f = m.factors;
+  c.appendChild(el("div", "meta", `
+    <span>${fmtResultDate(m.date_utc)}</span>
+    <span class="score-badge ${scoreClass(m.result_score)}">${m.result_score}%</span>`));
+
+  c.appendChild(el("div", "match", `
+    ${teamHTML(m.home)}
+    <div class="center"><div class="score">${m.actual}</div><div class="vs">Endstand</div></div>
+    ${teamHTML(m.away)}`));
+
+  c.appendChild(el("div", "result-tip", `
+    <span>Tipp: <b>${m.tip.winner === "Unentschieden" ? "Remis" : m.tip.winner} ${m.tip.scoreline}</b></span>
+    <span class="verdict ${scoreClass(m.result_score)}">${m.verdict}</span>`));
+
+  const chips = el("div", "factors");
+  chips.appendChild(el("span", f.tendenz ? "ok" : "no", (f.tendenz ? "✓" : "✗") + " Tendenz"));
+  chips.appendChild(el("span", f.tordifferenz ? "ok" : "no", (f.tordifferenz ? "✓" : "✗") + " Tordifferenz"));
+  chips.appendChild(el("span", f.exakt ? "ok" : "no", (f.exakt ? "✓" : "✗") + " Exakt"));
+  chips.appendChild(el("span", null, "Modell gab " + pct(f.prob_actual) + "%"));
+  c.appendChild(chips);
+  return c;
+}
+
+function fmtResultDate(iso) {
+  if (!iso) return "";
+  return new Date(iso).toLocaleDateString("de-CH", { day: "numeric", month: "short", timeZone: TZ });
+}
+
+function scoreClass(s) {
+  return s >= 90 ? "s-top" : s >= 70 ? "s-good" : s >= 50 ? "s-mid" : "s-low";
 }
 
 /* ---------- Empty ---------- */

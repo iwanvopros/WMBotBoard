@@ -128,6 +128,42 @@ main { max-width: 1100px; margin: 0 auto; padding: 8px 24px 40px; }
 .track .ok { color: var(--accent); font-weight: 700; }
 .track .no { color: var(--away); font-weight: 700; }
 
+/* results / Trefferquote */
+.s-top { color: var(--accent); }
+.s-good { color: var(--accent2); }
+.s-mid { color: var(--draw); }
+.s-low { color: var(--away); }
+
+.quote-card {
+  background: linear-gradient(180deg, var(--surface), var(--bg2));
+  border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 18px 20px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.quote-main { display: flex; align-items: center; gap: 16px; }
+.quote-num { font-size: 44px; font-weight: 800; line-height: 1; }
+.quote-label { color: var(--muted); font-size: 13px; font-weight: 600; }
+.quote-label small { color: var(--muted); font-weight: 400; }
+.quote-bar { height: 10px; border-radius: 6px; background: var(--surface2); overflow: hidden; margin: 14px 0 10px; }
+.quote-bar i { display: block; height: 100%; border-radius: 6px; }
+.quote-bar .s-top { background: var(--accent); }
+.quote-bar .s-good { background: var(--accent2); }
+.quote-bar .s-mid { background: var(--draw); }
+.quote-bar .s-low { background: var(--away); }
+.quote-sub { display: flex; gap: 20px; font-size: 12.5px; color: var(--muted); }
+.quote-sub b { color: var(--text); font-size: 14px; }
+.quote-legend { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11.5px; }
+
+.result-group { margin-bottom: 24px; }
+.group-title { font-size: 14px; margin: 0 0 12px; color: var(--text); display: inline-block;
+  background: var(--surface2); border: 1px solid var(--line); padding: 4px 12px; border-radius: 999px; }
+
+.score-badge { font-size: 12.5px; font-weight: 800; padding: 2px 10px; border-radius: 999px; background: var(--surface2); border: 1px solid var(--line); }
+.result-tip { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin: 12px 0 0; font-size: 13px; color: var(--muted); }
+.result-tip b { color: var(--text); }
+.verdict { font-weight: 700; font-size: 12px; }
+.factors span.ok { background: rgba(0,210,122,.14); border-color: rgba(0,210,122,.4); color: var(--accent); }
+.factors span.no { background: rgba(255,93,122,.12); border-color: rgba(255,93,122,.4); color: var(--away); }
+
 .empty { text-align: center; color: var(--muted); padding: 50px 20px; font-size: 14.5px; }
 .empty .big { font-size: 40px; display: block; margin-bottom: 10px; }
 .skeleton { height: 230px; border-radius: var(--radius); background: linear-gradient(100deg, var(--surface) 30%, var(--surface2) 50%, var(--surface) 70%); background-size: 200% 100%; animation: shimmer 1.3s infinite; }
