@@ -133,12 +133,15 @@ def build() -> dict:
         key = gm["group"] or "K.o.-Runde"
         buckets.setdefault(key, []).append(gm)
     for v in buckets.values():
-        v.sort(key=lambda x: x["date_utc"])
+        v.sort(key=lambda x: x["date_utc"], reverse=True)  # neueste zuerst
 
     def gkey(k: str):
         return (order.index(k), k) if k in order else (99, k)
 
-    groups = [{"group": k, "matches": buckets[k]} for k in sorted(buckets, key=gkey)]
+    # Gruppen nach jüngstem Spiel absteigend (neueste oben), Gleichstand nach Gruppe
+    keys = sorted(buckets, key=gkey)                                  # Tiebreak (stabil)
+    keys = sorted(keys, key=lambda k: buckets[k][0]["date_utc"], reverse=True)
+    groups = [{"group": k, "matches": buckets[k]} for k in keys]
 
     exact = sum(1 for s in graded if s["factors"]["exakt"])
     tend = sum(1 for s in graded if s["factors"]["tendenz"])

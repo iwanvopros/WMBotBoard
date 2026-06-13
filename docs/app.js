@@ -338,9 +338,12 @@ function buildResults(archive, events) {
 
   const buckets = {};
   graded.forEach((m) => (buckets[m.group || "K.o.-Runde"] ||= []).push(m));
-  Object.values(buckets).forEach((v) => v.sort((a, b) => a.date_utc.localeCompare(b.date_utc)));
+  // innerhalb der Gruppe: neueste zuerst
+  Object.values(buckets).forEach((v) => v.sort((a, b) => b.date_utc.localeCompare(a.date_utc)));
   const gkey = (k) => (GROUP_ORDER.includes(k) ? GROUP_ORDER.indexOf(k) : 99);
-  const groups = Object.keys(buckets).sort((a, b) => gkey(a) - gkey(b) || a.localeCompare(b))
+  // Gruppen nach jüngstem Spiel absteigend (neueste Aktivität oben), Gleichstand nach Gruppe
+  const groups = Object.keys(buckets)
+    .sort((a, b) => buckets[b][0].date_utc.localeCompare(buckets[a][0].date_utc) || gkey(a) - gkey(b))
     .map((k) => ({ group: k, matches: buckets[k] }));
 
   const n = graded.length;

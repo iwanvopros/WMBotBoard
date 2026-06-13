@@ -1,83 +1,10 @@
 {
-  "generated_at": "2026-06-13T01:54:09+00:00",
+  "generated_at": "2026-06-13T02:01:00+00:00",
   "count": 3,
   "overall_quote": 64.3,
   "tendency_rate": 67,
   "exact_rate": 67,
   "groups": [
-    {
-      "group": "A",
-      "matches": [
-        {
-          "id": "760415",
-          "date_utc": "2026-06-11T19:00Z",
-          "group": "A",
-          "home": {
-            "name": "Mexico",
-            "code": "MEX",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"
-          },
-          "away": {
-            "name": "South Africa",
-            "code": "RSA",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png"
-          },
-          "actual": "2:0",
-          "tip": {
-            "scoreline": "2:0",
-            "winner": "Mexico",
-            "confidence": "Hoch",
-            "prob": {
-              "home": 0.66,
-              "draw": 0.21,
-              "away": 0.13
-            }
-          },
-          "result_score": 96.6,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": true,
-            "exakt": true,
-            "prob_actual": 0.66
-          },
-          "verdict": "Volltreffer"
-        },
-        {
-          "id": "760414",
-          "date_utc": "2026-06-12T02:00Z",
-          "group": "A",
-          "home": {
-            "name": "South Korea",
-            "code": "KOR",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
-          },
-          "away": {
-            "name": "Czechia",
-            "code": "CZE",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png"
-          },
-          "actual": "2:1",
-          "tip": {
-            "scoreline": "2:1",
-            "winner": "South Korea",
-            "confidence": "Niedrig",
-            "prob": {
-              "home": 0.37,
-              "draw": 0.3,
-              "away": 0.33
-            }
-          },
-          "result_score": 93.7,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": true,
-            "exakt": true,
-            "prob_actual": 0.37
-          },
-          "verdict": "Volltreffer"
-        }
-      ]
-    },
     {
       "group": "B",
       "matches": [
@@ -114,6 +41,79 @@
             "prob_actual": 0.26
           },
           "verdict": "Daneben"
+        }
+      ]
+    },
+    {
+      "group": "A",
+      "matches": [
+        {
+          "id": "760414",
+          "date_utc": "2026-06-12T02:00Z",
+          "group": "A",
+          "home": {
+            "name": "South Korea",
+            "code": "KOR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
+          },
+          "away": {
+            "name": "Czechia",
+            "code": "CZE",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png"
+          },
+          "actual": "2:1",
+          "tip": {
+            "scoreline": "2:1",
+            "winner": "South Korea",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.37,
+              "draw": 0.3,
+              "away": 0.33
+            }
+          },
+          "result_score": 93.7,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": true,
+            "prob_actual": 0.37
+          },
+          "verdict": "Volltreffer"
+        },
+        {
+          "id": "760415",
+          "date_utc": "2026-06-11T19:00Z",
+          "group": "A",
+          "home": {
+            "name": "Mexico",
+            "code": "MEX",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"
+          },
+          "away": {
+            "name": "South Africa",
+            "code": "RSA",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png"
+          },
+          "actual": "2:0",
+          "tip": {
+            "scoreline": "2:0",
+            "winner": "Mexico",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.66,
+              "draw": 0.21,
+              "away": 0.13
+            }
+          },
+          "result_score": 96.6,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": true,
+            "prob_actual": 0.66
+          },
+          "verdict": "Volltreffer"
         }
       ]
     }
