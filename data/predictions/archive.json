@@ -110,11 +110,11 @@
     "prediction": {
       "winner": "Switzerland",
       "winner_code": "SUI",
-      "scoreline": "0:1",
+      "scoreline": "0:2",
       "prob": {
-        "home": 0.1201,
-        "draw": 0.183,
-        "away": 0.6967
+        "home": 0.1,
+        "draw": 0.21,
+        "away": 0.69
       },
       "confidence": "Hoch"
     }
@@ -134,11 +134,11 @@
     "prediction": {
       "winner": "Brazil",
       "winner_code": "BRA",
-      "scoreline": "1:0",
+      "scoreline": "2:1",
       "prob": {
-        "home": 0.4713,
-        "draw": 0.257,
-        "away": 0.2718
+        "home": 0.58,
+        "draw": 0.24,
+        "away": 0.18
       },
       "confidence": "Mittel"
     }
@@ -160,9 +160,9 @@
       "winner_code": "SCO",
       "scoreline": "0:1",
       "prob": {
-        "home": 0.2369,
-        "draw": 0.2387,
-        "away": 0.5243
+        "home": 0.18,
+        "draw": 0.22,
+        "away": 0.6
       },
       "confidence": "Mittel"
     }

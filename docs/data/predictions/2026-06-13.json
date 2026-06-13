@@ -1,15 +1,15 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-11T16:35:15+00:00",
+  "generated_at": "2026-06-13T02:06:53+00:00",
   "count": 3,
-  "source": "elo+poisson model + ESPN odds",
+  "source": "Hybrid: Elo+Poisson-Modell, Buchmacher-Quoten & Tagesrecherche",
   "matches": [
     {
       "id": "760420",
       "kickoff_utc": "2026-06-13T19:00Z",
       "venue": "Levi's Stadium",
       "city": "Santa Clara, California",
-      "group": null,
+      "group": "B",
       "home": {
         "code": "QAT",
         "name": "Qatar",
@@ -27,11 +27,11 @@
       "prediction": {
         "winner": "Switzerland",
         "winner_code": "SUI",
-        "scoreline": "0:1",
+        "scoreline": "0:2",
         "prob": {
-          "home": 0.1201,
-          "draw": 0.183,
-          "away": 0.6967
+          "home": 0.1,
+          "draw": 0.21,
+          "away": 0.69
         },
         "confidence": "Hoch",
         "expected_goals": {
@@ -65,29 +65,35 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "SUI -425",
+        "details": "SUI -450",
         "over_under": 2.5,
         "moneyline": {
-          "home": "+1200",
+          "home": "+1300",
           "draw": 550,
-          "away": "-425"
+          "away": "-450"
         },
         "implied": {
-          "home": 0.0739,
-          "draw": 0.1479,
-          "away": 0.7782
+          "home": 0.0685,
+          "draw": 0.1474,
+          "away": 0.7841
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Switzerland vorne (70%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Schweiz nur 1 Niederlage in 9 Pflichtspielen",
+        "Katar seit 6 Spielen sieglos",
+        "Quoten klar für die Schweiz (~1.24)",
+        "Gruppe-B-Entscheidung",
+        "Keine Verletzungssorgen beidseits"
+      ],
+      "rationale_de": "Die Schweiz geht als klarer Favorit (~1.24) ins Gruppe-B-Schlussspiel: nur eine Niederlage in den letzten neun Pflichtspielen, während Katar seit sechs Partien sieglos ist. Mit Xhaka, Akanji und Embolo sollte die Schweiz das souverän kontrollieren.",
+      "enriched_by": "claude"
     },
     {
       "id": "760419",
       "kickoff_utc": "2026-06-13T22:00Z",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
-      "group": null,
+      "group": "C",
       "home": {
         "code": "BRA",
         "name": "Brazil",
@@ -105,11 +111,11 @@
       "prediction": {
         "winner": "Brazil",
         "winner_code": "BRA",
-        "scoreline": "1:0",
+        "scoreline": "2:1",
         "prob": {
-          "home": 0.4713,
-          "draw": 0.257,
-          "away": 0.2718
+          "home": 0.58,
+          "draw": 0.24,
+          "away": 0.18
         },
         "confidence": "Mittel",
         "expected_goals": {
@@ -143,29 +149,35 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "BRA -145",
+        "details": "BRA -150",
         "over_under": 2.5,
         "moneyline": {
-          "home": "-145",
-          "draw": 275,
+          "home": "-150",
+          "draw": 280,
           "away": "+450"
         },
         "implied": {
-          "home": 0.5689,
-          "draw": 0.2563,
-          "away": 0.1748
+          "home": 0.5742,
+          "draw": 0.2518,
+          "away": 0.174
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Brazil vorne (47%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Brasilien Favorit (-175), Ancelotti 3 Siege in 3 Tests",
+        "Vinícius & Raphinha als Offensiv-Trumpf",
+        "Marokko ohne Aguerd & Ezzalzouli (verletzt), Mazraoui fraglich",
+        "Marokko mit neuem Coach (Ouahbi)",
+        "Gefahr über Hakimi & Brahim Díaz im Konter"
+      ],
+      "rationale_de": "Brasilien ist unter Ancelotti (drei Siege in drei Tests) favorisiert (-175) und hat mit Vinícius und Raphinha die größere Offensivklasse. Marokko fehlen die verletzten Aguerd und Ezzalzouli, bleibt aber über Hakimi und Brahim Díaz im Konter gefährlich – daher 2:1.",
+      "enriched_by": "claude"
     },
     {
       "id": "760418",
       "kickoff_utc": "2026-06-14T01:00Z",
       "venue": "Gillette Stadium",
       "city": "Foxborough, Massachusetts",
-      "group": null,
+      "group": "C",
       "home": {
         "code": "HAI",
         "name": "Haiti",
@@ -185,9 +197,9 @@
         "winner_code": "SCO",
         "scoreline": "0:1",
         "prob": {
-          "home": 0.2369,
-          "draw": 0.2387,
-          "away": 0.5243
+          "home": 0.18,
+          "draw": 0.22,
+          "away": 0.6
         },
         "confidence": "Mittel",
         "expected_goals": {
@@ -234,9 +246,15 @@
           "away": 0.6112
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Scotland vorne (52%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Schottland Favorit (-225, Opta 59%)",
+        "Erste Schottland-WM seit 1998",
+        "Billy Gilmour verletzt – fällt aus, Ché Adams fraglich",
+        "McTominay & Robertson als Achse",
+        "Haiti erstmals seit 1974 dabei"
+      ],
+      "rationale_de": "Schottland ist bei der ersten WM-Teilnahme seit 1998 klar favorisiert (-225, Opta 59 %). Der Ausfall von Billy Gilmour und das Fragezeichen hinter Ché Adams schwächen die Offensive etwas, doch mit McTominay und Robertson sollte es gegen WM-Neuling Haiti zum knappen Sieg reichen.",
+      "enriched_by": "claude"
     }
   ]
 }
