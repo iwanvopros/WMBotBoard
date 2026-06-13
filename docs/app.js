@@ -25,9 +25,15 @@ function fmtDateLong(iso) {
   const d = iso ? new Date(iso + "T12:00:00Z") : new Date();
   return d.toLocaleDateString("de-CH", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: TZ });
 }
+const _ymdFmt = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" });
+function ymd(offsetDays = 0) {
+  return _ymdFmt.format(new Date(Date.now() + offsetDays * 86400000)).replace(/-/g, "");
+}
+function zurichYMD(iso) {
+  return _ymdFmt.format(new Date(iso)).replace(/-/g, "");
+}
 function todayYMD() {
-  const f = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" });
-  return f.format(new Date()).replace(/-/g, "");
+  return ymd(0);
 }
 
 /* Fetch JSON mit CORS-Fallback über öffentliche Proxys (nur für ESPN nötig) */
@@ -180,7 +186,9 @@ async function refreshLive() {
   if (!box.children.length) box.innerHTML = '<div class="skeleton"></div>'.repeat(2);
   let events;
   try {
-    const data = await getJSON(`${ESPN}?dates=${todayYMD()}&limit=50`, true);
+    // Fenster gestern–morgen: ESPN bucketet nach US-Ostküsten-Datum, daher kann ein
+    // nachts (CEST) laufendes Spiel im Vortags-Bucket liegen.
+    const data = await getJSON(`${ESPN}?dates=${ymd(-1)}-${ymd(1)}&limit=100`, true);
     events = data.events || [];
   } catch (e) {
     box.innerHTML = emptyHTML("⚠️", "Live-Daten gerade nicht erreichbar.<br><small>Neuer Versuch in 30 s.</small>");
@@ -188,8 +196,11 @@ async function refreshLive() {
   }
 
   const order = { in: 0, pre: 1, post: 2 };
-  const games = events.map(normLive).sort((a, b) =>
-    (order[a.state] - order[b.state]) || a.date.localeCompare(b.date));
+  const today = todayYMD();
+  // alle laufenden Spiele + alle Spiele des heutigen Zürcher Tages (anstehend/beendet)
+  const games = events.map(normLive)
+    .filter((g) => g.state === "in" || zurichYMD(g.date) === today)
+    .sort((a, b) => (order[a.state] - order[b.state]) || a.date.localeCompare(b.date));
 
   const liveN = games.filter((g) => g.state === "in").length;
   $("#liveCount").textContent = liveN || "";
