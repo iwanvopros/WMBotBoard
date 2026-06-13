@@ -60,6 +60,11 @@
     <span>Tipps sind Modellschätzungen, keine Wettempfehlung.</span>
   </footer>
 
-  <script src="app.js?v=20260613"></script>
+  <script>
+    // app.js immer frisch laden (Zeitstempel) – verhindert veraltete Skript-Versionen im Browser
+    var s = document.createElement("script");
+    s.src = "app.js?t=" + Date.now();
+    document.body.appendChild(s);
+  </script>
 </body>
 </html>
