@@ -69,45 +69,80 @@ function switchTab(name) {
   if (name === "results") loadResults();
 }
 
-/* ---------- Vor dem Spiel ---------- */
+/* ---------- Vor dem Spiel (live: heutige, noch nicht angepfiffene Spiele) ---------- */
 async function loadPredictions() {
+  await refreshPre();
+  if (!state.preTimer) state.preTimer = setInterval(refreshPre, 60000);
+}
+
+async function refreshPre() {
   const box = $("#preCards");
-  box.innerHTML = '<div class="skeleton"></div>'.repeat(3);
+  if (!box.children.length) box.innerHTML = '<div class="skeleton"></div>'.repeat(3);
+
+  let archive, events;
+  try {
+    // Tipp-Archiv (statisch) + heutiger Spielplan live von ESPN
+    [archive, events] = await Promise.all([
+      getJSON("data/predictions/archive.json"),
+      getJSON(`${ESPN}?dates=${ymd(-1)}-${ymd(1)}&limit=100`, true).then((d) => d.events || []),
+    ]);
+  } catch (e) {
+    return preFallback();
+  }
+  // Tipps global fürs Live-Tracking verfügbar machen
+  Object.values(archive).forEach((t) => (state.byId[t.id] = t));
+
+  // Ein Spieltag wird nach US-Ostküsten-Datum gebündelt (wie bei ESPN/den Tipps), damit
+  // Spiele nach Mitternacht CEST nicht auf zwei Tage zerfallen. Wir zeigen den nächsten
+  // anstehenden Spieltag: alle noch nicht angepfiffenen Spiele mit dem frühesten ET-Datum.
+  const preGames = events.filter((e) => (((e.status || {}).type || {}).state) === "pre");
+  const nextDay = preGames.map((e) => etYMD(e.date)).sort()[0] || null;
+  const upcoming = preGames
+    .filter((e) => etYMD(e.date) === nextDay)
+    .sort((a, b) => a.date.localeCompare(b.date));
+
+  const enriched = upcoming.some((e) => archive[e.id] && archive[e.id].enriched_by === "claude");
+  $("#subline").textContent = (nextDay ? fmtDateLong(ymdToIso(nextDay)) + " · " : "") + upcoming.length + " Spiel(e)";
+  $("#updated").innerHTML = "Aktualisiert:<br>" +
+    new Date().toLocaleTimeString("de-CH", { hour: "2-digit", minute: "2-digit", timeZone: TZ }) + " Uhr";
+  $("#preTitle").textContent = "Tipps des Tages — " + (enriched ? "Modell + Recherche" : "Modell");
+
+  box.innerHTML = "";
+  if (!upcoming.length) {
+    box.innerHTML = emptyHTML("✅", "Keine anstehenden Spiele mehr heute.<br><small>Laufende Spiele im Tab „Live Games“, gespielte unter „Resultate“.</small>");
+    return;
+  }
+  upcoming.forEach((e) => box.appendChild(archive[e.id] ? predCard(archive[e.id]) : preNoTipCard(e)));
+}
+
+async function preFallback() {
   try {
     const data = await getJSON("data/predictions/latest.json");
-    state.predictions = data;
-    data.matches.forEach((m) => (state.byId[m.id] = m));
-
-    $("#subline").textContent = fmtDateLong(data.date) + " · " + data.count + " Spiel(e)";
-    if (data.generated_at) {
-      $("#updated").innerHTML = "Tipps erstellt:<br>" +
-        new Date(data.generated_at).toLocaleString("de-CH", { dateStyle: "medium", timeStyle: "short", timeZone: TZ });
-    }
-    const mode = data.matches.some((m) => m.enriched_by === "claude") ? "Modell + Recherche" : "Modell (Basis)";
-    $("#preTitle").textContent = "Tipps des Tages — " + mode;
-    renderPre();
-    // hält die "gespielt"-Dimmung aktuell, auch wenn die Seite offen bleibt
-    if (!state.preTimer) state.preTimer = setInterval(renderPre, 60000);
+    const box = $("#preCards");
+    box.innerHTML = "";
+    (data.matches || []).forEach((m) => box.appendChild(predCard(m)));
   } catch (e) {
-    box.innerHTML = emptyHTML("⚠️", "Tipps konnten nicht geladen werden.<br><small>" + e + "</small>");
+    $("#preCards").innerHTML = emptyHTML("⚠️", "Tipps gerade nicht erreichbar.<br><small>" + e + "</small>");
   }
 }
 
-function renderPre() {
-  const data = state.predictions;
-  if (!data) return;
-  const box = $("#preCards");
-  box.innerHTML = "";
-  if (!data.matches.length) {
-    box.innerHTML = emptyHTML("📅", "Heute keine WM-Spiele angesetzt.");
-    return;
-  }
-  // noch anstehende Spiele zuerst (voll), bereits gespielte danach (kompakt & gedimmt)
-  const now = Date.now();
-  const sorted = data.matches
-    .map((m) => ({ m, played: new Date(m.kickoff_utc).getTime() < now }))
-    .sort((a, b) => (a.played - b.played) || (new Date(a.m.kickoff_utc) - new Date(b.m.kickoff_utc)));
-  sorted.forEach(({ m, played }) => box.appendChild(predCard(m, played)));
+const _etFmt = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit" });
+function etYMD(iso) {
+  return _etFmt.format(new Date(iso)).replace(/-/g, "");
+}
+function ymdToIso(y) {
+  return `${y.slice(0, 4)}-${y.slice(4, 6)}-${y.slice(6, 8)}`;
+}
+
+// Minimal-Karte für ein heutiges Spiel, für das (noch) kein Tipp im Archiv liegt
+function preNoTipCard(e) {
+  const g = normLive(e);
+  const c = el("div", "card");
+  c.appendChild(el("div", "meta",
+    `<span class="group-badge">WM 2026</span><span class="kickoff">${fmtTime(g.date)}</span>`));
+  c.appendChild(el("div", "match",
+    `${teamHTML(g.home)}<div class="center"><div class="vs">Tipp folgt</div></div>${teamHTML(g.away)}`));
+  return c;
 }
 
 function predCard(m, played = false) {
@@ -195,19 +230,16 @@ async function refreshLive() {
     return;
   }
 
-  const order = { in: 0, pre: 1, post: 2 };
-  const today = todayYMD();
-  // alle laufenden Spiele + alle Spiele des heutigen Zürcher Tages (anstehend/beendet)
+  // nur aktuell laufende Spiele (unabhängig vom ESPN-Datums-Bucket)
   const games = events.map(normLive)
-    .filter((g) => g.state === "in" || zurichYMD(g.date) === today)
-    .sort((a, b) => (order[a.state] - order[b.state]) || a.date.localeCompare(b.date));
+    .filter((g) => g.state === "in")
+    .sort((a, b) => a.date.localeCompare(b.date));
 
-  const liveN = games.filter((g) => g.state === "in").length;
-  $("#liveCount").textContent = liveN || "";
+  $("#liveCount").textContent = games.length || "";
 
   box.innerHTML = "";
   if (!games.length) {
-    box.innerHTML = emptyHTML("🌙", "Heute keine WM-Spiele.");
+    box.innerHTML = emptyHTML("🌙", "Gerade läuft kein Spiel.<br><small>Anstehende Spiele im Tab „Vor dem Spiel“, gespielte unter „Resultate“.</small>");
     return;
   }
   games.forEach((g) => box.appendChild(liveCard(g)));

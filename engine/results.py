@@ -39,7 +39,7 @@ def _load_tips() -> dict:
     """Alle archivierten Tipps nach ESPN-Match-ID. Angereicherte (claude) gewinnen."""
     tips = {}
     for path in sorted(glob.glob(os.path.join(PRED_DIR, "*.json"))):
-        if os.path.basename(path) == "latest.json":
+        if os.path.basename(path) in ("latest.json", "archive.json"):
             continue
         try:
             data = json.load(open(path, encoding="utf-8"))
@@ -157,23 +157,16 @@ def build() -> dict:
 
 
 def dump_archive():
-    """Schlankes Tipp-Archiv (alle je getippten Spiele nach ESPN-ID), damit das Frontend
-    beendete Spiele live gegen die Tipps bewerten kann – ohne auf den Tageslauf zu warten."""
+    """Vollständiges Tipp-Archiv (alle je getippten Spiele nach ESPN-ID). Das Frontend nutzt
+    es, um sowohl die anstehenden Tipps ('Vor dem Spiel') als auch die Bewertung beendeter
+    Spiele ('Resultate') live gegen ESPN zu rendern – ohne auf den Tageslauf zu warten."""
     tg = _team_groups()
     arch = {}
     for mid, t in _load_tips().items():
-        p = t["prediction"]
-        grp = t.get("group")
-        if not grp:
+        if not t.get("group"):
             hg, ag = tg.get(t["home"]["code"]), tg.get(t["away"]["code"])
-            grp = hg if hg and hg == ag else None
-        arch[mid] = {
-            "group": grp,
-            "home": {"name": t["home"]["name"], "code": t["home"]["code"], "logo": t["home"].get("logo")},
-            "away": {"name": t["away"]["name"], "code": t["away"]["code"], "logo": t["away"].get("logo")},
-            "prediction": {"winner": p["winner"], "winner_code": p.get("winner_code"),
-                            "scoreline": p["scoreline"], "prob": p["prob"], "confidence": p["confidence"]},
-        }
+            t = {**t, "group": hg if hg and hg == ag else None}
+        arch[mid] = t  # volles Tipp-Objekt (inkl. rationale_de, key_factors, odds, xG, ...)
     with open(ARCHIVE, "w", encoding="utf-8") as f:
         json.dump(arch, f, ensure_ascii=False, indent=2)
     print(f"{len(arch)} Tipps ins Archiv geschrieben -> data/predictions/archive.json")
