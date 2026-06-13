@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-12T17:40:35+00:00",
-  "count": 2,
-  "overall_quote": 95.2,
-  "tendency_rate": 100,
-  "exact_rate": 100,
+  "generated_at": "2026-06-13T01:50:23+00:00",
+  "count": 3,
+  "overall_quote": 64.3,
+  "tendency_rate": 67,
+  "exact_rate": 67,
   "groups": [
     {
       "group": "A",
@@ -75,6 +75,45 @@
             "prob_actual": 0.37
           },
           "verdict": "Volltreffer"
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "matches": [
+        {
+          "id": "760416",
+          "date_utc": "2026-06-12T19:00Z",
+          "group": "B",
+          "home": {
+            "name": "Canada",
+            "code": "CAN",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
+          },
+          "away": {
+            "name": "Bosnia-Herzegovina",
+            "code": "BIH",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
+          },
+          "actual": "1:1",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "Canada",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.54,
+              "draw": 0.26,
+              "away": 0.2
+            }
+          },
+          "result_score": 2.6,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.26
+          },
+          "verdict": "Daneben"
         }
       ]
     }

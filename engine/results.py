@@ -24,6 +24,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PRED_DIR = os.path.join(ROOT, "data", "predictions")
 TEAMS = os.path.join(ROOT, "data", "teams.json")
 OUT = os.path.join(ROOT, "data", "results.json")
+ARCHIVE = os.path.join(ROOT, "data", "predictions", "archive.json")
 TOURNAMENT = "20260611-20260719"
 
 
@@ -152,10 +153,34 @@ def build() -> dict:
     }
 
 
+def dump_archive():
+    """Schlankes Tipp-Archiv (alle je getippten Spiele nach ESPN-ID), damit das Frontend
+    beendete Spiele live gegen die Tipps bewerten kann – ohne auf den Tageslauf zu warten."""
+    tg = _team_groups()
+    arch = {}
+    for mid, t in _load_tips().items():
+        p = t["prediction"]
+        grp = t.get("group")
+        if not grp:
+            hg, ag = tg.get(t["home"]["code"]), tg.get(t["away"]["code"])
+            grp = hg if hg and hg == ag else None
+        arch[mid] = {
+            "group": grp,
+            "home": {"name": t["home"]["name"], "code": t["home"]["code"], "logo": t["home"].get("logo")},
+            "away": {"name": t["away"]["name"], "code": t["away"]["code"], "logo": t["away"].get("logo")},
+            "prediction": {"winner": p["winner"], "winner_code": p.get("winner_code"),
+                            "scoreline": p["scoreline"], "prob": p["prob"], "confidence": p["confidence"]},
+        }
+    with open(ARCHIVE, "w", encoding="utf-8") as f:
+        json.dump(arch, f, ensure_ascii=False, indent=2)
+    print(f"{len(arch)} Tipps ins Archiv geschrieben -> data/predictions/archive.json")
+
+
 def main():
     out = build()
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
+    dump_archive()
     print(f"{out['count']} gespielte Spiele bewertet -> data/results.json")
     print(f"  Gesamt-Trefferquote: {out['overall_quote']}% | Tendenz {out['tendency_rate']}% | Exakt {out['exact_rate']}%")
     for g in out["groups"]:

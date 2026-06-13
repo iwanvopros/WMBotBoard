@@ -1,0 +1,170 @@
+{
+  "760415": {
+    "group": "A",
+    "home": {
+      "name": "Mexico",
+      "code": "MEX",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"
+    },
+    "away": {
+      "name": "South Africa",
+      "code": "RSA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png"
+    },
+    "prediction": {
+      "winner": "Mexico",
+      "winner_code": "MEX",
+      "scoreline": "2:0",
+      "prob": {
+        "home": 0.66,
+        "draw": 0.21,
+        "away": 0.13
+      },
+      "confidence": "Hoch"
+    }
+  },
+  "760414": {
+    "group": "A",
+    "home": {
+      "name": "South Korea",
+      "code": "KOR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
+    },
+    "away": {
+      "name": "Czechia",
+      "code": "CZE",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png"
+    },
+    "prediction": {
+      "winner": "South Korea",
+      "winner_code": "KOR",
+      "scoreline": "2:1",
+      "prob": {
+        "home": 0.37,
+        "draw": 0.3,
+        "away": 0.33
+      },
+      "confidence": "Niedrig"
+    }
+  },
+  "760416": {
+    "group": "B",
+    "home": {
+      "name": "Canada",
+      "code": "CAN",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
+    },
+    "away": {
+      "name": "Bosnia-Herzegovina",
+      "code": "BIH",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
+    },
+    "prediction": {
+      "winner": "Canada",
+      "winner_code": "CAN",
+      "scoreline": "1:0",
+      "prob": {
+        "home": 0.54,
+        "draw": 0.26,
+        "away": 0.2
+      },
+      "confidence": "Mittel"
+    }
+  },
+  "760417": {
+    "group": "D",
+    "home": {
+      "name": "United States",
+      "code": "USA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
+    },
+    "away": {
+      "name": "Paraguay",
+      "code": "PAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
+    },
+    "prediction": {
+      "winner": "United States",
+      "winner_code": "USA",
+      "scoreline": "1:0",
+      "prob": {
+        "home": 0.49,
+        "draw": 0.28,
+        "away": 0.23
+      },
+      "confidence": "Mittel"
+    }
+  },
+  "760420": {
+    "group": "B",
+    "home": {
+      "name": "Qatar",
+      "code": "QAT",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png"
+    },
+    "away": {
+      "name": "Switzerland",
+      "code": "SUI",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png"
+    },
+    "prediction": {
+      "winner": "Switzerland",
+      "winner_code": "SUI",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.1201,
+        "draw": 0.183,
+        "away": 0.6967
+      },
+      "confidence": "Hoch"
+    }
+  },
+  "760419": {
+    "group": "C",
+    "home": {
+      "name": "Brazil",
+      "code": "BRA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
+    },
+    "away": {
+      "name": "Morocco",
+      "code": "MAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
+    },
+    "prediction": {
+      "winner": "Brazil",
+      "winner_code": "BRA",
+      "scoreline": "1:0",
+      "prob": {
+        "home": 0.4713,
+        "draw": 0.257,
+        "away": 0.2718
+      },
+      "confidence": "Mittel"
+    }
+  },
+  "760418": {
+    "group": "C",
+    "home": {
+      "name": "Haiti",
+      "code": "HAI",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png"
+    },
+    "away": {
+      "name": "Scotland",
+      "code": "SCO",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+    },
+    "prediction": {
+      "winner": "Scotland",
+      "winner_code": "SCO",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.2369,
+        "draw": 0.2387,
+        "away": 0.5243
+      },
+      "confidence": "Mittel"
+    }
+  }
+}

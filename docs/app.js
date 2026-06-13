@@ -257,17 +257,40 @@ function trackHTML(tip, g) {
 }
 
 /* ---------- Resultate & Trefferquote ---------- */
+const GROUP_ORDER = "ABCDEFGHIJKL";
+
 async function loadResults() {
-  const sum = $("#resultsSummary"), box = $("#resultsGroups");
+  const box = $("#resultsGroups");
   if (!box.children.length) box.innerHTML = '<div class="skeleton"></div>';
-  let data;
+  await refreshResults();
+  // hält die Resultate aktuell: neue Spiele erscheinen, sobald sie abgepfiffen sind
+  if (!state.resultsTimer) state.resultsTimer = setInterval(refreshResults, 60000);
+}
+
+async function refreshResults() {
+  const sum = $("#resultsSummary"), box = $("#resultsGroups");
+  let archive, events;
   try {
-    data = await getJSON("data/results.json");
+    // Tipp-Archiv (statisch) + beendete Spiele live von ESPN
+    [archive, events] = await Promise.all([
+      getJSON("data/predictions/archive.json"),
+      getJSON(`${ESPN}?dates=20260611-20260719&limit=400`, true).then((d) => d.events || []),
+    ]);
   } catch (e) {
-    sum.innerHTML = "";
-    box.innerHTML = emptyHTML("📊", "Noch keine bewerteten Spiele.<br><small>" + e + "</small>");
+    // Fallback: vorberechnete results.json (vom Tageslauf)
+    try {
+      const data = await getJSON("data/results.json");
+      sum.innerHTML = data.count ? resultSummary(data) : "";
+      box.innerHTML = "";
+      (data.groups || []).forEach((g) => box.appendChild(resultGroup(g)));
+    } catch (_) {
+      sum.innerHTML = "";
+      box.innerHTML = emptyHTML("📊", "Resultate gerade nicht erreichbar.<br><small>" + e + "</small>");
+    }
     return;
   }
+
+  const data = buildResults(archive, events);
   if (!data.count) {
     sum.innerHTML = "";
     box.innerHTML = emptyHTML("⏳", "Noch keine WM-Spiele abgeschlossen.<br><small>Sobald die ersten Partien gespielt sind, erscheint hier die Trefferquote.</small>");
@@ -276,6 +299,65 @@ async function loadResults() {
   sum.innerHTML = resultSummary(data);
   box.innerHTML = "";
   data.groups.forEach((g) => box.appendChild(resultGroup(g)));
+}
+
+function buildResults(archive, events) {
+  const graded = [];
+  for (const e of events) {
+    const st = (e.status || {}).type || {};
+    if (st.state !== "post") continue;
+    const comp = (e.competitions || [{}])[0];
+    const cs = comp.competitors || [];
+    const home = cs.find((c) => c.homeAway === "home") || cs[0] || {};
+    const away = cs.find((c) => c.homeAway === "away") || cs[1] || {};
+    const hs = parseInt(home.score, 10), as = parseInt(away.score, 10);
+    if (Number.isNaN(hs) || Number.isNaN(as)) continue;
+    const tip = archive[e.id];
+    if (!tip) continue; // kein Tipp archiviert -> nicht bewertbar
+    const g = gradeClient(tip, hs, as);
+    graded.push({
+      date_utc: e.date, group: tip.group,
+      home: tip.home, away: tip.away,
+      actual: `${hs}:${as}`,
+      tip: { winner: tip.prediction.winner, scoreline: tip.prediction.scoreline,
+             confidence: tip.prediction.confidence, prob: tip.prediction.prob },
+      result_score: g.score, factors: g.factors, verdict: g.verdict,
+    });
+  }
+
+  const buckets = {};
+  graded.forEach((m) => (buckets[m.group || "K.o.-Runde"] ||= []).push(m));
+  Object.values(buckets).forEach((v) => v.sort((a, b) => a.date_utc.localeCompare(b.date_utc)));
+  const gkey = (k) => (GROUP_ORDER.includes(k) ? GROUP_ORDER.indexOf(k) : 99);
+  const groups = Object.keys(buckets).sort((a, b) => gkey(a) - gkey(b) || a.localeCompare(b))
+    .map((k) => ({ group: k, matches: buckets[k] }));
+
+  const n = graded.length;
+  const sum = graded.reduce((s, m) => s + m.result_score, 0);
+  return {
+    count: n,
+    overall_quote: n ? Math.round((sum / n) * 10) / 10 : 0,
+    tendency_rate: n ? Math.round(100 * graded.filter((m) => m.factors.tendenz).length / n) : 0,
+    exact_rate: n ? Math.round(100 * graded.filter((m) => m.factors.exakt).length / n) : 0,
+    groups,
+  };
+}
+
+// identische Trefferquoten-Formel wie engine/results.py
+function gradeClient(tip, hs, as) {
+  const actual = hs > as ? "home" : hs < as ? "away" : "draw";
+  const [ph, pa] = tip.prediction.scoreline.split(":").map(Number);
+  const predOut = tip.prediction.winner_code === tip.home.code ? "home"
+    : tip.prediction.winner_code === tip.away.code ? "away" : "draw";
+  const tendenz = predOut === actual;
+  const tordiff = (ph - pa) === (hs - as);
+  const exakt = ph === hs && pa === as;
+  const probActual = (tip.prediction.prob && tip.prediction.prob[actual]) || 0;
+  let score = (tendenz ? 50 : 0) + (tordiff ? 20 : 0) + (exakt ? 20 : 0) + 10 * probActual;
+  score = Math.min(100, Math.round(score * 10) / 10);
+  const verdict = exakt ? "Volltreffer" : (tendenz && tordiff) ? "Tendenz + Tordifferenz"
+    : tendenz ? "Tendenz richtig" : "Daneben";
+  return { score, verdict, factors: { tendenz, tordifferenz: tordiff, exakt, prob_actual: Math.round(probActual * 1000) / 1000 } };
 }
 
 function resultSummary(d) {
