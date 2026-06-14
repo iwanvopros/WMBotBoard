@@ -222,9 +222,15 @@ async function refreshLive() {
   let events;
   try {
     // Fenster gestern–morgen: ESPN bucketet nach US-Ostküsten-Datum, daher kann ein
-    // nachts (CEST) laufendes Spiel im Vortags-Bucket liegen.
-    const data = await getJSON(`${ESPN}?dates=${ymd(-1)}-${ymd(1)}&limit=100`, true);
+    // nachts (CEST) laufendes Spiel im Vortags-Bucket liegen. Tipp-Archiv parallel laden,
+    // damit der Tipp pro Spiel auch ohne vorheriges Öffnen von „Vor dem Spiel“ erscheint.
+    const [data, archive] = await Promise.all([
+      getJSON(`${ESPN}?dates=${ymd(-1)}-${ymd(1)}&limit=100`, true),
+      state.archive ? Promise.resolve(state.archive) : getJSON("data/predictions/archive.json").catch(() => ({})),
+    ]);
     events = data.events || [];
+    state.archive = archive;
+    Object.values(archive).forEach((t) => (state.byId[t.id] = t));
   } catch (e) {
     box.innerHTML = emptyHTML("⚠️", "Live-Daten gerade nicht erreichbar.<br><small>Neuer Versuch in 30 s.</small>");
     return;
@@ -279,10 +285,12 @@ function liveCard(g) {
     </div>
     ${teamHTML(g.away)}`));
 
-  // Abgleich mit Morgen-Tipp
+  // Tipp pro Spiel anzeigen (inkl. Abgleich zum aktuellen Stand)
   const tip = state.byId[g.id];
   if (tip && g.state !== "pre") {
     c.appendChild(trackHTML(tip, g));
+  } else if (g.state !== "pre") {
+    c.appendChild(el("div", "track", `<span class="muted-note">Für dieses Spiel liegt noch kein Tipp vor.</span>`));
   }
   return c;
 }
@@ -294,8 +302,9 @@ function trackHTML(tip, g) {
     : tip.prediction.winner_code === g.away.code ? "away" : "draw";
   const ok = actual === predicted;
   const verb = g.state === "post" ? (ok ? "Tipp ist aufgegangen" : "Tipp daneben") : (ok ? "Tipp liegt vorn" : "Tipp hinten");
+  const label = g.state === "post" ? "Tipp war" : "Tipp:";
   return el("div", "track",
-    `Tipp war <b>${tip.prediction.winner} ${tip.prediction.scoreline}</b> · ` +
+    `${label} <b>${tip.prediction.winner} ${tip.prediction.scoreline}</b> · ` +
     `<span class="${ok ? "ok" : "no"}">${ok ? "✓" : "✗"} ${verb}</span>`);
 }
 
