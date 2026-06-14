@@ -1,6 +1,6 @@
 {
   "date": "2026-06-14",
-  "generated_at": "2026-06-14T13:03:26+00:00",
+  "generated_at": "2026-06-14T13:17:00+00:00",
   "count": 5,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
@@ -29,43 +29,43 @@
         "winner_code": "TUR",
         "scoreline": "0:1",
         "prob": {
-          "home": 0.3456,
-          "draw": 0.2555,
-          "away": 0.3988
+          "home": 0.3317,
+          "draw": 0.254,
+          "away": 0.4143
         },
         "confidence": "Niedrig",
         "expected_goals": {
-          "home": 1.312,
-          "away": 1.428
+          "home": 1.287,
+          "away": 1.468
         },
-        "over_2_5": 0.516,
-        "btts": 0.5554,
+        "over_2_5": 0.5199,
+        "btts": 0.5572,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.121
+            "p": 0.1202
           },
           {
             "score": "0:1",
-            "p": 0.0922
+            "p": 0.0933
           },
           {
             "score": "1:2",
-            "p": 0.0864
+            "p": 0.0882
           },
           {
             "score": "1:0",
-            "p": 0.0847
+            "p": 0.0818
           },
           {
             "score": "2:1",
-            "p": 0.0793
+            "p": 0.0773
           }
         ]
       },
       "odds_snapshot": null,
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Türkiye vorne (40%). Wahrscheinlichstes Resultat 0:1.",
+      "rationale_de": "Das Modell sieht Türkiye vorne (41%). Wahrscheinlichstes Resultat 0:1.",
       "enriched_by": "model"
     },
     {
@@ -91,39 +91,39 @@
       "prediction": {
         "winner": "Germany",
         "winner_code": "GER",
-        "scoreline": "2:1",
+        "scoreline": "2:0",
         "prob": {
-          "home": 0.7687,
-          "draw": 0.1345,
-          "away": 0.0967
+          "home": 0.8122,
+          "draw": 0.1119,
+          "away": 0.0754
         },
         "confidence": "Hoch",
         "expected_goals": {
-          "home": 1.936,
-          "away": 0.864
+          "home": 2.421,
+          "away": 0.884
         },
-        "over_2_5": 0.5306,
-        "btts": 0.4951,
+        "over_2_5": 0.6405,
+        "btts": 0.534,
         "top_scorelines": [
           {
-            "score": "1:0",
-            "p": 0.1177
-          },
-          {
             "score": "2:0",
-            "p": 0.1139
-          },
-          {
-            "score": "1:1",
-            "p": 0.1017
+            "p": 0.1076
           },
           {
             "score": "2:1",
-            "p": 0.0985
+            "p": 0.0951
+          },
+          {
+            "score": "1:0",
+            "p": 0.0889
           },
           {
             "score": "3:0",
-            "p": 0.0735
+            "p": 0.0868
+          },
+          {
+            "score": "1:1",
+            "p": 0.0786
           }
         ]
       },
@@ -143,7 +143,7 @@
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Germany vorne (77%). Wahrscheinlichstes Resultat 2:1. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht Germany vorne (81%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     },
     {
@@ -171,17 +171,17 @@
         "winner_code": "NED",
         "scoreline": "2:1",
         "prob": {
-          "home": 0.4069,
+          "home": 0.4084,
           "draw": 0.2632,
-          "away": 0.3298
+          "away": 0.3284
         },
         "confidence": "Niedrig",
         "expected_goals": {
-          "home": 1.412,
-          "away": 1.499
+          "home": 1.419,
+          "away": 1.493
         },
-        "over_2_5": 0.5565,
-        "btts": 0.5874,
+        "over_2_5": 0.5567,
+        "btts": 0.5876,
         "top_scorelines": [
           {
             "score": "1:1",
@@ -189,19 +189,19 @@
           },
           {
             "score": "1:2",
-            "p": 0.0863
-          },
-          {
-            "score": "0:1",
-            "p": 0.0816
+            "p": 0.086
           },
           {
             "score": "2:1",
-            "p": 0.0813
+            "p": 0.0817
+          },
+          {
+            "score": "0:1",
+            "p": 0.0812
           },
           {
             "score": "1:0",
-            "p": 0.0768
+            "p": 0.0772
           }
         ]
       },
@@ -247,39 +247,39 @@
       "prediction": {
         "winner": "Ecuador",
         "winner_code": "ECU",
-        "scoreline": "1:2",
+        "scoreline": "0:1",
         "prob": {
-          "home": 0.2778,
-          "draw": 0.2974,
-          "away": 0.4247
+          "home": 0.2611,
+          "draw": 0.2898,
+          "away": 0.4491
         },
         "confidence": "Niedrig",
         "expected_goals": {
-          "home": 1.037,
-          "away": 1.507
+          "home": 1.004,
+          "away": 1.669
         },
-        "over_2_5": 0.4673,
-        "btts": 0.5024,
+        "over_2_5": 0.4996,
+        "btts": 0.5141,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.1228
+            "p": 0.1157
           },
           {
             "score": "0:1",
-            "p": 0.1184
+            "p": 0.1153
           },
           {
             "score": "1:2",
-            "p": 0.0925
+            "p": 0.0965
           },
           {
             "score": "0:2",
-            "p": 0.0892
+            "p": 0.0962
           },
           {
             "score": "1:0",
-            "p": 0.0815
+            "p": 0.0693
           }
         ]
       },
@@ -299,7 +299,7 @@
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Ecuador vorne (42%). Wahrscheinlichstes Resultat 1:2. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht Ecuador vorne (45%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     },
     {
@@ -327,57 +327,57 @@
         "winner_code": "SWE",
         "scoreline": "1:0",
         "prob": {
-          "home": 0.4392,
-          "draw": 0.2711,
-          "away": 0.2898
+          "home": 0.4496,
+          "draw": 0.2683,
+          "away": 0.2821
         },
         "confidence": "Niedrig",
         "expected_goals": {
-          "home": 1.425,
-          "away": 1.309
+          "home": 1.45,
+          "away": 1.291
         },
-        "over_2_5": 0.5147,
-        "btts": 0.5544,
+        "over_2_5": 0.5164,
+        "btts": 0.555,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.1212
+            "p": 0.1207
           },
           {
             "score": "1:0",
-            "p": 0.0925
+            "p": 0.0935
           },
           {
             "score": "2:1",
-            "p": 0.0863
+            "p": 0.0875
           },
           {
             "score": "0:1",
-            "p": 0.085
+            "p": 0.0833
           },
           {
             "score": "1:2",
-            "p": 0.0793
+            "p": 0.078
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "SWE +100",
+        "details": "SWE -105",
         "over_under": 2.5,
         "moneyline": {
-          "home": "+100",
-          "draw": 235,
-          "away": "+310"
+          "home": "-105",
+          "draw": 240,
+          "away": "+320"
         },
         "implied": {
-          "home": 0.4797,
-          "draw": 0.2864,
-          "away": 0.234
+          "home": 0.4904,
+          "draw": 0.2816,
+          "away": 0.228
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Sweden vorne (44%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht Sweden vorne (45%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     }
   ]

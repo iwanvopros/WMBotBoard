@@ -12,8 +12,8 @@ import math
 
 # --- Tuning-Parameter ---------------------------------------------------------
 HOME_ADV = 60.0            # Elo-Bonus für ein nicht-neutrales Heimteam (Gastgeber)
-SUPREMACY_PER_ELO = 0.0035  # Tor-Supremacy je Elo-Punkt (400 Elo ~ 1.4 Tore Unterschied)
-BASE_TOTAL_GOALS = 2.70    # durchschnittliche Gesamttore pro Länderspiel
+GOALS_ELO_SCALE = 0.00173  # log-Skalierung der erwarteten Tore je Elo (400 Elo ~ Faktor 2)
+BASE_TOTAL_GOALS = 2.70    # durchschnittliche Gesamttore pro Länderspiel (Basis je Team = /2)
 RAW_BLEND = 0.25           # Gewicht der historischen Trefferraten ggü. reinem Elo-Modell
 MAX_GOALS = 8              # Obergrenze der Poisson-Tabelle je Team
 DEFAULT_RATING = 1500.0
@@ -54,9 +54,13 @@ def expected_goals(ra, rb, neutral=True, gf_a=None, ga_b=None, gf_b=None, ga_a=N
     """Erwartete Tore (lambda) für Heim/Gast aus Elo-Supremacy, optional mit
     historischen Trefferraten gemischt."""
     ha = 0.0 if neutral else HOME_ADV
-    supremacy = ((ra + ha) - rb) * SUPREMACY_PER_ELO
-    lam_a = (BASE_TOTAL_GOALS + supremacy) / 2.0
-    lam_b = (BASE_TOTAL_GOALS - supremacy) / 2.0
+    # Multiplikatives Modell: erwartete Tore skalieren mit der Elo-Differenz, ohne die
+    # Gesamttore zu fixieren -> klare Favoriten erzielen mehr, Außenseiter weniger
+    # (krasse Mismatches werden nicht mehr gestaucht).
+    f = ((ra + ha) - rb) * GOALS_ELO_SCALE
+    base = BASE_TOTAL_GOALS / 2.0
+    lam_a = base * math.exp(f)
+    lam_b = base * math.exp(-f)
 
     # Historische Raten einmischen (falls vorhanden): erwartete Tore A = avg(A erzielt, B kassiert)
     if None not in (gf_a, ga_b):
@@ -64,7 +68,7 @@ def expected_goals(ra, rb, neutral=True, gf_a=None, ga_b=None, gf_b=None, ga_a=N
     if None not in (gf_b, ga_a):
         lam_b = (1 - RAW_BLEND) * lam_b + RAW_BLEND * ((gf_b + ga_a) / 2.0)
 
-    return max(0.15, lam_a), max(0.15, lam_b)
+    return max(0.12, lam_a), max(0.12, lam_b)
 
 
 def match_probabilities(lam_a: float, lam_b: float) -> dict:
@@ -111,9 +115,9 @@ def match_probabilities(lam_a: float, lam_b: float) -> dict:
         "lambda_away": round(lam_b, 3),
         "most_likely_score": f"{best[0]}:{best[1]}",
         "score_by_outcome": {k: f"{v[0]}:{v[1]}" for k, v in best_by.items()},
-        # Resultat aus den erwarteten Toren (Standard-Rundung): bildet Favoriten-Kantersiege
-        # realistischer ab als das einzelne Modal-Resultat (das oft 1:0 ausgibt).
-        "exp_score": f"{int(lam_a + 0.5)}:{int(lam_b + 0.5)}",
+        # Resultat = wahrscheinlichste Toranzahl je Team (Poisson-Modus = floor(λ)). Bildet
+        # Favoriten-Höhe ab und gibt schwachen Außenseitern realistisch die 0 (statt 0.86→1).
+        "exp_score": f"{int(lam_a)}:{int(lam_b)}",
         "top_scorelines": top,
         "over_2_5": round(p_over25, 4),
         "btts": round(p_btts, 4),
