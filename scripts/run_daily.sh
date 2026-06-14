@@ -37,6 +37,7 @@ publish() {
   cp -f data/teams.json docs/data/teams.json
   cp -f data/fixtures.json docs/data/fixtures.json
   cp -f data/results.json docs/data/results.json 2>/dev/null || true
+  cp -f data/insights.json docs/data/insights.json 2>/dev/null || true
   cp -f data/predictions/*.json docs/data/predictions/ 2>/dev/null || true
   echo "--> Nach docs/data/ veröffentlicht"
 }

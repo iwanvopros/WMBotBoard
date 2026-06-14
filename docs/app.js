@@ -323,11 +323,14 @@ async function refreshResults() {
   const sum = $("#resultsSummary"), box = $("#resultsGroups");
   let archive, events;
   try {
-    // Tipp-Archiv (statisch) + beendete Spiele live von ESPN
-    [archive, events] = await Promise.all([
+    // Tipp-Archiv (statisch) + beendete Spiele live von ESPN + Erkenntnis-Analyse
+    let insights;
+    [archive, events, insights] = await Promise.all([
       getJSON("data/predictions/archive.json"),
       getJSON(`${ESPN}?dates=20260611-20260719&limit=400`, true).then((d) => d.events || []),
+      getJSON("data/insights.json").catch(() => null),
     ]);
+    state.insights = insights;
   } catch (e) {
     // Fallback: vorberechnete results.json (vom Tageslauf)
     try {
@@ -368,7 +371,7 @@ function buildResults(archive, events) {
     if (!tip) continue; // kein Tipp archiviert -> nicht bewertbar
     const g = gradeClient(tip, hs, as);
     graded.push({
-      date_utc: e.date, group: tip.group,
+      id: e.id, date_utc: e.date, group: tip.group,
       home: tip.home, away: tip.away,
       actual: `${hs}:${as}`,
       tip: { winner: tip.prediction.winner, scoreline: tip.prediction.scoreline,
@@ -415,8 +418,40 @@ function gradeClient(tip, hs, as) {
   return { score, verdict, factors: { tendenz, tordifferenz: tordiff, exakt, prob_actual: Math.round(probActual * 1000) / 1000 } };
 }
 
+// Kurzer Erkenntnis-Satz je Spiel (deterministischer Fallback, wenn keine Claude-Analyse vorliegt)
+function gameNote(m) {
+  const f = m.factors;
+  if (f.exakt) return "Volltreffer – Tipp exakt eingetroffen.";
+  if (f.tendenz && f.tordifferenz) return "Sieger und Tordifferenz korrekt, nur das Resultat wich ab.";
+  if (f.tendenz) return "Richtiger Sieger, Höhe des Resultats anders.";
+  const [hs, as] = m.actual.split(":").map(Number);
+  if (hs === as) return "Überraschung – statt des getippten Siegers ein Remis.";
+  return `Überraschung – ${hs > as ? m.home.name : m.away.name} gewann gegen den Tipp.`;
+}
+
+// Kurzer Gesamt-Erkenntnis-Kommentar (deterministischer Fallback)
+function deterministicOverall(d) {
+  const games = d.groups.flatMap((g) => g.matches);
+  const n = games.length;
+  if (!n) return "";
+  const exact = games.filter((m) => m.factors.exakt).length;
+  const misses = games.filter((m) => !m.factors.tendenz);
+  let s = `${exact}/${n} Spiele exakt getippt, Trefferquote ${d.overall_quote}%. `;
+  s += misses.length >= Math.max(2, n / 2)
+    ? "Mehrere klare Favoriten strauchelten – Außenseiter und Remis häufiger als erwartet."
+    : "Favoriten-Tipps bestätigen sich überwiegend.";
+  if (misses.length) {
+    const surprise = misses.reduce((a, b) => (a.factors.prob_actual <= b.factors.prob_actual ? a : b));
+    s += ` Größte Überraschung: ${surprise.home.name} ${surprise.actual} ${surprise.away.name}.`;
+  }
+  return s;
+}
+
 function resultSummary(d) {
   const q = d.overall_quote;
+  const ins = state.insights;
+  const overall = (ins && ins.overall) || deterministicOverall(d);
+  const auto = !(ins && ins.enriched_by === "claude");
   return `<div class="quote-card">
     <div class="quote-main">
       <div class="quote-num ${scoreClass(q)}">${q}%</div>
@@ -428,6 +463,10 @@ function resultSummary(d) {
       <span><b>${d.exact_rate}%</b> exaktes Resultat</span>
     </div>
     <div class="quote-legend">Punkte je Spiel: Tendenz +50 · Tordifferenz +20 · exakt +20 · Modell-Überzeugung +0–10</div>
+  </div>
+  <div class="insight-card">
+    <div class="insight-head">💡 Erkenntnisse${auto ? ' <span class="muted-note">(automatisch)</span>' : ""}</div>
+    <p>${overall}</p>
   </div>`;
 }
 
@@ -462,6 +501,10 @@ function resultCard(m) {
   chips.appendChild(el("span", f.exakt ? "ok" : "no", (f.exakt ? "✓" : "✗") + " Exakt"));
   chips.appendChild(el("span", null, "Modell gab " + pct(f.prob_actual) + "%"));
   c.appendChild(chips);
+
+  const ins = state.insights;
+  const note = (ins && ins.per_game && ins.per_game[m.id]) || gameNote(m);
+  c.appendChild(el("div", "result-note", "💡 " + note));
   return c;
 }
 

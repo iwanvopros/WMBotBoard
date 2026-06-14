@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-06-14T06:13:22+00:00",
+  "enriched_by": "claude",
+  "overall": "Nach 8 Spielen ein klares Muster: Heim- und Qualitätsfavoriten mit echtem Klassenunterschied gehen auf (Mexiko, Südkorea, Schottland, USA – teils exakt). Schwere Favoriten ohne klaren Klassenvorsprung strauchelten dagegen reihenweise – Schweiz (1:1 statt Sieg), Brasilien (1:1) und Türkei (0:2-Niederlage). Erkenntnis: WM-Auftaktspiele sind enger als die Quoten suggerieren – Außenseiter stehen kompakt und sind hoch motiviert. Konsequenz für die nächsten Tipps: Konfidenz bei haushohen Favoriten dämpfen, Remis-Wahrscheinlichkeit in erwartbar engen Spielen anheben und klare Favoriten-Resultate (2:0/0:2) vorsichtiger ansetzen.",
+  "per_game": {
+    "760415": "Gastgeber bestätigt – Heimvorteil Azteca + Höhe voll aufgegangen. Tipp exakt.",
+    "760414": "Koreas individuelle Klasse (Son, Lee Kang-in) gab den Ausschlag. Enges Spiel wie erwartet, Tipp exakt.",
+    "760418": "Schottland eiskalt, WM-Neuling Haiti chancenarm. Favoriten-Tipp exakt bestätigt.",
+    "760417": "USA deutlich stärker als getippt (1:0) – Heim-Elf um Pulisic/Balogun überzeugte offensiv. Tendenz richtig, Höhe unterschätzt.",
+    "760416": "Gastgeber Kanada enttäuschte ohne den verletzten Davies. Heimvorteil im Modell überbewertet.",
+    "760419": "Marokko trotz Ausfällen defensiv stark und im Konter gefährlich. Brasiliens Favoritenrolle zu hoch angesetzt.",
+    "760420": "Größte Überraschung: Schweiz (-425!) nur 1:1. Außenseiter-Motivation und -Effizienz klar unterschätzt.",
+    "760421": "Australien dreht das Spiel – Favorit Türkei enttäuschte. Klassenunterschied war kleiner als die Quote suggerierte."
+  }
+}
