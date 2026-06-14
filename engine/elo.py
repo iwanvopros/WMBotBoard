@@ -111,6 +111,9 @@ def match_probabilities(lam_a: float, lam_b: float) -> dict:
         "lambda_away": round(lam_b, 3),
         "most_likely_score": f"{best[0]}:{best[1]}",
         "score_by_outcome": {k: f"{v[0]}:{v[1]}" for k, v in best_by.items()},
+        # Resultat aus den erwarteten Toren (Standard-Rundung): bildet Favoriten-Kantersiege
+        # realistischer ab als das einzelne Modal-Resultat (das oft 1:0 ausgibt).
+        "exp_score": f"{int(lam_a + 0.5)}:{int(lam_b + 0.5)}",
         "top_scorelines": top,
         "over_2_5": round(p_over25, 4),
         "btts": round(p_btts, 4),

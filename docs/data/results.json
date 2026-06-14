@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T05:59:08+00:00",
+  "generated_at": "2026-06-14T13:04:45+00:00",
   "count": 8,
-  "overall_quote": 43.9,
+  "overall_quote": 44.0,
   "tendency_rate": 50,
   "exact_rate": 38,
   "groups": [
@@ -26,19 +26,19 @@
           "tip": {
             "scoreline": "0:1",
             "winner": "Türkiye",
-            "confidence": "Mittel",
+            "confidence": "Niedrig",
             "prob": {
-              "home": 0.2648,
-              "draw": 0.2583,
-              "away": 0.4768
+              "home": 0.3456,
+              "draw": 0.2555,
+              "away": 0.3988
             }
           },
-          "result_score": 2.6,
+          "result_score": 3.5,
           "factors": {
             "tendenz": false,
             "tordifferenz": false,
             "exakt": false,
-            "prob_actual": 0.265
+            "prob_actual": 0.346
           },
           "verdict": "Daneben"
         },

@@ -89,8 +89,11 @@ def predict_match(m: dict, elo: dict, teams: dict) -> dict | None:
         winner, winner_code = m["away"]["name"], ac
     else:
         winner, winner_code = "Unentschieden", None
-    # Resultat konsistent zum vorhergesagten Ausgang wählen
-    scoreline = model["score_by_outcome"][outcome]
+    # Resultat: bevorzugt aus erwarteten Toren (bildet Favoriten-Kantersiege ab), sofern es
+    # zum vorhergesagten Ausgang passt; sonst konservativ das Modal-Resultat dieses Ausgangs.
+    eh, ea = (int(x) for x in model["exp_score"].split(":"))
+    exp_outcome = "home" if eh > ea else "away" if eh < ea else "draw"
+    scoreline = model["exp_score"] if exp_outcome == outcome else model["score_by_outcome"][outcome]
 
     fav_name = winner if winner_code else (m["home"]["name"] if probs["p_home"] >= probs["p_away"] else m["away"]["name"])
     p_top = max(probs.values())

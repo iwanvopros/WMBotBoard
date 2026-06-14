@@ -612,11 +612,11 @@
       "winner_code": "TUR",
       "scoreline": "0:1",
       "prob": {
-        "home": 0.2648,
-        "draw": 0.2583,
-        "away": 0.4768
+        "home": 0.3456,
+        "draw": 0.2555,
+        "away": 0.3988
       },
-      "confidence": "Mittel",
+      "confidence": "Niedrig",
       "expected_goals": {
         "home": 1.312,
         "away": 1.428
@@ -646,23 +646,9 @@
         }
       ]
     },
-    "odds_snapshot": {
-      "provider": "DraftKings",
-      "details": "TUR -135",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "+425",
-        "draw": 270,
-        "away": "-135"
-      },
-      "implied": {
-        "home": 0.184,
-        "draw": 0.2611,
-        "away": 0.5549
-      }
-    },
+    "odds_snapshot": null,
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Türkiye vorne (48%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Türkiye vorne (40%). Wahrscheinlichstes Resultat 0:1.",
     "enriched_by": "model"
   },
   "760422": {
@@ -688,27 +674,27 @@
     "prediction": {
       "winner": "Germany",
       "winner_code": "GER",
-      "scoreline": "1:0",
+      "scoreline": "2:1",
       "prob": {
-        "home": 0.7647,
-        "draw": 0.1381,
-        "away": 0.0972
+        "home": 0.7687,
+        "draw": 0.1345,
+        "away": 0.0967
       },
       "confidence": "Hoch",
       "expected_goals": {
-        "home": 1.939,
-        "away": 0.871
+        "home": 1.936,
+        "away": 0.864
       },
-      "over_2_5": 0.5327,
-      "btts": 0.4976,
+      "over_2_5": 0.5306,
+      "btts": 0.4951,
       "top_scorelines": [
         {
           "score": "1:0",
-          "p": 0.1168
+          "p": 0.1177
         },
         {
           "score": "2:0",
-          "p": 0.1132
+          "p": 0.1139
         },
         {
           "score": "1:1",
@@ -716,31 +702,31 @@
         },
         {
           "score": "2:1",
-          "p": 0.0986
+          "p": 0.0985
         },
         {
           "score": "3:0",
-          "p": 0.0732
+          "p": 0.0735
         }
       ]
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "GER -3000",
+      "details": "GER -3500",
       "over_under": 4.5,
       "moneyline": {
-        "home": "-3000",
-        "draw": 1400,
+        "home": "-3500",
+        "draw": 1600,
         "away": "+2800"
       },
       "implied": {
-        "home": 0.9054,
-        "draw": 0.0624,
-        "away": 0.0323
+        "home": 0.9124,
+        "draw": 0.0552,
+        "away": 0.0324
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Germany vorne (76%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Germany vorne (77%). Wahrscheinlichstes Resultat 2:1. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   },
   "760425": {
@@ -768,9 +754,9 @@
       "winner_code": "NED",
       "scoreline": "2:1",
       "prob": {
-        "home": 0.4109,
-        "draw": 0.2602,
-        "away": 0.3288
+        "home": 0.4069,
+        "draw": 0.2632,
+        "away": 0.3298
       },
       "confidence": "Niedrig",
       "expected_goals": {
@@ -804,17 +790,17 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "NED +100",
+      "details": "NED +105",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+100",
-        "draw": 240,
+        "home": "+105",
+        "draw": 235,
         "away": "+255"
       },
       "implied": {
-        "home": 0.4648,
-        "draw": 0.2734,
-        "away": 0.2618
+        "home": 0.4567,
+        "draw": 0.2795,
+        "away": 0.2638
       }
     },
     "key_factors": [],
@@ -844,11 +830,11 @@
     "prediction": {
       "winner": "Ecuador",
       "winner_code": "ECU",
-      "scoreline": "0:1",
+      "scoreline": "1:2",
       "prob": {
-        "home": 0.2752,
-        "draw": 0.2969,
-        "away": 0.4278
+        "home": 0.2778,
+        "draw": 0.2974,
+        "away": 0.4247
       },
       "confidence": "Niedrig",
       "expected_goals": {
@@ -882,21 +868,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "ECU +155",
+      "details": "ECU +160",
       "over_under": 1.5,
       "moneyline": {
-        "home": "+230",
+        "home": "+225",
         "draw": 185,
-        "away": "+155"
+        "away": "+160"
       },
       "implied": {
-        "home": 0.2897,
-        "draw": 0.3354,
-        "away": 0.3749
+        "home": 0.295,
+        "draw": 0.3364,
+        "away": 0.3687
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Ecuador vorne (43%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Ecuador vorne (42%). Wahrscheinlichstes Resultat 1:2. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   },
   "760424": {
@@ -924,9 +910,9 @@
       "winner_code": "SWE",
       "scoreline": "1:0",
       "prob": {
-        "home": 0.4442,
-        "draw": 0.2665,
-        "away": 0.2894
+        "home": 0.4392,
+        "draw": 0.2711,
+        "away": 0.2898
       },
       "confidence": "Niedrig",
       "expected_goals": {
@@ -960,17 +946,17 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "SWE -105",
+      "details": "SWE +100",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-105",
-        "draw": 245,
+        "home": "+100",
+        "draw": 235,
         "away": "+310"
       },
       "implied": {
-        "home": 0.4897,
-        "draw": 0.2771,
-        "away": 0.2332
+        "home": 0.4797,
+        "draw": 0.2864,
+        "away": 0.234
       }
     },
     "key_factors": [],
