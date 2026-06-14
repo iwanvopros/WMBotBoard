@@ -86,7 +86,7 @@
   "AUS": {
     "name": "Australia",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-    "color": "2a2d7c",
+    "color": "FFCD00",
     "group": "D"
   },
   "TUR": {
@@ -98,7 +98,7 @@
   "GER": {
     "name": "Germany",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-    "color": "000000",
+    "color": "FFFFFF",
     "group": "E"
   },
   "CUW": {
@@ -116,13 +116,13 @@
   "JPN": {
     "name": "Japan",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-    "color": "ed1c24",
+    "color": "000555",
     "group": "F"
   },
   "CIV": {
     "name": "Ivory Coast",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-    "color": "d48c00",
+    "color": "FF8200",
     "group": "E"
   },
   "ECU": {
@@ -152,13 +152,13 @@
   "CPV": {
     "name": "Cape Verde",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
-    "color": "0000ff",
+    "color": "000080",
     "group": "H"
   },
   "BEL": {
     "name": "Belgium",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-    "color": "ef3340",
+    "color": "E30613",
     "group": "G"
   },
   "EGY": {
@@ -170,49 +170,49 @@
   "KSA": {
     "name": "Saudi Arabia",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
-    "color": "dddddd",
+    "color": "FFFFFF",
     "group": "H"
   },
   "URU": {
     "name": "Uruguay",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
-    "color": "003da5",
+    "color": "55B5E5",
     "group": "H"
   },
   "IRN": {
     "name": "Iran",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
-    "color": "da0000",
+    "color": "FFFFFF",
     "group": "G"
   },
   "NZL": {
     "name": "New Zealand",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-    "color": "273476",
+    "color": "000000",
     "group": "G"
   },
   "FRA": {
     "name": "France",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-    "color": "0c2fff",
+    "color": "000080",
     "group": "I"
   },
   "SEN": {
     "name": "Senegal",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-    "color": "00853f",
+    "color": "006436",
     "group": "I"
   },
   "IRQ": {
     "name": "Iraq",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-    "color": "00843d",
+    "color": "0A4D2E",
     "group": "I"
   },
   "NOR": {
     "name": "Norway",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-    "color": "ef2b2d",
+    "color": "C8102E",
     "group": "I"
   },
   "ARG": {
@@ -224,7 +224,7 @@
   "ALG": {
     "name": "Algeria",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
-    "color": "5bbd19",
+    "color": "4F9A44",
     "group": "J"
   },
   "AUT": {
