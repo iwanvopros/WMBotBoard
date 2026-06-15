@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-15T15:45:51+00:00",
+  "generated_at": "2026-06-15T15:46:44+00:00",
   "count": 12,
-  "overall_quote": 39.1,
-  "tendency_rate": 50,
+  "overall_quote": 43.4,
+  "tendency_rate": 58,
   "exact_rate": 25,
   "groups": [
     {
@@ -135,9 +135,9 @@
             "winner": "Germany",
             "confidence": "Hoch",
             "prob": {
-              "home": 0.8122,
-              "draw": 0.1119,
-              "away": 0.0754
+              "home": 0.8117,
+              "draw": 0.112,
+              "away": 0.0759
             }
           },
           "result_score": 58.1,
@@ -170,23 +170,23 @@
           },
           "actual": "2:0",
           "tip": {
-            "scoreline": "0:1",
-            "winner": "Türkiye",
+            "scoreline": "1:0",
+            "winner": "Australia",
             "confidence": "Niedrig",
             "prob": {
-              "home": 0.3317,
-              "draw": 0.254,
-              "away": 0.4143
+              "home": 0.421,
+              "draw": 0.2545,
+              "away": 0.3245
             }
           },
-          "result_score": 3.3,
+          "result_score": 54.2,
           "factors": {
-            "tendenz": false,
+            "tendenz": true,
             "tordifferenz": false,
             "exakt": false,
-            "prob_actual": 0.332
+            "prob_actual": 0.421
           },
-          "verdict": "Daneben"
+          "verdict": "Tendenz richtig"
         },
         {
           "id": "760417",
