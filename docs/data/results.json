@@ -1,10 +1,49 @@
 {
-  "generated_at": "2026-06-15T15:49:11+00:00",
-  "count": 12,
-  "overall_quote": 43.4,
-  "tendency_rate": 58,
-  "exact_rate": 25,
+  "generated_at": "2026-06-15T20:33:21+00:00",
+  "count": 13,
+  "overall_quote": 40.1,
+  "tendency_rate": 54,
+  "exact_rate": 23,
   "groups": [
+    {
+      "group": "H",
+      "matches": [
+        {
+          "id": "760428",
+          "date_utc": "2026-06-15T16:00Z",
+          "group": "H",
+          "home": {
+            "name": "Spain",
+            "code": "ESP",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+          },
+          "away": {
+            "name": "Cape Verde",
+            "code": "CPV",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
+          },
+          "actual": "0:0",
+          "tip": {
+            "scoreline": "3:0",
+            "winner": "Spain",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.84,
+              "draw": 0.1,
+              "away": 0.06
+            }
+          },
+          "result_score": 1.0,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.1
+          },
+          "verdict": "Daneben"
+        }
+      ]
+    },
     {
       "group": "F",
       "matches": [
