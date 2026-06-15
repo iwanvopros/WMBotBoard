@@ -988,9 +988,9 @@
       "winner_code": "ESP",
       "scoreline": "3:0",
       "prob": {
-        "home": 0.87,
-        "draw": 0.0853,
-        "away": 0.0416
+        "home": 0.84,
+        "draw": 0.1,
+        "away": 0.06
       },
       "confidence": "Hoch",
       "expected_goals": {
@@ -1037,9 +1037,14 @@
         "away": 0.0417
       }
     },
-    "key_factors": [],
-    "rationale_de": "Das Modell sieht Spain vorne (87%). Wahrscheinlichstes Resultat 3:0. Quoten und Modell stimmen weitgehend überein.",
-    "enriched_by": "model"
+    "key_factors": [
+      "Spanien Nr. 1 der Welt, Turnierfavorit (+400)",
+      "Kap Verde WM-Debütant – klarer Klassenunterschied",
+      "Spanien ~75 % Gruppensieg-Wahrscheinlichkeit",
+      "Echte Klasse: Yamal, Pedri, Rodri"
+    ],
+    "rationale_de": "Spanien ist als Weltranglisten-Erster und Turnierfavorit (+400) haushoch überlegen gegen WM-Debütant Kap Verde. Hier ist der Klassenunterschied real (anders als bei den zuletzt gestrauchelten Favoriten) – ein klarer, hoher Sieg ist zu erwarten.",
+    "enriched_by": "claude"
   },
   "760426": {
     "id": "760426",
@@ -1064,11 +1069,11 @@
     "prediction": {
       "winner": "Belgium",
       "winner_code": "BEL",
-      "scoreline": "1:0",
+      "scoreline": "2:1",
       "prob": {
-        "home": 0.5496,
-        "draw": 0.2417,
-        "away": 0.2087
+        "home": 0.62,
+        "draw": 0.22,
+        "away": 0.16
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -1115,9 +1120,14 @@
         "away": 0.1646
       }
     },
-    "key_factors": [],
-    "rationale_de": "Das Modell sieht Belgium vorne (55%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
-    "enriched_by": "model"
+    "key_factors": [
+      "Belgien favorisiert (-275)",
+      "De Bruyne & Lukaku als Achse",
+      "Ägypten mit Salah im Konter gefährlich",
+      "Erkenntnis: Favorit ohne riesigen Klassenvorsprung → Vorsicht"
+    ],
+    "rationale_de": "Belgien ist favorisiert (-275) und sollte das Spiel kontrollieren, doch Ägypten ist mit Salah jederzeit für ein Tor gut. Gemäß der bisherigen Turnier-Erkenntnis (enge Favoritenspiele werden oft knapp) tippe ich einen knappen 2:1-Sieg statt eines Kantersiegs.",
+    "enriched_by": "claude"
   },
   "760429": {
     "id": "760429",
@@ -1142,11 +1152,11 @@
     "prediction": {
       "winner": "Uruguay",
       "winner_code": "URU",
-      "scoreline": "0:1",
+      "scoreline": "0:2",
       "prob": {
-        "home": 0.1431,
-        "draw": 0.2167,
-        "away": 0.64
+        "home": 0.13,
+        "draw": 0.2,
+        "away": 0.67
       },
       "confidence": "Hoch",
       "expected_goals": {
@@ -1193,9 +1203,14 @@
         "away": 0.6736
       }
     },
-    "key_factors": [],
-    "rationale_de": "Das Modell sieht Uruguay vorne (64%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
-    "enriched_by": "model"
+    "key_factors": [
+      "Uruguay klar favorisiert",
+      "Núñez & Valverde als Qualitätsplus",
+      "Saudi-Arabien Außenseiter (+2000 Gruppensieg)",
+      "Südamerikanische Turniererfahrung"
+    ],
+    "rationale_de": "Uruguay ist mit Núñez und Valverde klar überlegen und favorisiert; Saudi-Arabien gilt als Gruppen-Außenseiter. Der Klassenunterschied ist deutlich – ein souveräner Auswärtssieg ist wahrscheinlich.",
+    "enriched_by": "claude"
   },
   "760427": {
     "id": "760427",
@@ -1222,9 +1237,9 @@
       "winner_code": "IRN",
       "scoreline": "1:0",
       "prob": {
-        "home": 0.5395,
-        "draw": 0.2522,
-        "away": 0.2082
+        "home": 0.62,
+        "draw": 0.24,
+        "away": 0.14
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -1271,8 +1286,13 @@
         "away": 0.1836
       }
     },
-    "key_factors": [],
-    "rationale_de": "Das Modell sieht Iran vorne (54%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
-    "enriched_by": "model"
+    "key_factors": [
+      "Iran favorisiert (-200 Achtelfinal-Quote)",
+      "Defensiv organisiert, erfahren",
+      "Neuseeland Außenseiter",
+      "Erkenntnis: enges Spiel möglich → knappes Resultat"
+    ],
+    "rationale_de": "Iran ist favorisiert (-200) und defensiv sehr organisiert, Neuseeland ist Außenseiter. Iran sollte sich durchsetzen, aber gegen tiefstehende Gegner tat sich das Team zuletzt schwer – daher ein knapper 1:0-Erfolg.",
+    "enriched_by": "claude"
   }
 }

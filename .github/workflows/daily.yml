@@ -1,11 +1,13 @@
 name: Tägliche WM-Tipps
 
-# FALLBACK-Lauf: 07:35 UTC = 09:35 Europe/Zurich (CEST, gilt während der WM Jun–Jul). Die
-# primäre Claude-Routine läuft um 09:05 und reichert die Tipps an; dieser Job springt nur
-# ein, wenn sie ausgefallen ist (predict.py überschreibt angereicherte Tipps nicht). Gratis.
+# FALLBACK-Lauf (gratis). Mehrere Zeiten, weil GitHub geplante Jobs oft um Stunden verzögert
+# oder auslässt – so kommt eher einer früh durch. predict.py überschreibt bereits angereicherte
+# Tipps nicht; die primäre, verlässlichere Anreicherung macht die Claude-Routine um 09:05.
 on:
   schedule:
-    - cron: "35 7 * * *"
+    - cron: "5 4 * * *"   # 06:05 CEST
+    - cron: "35 7 * * *"  # 09:35 CEST
+    - cron: "5 11 * * *"  # 13:05 CEST
   workflow_dispatch:
     inputs:
       date:
