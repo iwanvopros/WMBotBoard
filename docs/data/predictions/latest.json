@@ -1,383 +1,319 @@
 {
-  "date": "2026-06-14",
-  "generated_at": "2026-06-14T13:19:58+00:00",
-  "count": 5,
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T15:44:44+00:00",
+  "count": 4,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
     {
-      "id": "760421",
-      "kickoff_utc": "2026-06-14T04:00Z",
-      "venue": "BC Place",
-      "city": "Vancouver",
-      "group": "D",
+      "id": "760428",
+      "kickoff_utc": "2026-06-15T16:00Z",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta, Georgia",
+      "group": "H",
       "home": {
-        "code": "AUS",
-        "name": "Australia",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-        "elo": 1958.4,
+        "code": "ESP",
+        "name": "Spain",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+        "elo": 2219.7,
+        "form_ppg10": 2.4
+      },
+      "away": {
+        "code": "CPV",
+        "name": "Cape Verde",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+        "elo": 1638.1,
         "form_ppg10": 1.6
       },
-      "away": {
-        "code": "TUR",
-        "name": "Türkiye",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
-        "elo": 1922.7,
-        "form_ppg10": 2.2
-      },
       "prediction": {
-        "winner": "Australia",
-        "winner_code": "AUS",
-        "scoreline": "1:0",
+        "winner": "Spain",
+        "winner_code": "ESP",
+        "scoreline": "3:0",
         "prob": {
-          "home": 0.421,
-          "draw": 0.2545,
-          "away": 0.3245
-        },
-        "confidence": "Niedrig",
-        "expected_goals": {
-          "home": 1.475,
-          "away": 1.263
-        },
-        "over_2_5": 0.5156,
-        "btts": 0.5531,
-        "top_scorelines": [
-          {
-            "score": "1:1",
-            "p": 0.1205
-          },
-          {
-            "score": "1:0",
-            "p": 0.0954
-          },
-          {
-            "score": "2:1",
-            "p": 0.0889
-          },
-          {
-            "score": "0:1",
-            "p": 0.0818
-          },
-          {
-            "score": "1:2",
-            "p": 0.0761
-          }
-        ]
-      },
-      "odds_snapshot": null,
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Australia vorne (42%). Wahrscheinlichstes Resultat 1:0.",
-      "enriched_by": "model"
-    },
-    {
-      "id": "760422",
-      "kickoff_utc": "2026-06-14T17:00Z",
-      "venue": "NRG Stadium",
-      "city": "Houston, Texas",
-      "group": "E",
-      "home": {
-        "code": "GER",
-        "name": "Germany",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-        "elo": 2012.4,
-        "form_ppg10": 2.7
-      },
-      "away": {
-        "code": "CUW",
-        "name": "Curaçao",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
-        "elo": 1612.9,
-        "form_ppg10": 1.5
-      },
-      "prediction": {
-        "winner": "Germany",
-        "winner_code": "GER",
-        "scoreline": "2:0",
-        "prob": {
-          "home": 0.8117,
-          "draw": 0.112,
-          "away": 0.0759
+          "home": 0.87,
+          "draw": 0.0853,
+          "away": 0.0416
         },
         "confidence": "Hoch",
         "expected_goals": {
-          "home": 2.425,
-          "away": 0.891
+          "home": 3.248,
+          "away": 0.635
         },
-        "over_2_5": 0.6428,
-        "btts": 0.537,
+        "over_2_5": 0.7379,
+        "btts": 0.4488,
         "top_scorelines": [
-          {
-            "score": "2:0",
-            "p": 0.1067
-          },
-          {
-            "score": "2:1",
-            "p": 0.0951
-          },
-          {
-            "score": "1:0",
-            "p": 0.088
-          },
           {
             "score": "3:0",
-            "p": 0.0863
+            "p": 0.1176
           },
           {
-            "score": "1:1",
-            "p": 0.0784
-          }
-        ]
-      },
-      "odds_snapshot": {
-        "provider": "DraftKings",
-        "details": "GER -3500",
-        "over_under": 4.5,
-        "moneyline": {
-          "home": "-3500",
-          "draw": 1600,
-          "away": "+2800"
-        },
-        "implied": {
-          "home": 0.9124,
-          "draw": 0.0552,
-          "away": 0.0324
-        }
-      },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Germany vorne (81%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
-    },
-    {
-      "id": "760425",
-      "kickoff_utc": "2026-06-14T20:00Z",
-      "venue": "AT&T Stadium",
-      "city": "Arlington, Texas",
-      "group": "F",
-      "home": {
-        "code": "NED",
-        "name": "Netherlands",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-        "elo": 2014.9,
-        "form_ppg10": 2.1
-      },
-      "away": {
-        "code": "JPN",
-        "name": "Japan",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-        "elo": 1999.5,
-        "form_ppg10": 2.3
-      },
-      "prediction": {
-        "winner": "Netherlands",
-        "winner_code": "NED",
-        "scoreline": "2:1",
-        "prob": {
-          "home": 0.4084,
-          "draw": 0.2632,
-          "away": 0.3284
-        },
-        "confidence": "Niedrig",
-        "expected_goals": {
-          "home": 1.419,
-          "away": 1.493
-        },
-        "over_2_5": 0.5567,
-        "btts": 0.5876,
-        "top_scorelines": [
-          {
-            "score": "1:1",
-            "p": 0.1152
+            "score": "2:0",
+            "p": 0.1086
           },
           {
-            "score": "1:2",
-            "p": 0.086
+            "score": "4:0",
+            "p": 0.0955
+          },
+          {
+            "score": "3:1",
+            "p": 0.0747
           },
           {
             "score": "2:1",
-            "p": 0.0817
-          },
-          {
-            "score": "0:1",
-            "p": 0.0812
-          },
-          {
-            "score": "1:0",
-            "p": 0.0772
+            "p": 0.069
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "NED +105",
-        "over_under": 2.5,
+        "details": "ESP -1100",
+        "over_under": 3.5,
         "moneyline": {
-          "home": "+105",
-          "draw": 235,
-          "away": "+255"
+          "home": "-1100",
+          "draw": 1100,
+          "away": "+2200"
         },
         "implied": {
-          "home": 0.4567,
-          "draw": 0.2795,
-          "away": 0.2638
+          "home": 0.8785,
+          "draw": 0.0799,
+          "away": 0.0417
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Netherlands vorne (41%). Wahrscheinlichstes Resultat 2:1. Die Buchmacher sehen es etwas anders als das Modell.",
+      "rationale_de": "Das Modell sieht Spain vorne (87%). Wahrscheinlichstes Resultat 3:0. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     },
     {
-      "id": "760423",
-      "kickoff_utc": "2026-06-14T23:00Z",
-      "venue": "Lincoln Financial Field",
-      "city": "Philadelphia, Pennsylvania",
-      "group": "E",
+      "id": "760426",
+      "kickoff_utc": "2026-06-15T19:00Z",
+      "venue": "Lumen Field",
+      "city": "Seattle, Washington",
+      "group": "G",
       "home": {
-        "code": "CIV",
-        "name": "Ivory Coast",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-        "elo": 1813.2,
-        "form_ppg10": 2.2
+        "code": "BEL",
+        "name": "Belgium",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+        "elo": 1945.4,
+        "form_ppg10": 2.4
       },
       "away": {
-        "code": "ECU",
-        "name": "Ecuador",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
-        "elo": 2018.4,
+        "code": "EGY",
+        "name": "Egypt",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+        "elo": 1809.8,
         "form_ppg10": 1.8
       },
       "prediction": {
-        "winner": "Ecuador",
-        "winner_code": "ECU",
-        "scoreline": "0:1",
+        "winner": "Belgium",
+        "winner_code": "BEL",
+        "scoreline": "1:0",
         "prob": {
-          "home": 0.2611,
-          "draw": 0.2898,
-          "away": 0.4491
+          "home": 0.5496,
+          "draw": 0.2417,
+          "away": 0.2087
         },
-        "confidence": "Niedrig",
+        "confidence": "Mittel",
         "expected_goals": {
-          "home": 1.004,
-          "away": 1.669
+          "home": 1.659,
+          "away": 1.102
         },
-        "over_2_5": 0.4996,
-        "btts": 0.5141,
+        "over_2_5": 0.5211,
+        "btts": 0.5407,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.1157
-          },
-          {
-            "score": "0:1",
-            "p": 0.1153
-          },
-          {
-            "score": "1:2",
-            "p": 0.0965
-          },
-          {
-            "score": "0:2",
-            "p": 0.0962
+            "p": 0.1156
           },
           {
             "score": "1:0",
+            "p": 0.1049
+          },
+          {
+            "score": "2:1",
+            "p": 0.0959
+          },
+          {
+            "score": "2:0",
+            "p": 0.087
+          },
+          {
+            "score": "0:1",
+            "p": 0.0697
+          }
+        ]
+      },
+      "odds_snapshot": {
+        "provider": "DraftKings",
+        "details": "BEL -170",
+        "over_under": 2.5,
+        "moneyline": {
+          "home": "-170",
+          "draw": 295,
+          "away": "+475"
+        },
+        "implied": {
+          "home": 0.5958,
+          "draw": 0.2396,
+          "away": 0.1646
+        }
+      },
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht Belgium vorne (55%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
+    },
+    {
+      "id": "760429",
+      "kickoff_utc": "2026-06-15T22:00Z",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens, Florida",
+      "group": "H",
+      "home": {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+        "elo": 1707.4,
+        "form_ppg10": 1.3
+      },
+      "away": {
+        "code": "URU",
+        "name": "Uruguay",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+        "elo": 1966.1,
+        "form_ppg10": 1.6
+      },
+      "prediction": {
+        "winner": "Uruguay",
+        "winner_code": "URU",
+        "scoreline": "0:1",
+        "prob": {
+          "home": 0.1431,
+          "draw": 0.2167,
+          "away": 0.64
+        },
+        "confidence": "Hoch",
+        "expected_goals": {
+          "home": 0.893,
+          "away": 1.884
+        },
+        "over_2_5": 0.5249,
+        "btts": 0.5008,
+        "top_scorelines": [
+          {
+            "score": "0:1",
+            "p": 0.1172
+          },
+          {
+            "score": "0:2",
+            "p": 0.1104
+          },
+          {
+            "score": "1:1",
+            "p": 0.1047
+          },
+          {
+            "score": "1:2",
+            "p": 0.0986
+          },
+          {
+            "score": "0:3",
             "p": 0.0693
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "ECU +160",
-        "over_under": 1.5,
+        "details": "URU -235",
+        "over_under": 2.5,
         "moneyline": {
-          "home": "+225",
-          "draw": 185,
-          "away": "+160"
+          "home": "+750",
+          "draw": 350,
+          "away": "-235"
         },
         "implied": {
-          "home": 0.295,
-          "draw": 0.3364,
-          "away": 0.3687
+          "home": 0.113,
+          "draw": 0.2134,
+          "away": 0.6736
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Ecuador vorne (45%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht Uruguay vorne (64%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     },
     {
-      "id": "760424",
-      "kickoff_utc": "2026-06-15T02:00Z",
-      "venue": "Estadio BBVA",
-      "city": "Guadalupe",
-      "group": "F",
+      "id": "760427",
+      "kickoff_utc": "2026-06-16T01:00Z",
+      "venue": "SoFi Stadium",
+      "city": "Inglewood, California",
+      "group": "G",
       "home": {
-        "code": "SWE",
-        "name": "Sweden",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-        "elo": 1775.7,
-        "form_ppg10": 0.9
+        "code": "IRN",
+        "name": "Iran",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+        "elo": 1902.7,
+        "form_ppg10": 1.7
       },
       "away": {
-        "code": "TUN",
-        "name": "Tunisia",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
-        "elo": 1727.0,
-        "form_ppg10": 1.3
+        "code": "NZL",
+        "name": "New Zealand",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+        "elo": 1736.3,
+        "form_ppg10": 0.4
       },
       "prediction": {
-        "winner": "Sweden",
-        "winner_code": "SWE",
+        "winner": "Iran",
+        "winner_code": "IRN",
         "scoreline": "1:0",
         "prob": {
-          "home": 0.4496,
-          "draw": 0.2683,
-          "away": 0.2821
+          "home": 0.5395,
+          "draw": 0.2522,
+          "away": 0.2082
         },
-        "confidence": "Niedrig",
+        "confidence": "Mittel",
         "expected_goals": {
-          "home": 1.45,
-          "away": 1.291
+          "home": 1.783,
+          "away": 1.096
         },
-        "over_2_5": 0.5164,
-        "btts": 0.555,
+        "over_2_5": 0.5491,
+        "btts": 0.5539,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.1207
+            "p": 0.1098
           },
           {
             "score": "1:0",
-            "p": 0.0935
+            "p": 0.1002
           },
           {
             "score": "2:1",
-            "p": 0.0875
+            "p": 0.0979
+          },
+          {
+            "score": "2:0",
+            "p": 0.0893
           },
           {
             "score": "0:1",
-            "p": 0.0833
-          },
-          {
-            "score": "1:2",
-            "p": 0.078
+            "p": 0.0616
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "SWE -105",
+        "details": "IRN -130",
         "over_under": 2.5,
         "moneyline": {
-          "home": "-105",
-          "draw": 240,
-          "away": "+320"
+          "home": "-130",
+          "draw": 255,
+          "away": "+425"
         },
         "implied": {
-          "home": 0.4904,
-          "draw": 0.2816,
-          "away": 0.228
+          "home": 0.5448,
+          "draw": 0.2715,
+          "away": 0.1836
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Sweden vorne (45%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht Iran vorne (54%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     }
   ]
