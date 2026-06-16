@@ -1294,5 +1294,254 @@
     ],
     "rationale_de": "Iran ist favorisiert (-200) und defensiv sehr organisiert, Neuseeland ist Außenseiter. Iran sollte sich durchsetzen, aber gegen tiefstehende Gegner tat sich das Team zuletzt schwer – daher ein knapper 1:0-Erfolg.",
     "enriched_by": "claude"
+  },
+  "760432": {
+    "id": "760432",
+    "kickoff_utc": "2026-06-16T19:00Z",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "group": "I",
+    "home": {
+      "code": "FRA",
+      "name": "France",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "elo": 2126.6,
+      "form_ppg10": 2.5
+    },
+    "away": {
+      "code": "SEN",
+      "name": "Senegal",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "elo": 1906.0,
+      "form_ppg10": 2.0
+    },
+    "prediction": {
+      "winner": "France",
+      "winner_code": "FRA",
+      "scoreline": "2:1",
+      "prob": {
+        "home": 0.65,
+        "draw": 0.21,
+        "away": 0.14
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.829,
+        "away": 1.051
+      },
+      "over_2_5": 0.5492,
+      "btts": 0.5458,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1079
+        },
+        {
+          "score": "1:0",
+          "p": 0.1027
+        },
+        {
+          "score": "2:1",
+          "p": 0.0987
+        },
+        {
+          "score": "2:0",
+          "p": 0.0939
+        },
+        {
+          "score": "3:1",
+          "p": 0.0602
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "FRA -215",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-215",
+        "draw": 360,
+        "away": "+600"
+      },
+      "implied": {
+        "home": 0.6545,
+        "draw": 0.2085,
+        "away": 0.137
+      }
+    },
+    "key_factors": [
+      "Frankreich favorisiert (-209)",
+      "Mbappé in Form (8 Tore in 12 Spielen)",
+      "Senegal kein Minnow – starkes AFCON-Team",
+      "Erkenntnis: Top-Duell kann eng werden → Gegentor einkalkuliert"
+    ],
+    "rationale_de": "Frankreich ist mit Mbappé (8 Tore in 12 Spielen) favorisiert (-209), doch Senegal ist ein starkes afrikanisches Spitzenteam und kein Außenseiter. Daher ein knapper 2:1 statt eines klaren Sieges – Senegal ist für ein Tor gut.",
+    "enriched_by": "claude"
+  },
+  "760430": {
+    "id": "760430",
+    "kickoff_utc": "2026-06-16T22:00Z",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "group": "I",
+    "home": {
+      "code": "IRQ",
+      "name": "Iraq",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "elo": 1741.0,
+      "form_ppg10": 1.7
+    },
+    "away": {
+      "code": "NOR",
+      "name": "Norway",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "elo": 1988.7,
+      "form_ppg10": 2.1
+    },
+    "prediction": {
+      "winner": "Norway",
+      "winner_code": "NOR",
+      "scoreline": "0:2",
+      "prob": {
+        "home": 0.1,
+        "draw": 0.15,
+        "away": 0.75
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 0.95,
+        "away": 2.009
+      },
+      "over_2_5": 0.5674,
+      "btts": 0.531,
+      "top_scorelines": [
+        {
+          "score": "0:2",
+          "p": 0.1046
+        },
+        {
+          "score": "0:1",
+          "p": 0.1042
+        },
+        {
+          "score": "1:2",
+          "p": 0.0994
+        },
+        {
+          "score": "1:1",
+          "p": 0.099
+        },
+        {
+          "score": "0:3",
+          "p": 0.0701
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "NOR -475",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+1300",
+        "draw": 600,
+        "away": "-475"
+      },
+      "implied": {
+        "home": 0.0687,
+        "draw": 0.1373,
+        "away": 0.794
+      }
+    },
+    "key_factors": [
+      "Norwegen klar favorisiert (-500)",
+      "Haaland in Galaform (u.a. 11:1 vs Moldau, Sieg vs Italien)",
+      "Irak deutlicher Außenseiter",
+      "Echter Klassenunterschied – Höhe gerechtfertigt"
+    ],
+    "rationale_de": "Norwegen ist mit Haaland in bestechender Form (zuletzt 11:1 gegen Moldau, Sieg gegen Italien) haushoch favorisiert (-500). Gegen den Außenseiter Irak ist der Klassenunterschied real – ein klarer 0:2-Auswärtssieg ist wahrscheinlich.",
+    "enriched_by": "claude"
+  },
+  "760433": {
+    "id": "760433",
+    "kickoff_utc": "2026-06-17T01:00Z",
+    "venue": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City, Missouri",
+    "group": "J",
+    "home": {
+      "code": "ARG",
+      "name": "Argentina",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "elo": 2181.7,
+      "form_ppg10": 2.5
+    },
+    "away": {
+      "code": "ALG",
+      "name": "Algeria",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "elo": 1886.1,
+      "form_ppg10": 2.3
+    },
+    "prediction": {
+      "winner": "Argentina",
+      "winner_code": "ARG",
+      "scoreline": "2:0",
+      "prob": {
+        "home": 0.7,
+        "draw": 0.18,
+        "away": 0.12
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 2.033,
+        "away": 0.936
+      },
+      "over_2_5": 0.5696,
+      "btts": 0.5281,
+      "top_scorelines": [
+        {
+          "score": "2:0",
+          "p": 0.1061
+        },
+        {
+          "score": "1:0",
+          "p": 0.1044
+        },
+        {
+          "score": "2:1",
+          "p": 0.0993
+        },
+        {
+          "score": "1:1",
+          "p": 0.0977
+        },
+        {
+          "score": "3:0",
+          "p": 0.0719
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "ARG -225",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-225",
+        "draw": 350,
+        "away": "+650"
+      },
+      "implied": {
+        "home": 0.6607,
+        "draw": 0.2121,
+        "away": 0.1272
+      }
+    },
+    "key_factors": [
+      "Argentinien (Weltmeister) klar favorisiert (-264)",
+      "Weltklasse-Kader",
+      "Algerien solide, aber unterlegen",
+      "Klarer Klassenunterschied"
+    ],
+    "rationale_de": "Der amtierende Weltmeister Argentinien ist mit seinem Weltklasse-Kader klar favorisiert (-264). Algerien ist solide, aber unterlegen – ein souveräner 2:0-Heimsieg ist die wahrscheinlichste Variante.",
+    "enriched_by": "claude"
   }
 }
