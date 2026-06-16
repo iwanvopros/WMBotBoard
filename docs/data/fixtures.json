@@ -25,7 +25,7 @@
       "short": "South Africa",
       "code": "RSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "color": "087d5a",
+      "color": "FFB81C",
       "score": "0",
       "winner": false
     },
@@ -157,7 +157,7 @@
       "short": "Switzerland",
       "code": "SUI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "color": "d72b2c",
+      "color": "FF0000",
       "score": "1",
       "winner": false
     },
@@ -190,7 +190,7 @@
       "short": "Morocco",
       "code": "MAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-      "color": "009060",
+      "color": "df2027",
       "score": "1",
       "winner": false
     },
@@ -531,11 +531,11 @@
     "id": "760432",
     "date_utc": "2026-06-16T19:00Z",
     "name": "Senegal at France",
-    "state": "in",
-    "status": "Halftime",
-    "completed": false,
-    "clock": "45'+6'",
-    "period": 1,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+10'",
+    "period": 2,
     "venue": "MetLife Stadium",
     "city": "East Rutherford, New Jersey",
     "country": "USA",
@@ -545,8 +545,8 @@
       "code": "FRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "color": "000080",
-      "score": "0",
-      "winner": false
+      "score": "3",
+      "winner": true
     },
     "away": {
       "name": "Senegal",
@@ -554,24 +554,10 @@
       "code": "SEN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
       "color": "006436",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "FRA -200",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-200",
-        "draw": 340,
-        "away": "+550"
-      },
-      "implied": {
-        "home": 0.6363,
-        "draw": 0.2169,
-        "away": 0.1468
-      }
-    },
+    "odds": null,
     "group": "I"
   },
   {
@@ -606,17 +592,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "NOR -450",
+      "details": "NOR -425",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+1300",
+        "home": "+1200",
         "draw": 550,
-        "away": "-450"
+        "away": "-425"
       },
       "implied": {
-        "home": 0.0685,
-        "draw": 0.1474,
-        "away": 0.7841
+        "home": 0.0739,
+        "draw": 0.1479,
+        "away": 0.7782
       }
     },
     "group": "I"
@@ -929,7 +915,7 @@
       "short": "South Africa",
       "code": "RSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "color": "087d5a",
+      "color": "FFB81C",
       "score": "0",
       "winner": false
     },
@@ -967,7 +953,7 @@
       "short": "Switzerland",
       "code": "SUI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "color": "d72b2c",
+      "color": "FF0000",
       "score": "0",
       "winner": false
     },
@@ -1164,7 +1150,7 @@
       "short": "Morocco",
       "code": "MAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-      "color": "009060",
+      "color": "df2027",
       "score": "0",
       "winner": false
     },
@@ -1593,17 +1579,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "URU -205",
+      "details": "URU -210",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-205",
+        "home": "-210",
         "draw": 320,
-        "away": "+650"
+        "away": "+700"
       },
       "implied": {
-        "home": 0.6441,
-        "draw": 0.2282,
-        "away": 0.1278
+        "home": 0.651,
+        "draw": 0.2288,
+        "away": 0.1201
       }
     },
     "group": "H"
@@ -2095,7 +2081,7 @@
       "short": "Switzerland",
       "code": "SUI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "color": "d72b2c",
+      "color": "FF0000",
       "score": "0",
       "winner": false
     },
@@ -2142,7 +2128,7 @@
       "short": "Morocco",
       "code": "MAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-      "color": "009060",
+      "color": "df2027",
       "score": "0",
       "winner": false
     },
@@ -2283,7 +2269,7 @@
       "short": "South Africa",
       "code": "RSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "color": "087d5a",
+      "color": "FFB81C",
       "score": "0",
       "winner": false
     },

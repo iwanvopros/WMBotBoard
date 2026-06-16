@@ -1,10 +1,49 @@
 {
-  "generated_at": "2026-06-16T19:59:03+00:00",
-  "count": 16,
-  "overall_quote": 33.0,
-  "tendency_rate": 44,
-  "exact_rate": 19,
+  "generated_at": "2026-06-16T21:37:08+00:00",
+  "count": 17,
+  "overall_quote": 34.4,
+  "tendency_rate": 47,
+  "exact_rate": 18,
   "groups": [
+    {
+      "group": "I",
+      "matches": [
+        {
+          "id": "760432",
+          "date_utc": "2026-06-16T19:00Z",
+          "group": "I",
+          "home": {
+            "name": "France",
+            "code": "FRA",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+          },
+          "away": {
+            "name": "Senegal",
+            "code": "SEN",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png"
+          },
+          "actual": "3:1",
+          "tip": {
+            "scoreline": "2:1",
+            "winner": "France",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.65,
+              "draw": 0.21,
+              "away": 0.14
+            }
+          },
+          "result_score": 56.5,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.65
+          },
+          "verdict": "Tendenz richtig"
+        }
+      ]
+    },
     {
       "group": "G",
       "matches": [
