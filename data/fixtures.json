@@ -663,11 +663,11 @@
     "id": "760435",
     "date_utc": "2026-06-17T17:00Z",
     "name": "Congo DR at Portugal",
-    "state": "in",
-    "status": "Halftime",
-    "completed": false,
-    "clock": "45'+6'",
-    "period": 1,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+5'",
+    "period": 2,
     "venue": "NRG Stadium",
     "city": "Houston, Texas",
     "country": "USA",
@@ -689,21 +689,7 @@
       "score": "1",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "POR -350",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-350",
-        "draw": 450,
-        "away": "+1100"
-      },
-      "implied": {
-        "home": 0.7458,
-        "draw": 0.1743,
-        "away": 0.0799
-      }
-    },
+    "odds": null,
     "group": "K"
   },
   {
@@ -738,17 +724,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ENG -150",
+      "details": "ENG -155",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-150",
-        "draw": 275,
+        "home": "-155",
+        "draw": 285,
         "away": "+450"
       },
       "implied": {
-        "home": 0.5723,
-        "draw": 0.2543,
-        "away": 0.1734
+        "home": 0.5792,
+        "draw": 0.2475,
+        "away": 0.1733
       }
     },
     "group": "L"
@@ -879,17 +865,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "CZE -130",
+      "details": "CZE -135",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-130",
-        "draw": 275,
-        "away": "+390"
+        "home": "-135",
+        "draw": 280,
+        "away": "+400"
       },
       "implied": {
-        "home": 0.5456,
-        "draw": 0.2574,
-        "away": 0.197
+        "home": 0.5536,
+        "draw": 0.2536,
+        "away": 0.1927
       }
     },
     "group": "A"
@@ -1819,17 +1805,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "POR -550",
+      "details": "POR -500",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-550",
-        "draw": 650,
-        "away": "+1500"
+        "home": "-500",
+        "draw": 600,
+        "away": "+1400"
       },
       "implied": {
-        "home": 0.8121,
-        "draw": 0.128,
-        "away": 0.06
+        "home": 0.7991,
+        "draw": 0.137,
+        "away": 0.0639
       }
     },
     "group": "K"
@@ -1960,16 +1946,16 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "COL -210",
+      "details": "COL -220",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-210",
-        "draw": 330,
+        "home": "-220",
+        "draw": 350,
         "away": "+650"
       },
       "implied": {
-        "home": 0.6493,
-        "draw": 0.2229,
+        "home": 0.6591,
+        "draw": 0.213,
         "away": 0.1278
       }
     },
@@ -2994,17 +2980,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "COD +140",
+      "details": "COD +120",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+140",
-        "draw": 245,
-        "away": "+200"
+        "home": "+120",
+        "draw": 265,
+        "away": "+215"
       },
       "implied": {
-        "home": 0.4007,
-        "draw": 0.2787,
-        "away": 0.3206
+        "home": 0.4346,
+        "draw": 0.2619,
+        "away": 0.3035
       }
     },
     "group": "K"

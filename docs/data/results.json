@@ -1,10 +1,49 @@
 {
-  "generated_at": "2026-06-17T17:53:40+00:00",
-  "count": 20,
-  "overall_quote": 37.7,
-  "tendency_rate": 55,
-  "exact_rate": 15,
+  "generated_at": "2026-06-17T19:31:53+00:00",
+  "count": 21,
+  "overall_quote": 36.0,
+  "tendency_rate": 52,
+  "exact_rate": 14,
   "groups": [
+    {
+      "group": "K",
+      "matches": [
+        {
+          "id": "760435",
+          "date_utc": "2026-06-17T17:00Z",
+          "group": "K",
+          "home": {
+            "name": "Portugal",
+            "code": "POR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
+          },
+          "away": {
+            "name": "Congo DR",
+            "code": "COD",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
+          },
+          "actual": "1:1",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "Portugal",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.6154,
+              "draw": 0.2147,
+              "away": 0.1697
+            }
+          },
+          "result_score": 2.1,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.215
+          },
+          "verdict": "Daneben"
+        }
+      ]
+    },
     {
       "group": "J",
       "matches": [

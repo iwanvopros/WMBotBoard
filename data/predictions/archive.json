@@ -1618,72 +1618,58 @@
       "code": "POR",
       "name": "Portugal",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-      "elo": 2055.3,
-      "form_ppg10": 2.3
+      "elo": 2034.6,
+      "form_ppg10": 2.1
     },
     "away": {
       "code": "COD",
       "name": "Congo DR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
-      "elo": 1760.2,
-      "form_ppg10": 1.8
+      "elo": 1780.9,
+      "form_ppg10": 1.6
     },
     "prediction": {
       "winner": "Portugal",
       "winner_code": "POR",
-      "scoreline": "2:0",
+      "scoreline": "1:0",
       "prob": {
-        "home": 0.6986,
-        "draw": 0.1877,
-        "away": 0.1136
+        "home": 0.6154,
+        "draw": 0.2147,
+        "away": 0.1697
       },
-      "confidence": "Hoch",
+      "confidence": "Mittel",
       "expected_goals": {
-        "home": 2.061,
-        "away": 0.862
+        "home": 1.941,
+        "away": 0.907
       },
-      "over_2_5": 0.5591,
-      "btts": 0.504,
+      "over_2_5": 0.5418,
+      "btts": 0.5106,
       "top_scorelines": [
         {
-          "score": "2:0",
-          "p": 0.1142
-        },
-        {
           "score": "1:0",
-          "p": 0.1108
+          "p": 0.1125
         },
         {
-          "score": "2:1",
-          "p": 0.0984
+          "score": "2:0",
+          "p": 0.1092
         },
         {
           "score": "1:1",
-          "p": 0.0955
+          "p": 0.102
+        },
+        {
+          "score": "2:1",
+          "p": 0.099
         },
         {
           "score": "3:0",
-          "p": 0.0785
+          "p": 0.0706
         }
       ]
     },
-    "odds_snapshot": {
-      "provider": "DraftKings",
-      "details": "POR -350",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-350",
-        "draw": 450,
-        "away": "+1100"
-      },
-      "implied": {
-        "home": 0.7458,
-        "draw": 0.1743,
-        "away": 0.0799
-      }
-    },
+    "odds_snapshot": null,
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Portugal vorne (70%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Portugal vorne (62%). Wahrscheinlichstes Resultat 1:0.",
     "enriched_by": "model"
   },
   "760437": {
@@ -1711,9 +1697,9 @@
       "winner_code": "ENG",
       "scoreline": "1:0",
       "prob": {
-        "home": 0.5339,
-        "draw": 0.2498,
-        "away": 0.2163
+        "home": 0.5373,
+        "draw": 0.2464,
+        "away": 0.2162
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -1747,21 +1733,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "ENG -150",
+      "details": "ENG -155",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-150",
-        "draw": 275,
+        "home": "-155",
+        "draw": 285,
         "away": "+450"
       },
       "implied": {
-        "home": 0.5723,
-        "draw": 0.2543,
-        "away": 0.1734
+        "home": 0.5792,
+        "draw": 0.2475,
+        "away": 0.1733
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht England vorne (53%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht England vorne (54%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   },
   "760434": {
