@@ -663,11 +663,11 @@
     "id": "760435",
     "date_utc": "2026-06-17T17:00Z",
     "name": "Congo DR at Portugal",
-    "state": "pre",
-    "status": "Scheduled",
+    "state": "in",
+    "status": "Halftime",
     "completed": false,
-    "clock": "0'",
-    "period": null,
+    "clock": "45'+6'",
+    "period": 1,
     "venue": "NRG Stadium",
     "city": "Houston, Texas",
     "country": "USA",
@@ -677,7 +677,7 @@
       "code": "POR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "color": "da291c",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -686,7 +686,7 @@
       "code": "COD",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "color": "418fde",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "odds": {
@@ -738,17 +738,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ENG -145",
+      "details": "ENG -150",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-145",
+        "home": "-150",
         "draw": 275,
-        "away": "+425"
+        "away": "+450"
       },
       "implied": {
-        "home": 0.5642,
-        "draw": 0.2542,
-        "away": 0.1816
+        "home": 0.5723,
+        "draw": 0.2543,
+        "away": 0.1734
       }
     },
     "group": "L"
@@ -1819,17 +1819,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "POR -450",
+      "details": "POR -550",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-450",
-        "draw": 550,
-        "away": "+1200"
+        "home": "-550",
+        "draw": 650,
+        "away": "+1500"
       },
       "implied": {
-        "home": 0.78,
-        "draw": 0.1467,
-        "away": 0.0733
+        "home": 0.8121,
+        "draw": 0.128,
+        "away": 0.06
       }
     },
     "group": "K"
@@ -2994,17 +2994,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "COD +135",
+      "details": "COD +140",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+135",
-        "draw": 235,
-        "away": "+215"
+        "home": "+140",
+        "draw": 245,
+        "away": "+200"
       },
       "implied": {
-        "home": 0.4086,
-        "draw": 0.2866,
-        "away": 0.3048
+        "home": 0.4007,
+        "draw": 0.2787,
+        "away": 0.3206
       }
     },
     "group": "K"
