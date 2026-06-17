@@ -564,11 +564,11 @@
     "id": "760430",
     "date_utc": "2026-06-16T22:00Z",
     "name": "Norway at Iraq",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+8'",
+    "period": 2,
     "venue": "Gillette Stadium",
     "city": "Foxborough, Massachusetts",
     "country": "USA",
@@ -578,7 +578,7 @@
       "code": "IRQ",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
       "color": "0A4D2E",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -587,35 +587,21 @@
       "code": "NOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "color": "C8102E",
-      "score": "0",
-      "winner": false
+      "score": "4",
+      "winner": true
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "NOR -425",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "+1200",
-        "draw": 550,
-        "away": "-425"
-      },
-      "implied": {
-        "home": 0.0739,
-        "draw": 0.1479,
-        "away": 0.7782
-      }
-    },
+    "odds": null,
     "group": "I"
   },
   {
     "id": "760433",
     "date_utc": "2026-06-17T01:00Z",
     "name": "Algeria at Argentina",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+6'",
+    "period": 2,
     "venue": "GEHA Field at Arrowhead Stadium",
     "city": "Kansas City, Missouri",
     "country": "USA",
@@ -625,8 +611,8 @@
       "code": "ARG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "color": "74acdf",
-      "score": "0",
-      "winner": false
+      "score": "3",
+      "winner": true
     },
     "away": {
       "name": "Algeria",
@@ -637,32 +623,18 @@
       "score": "0",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "ARG -230",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-230",
-        "draw": 350,
-        "away": "+700"
-      },
-      "implied": {
-        "home": 0.6675,
-        "draw": 0.2128,
-        "away": 0.1197
-      }
-    },
+    "odds": null,
     "group": "J"
   },
   {
     "id": "760431",
     "date_utc": "2026-06-17T04:00Z",
     "name": "Jordan at Austria",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+14'",
+    "period": 2,
     "venue": "Levi's Stadium",
     "city": "Santa Clara, California",
     "country": "USA",
@@ -672,8 +644,8 @@
       "code": "AUT",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
       "color": "d72b2c",
-      "score": "0",
-      "winner": false
+      "score": "3",
+      "winner": true
     },
     "away": {
       "name": "Jordan",
@@ -681,24 +653,10 @@
       "code": "JOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
       "color": "E70000",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "AUT -280",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-280",
-        "draw": 400,
-        "away": "+800"
-      },
-      "implied": {
-        "home": 0.7031,
-        "draw": 0.1908,
-        "away": 0.106
-      }
-    },
+    "odds": null,
     "group": "J"
   },
   {
@@ -733,17 +691,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "POR -340",
+      "details": "POR -350",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-340",
-        "draw": 475,
-        "away": "+1000"
+        "home": "-350",
+        "draw": 450,
+        "away": "+1100"
       },
       "implied": {
-        "home": 0.7448,
-        "draw": 0.1676,
-        "away": 0.0876
+        "home": 0.7458,
+        "draw": 0.1743,
+        "away": 0.0799
       }
     },
     "group": "K"
@@ -780,17 +738,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ENG -140",
+      "details": "ENG -145",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-140",
-        "draw": 280,
-        "away": "+390"
+        "home": "-145",
+        "draw": 275,
+        "away": "+425"
       },
       "implied": {
-        "home": 0.5553,
-        "draw": 0.2505,
-        "away": 0.1943
+        "home": 0.5642,
+        "draw": 0.2542,
+        "away": 0.1816
       }
     },
     "group": "L"
@@ -827,17 +785,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "GHA +125",
+      "details": "GHA +135",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+125",
-        "draw": 230,
-        "away": "+240"
+        "home": "+135",
+        "draw": 220,
+        "away": "+225"
       },
       "implied": {
-        "home": 0.4267,
-        "draw": 0.2909,
-        "away": 0.2824
+        "home": 0.4069,
+        "draw": 0.2988,
+        "away": 0.2942
       }
     },
     "group": "L"
@@ -968,17 +926,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "SUI -170",
+      "details": "SUI -185",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-170",
-        "draw": 310,
-        "away": "+475"
+        "home": "-185",
+        "draw": 320,
+        "away": "+550"
       },
       "implied": {
-        "home": 0.6011,
-        "draw": 0.2329,
-        "away": 0.166
+        "home": 0.6235,
+        "draw": 0.2287,
+        "away": 0.1478
       }
     },
     "group": "B"
@@ -1015,17 +973,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "CAN -360",
+      "details": "CAN -350",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-360",
+        "home": "-350",
         "draw": 475,
         "away": "+1000"
       },
       "implied": {
-        "home": 0.7472,
-        "draw": 0.166,
-        "away": 0.0868
+        "home": 0.746,
+        "draw": 0.1668,
+        "away": 0.0872
       }
     },
     "group": "B"
@@ -1062,17 +1020,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "MEX +100",
+      "details": "MEX +105",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+100",
-        "draw": 235,
-        "away": "+310"
+        "home": "+105",
+        "draw": 230,
+        "away": "+300"
       },
       "implied": {
-        "home": 0.4797,
-        "draw": 0.2864,
-        "away": 0.234
+        "home": 0.4687,
+        "draw": 0.2911,
+        "away": 0.2402
       }
     },
     "group": "A"
@@ -1109,17 +1067,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "USA -175",
+      "details": "USA -165",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-175",
-        "draw": 340,
-        "away": "+475"
+        "home": "-165",
+        "draw": 330,
+        "away": "+425"
       },
       "implied": {
-        "home": 0.6133,
-        "draw": 0.219,
-        "away": 0.1676
+        "home": 0.5954,
+        "draw": 0.2224,
+        "away": 0.1822
       }
     },
     "group": "D"
@@ -1208,12 +1166,12 @@
       "moneyline": {
         "home": "-1000",
         "draw": 1000,
-        "away": "+2200"
+        "away": "+2000"
       },
       "implied": {
-        "home": 0.8712,
-        "draw": 0.0871,
-        "away": 0.0417
+        "home": 0.8678,
+        "draw": 0.0868,
+        "away": 0.0455
       }
     },
     "group": "C"
@@ -1302,12 +1260,12 @@
       "moneyline": {
         "home": "-140",
         "draw": 295,
-        "away": "+400"
+        "away": "+380"
       },
       "implied": {
-        "home": 0.5628,
-        "draw": 0.2442,
-        "away": 0.193
+        "home": 0.5583,
+        "draw": 0.2423,
+        "away": 0.1994
       }
     },
     "group": "F"
@@ -1344,17 +1302,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "GER -185",
+      "details": "GER -180",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-185",
-        "draw": 360,
-        "away": "+475"
+        "home": "-180",
+        "draw": 350,
+        "away": "+450"
       },
       "implied": {
-        "home": 0.6239,
-        "draw": 0.2089,
-        "away": 0.1672
+        "home": 0.6141,
+        "draw": 0.2123,
+        "away": 0.1737
       }
     },
     "group": "E"
@@ -1673,17 +1631,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ARG -160",
+      "details": "ARG -165",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-160",
-        "draw": 290,
-        "away": "+475"
+        "home": "-165",
+        "draw": 295,
+        "away": "+500"
       },
       "implied": {
-        "home": 0.5885,
-        "draw": 0.2452,
-        "away": 0.1663
+        "home": 0.5973,
+        "draw": 0.2429,
+        "away": 0.1599
       }
     },
     "group": "J"
@@ -1720,17 +1678,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "FRA -900",
+      "details": "FRA -1100",
       "over_under": 3.5,
       "moneyline": {
-        "home": "-900",
-        "draw": 850,
-        "away": "+2800"
+        "home": "-1100",
+        "draw": 1100,
+        "away": "+2500"
       },
       "implied": {
-        "home": 0.8656,
-        "draw": 0.1012,
-        "away": 0.0332
+        "home": 0.8827,
+        "draw": 0.0802,
+        "away": 0.037
       }
     },
     "group": "I"
@@ -1767,17 +1725,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "NOR +130",
+      "details": "NOR +135",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+130",
-        "draw": 260,
-        "away": "+210"
+        "home": "+135",
+        "draw": 250,
+        "away": "+195"
       },
       "implied": {
-        "home": 0.42,
-        "draw": 0.2683,
-        "away": 0.3116
+        "home": 0.4052,
+        "draw": 0.272,
+        "away": 0.3228
       }
     },
     "group": "I"
@@ -1814,17 +1772,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ALG -200",
+      "details": "ALG -175",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+600",
-        "draw": 340,
-        "away": "-200"
+        "home": "+500",
+        "draw": 320,
+        "away": "-175"
       },
       "implied": {
-        "home": 0.1378,
-        "draw": 0.2192,
-        "away": 0.643
+        "home": 0.1601,
+        "draw": 0.2287,
+        "away": 0.6112
       }
     },
     "group": "J"
@@ -1861,17 +1819,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "POR -425",
+      "details": "POR -450",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-425",
+        "home": "-450",
         "draw": 550,
-        "away": "+1100"
+        "away": "+1200"
       },
       "implied": {
-        "home": 0.7734,
-        "draw": 0.147,
-        "away": 0.0796
+        "home": 0.78,
+        "draw": 0.1467,
+        "away": 0.0733
       }
     },
     "group": "K"
@@ -2617,13 +2575,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "+330",
-        "draw": 270,
+        "draw": 280,
         "away": "-120"
       },
       "implied": {
-        "home": 0.2218,
-        "draw": 0.2578,
-        "away": 0.5203
+        "home": 0.2234,
+        "draw": 0.2528,
+        "away": 0.5239
       }
     },
     "group": "I"
@@ -2660,17 +2618,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "SEN -280",
+      "details": "SEN -320",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-280",
-        "draw": 400,
-        "away": "+800"
+        "home": "-320",
+        "draw": 425,
+        "away": "+950"
       },
       "implied": {
-        "home": 0.7031,
-        "draw": 0.1908,
-        "away": 0.106
+        "home": 0.7273,
+        "draw": 0.1818,
+        "away": 0.0909
       }
     },
     "group": "I"
@@ -3083,17 +3041,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "AUT +120",
+      "details": "AUT +155",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+280",
+        "home": "+205",
         "draw": 210,
-        "away": "+120"
+        "away": "+155"
       },
       "implied": {
-        "home": 0.253,
-        "draw": 0.3101,
-        "away": 0.4369
+        "home": 0.3145,
+        "draw": 0.3094,
+        "away": 0.3761
       }
     },
     "group": "J"
@@ -3130,17 +3088,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ARG -550",
+      "details": "ARG -500",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+1400",
+        "home": "+1300",
         "draw": 650,
-        "away": "-550"
+        "away": "-500"
       },
       "implied": {
-        "home": 0.0637,
-        "draw": 0.1275,
-        "away": 0.8088
+        "home": 0.0688,
+        "draw": 0.1284,
+        "away": 0.8028
       }
     },
     "group": "J"

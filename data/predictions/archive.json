@@ -1543,5 +1543,381 @@
     ],
     "rationale_de": "Der amtierende Weltmeister Argentinien ist mit seinem Weltklasse-Kader klar favorisiert (-264). Algerien ist solide, aber unterlegen – ein souveräner 2:0-Heimsieg ist die wahrscheinlichste Variante.",
     "enriched_by": "claude"
+  },
+  "760431": {
+    "id": "760431",
+    "kickoff_utc": "2026-06-17T04:00Z",
+    "venue": "Levi's Stadium",
+    "city": "Santa Clara, California",
+    "group": "J",
+    "home": {
+      "code": "AUT",
+      "name": "Austria",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "elo": 1921.9,
+      "form_ppg10": 2.5
+    },
+    "away": {
+      "code": "JOR",
+      "name": "Jordan",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "elo": 1744.8,
+      "form_ppg10": 1.4
+    },
+    "prediction": {
+      "winner": "Austria",
+      "winner_code": "AUT",
+      "scoreline": "1:0",
+      "prob": {
+        "home": 0.5548,
+        "draw": 0.229,
+        "away": 0.2161
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.822,
+        "away": 1.049
+      },
+      "over_2_5": 0.5471,
+      "btts": 0.5445,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1082
+        },
+        {
+          "score": "1:0",
+          "p": 0.1032
+        },
+        {
+          "score": "2:1",
+          "p": 0.0986
+        },
+        {
+          "score": "2:0",
+          "p": 0.0941
+        },
+        {
+          "score": "3:1",
+          "p": 0.0599
+        }
+      ]
+    },
+    "odds_snapshot": null,
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Austria vorne (55%). Wahrscheinlichstes Resultat 1:0.",
+    "enriched_by": "model"
+  },
+  "760435": {
+    "id": "760435",
+    "kickoff_utc": "2026-06-17T17:00Z",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "group": "K",
+    "home": {
+      "code": "POR",
+      "name": "Portugal",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "elo": 2055.3,
+      "form_ppg10": 2.3
+    },
+    "away": {
+      "code": "COD",
+      "name": "Congo DR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "elo": 1760.2,
+      "form_ppg10": 1.8
+    },
+    "prediction": {
+      "winner": "Portugal",
+      "winner_code": "POR",
+      "scoreline": "2:0",
+      "prob": {
+        "home": 0.6986,
+        "draw": 0.1877,
+        "away": 0.1136
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 2.061,
+        "away": 0.862
+      },
+      "over_2_5": 0.5591,
+      "btts": 0.504,
+      "top_scorelines": [
+        {
+          "score": "2:0",
+          "p": 0.1142
+        },
+        {
+          "score": "1:0",
+          "p": 0.1108
+        },
+        {
+          "score": "2:1",
+          "p": 0.0984
+        },
+        {
+          "score": "1:1",
+          "p": 0.0955
+        },
+        {
+          "score": "3:0",
+          "p": 0.0785
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "POR -350",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-350",
+        "draw": 450,
+        "away": "+1100"
+      },
+      "implied": {
+        "home": 0.7458,
+        "draw": 0.1743,
+        "away": 0.0799
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Portugal vorne (70%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
+  },
+  "760437": {
+    "id": "760437",
+    "kickoff_utc": "2026-06-17T20:00Z",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "group": "L",
+    "home": {
+      "code": "ENG",
+      "name": "England",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "elo": 2096.1,
+      "form_ppg10": 2.5
+    },
+    "away": {
+      "code": "CRO",
+      "name": "Croatia",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "elo": 1968.9,
+      "form_ppg10": 2.2
+    },
+    "prediction": {
+      "winner": "England",
+      "winner_code": "ENG",
+      "scoreline": "1:0",
+      "prob": {
+        "home": 0.5299,
+        "draw": 0.2497,
+        "away": 0.2204
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.64,
+        "away": 1.117
+      },
+      "over_2_5": 0.52,
+      "btts": 0.542,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1163
+        },
+        {
+          "score": "1:0",
+          "p": 0.1042
+        },
+        {
+          "score": "2:1",
+          "p": 0.0954
+        },
+        {
+          "score": "2:0",
+          "p": 0.0854
+        },
+        {
+          "score": "0:1",
+          "p": 0.0709
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "ENG -145",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-145",
+        "draw": 275,
+        "away": "+425"
+      },
+      "implied": {
+        "home": 0.5642,
+        "draw": 0.2542,
+        "away": 0.1816
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht England vorne (53%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
+  },
+  "760434": {
+    "id": "760434",
+    "kickoff_utc": "2026-06-17T23:00Z",
+    "venue": "BMO Field",
+    "city": "Toronto",
+    "group": "L",
+    "home": {
+      "code": "GHA",
+      "name": "Ghana",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "elo": 1611.1,
+      "form_ppg10": 1.1
+    },
+    "away": {
+      "code": "PAN",
+      "name": "Panama",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "elo": 1838.7,
+      "form_ppg10": 1.6
+    },
+    "prediction": {
+      "winner": "Panama",
+      "winner_code": "PAN",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.303,
+        "draw": 0.2612,
+        "away": 0.4356
+      },
+      "confidence": "Niedrig",
+      "expected_goals": {
+        "home": 1.003,
+        "away": 1.873
+      },
+      "over_2_5": 0.5484,
+      "btts": 0.5359,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1059
+        },
+        {
+          "score": "0:1",
+          "p": 0.1055
+        },
+        {
+          "score": "1:2",
+          "p": 0.0992
+        },
+        {
+          "score": "0:2",
+          "p": 0.0988
+        },
+        {
+          "score": "1:3",
+          "p": 0.0619
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "GHA +135",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+135",
+        "draw": 220,
+        "away": "+225"
+      },
+      "implied": {
+        "home": 0.4069,
+        "draw": 0.2988,
+        "away": 0.2942
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Panama vorne (44%). Wahrscheinlichstes Resultat 0:1. Die Buchmacher sehen es etwas anders als das Modell.",
+    "enriched_by": "model"
+  },
+  "760436": {
+    "id": "760436",
+    "kickoff_utc": "2026-06-18T02:00Z",
+    "venue": "Estadio Banorte",
+    "city": "Mexico City",
+    "group": "K",
+    "home": {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "elo": 1832.2,
+      "form_ppg10": 1.5
+    },
+    "away": {
+      "code": "COL",
+      "name": "Colombia",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "elo": 2055.7,
+      "form_ppg10": 2.2
+    },
+    "prediction": {
+      "winner": "Colombia",
+      "winner_code": "COL",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.1507,
+        "draw": 0.2117,
+        "away": 0.6375
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 0.987,
+        "away": 1.836
+      },
+      "over_2_5": 0.5359,
+      "btts": 0.5272,
+      "top_scorelines": [
+        {
+          "score": "0:1",
+          "p": 0.1091
+        },
+        {
+          "score": "1:1",
+          "p": 0.1077
+        },
+        {
+          "score": "0:2",
+          "p": 0.1002
+        },
+        {
+          "score": "1:2",
+          "p": 0.0989
+        },
+        {
+          "score": "0:3",
+          "p": 0.0613
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "COL -270",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+850",
+        "draw": 390,
+        "away": "-270"
+      },
+      "implied": {
+        "home": 0.1013,
+        "draw": 0.1964,
+        "away": 0.7023
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Colombia vorne (64%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
   }
 }
