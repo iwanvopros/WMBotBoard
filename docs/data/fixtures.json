@@ -828,11 +828,11 @@
     "id": "760439",
     "date_utc": "2026-06-18T19:00Z",
     "name": "Bosnia-Herzegovina at Switzerland",
-    "state": "pre",
-    "status": "Scheduled",
+    "state": "in",
+    "status": "First Half",
     "completed": false,
-    "clock": "0'",
-    "period": null,
+    "clock": "37'",
+    "period": 1,
     "venue": "SoFi Stadium",
     "city": "Inglewood, California",
     "country": "USA",
@@ -954,13 +954,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "+105",
-        "draw": 220,
-        "away": "+310"
+        "draw": 225,
+        "away": "+300"
       },
       "implied": {
-        "home": 0.4672,
-        "draw": 0.2993,
-        "away": 0.2336
+        "home": 0.4666,
+        "draw": 0.2943,
+        "away": 0.2391
       }
     },
     "group": "A"
@@ -2783,17 +2783,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "CRO -160",
+      "details": "CRO -170",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-160",
-        "draw": 295,
-        "away": "+475"
+        "home": "-170",
+        "draw": 310,
+        "away": "+500"
       },
       "implied": {
-        "home": 0.5903,
-        "draw": 0.2429,
-        "away": 0.1668
+        "home": 0.6053,
+        "draw": 0.2345,
+        "away": 0.1602
       }
     },
     "group": "L"
@@ -3018,17 +3018,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ARG -500",
+      "details": "ARG -525",
       "over_under": 2.5,
       "moneyline": {
         "home": "+1300",
         "draw": 650,
-        "away": "-500"
+        "away": "-525"
       },
       "implied": {
-        "home": 0.0688,
-        "draw": 0.1284,
-        "away": 0.8028
+        "home": 0.0684,
+        "draw": 0.1276,
+        "away": 0.804
       }
     },
     "group": "J"
