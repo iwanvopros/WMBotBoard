@@ -2,7 +2,7 @@
   "date": "2026-06-18",
   "generated_at": "2026-06-18T14:36:01+00:00",
   "count": 4,
-  "source": "elo+poisson model + ESPN odds",
+  "source": "Hybrid: Elo+Poisson-Modell, Buchmacher-Quoten, Tagesrecherche & Erkenntnisse aus gespielten Spielen",
   "matches": [
     {
       "id": "760438",
@@ -105,13 +105,13 @@
       "prediction": {
         "winner": "Switzerland",
         "winner_code": "SUI",
-        "scoreline": "2:0",
+        "scoreline": "2:1",
         "prob": {
-          "home": 0.6173,
-          "draw": 0.2198,
-          "away": 0.1628
+          "home": 0.55,
+          "draw": 0.25,
+          "away": 0.2
         },
-        "confidence": "Hoch",
+        "confidence": "Mittel",
         "expected_goals": {
           "home": 2.02,
           "away": 0.938
@@ -156,9 +156,14 @@
           "away": 0.1582
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Switzerland vorne (62%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Schweiz nach Schock-Remis (1:1 vs Katar) unter Zugzwang",
+        "Bosnien mit Dzeko, hielt Kanada 1:1",
+        "Favorit, aber Klassenvorsprung nicht riesig",
+        "Erkenntnis: Schweiz patzte schon einmal als Favorit"
+      ],
+      "rationale_de": "Die Schweiz muss nach dem überraschenden 1:1 gegen Katar liefern und ist favorisiert, doch Bosnien ist mit Dzeko unangenehm (1:1 gegen Kanada). Nach dem Fehlstart der Schweiz und gemäß der Turnier-Erkenntnis tippe ich einen knappen 2:1 statt eines klaren Siegs.",
+      "enriched_by": "claude"
     },
     {
       "id": "760440",
@@ -185,11 +190,11 @@
         "winner_code": "CAN",
         "scoreline": "2:0",
         "prob": {
-          "home": 0.7029,
-          "draw": 0.1831,
-          "away": 0.1138
+          "home": 0.62,
+          "draw": 0.22,
+          "away": 0.16
         },
-        "confidence": "Hoch",
+        "confidence": "Mittel",
         "expected_goals": {
           "home": 2.157,
           "away": 0.876
@@ -234,9 +239,14 @@
           "away": 0.087
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Canada vorne (70%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Kanada (Gastgeber) will Wiedergutmachung nach 1:1 vs Bosnien",
+        "Katar defensiv organisiert (hielt Schweiz 1:1)",
+        "Heimvorteil Vancouver",
+        "Davies-Rückkehr könnte Kanada beleben"
+      ],
+      "rationale_de": "Gastgeber Kanada will nach dem enttäuschenden 1:1 gegen Bosnien zu Hause punkten und ist gegen das defensiv organisierte Katar (1:1 gegen die Schweiz) favorisiert. Ein 2:0-Heimsieg ist die wahrscheinlichste Variante.",
+      "enriched_by": "claude"
     },
     {
       "id": "760441",
@@ -261,11 +271,11 @@
       "prediction": {
         "winner": "Mexico",
         "winner_code": "MEX",
-        "scoreline": "1:0",
+        "scoreline": "2:1",
         "prob": {
-          "home": 0.4654,
-          "draw": 0.2703,
-          "away": 0.2643
+          "home": 0.5,
+          "draw": 0.26,
+          "away": 0.24
         },
         "confidence": "Mittel",
         "expected_goals": {
@@ -312,9 +322,14 @@
           "away": 0.2425
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Mexico vorne (47%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Beide mit Auftaktsieg (Mexiko 2:0, Südkorea 2:1)",
+        "Mexikos Angriff über die linke Seite gefährlich",
+        "Südkorea mit Son stark – offenes Spiel erwartet",
+        "Heimvorteil + Höhe Guadalajara"
+      ],
+      "rationale_de": "Topduell zweier Auftaktsieger: Mexiko überzeugte mit 2:0, vor allem über die linke Angriffsseite, Südkorea gewann 2:1 dank Son. Mit Heimvorteil ist Mexiko knapp favorisiert, aber es wird ein offenes Spiel – daher 2:1.",
+      "enriched_by": "claude"
     }
   ]
 }
