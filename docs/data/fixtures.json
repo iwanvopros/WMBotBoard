@@ -795,11 +795,11 @@
     "id": "760438",
     "date_utc": "2026-06-18T16:00Z",
     "name": "South Africa at Czechia",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+7'",
+    "period": 2,
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta, Georgia",
     "country": "USA",
@@ -809,7 +809,7 @@
       "code": "CZE",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
       "color": "d7141a",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -818,24 +818,10 @@
       "code": "RSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
       "color": "FFB81C",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "CZE -125",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-125",
-        "draw": 255,
-        "away": "+390"
-      },
-      "implied": {
-        "home": 0.5335,
-        "draw": 0.2705,
-        "away": 0.196
-      }
-    },
+    "odds": null,
     "group": "A"
   },
   {
@@ -870,17 +856,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "SUI -180",
+      "details": "SUI -175",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-180",
-        "draw": 310,
+        "home": "-175",
+        "draw": 320,
         "away": "+500"
       },
       "implied": {
-        "home": 0.6103,
-        "draw": 0.2315,
-        "away": 0.1582
+        "home": 0.6112,
+        "draw": 0.2287,
+        "away": 0.1601
       }
     },
     "group": "B"
@@ -917,17 +903,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "CAN -340",
+      "details": "CAN -320",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-340",
+        "home": "-320",
         "draw": 450,
-        "away": "+1000"
+        "away": "+950"
       },
       "implied": {
-        "home": 0.7391,
-        "draw": 0.1739,
-        "away": 0.087
+        "home": 0.7333,
+        "draw": 0.175,
+        "away": 0.0917
       }
     },
     "group": "B"
@@ -968,13 +954,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "+105",
-        "draw": 230,
-        "away": "+295"
+        "draw": 220,
+        "away": "+310"
       },
       "implied": {
         "home": 0.4672,
-        "draw": 0.2903,
-        "away": 0.2425
+        "draw": 0.2993,
+        "away": 0.2336
       }
     },
     "group": "A"
@@ -1152,17 +1138,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "TUR -105",
+      "details": "TUR +105",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-105",
+        "home": "+105",
         "draw": 240,
-        "away": "+320"
+        "away": "+290"
       },
       "implied": {
-        "home": 0.4904,
-        "draw": 0.2816,
-        "away": 0.228
+        "home": 0.4698,
+        "draw": 0.2833,
+        "away": 0.2469
       }
     },
     "group": "D"
@@ -1387,17 +1373,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ESP -900",
+      "details": "ESP -1000",
       "over_under": 3.5,
       "moneyline": {
-        "home": "-900",
+        "home": "-1000",
         "draw": 950,
-        "away": "+2200"
+        "away": "+2500"
       },
       "implied": {
-        "home": 0.8665,
-        "draw": 0.0917,
-        "away": 0.0419
+        "home": 0.8718,
+        "draw": 0.0913,
+        "away": 0.0369
       }
     },
     "group": "H"
@@ -2139,17 +2125,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "MEX -125",
+      "details": "MEX -130",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+370",
-        "draw": 265,
-        "away": "-125"
+        "home": "+380",
+        "draw": 270,
+        "away": "-130"
       },
       "implied": {
-        "home": 0.2041,
-        "draw": 0.2629,
-        "away": 0.533
+        "home": 0.1996,
+        "draw": 0.2589,
+        "away": 0.5415
       }
     },
     "group": "A"
@@ -2186,17 +2172,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "KOR -170",
+      "details": "KOR -160",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+500",
-        "draw": 310,
-        "away": "-170"
+        "home": "+475",
+        "draw": 300,
+        "away": "-160"
       },
       "implied": {
-        "home": 0.1602,
-        "draw": 0.2345,
-        "away": 0.6053
+        "home": 0.1673,
+        "draw": 0.2405,
+        "away": 0.5921
       }
     },
     "group": "A"
@@ -2938,17 +2924,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "COD +115",
+      "details": "COD +110",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+115",
-        "draw": 275,
-        "away": "+225"
+        "home": "+110",
+        "draw": 265,
+        "away": "+240"
       },
       "implied": {
-        "home": 0.4475,
-        "draw": 0.2565,
-        "away": 0.296
+        "home": 0.456,
+        "draw": 0.2624,
+        "away": 0.2816
       }
     },
     "group": "K"
