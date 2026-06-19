@@ -960,12 +960,12 @@
       "moneyline": {
         "home": "-160",
         "draw": 320,
-        "away": "+425"
+        "away": "+450"
       },
       "implied": {
-        "home": 0.5895,
-        "draw": 0.2281,
-        "away": 0.1825
+        "home": 0.5944,
+        "draw": 0.23,
+        "away": 0.1756
       }
     },
     "group": "D"
