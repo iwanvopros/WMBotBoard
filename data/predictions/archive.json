@@ -2564,5 +2564,254 @@
     ],
     "rationale_de": "Beide Teams stehen nach Auftaktniederlagen unter Druck – ein echtes Must-Win. Die Quoten sind fast ausgeglichen (Türkei +105); die Türkei hat mit Güler und Yildiz etwas mehr individuelle Klasse und gewinnt knapp mit 1:0.",
     "enriched_by": "claude"
+  },
+  "760447": {
+    "id": "760447",
+    "kickoff_utc": "2026-06-20T17:00Z",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "group": "F",
+    "home": {
+      "code": "NED",
+      "name": "Netherlands",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "elo": 2013.6,
+      "form_ppg10": 2.1
+    },
+    "away": {
+      "code": "SWE",
+      "name": "Sweden",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "elo": 1824.1,
+      "form_ppg10": 1.1
+    },
+    "prediction": {
+      "winner": "Netherlands",
+      "winner_code": "NED",
+      "scoreline": "2:1",
+      "prob": {
+        "home": 0.44,
+        "draw": 0.28,
+        "away": 0.28
+      },
+      "confidence": "Niedrig",
+      "expected_goals": {
+        "home": 1.899,
+        "away": 1.094
+      },
+      "over_2_5": 0.5752,
+      "btts": 0.5655,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1042
+        },
+        {
+          "score": "2:1",
+          "p": 0.0989
+        },
+        {
+          "score": "1:0",
+          "p": 0.0952
+        },
+        {
+          "score": "2:0",
+          "p": 0.0904
+        },
+        {
+          "score": "3:1",
+          "p": 0.0626
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "NED -140",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-140",
+        "draw": 310,
+        "away": "+370"
+      },
+      "implied": {
+        "home": 0.5609,
+        "draw": 0.2345,
+        "away": 0.2046
+      }
+    },
+    "key_factors": [
+      "Schweden Gruppenleader nach 5:1 gegen Tunesien",
+      "Niederlande nur 2:2 gegen Japan",
+      "NL ohne Timber, de Ligt & Xavi Simons (verletzt)",
+      "Quoten favorisieren NL knapp (4/5) – aber sehr offen"
+    ],
+    "rationale_de": "Auf dem Papier favorisiert (4/5), doch die Niederlande sind angeschlagen: nur 2:2 gegen Japan und ohne Timber, de Ligt und Xavi Simons. Schweden reist als Gruppenleader mit dem 5:1 gegen Tunesien mit breiter Brust an – ein sehr enges Spiel, ein Remis ist gut möglich; knapp tippe ich 2:1 für Oranje.",
+    "enriched_by": "claude"
+  },
+  "760448": {
+    "id": "760448",
+    "kickoff_utc": "2026-06-20T20:00Z",
+    "venue": "BMO Field",
+    "city": "Toronto",
+    "group": "E",
+    "home": {
+      "code": "GER",
+      "name": "Germany",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "elo": 2024.0,
+      "form_ppg10": 3.0
+    },
+    "away": {
+      "code": "CIV",
+      "name": "Ivory Coast",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "elo": 1859.1,
+      "form_ppg10": 2.5
+    },
+    "prediction": {
+      "winner": "Germany",
+      "winner_code": "GER",
+      "scoreline": "2:1",
+      "prob": {
+        "home": 0.62,
+        "draw": 0.22,
+        "away": 0.16
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.715,
+        "away": 1.132
+      },
+      "over_2_5": 0.5416,
+      "btts": 0.5556,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1126
+        },
+        {
+          "score": "1:0",
+          "p": 0.0995
+        },
+        {
+          "score": "2:1",
+          "p": 0.0966
+        },
+        {
+          "score": "2:0",
+          "p": 0.0853
+        },
+        {
+          "score": "0:1",
+          "p": 0.0657
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "GER -190",
+      "over_under": 3.5,
+      "moneyline": {
+        "home": "-190",
+        "draw": 370,
+        "away": "+475"
+      },
+      "implied": {
+        "home": 0.6289,
+        "draw": 0.2042,
+        "away": 0.1669
+      }
+    },
+    "key_factors": [
+      "Deutschland favorisiert (-188)",
+      "Auftaktsieg gegen Curaçao",
+      "Elfenbeinküste starke afrikanische Mannschaft",
+      "Erkenntnis: Favorit, aber Gegentor möglich"
+    ],
+    "rationale_de": "Deutschland ist favorisiert (-188) und kontrolliert nach dem Auftaktsieg gegen Curaçao, doch die Elfenbeinküste ist ein robuster, konterstarker Gegner. Ein knapper 2:1-Sieg ist wahrscheinlicher als ein Kantersieg.",
+    "enriched_by": "claude"
+  },
+  "760446": {
+    "id": "760446",
+    "kickoff_utc": "2026-06-21T00:00Z",
+    "venue": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City, Missouri",
+    "group": "E",
+    "home": {
+      "code": "ECU",
+      "name": "Ecuador",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "elo": 1972.5,
+      "form_ppg10": 1.7
+    },
+    "away": {
+      "code": "CUW",
+      "name": "Curaçao",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "elo": 1601.3,
+      "form_ppg10": 1.4
+    },
+    "prediction": {
+      "winner": "Ecuador",
+      "winner_code": "ECU",
+      "scoreline": "3:0",
+      "prob": {
+        "home": 0.84,
+        "draw": 0.11,
+        "away": 0.05
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 2.221,
+        "away": 0.846
+      },
+      "over_2_5": 0.591,
+      "btts": 0.5085,
+      "top_scorelines": [
+        {
+          "score": "2:0",
+          "p": 0.1149
+        },
+        {
+          "score": "1:0",
+          "p": 0.1035
+        },
+        {
+          "score": "2:1",
+          "p": 0.0971
+        },
+        {
+          "score": "1:1",
+          "p": 0.0875
+        },
+        {
+          "score": "3:0",
+          "p": 0.085
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "ECU -750",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-750",
+        "draw": 800,
+        "away": "+2000"
+      },
+      "implied": {
+        "home": 0.8475,
+        "draw": 0.1067,
+        "away": 0.0457
+      }
+    },
+    "key_factors": [
+      "Ecuador haushoher Favorit (-550) gegen Minnow Curaçao",
+      "Echter Klassenunterschied",
+      "Solide Defensive + Offensivqualität",
+      "Klare Höhe gerechtfertigt"
+    ],
+    "rationale_de": "Ecuador ist gegen WM-Außenseiter Curaçao haushoher Favorit (-550). Hier ist der Klassenunterschied real – mit solider Defensive und genug Offensivqualität ist ein klarer 3:0-Sieg zu erwarten.",
+    "enriched_by": "claude"
   }
 }
