@@ -55,6 +55,8 @@ def predict_match(m: dict, elo: dict, teams: dict) -> dict | None:
     hc, ac = m["home"].get("code"), m["away"].get("code")
     if hc not in teams or ac not in teams:
         return None  # K.o.-Platzhalter / noch nicht feststehend
+    if m.get("state") == "post":
+        return None  # Spiel bereits beendet -> kein nachträglicher (Post-hoc-)Tipp
 
     he, ae = _elo_entry(elo, m["home"]["name"]), _elo_entry(elo, m["away"]["name"])
     neutral = hc not in HOSTS

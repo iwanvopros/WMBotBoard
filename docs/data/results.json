@@ -1,10 +1,258 @@
 {
-  "generated_at": "2026-06-20T16:08:26+00:00",
-  "count": 32,
-  "overall_quote": 41.0,
-  "tendency_rate": 59,
-  "exact_rate": 16,
+  "generated_at": "2026-06-21T09:35:53+00:00",
+  "count": 35,
+  "overall_quote": 41.9,
+  "tendency_rate": 60,
+  "exact_rate": 17,
   "groups": [
+    {
+      "group": "E",
+      "matches": [
+        {
+          "id": "760446",
+          "date_utc": "2026-06-21T00:00Z",
+          "group": "E",
+          "home": {
+            "name": "Ecuador",
+            "code": "ECU",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
+          },
+          "away": {
+            "name": "Curaçao",
+            "code": "CUW",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
+          },
+          "actual": "0:0",
+          "tip": {
+            "scoreline": "3:0",
+            "winner": "Ecuador",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.84,
+              "draw": 0.11,
+              "away": 0.05
+            }
+          },
+          "result_score": 1.1,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.11
+          },
+          "verdict": "Daneben"
+        },
+        {
+          "id": "760448",
+          "date_utc": "2026-06-20T20:00Z",
+          "group": "E",
+          "home": {
+            "name": "Germany",
+            "code": "GER",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
+          },
+          "away": {
+            "name": "Ivory Coast",
+            "code": "CIV",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
+          },
+          "actual": "2:1",
+          "tip": {
+            "scoreline": "2:1",
+            "winner": "Germany",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.62,
+              "draw": 0.22,
+              "away": 0.16
+            }
+          },
+          "result_score": 96.2,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": true,
+            "prob_actual": 0.62
+          },
+          "verdict": "Volltreffer"
+        },
+        {
+          "id": "760423",
+          "date_utc": "2026-06-14T23:00Z",
+          "group": "E",
+          "home": {
+            "name": "Ivory Coast",
+            "code": "CIV",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
+          },
+          "away": {
+            "name": "Ecuador",
+            "code": "ECU",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
+          },
+          "actual": "1:0",
+          "tip": {
+            "scoreline": "0:1",
+            "winner": "Ecuador",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.2611,
+              "draw": 0.2898,
+              "away": 0.4491
+            }
+          },
+          "result_score": 2.6,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.261
+          },
+          "verdict": "Daneben"
+        },
+        {
+          "id": "760422",
+          "date_utc": "2026-06-14T17:00Z",
+          "group": "E",
+          "home": {
+            "name": "Germany",
+            "code": "GER",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
+          },
+          "away": {
+            "name": "Curaçao",
+            "code": "CUW",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
+          },
+          "actual": "7:1",
+          "tip": {
+            "scoreline": "2:0",
+            "winner": "Germany",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.8117,
+              "draw": 0.112,
+              "away": 0.0759
+            }
+          },
+          "result_score": 58.1,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.812
+          },
+          "verdict": "Tendenz richtig"
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "matches": [
+        {
+          "id": "760447",
+          "date_utc": "2026-06-20T17:00Z",
+          "group": "F",
+          "home": {
+            "name": "Netherlands",
+            "code": "NED",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+          },
+          "away": {
+            "name": "Sweden",
+            "code": "SWE",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
+          },
+          "actual": "5:1",
+          "tip": {
+            "scoreline": "2:1",
+            "winner": "Netherlands",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.44,
+              "draw": 0.28,
+              "away": 0.28
+            }
+          },
+          "result_score": 54.4,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.44
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760424",
+          "date_utc": "2026-06-15T02:00Z",
+          "group": "F",
+          "home": {
+            "name": "Sweden",
+            "code": "SWE",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
+          },
+          "away": {
+            "name": "Tunisia",
+            "code": "TUN",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png"
+          },
+          "actual": "5:1",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "Sweden",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.4496,
+              "draw": 0.2683,
+              "away": 0.2821
+            }
+          },
+          "result_score": 54.5,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.45
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760425",
+          "date_utc": "2026-06-14T20:00Z",
+          "group": "F",
+          "home": {
+            "name": "Netherlands",
+            "code": "NED",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+          },
+          "away": {
+            "name": "Japan",
+            "code": "JPN",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
+          },
+          "actual": "2:2",
+          "tip": {
+            "scoreline": "2:1",
+            "winner": "Netherlands",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.4084,
+              "draw": 0.2632,
+              "away": 0.3284
+            }
+          },
+          "result_score": 2.6,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.263
+          },
+          "verdict": "Daneben"
+        }
+      ]
+    },
     {
       "group": "D",
       "matches": [
@@ -1004,152 +1252,6 @@
             "prob_actual": 0.1
           },
           "verdict": "Daneben"
-        }
-      ]
-    },
-    {
-      "group": "F",
-      "matches": [
-        {
-          "id": "760424",
-          "date_utc": "2026-06-15T02:00Z",
-          "group": "F",
-          "home": {
-            "name": "Sweden",
-            "code": "SWE",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
-          },
-          "away": {
-            "name": "Tunisia",
-            "code": "TUN",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png"
-          },
-          "actual": "5:1",
-          "tip": {
-            "scoreline": "1:0",
-            "winner": "Sweden",
-            "confidence": "Niedrig",
-            "prob": {
-              "home": 0.4496,
-              "draw": 0.2683,
-              "away": 0.2821
-            }
-          },
-          "result_score": 54.5,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.45
-          },
-          "verdict": "Tendenz richtig"
-        },
-        {
-          "id": "760425",
-          "date_utc": "2026-06-14T20:00Z",
-          "group": "F",
-          "home": {
-            "name": "Netherlands",
-            "code": "NED",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
-          },
-          "away": {
-            "name": "Japan",
-            "code": "JPN",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
-          },
-          "actual": "2:2",
-          "tip": {
-            "scoreline": "2:1",
-            "winner": "Netherlands",
-            "confidence": "Niedrig",
-            "prob": {
-              "home": 0.4084,
-              "draw": 0.2632,
-              "away": 0.3284
-            }
-          },
-          "result_score": 2.6,
-          "factors": {
-            "tendenz": false,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.263
-          },
-          "verdict": "Daneben"
-        }
-      ]
-    },
-    {
-      "group": "E",
-      "matches": [
-        {
-          "id": "760423",
-          "date_utc": "2026-06-14T23:00Z",
-          "group": "E",
-          "home": {
-            "name": "Ivory Coast",
-            "code": "CIV",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
-          },
-          "away": {
-            "name": "Ecuador",
-            "code": "ECU",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
-          },
-          "actual": "1:0",
-          "tip": {
-            "scoreline": "0:1",
-            "winner": "Ecuador",
-            "confidence": "Niedrig",
-            "prob": {
-              "home": 0.2611,
-              "draw": 0.2898,
-              "away": 0.4491
-            }
-          },
-          "result_score": 2.6,
-          "factors": {
-            "tendenz": false,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.261
-          },
-          "verdict": "Daneben"
-        },
-        {
-          "id": "760422",
-          "date_utc": "2026-06-14T17:00Z",
-          "group": "E",
-          "home": {
-            "name": "Germany",
-            "code": "GER",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
-          },
-          "away": {
-            "name": "Curaçao",
-            "code": "CUW",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
-          },
-          "actual": "7:1",
-          "tip": {
-            "scoreline": "2:0",
-            "winner": "Germany",
-            "confidence": "Hoch",
-            "prob": {
-              "home": 0.8117,
-              "draw": 0.112,
-              "away": 0.0759
-            }
-          },
-          "result_score": 58.1,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.812
-          },
-          "verdict": "Tendenz richtig"
         }
       ]
     }
