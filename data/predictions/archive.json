@@ -3145,5 +3145,337 @@
     ],
     "rationale_de": "Ägypten ist mit Salah favorisiert und braucht in der engen Gruppe G Punkte. Neuseeland ist kämpferisch, aber unterlegen – ein knapper ägyptischer Auswärtssieg (0:1) ist am wahrscheinlichsten.",
     "enriched_by": "claude"
+  },
+  "760456": {
+    "id": "760456",
+    "kickoff_utc": "2026-06-22T17:00Z",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "group": "J",
+    "home": {
+      "code": "ARG",
+      "name": "Argentina",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "elo": 2197.9,
+      "form_ppg10": 2.7
+    },
+    "away": {
+      "code": "AUT",
+      "name": "Austria",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "elo": 1921.9,
+      "form_ppg10": 2.5
+    },
+    "prediction": {
+      "winner": "Argentina",
+      "winner_code": "ARG",
+      "scoreline": "2:1",
+      "prob": {
+        "home": 0.66,
+        "draw": 0.21,
+        "away": 0.13
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.996,
+        "away": 0.956
+      },
+      "over_2_5": 0.5657,
+      "btts": 0.5318,
+      "top_scorelines": [
+        {
+          "score": "1:0",
+          "p": 0.1043
+        },
+        {
+          "score": "2:0",
+          "p": 0.104
+        },
+        {
+          "score": "1:1",
+          "p": 0.0997
+        },
+        {
+          "score": "2:1",
+          "p": 0.0995
+        },
+        {
+          "score": "3:0",
+          "p": 0.0692
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "ARG -215",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-215",
+        "draw": 340,
+        "away": "+650"
+      },
+      "implied": {
+        "home": 0.6543,
+        "draw": 0.2179,
+        "away": 0.1278
+      }
+    },
+    "key_factors": [
+      "Weltmeister Argentinien favorisiert (68%)",
+      "Österreich solide, kompakte europäische Mannschaft",
+      "Argentinien mit Weltklasse-Offensive",
+      "Erkenntnis: Favorit, aber Gegentor möglich"
+    ],
+    "rationale_de": "Der Weltmeister Argentinien ist favorisiert (68%) und überlegen, doch Österreich ist eine kompakte, gut organisierte Mannschaft und kein Selbstläufer. Ein 2:1-Sieg ist wahrscheinlicher als ein klarer Erfolg.",
+    "enriched_by": "claude"
+  },
+  "760457": {
+    "id": "760457",
+    "kickoff_utc": "2026-06-22T21:00Z",
+    "venue": "Lincoln Financial Field",
+    "city": "Philadelphia, Pennsylvania",
+    "group": "I",
+    "home": {
+      "code": "FRA",
+      "name": "France",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "elo": 2146.3,
+      "form_ppg10": 2.5
+    },
+    "away": {
+      "code": "IRQ",
+      "name": "Iraq",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "elo": 1720.7,
+      "form_ppg10": 1.6
+    },
+    "prediction": {
+      "winner": "France",
+      "winner_code": "FRA",
+      "scoreline": "3:0",
+      "prob": {
+        "home": 0.85,
+        "draw": 0.1,
+        "away": 0.05
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 2.523,
+        "away": 0.779
+      },
+      "over_2_5": 0.6397,
+      "btts": 0.4971,
+      "top_scorelines": [
+        {
+          "score": "2:0",
+          "p": 0.1171
+        },
+        {
+          "score": "3:0",
+          "p": 0.0985
+        },
+        {
+          "score": "1:0",
+          "p": 0.0929
+        },
+        {
+          "score": "2:1",
+          "p": 0.0913
+        },
+        {
+          "score": "3:1",
+          "p": 0.0768
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "FRA -1100",
+      "over_under": 3.5,
+      "moneyline": {
+        "home": "-1100",
+        "draw": 1100,
+        "away": "+2800"
+      },
+      "implied": {
+        "home": 0.8861,
+        "draw": 0.0806,
+        "away": 0.0333
+      }
+    },
+    "key_factors": [
+      "Frankreich haushoher Favorit (91%)",
+      "Irak deutlich unterlegen",
+      "Mbappé in Topform",
+      "Echter Klassenunterschied – klare Höhe gerechtfertigt"
+    ],
+    "rationale_de": "Frankreich ist gegen den unterlegenen Irak haushoher Favorit (91%) und mit Mbappé in bestechender Form. Hier ist der Klassenunterschied real – ein klarer 3:0-Sieg ist zu erwarten.",
+    "enriched_by": "claude"
+  },
+  "760454": {
+    "id": "760454",
+    "kickoff_utc": "2026-06-23T00:00Z",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "group": "I",
+    "home": {
+      "code": "NOR",
+      "name": "Norway",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "elo": 2009.0,
+      "form_ppg10": 2.1
+    },
+    "away": {
+      "code": "SEN",
+      "name": "Senegal",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "elo": 1886.2,
+      "form_ppg10": 1.9
+    },
+    "prediction": {
+      "winner": "Unentschieden",
+      "winner_code": null,
+      "scoreline": "1:1",
+      "prob": {
+        "home": 0.33,
+        "draw": 0.34,
+        "away": 0.33
+      },
+      "confidence": "Niedrig",
+      "expected_goals": {
+        "home": 1.67,
+        "away": 1.174
+      },
+      "over_2_5": 0.5409,
+      "btts": 0.5607,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1141
+        },
+        {
+          "score": "1:0",
+          "p": 0.0972
+        },
+        {
+          "score": "2:1",
+          "p": 0.0953
+        },
+        {
+          "score": "2:0",
+          "p": 0.0812
+        },
+        {
+          "score": "0:1",
+          "p": 0.0683
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "NOR +120",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+120",
+        "draw": 245,
+        "away": "+235"
+      },
+      "implied": {
+        "home": 0.4358,
+        "draw": 0.2779,
+        "away": 0.2862
+      }
+    },
+    "key_factors": [
+      "Echtes Toss-up – Quoten/Prognosen fast gleichauf",
+      "Remis bietet laut Buchmachern guten Value (+220)",
+      "Norwegen mit Haaland vs. starkes Senegal",
+      "Beide brauchen Punkte"
+    ],
+    "rationale_de": "Ein ausgeglichenes Spitzenspiel: Norwegen (Haaland) gegen ein starkes Senegal – die Prognosen sind fast gleichauf und das Remis bietet guten Value (+220). In diesem Toss-up tippe ich daher auf ein 1:1-Unentschieden.",
+    "enriched_by": "claude"
+  },
+  "760455": {
+    "id": "760455",
+    "kickoff_utc": "2026-06-23T03:00Z",
+    "venue": "Levi's Stadium",
+    "city": "Santa Clara, California",
+    "group": "J",
+    "home": {
+      "code": "JOR",
+      "name": "Jordan",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "elo": 1744.8,
+      "form_ppg10": 1.4
+    },
+    "away": {
+      "code": "ALG",
+      "name": "Algeria",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "elo": 1869.9,
+      "form_ppg10": 2.2
+    },
+    "prediction": {
+      "winner": "Algeria",
+      "winner_code": "ALG",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.109,
+        "away": 1.711
+      },
+      "over_2_5": 0.5352,
+      "btts": 0.549,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1131
+        },
+        {
+          "score": "0:1",
+          "p": 0.102
+        },
+        {
+          "score": "1:2",
+          "p": 0.0967
+        },
+        {
+          "score": "0:2",
+          "p": 0.0872
+        },
+        {
+          "score": "1:0",
+          "p": 0.0661
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "ALG -190",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+550",
+        "draw": 330,
+        "away": "-190"
+      },
+      "implied": {
+        "home": 0.1477,
+        "draw": 0.2233,
+        "away": 0.629
+      }
+    },
+    "key_factors": [
+      "Algerien mit mehr individueller Qualität (Mahrez) favorisiert",
+      "Jordanien defensiv organisiert (Asien-Cup-Finalist 2024)",
+      "Algerien Auswärts-Favorit",
+      "Knappes, kampfbetontes Spiel erwartet"
+    ],
+    "rationale_de": "Algerien hat mit Spielern wie Mahrez die größere individuelle Qualität und ist favorisiert. Jordanien ist defensiv stark (Asien-Cup-Finalist 2024), dürfte aber unterliegen – ein knapper 0:1-Auswärtssieg ist am wahrscheinlichsten.",
+    "enriched_by": "claude"
   }
 }
