@@ -1323,10 +1323,10 @@
     "id": "760456",
     "date_utc": "2026-06-22T17:00Z",
     "name": "Austria at Argentina",
-    "state": "in",
-    "status": "Second Half",
-    "completed": false,
-    "clock": "88'",
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+8'",
     "period": 2,
     "venue": "AT&T Stadium",
     "city": "Arlington, Texas",
@@ -1337,8 +1337,8 @@
       "code": "ARG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "color": "74acdf",
-      "score": "1",
-      "winner": false
+      "score": "2",
+      "winner": true
     },
     "away": {
       "name": "Austria",
@@ -1349,21 +1349,7 @@
       "score": "0",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "ARG -225",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-225",
-        "draw": 350,
-        "away": "+700"
-      },
-      "implied": {
-        "home": 0.666,
-        "draw": 0.2138,
-        "away": 0.1202
-      }
-    },
+    "odds": null,
     "group": "J"
   },
   {
@@ -1398,17 +1384,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "FRA -1000",
+      "details": "FRA -1400",
       "over_under": 3.5,
       "moneyline": {
-        "home": "-1000",
-        "draw": 1000,
-        "away": "+2500"
+        "home": "-1400",
+        "draw": 1100,
+        "away": "+3000"
       },
       "implied": {
-        "home": 0.8754,
-        "draw": 0.0875,
-        "away": 0.037
+        "home": 0.8898,
+        "draw": 0.0794,
+        "away": 0.0308
       }
     },
     "group": "I"
@@ -2761,17 +2747,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "AUT +160",
+      "details": "AUT +175",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+220",
-        "draw": 195,
-        "away": "+160"
+        "home": "+235",
+        "draw": 165,
+        "away": "+175"
       },
       "implied": {
-        "home": 0.3016,
-        "draw": 0.3272,
-        "away": 0.3712
+        "home": 0.2872,
+        "draw": 0.363,
+        "away": 0.3498
       }
     },
     "group": "J"
@@ -2808,17 +2794,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ARG -525",
+      "details": "ARG -500",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+1500",
+        "home": "+1200",
         "draw": 650,
-        "away": "-525"
+        "away": "-500"
       },
       "implied": {
-        "home": 0.0603,
-        "draw": 0.1287,
-        "away": 0.8109
+        "home": 0.0737,
+        "draw": 0.1278,
+        "away": 0.7985
       }
     },
     "group": "J"
