@@ -1356,11 +1356,11 @@
     "id": "760457",
     "date_utc": "2026-06-22T21:00Z",
     "name": "Iraq at France",
-    "state": "pre",
-    "status": "Scheduled",
+    "state": "in",
+    "status": "First Half",
     "completed": false,
-    "clock": "0'",
-    "period": null,
+    "clock": "25'",
+    "period": 1,
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia, Pennsylvania",
     "country": "USA",
@@ -1370,7 +1370,7 @@
       "code": "FRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "color": "000080",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -1384,17 +1384,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "FRA -1400",
+      "details": "FRA -1200",
       "over_under": 3.5,
       "moneyline": {
-        "home": "-1400",
+        "home": "-1200",
         "draw": 1100,
-        "away": "+3000"
+        "away": "+2500"
       },
       "implied": {
-        "home": 0.8898,
-        "draw": 0.0794,
-        "away": 0.0308
+        "home": 0.8834,
+        "draw": 0.0798,
+        "away": 0.0368
       }
     },
     "group": "I"
@@ -1431,17 +1431,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "NOR +130",
+      "details": "NOR +135",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+130",
+        "home": "+135",
         "draw": 240,
-        "away": "+220"
+        "away": "+210"
       },
       "implied": {
-        "home": 0.4175,
-        "draw": 0.2824,
-        "away": 0.3001
+        "home": 0.4083,
+        "draw": 0.2822,
+        "away": 0.3095
       }
     },
     "group": "I"
@@ -2230,17 +2230,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "USA -105",
+      "details": "USA +100",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+255",
+        "home": "+250",
         "draw": 300,
-        "away": "-105"
+        "away": "+100"
       },
       "implied": {
-        "home": 0.2698,
-        "draw": 0.2395,
-        "away": 0.4907
+        "home": 0.2759,
+        "draw": 0.2414,
+        "away": 0.4828
       }
     },
     "group": "D"
@@ -2794,17 +2794,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ARG -500",
+      "details": "ARG -450",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+1200",
-        "draw": 650,
-        "away": "-500"
+        "home": "+1100",
+        "draw": 600,
+        "away": "-450"
       },
       "implied": {
-        "home": 0.0737,
-        "draw": 0.1278,
-        "away": 0.7985
+        "home": 0.0798,
+        "draw": 0.1368,
+        "away": 0.7834
       }
     },
     "group": "J"
