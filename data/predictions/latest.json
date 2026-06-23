@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "generated_at": "2026-06-23T13:47:56+00:00",
+  "generated_at": "2026-06-23T16:44:35+00:00",
   "count": 4,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
@@ -144,7 +144,7 @@
       "odds_snapshot": {
         "provider": "DraftKings",
         "details": "ENG -525",
-        "over_under": 2.5,
+        "over_under": 3.5,
         "moneyline": {
           "home": "-525",
           "draw": 600,
@@ -263,9 +263,9 @@
         "winner_code": "COL",
         "scoreline": "2:0",
         "prob": {
-          "home": 0.631,
-          "draw": 0.2235,
-          "away": 0.1454
+          "home": 0.6321,
+          "draw": 0.2228,
+          "away": 0.145
         },
         "confidence": "Hoch",
         "expected_goals": {
@@ -299,17 +299,17 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "COL -185",
+        "details": "COL -190",
         "over_under": 2.5,
         "moneyline": {
-          "home": "-185",
+          "home": "-190",
           "draw": 300,
           "away": "+600"
         },
         "implied": {
-          "home": 0.623,
-          "draw": 0.2399,
-          "away": 0.1371
+          "home": 0.6251,
+          "draw": 0.2385,
+          "away": 0.1363
         }
       },
       "key_factors": [],

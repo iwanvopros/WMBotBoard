@@ -1531,7 +1531,7 @@
     "odds": {
       "provider": "DraftKings",
       "details": "ENG -525",
-      "over_under": 2.5,
+      "over_under": 3.5,
       "moneyline": {
         "home": "-525",
         "draw": 600,
@@ -1624,17 +1624,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "COL -185",
+      "details": "COL -190",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-185",
+        "home": "-190",
         "draw": 300,
         "away": "+600"
       },
       "implied": {
-        "home": 0.623,
-        "draw": 0.2399,
-        "away": 0.1371
+        "home": 0.6251,
+        "draw": 0.2385,
+        "away": 0.1363
       }
     },
     "group": "K"
@@ -1671,17 +1671,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "BIH -265",
+      "details": "BIH -255",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-265",
+        "home": "-255",
         "draw": 425,
         "away": "+650"
       },
       "implied": {
-        "home": 0.6916,
-        "draw": 0.1814,
-        "away": 0.127
+        "home": 0.6893,
+        "draw": 0.1828,
+        "away": 0.1279
       }
     },
     "group": "B"
@@ -1909,14 +1909,14 @@
       "details": "KOR -145",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+425",
-        "draw": 285,
+        "home": "+400",
+        "draw": 290,
         "away": "-145"
       },
       "implied": {
-        "home": 0.1828,
-        "draw": 0.2493,
-        "away": 0.568
+        "home": 0.1908,
+        "draw": 0.2446,
+        "away": 0.5646
       }
     },
     "group": "A"
@@ -2329,17 +2329,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "CPV +140",
+      "details": "CPV +145",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+140",
-        "draw": 250,
-        "away": "+200"
+        "home": "+145",
+        "draw": 245,
+        "away": "+195"
       },
       "implied": {
-        "home": 0.4023,
-        "draw": 0.2759,
-        "away": 0.3218
+        "home": 0.3936,
+        "draw": 0.2795,
+        "away": 0.3269
       }
     },
     "group": "H"
