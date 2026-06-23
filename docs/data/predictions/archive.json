@@ -3503,9 +3503,9 @@
       "winner_code": "POR",
       "scoreline": "1:0",
       "prob": {
-        "home": 0.7119,
+        "home": 0.7129,
         "draw": 0.1668,
-        "away": 0.1213
+        "away": 0.1201
       },
       "confidence": "Hoch",
       "expected_goals": {
@@ -3544,12 +3544,12 @@
       "moneyline": {
         "home": "-700",
         "draw": 750,
-        "away": "+1800"
+        "away": "+1900"
       },
       "implied": {
-        "home": 0.8371,
-        "draw": 0.1126,
-        "away": 0.0504
+        "home": 0.8392,
+        "draw": 0.1128,
+        "away": 0.048
       }
     },
     "key_factors": [],
