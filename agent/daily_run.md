@@ -41,7 +41,13 @@ Spiel kompakt recherchieren (WebSearch/WebFetch, 2–4 Suchen je Spiel, nur frei
 
 Erfinde **keine** Quoten/Fakten; wenn unklar, Modellwerte behalten.
 
-## 4. `latest.json` verfeinern
+## 4. Gestrige Vorschau prüfen & `latest.json` verfeinern
+**Revision zuerst:** Für die heutigen Spiele existiert i. d. R. bereits ein **vorläufiger Tipp
+aus der gestrigen Vorschau** (`data/predictions/<heute>.json`). Prüfe diese vorläufigen Tipps
+mit der **heutigen** Recherche – v. a. **bestätigte Aufstellungen, kurzfristige Verletzungen/
+Sperren und Quotenbewegungen** – und **revidiere** sie, wo neue Erkenntnisse das nahelegen.
+Erst danach final abgeben.
+
 Passe je Match an (sonst Struktur unverändert):
 - `prediction.prob.{home,draw,away}` – Mix aus Modell- und markt-implizierter Wahrscheinlichkeit
   (~50 % Markt) + qualitative Korrektur. **Summe ≈ 1.0.**
@@ -67,7 +73,24 @@ git add -A
 git commit -m "Tipps $(TZ=Europe/Zurich date +%F) [claude]"
 git push
 ```
-GitHub Pages aktualisiert sich danach automatisch. Fertig.
+GitHub Pages aktualisiert sich danach automatisch.
+
+## 6. Vorschau für morgen erzeugen
+Erzeuge die **vorläufigen** Tipps für den **morgigen** Spieltag, damit die „Morgen · Vorschau"-
+Sektion gefüllt ist. Diese sind bewusst provisorisch (Basis-Modell genügt) – sie werden morgen
+in Schritt 4 final geprüft/revidiert.
+```bash
+TOMORROW=$(TZ=Europe/Zurich date -v+1d +%F 2>/dev/null || date -d "+1 day" +%F)
+WMBOT_FORCE=1 python3 engine/predict.py "$TOMORROW"      # schreibt data/predictions/<morgen>.json
+cp -f data/predictions/$(TZ=Europe/Zurich date +%F).json data/predictions/latest.json  # latest.json = HEUTE
+python3 engine/results.py                                 # Archiv inkl. Morgen-Spiele neu
+cp -f data/results.json data/predictions/*.json docs/data/ 2>/dev/null || true
+cp -f data/predictions/*.json docs/data/predictions/
+git add -A && git commit -m "Vorschau $TOMORROW [auto]" && git push
+```
+Wichtig: `latest.json` muss **den heutigen Tag** spiegeln (oben wieder zurückgesetzt); die
+Morgen-Tipps leben nur in ihrer datierten Datei und im Archiv. Optional kannst du die Morgen-
+Spiele schon leicht anreichern – Pflicht ist nur die finale Prüfung morgen.
 
 ## Leitplanken
 - Niemals API-Keys oder bezahlte Quellen – nur frei zugängliche Webseiten.

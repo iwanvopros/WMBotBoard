@@ -81,10 +81,10 @@ async function refreshPre() {
 
   let archive, events;
   try {
-    // Tipp-Archiv (statisch) + heutiger Spielplan live von ESPN
+    // Tipp-Archiv (statisch) + Spielplan (heute + morgen) live von ESPN
     [archive, events] = await Promise.all([
       getJSON("data/predictions/archive.json"),
-      getJSON(`${ESPN}?dates=${ymd(-1)}-${ymd(1)}&limit=100`, true).then((d) => d.events || []),
+      getJSON(`${ESPN}?dates=${ymd(-1)}-${ymd(2)}&limit=120`, true).then((d) => d.events || []),
     ]);
   } catch (e) {
     return preFallback();
@@ -92,27 +92,40 @@ async function refreshPre() {
   // Tipps global fürs Live-Tracking verfügbar machen
   Object.values(archive).forEach((t) => (state.byId[t.id] = t));
 
-  // Ein Spieltag wird nach US-Ostküsten-Datum gebündelt (wie bei ESPN/den Tipps), damit
-  // Spiele nach Mitternacht CEST nicht auf zwei Tage zerfallen. Wir zeigen den nächsten
-  // anstehenden Spieltag: alle noch nicht angepfiffenen Spiele mit dem frühesten ET-Datum.
+  // Ein Spieltag wird nach US-Ostküsten-Datum gebündelt (wie bei ESPN/den Tipps). Wir zeigen
+  // die beiden nächsten anstehenden Spieltage: heute und morgen (Vorschau).
   const preGames = events.filter((e) => (((e.status || {}).type || {}).state) === "pre");
-  const nextDay = preGames.map((e) => etYMD(e.date)).sort()[0] || null;
-  const upcoming = preGames
-    .filter((e) => etYMD(e.date) === nextDay)
-    .sort((a, b) => a.date.localeCompare(b.date));
+  const byDay = {};
+  preGames.forEach((e) => ((byDay[etYMD(e.date)] ||= []).push(e)));
+  const days = Object.keys(byDay).sort();
+  const today = days[0], tomorrow = days[1];
 
-  const enriched = upcoming.some((e) => archive[e.id] && archive[e.id].enriched_by === "claude");
-  $("#subline").textContent = (nextDay ? fmtDateLong(ymdToIso(nextDay)) + " · " : "") + upcoming.length + " Spiel(e)";
+  const enriched = today && byDay[today].some((e) => archive[e.id] && archive[e.id].enriched_by === "claude");
+  $("#subline").textContent = (today ? fmtDateLong(ymdToIso(today)) + " · " : "") + (today ? byDay[today].length : 0) + " Spiel(e)";
   $("#updated").innerHTML = "Aktualisiert:<br>" +
     new Date().toLocaleTimeString("de-CH", { hour: "2-digit", minute: "2-digit", timeZone: TZ }) + " Uhr";
   $("#preTitle").textContent = "Tipps des Tages — " + (enriched ? "Modell + Recherche" : "Modell");
 
   box.innerHTML = "";
-  if (!upcoming.length) {
+  if (!days.length) {
     box.innerHTML = emptyHTML("✅", "Keine anstehenden Spiele mehr heute.<br><small>Laufende Spiele im Tab „Live Games“, gespielte unter „Resultate“.</small>");
     return;
   }
-  upcoming.forEach((e) => box.appendChild(archive[e.id] ? predCard(archive[e.id]) : preNoTipCard(e)));
+  box.appendChild(preSection(today, "Heute", false, byDay[today], archive));
+  if (tomorrow) box.appendChild(preSection(tomorrow, "Morgen · Vorschau", true, byDay[tomorrow], archive));
+}
+
+// Sektion „Heute" bzw. „Morgen (Vorschau)" mit Überschrift + Tipp-Karten
+function preSection(dayYMD, label, isPreview, games, archive) {
+  const sec = el("div", "pre-section" + (isPreview ? " preview" : ""));
+  sec.appendChild(el("div", "pre-section-head",
+    `<h3>${label}</h3><span class="pre-date">${fmtDateLong(ymdToIso(dayYMD))} · ${games.length} Spiel(e)</span>` +
+    (isPreview ? `<span class="preview-note">vorläufig – wird am Spieltag final geprüft</span>` : "")));
+  const cards = el("div", "cards");
+  games.sort((a, b) => a.date.localeCompare(b.date))
+    .forEach((e) => cards.appendChild(archive[e.id] ? predCard(archive[e.id]) : preNoTipCard(e)));
+  sec.appendChild(cards);
+  return sec;
 }
 
 async function preFallback() {

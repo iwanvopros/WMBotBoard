@@ -7,3 +7,8 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Lokale HSLU-/Assessment-Dateien (nicht Teil von WMBotBoard)
+index.html
+HSLU_Assessment_Iwan_Schroeter.pptx
+*.pptx

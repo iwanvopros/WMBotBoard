@@ -71,6 +71,18 @@ main { max-width: 1100px; margin: 0 auto; padding: 8px 24px 40px; }
 
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 16px; }
 
+/* Sektionen „Heute" / „Morgen (Vorschau)" */
+.pre-section { margin-bottom: 26px; }
+.pre-section-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px; margin: 4px 0 14px; }
+.pre-section-head h3 { font-size: 16px; margin: 0; background: var(--surface2); border: 1px solid var(--line);
+  padding: 4px 14px; border-radius: 999px; }
+.pre-date { color: var(--muted); font-size: 12.5px; }
+.preview-note { color: var(--draw); font-size: 11.5px; font-weight: 600; border: 1px solid rgba(245,177,61,.4);
+  background: rgba(245,177,61,.12); padding: 2px 9px; border-radius: 999px; }
+.pre-section.preview .pre-section-head h3 { background: rgba(245,177,61,.12); border-color: rgba(245,177,61,.35); color: var(--draw); }
+.pre-section.preview .card { opacity: .82; }
+.pre-section.preview .card:hover { opacity: 1; }
+
 /* ---------- Card ---------- */
 .card {
   background: linear-gradient(180deg, var(--surface), var(--bg2));
