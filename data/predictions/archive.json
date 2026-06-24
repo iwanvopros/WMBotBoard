@@ -3789,5 +3789,503 @@
     "key_factors": [],
     "rationale_de": "Das Modell sieht Colombia vorne (63%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
+  },
+  "760462": {
+    "id": "760462",
+    "kickoff_utc": "2026-06-24T19:00Z",
+    "venue": "Lumen Field",
+    "city": "Seattle, Washington",
+    "group": "B",
+    "home": {
+      "code": "BIH",
+      "name": "Bosnia-Herzegovina",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "elo": 1646.4,
+      "form_ppg10": 1.3
+    },
+    "away": {
+      "code": "QAT",
+      "name": "Qatar",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "elo": 1593.8,
+      "form_ppg10": 0.7
+    },
+    "prediction": {
+      "winner": "Bosnia-Herzegovina",
+      "winner_code": "BIH",
+      "scoreline": "2:1",
+      "prob": {
+        "home": 0.52,
+        "draw": 0.24,
+        "away": 0.24
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.454,
+        "away": 1.323
+      },
+      "over_2_5": 0.525,
+      "btts": 0.5622,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1197
+        },
+        {
+          "score": "1:0",
+          "p": 0.0905
+        },
+        {
+          "score": "2:1",
+          "p": 0.087
+        },
+        {
+          "score": "0:1",
+          "p": 0.0823
+        },
+        {
+          "score": "1:2",
+          "p": 0.0792
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "BIH -255",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-255",
+        "draw": 425,
+        "away": "+650"
+      },
+      "implied": {
+        "home": 0.6893,
+        "draw": 0.1828,
+        "away": 0.1279
+      }
+    },
+    "key_factors": [
+      "Beide brauchen einen Sieg (Rennen um 3. Platz)",
+      "Bosnien mit Dzeko stärker",
+      "Offenes Spiel – beide müssen punkten",
+      "Qatar kann kontern"
+    ],
+    "rationale_de": "Beide Teams brauchen für die K.o.-Runde (bester Gruppendritter) einen Sieg, das verspricht ein offenes Spiel. Bosnien ist mit Dzeko die stärkere Mannschaft und sollte sich knapp mit 2:1 durchsetzen.",
+    "enriched_by": "claude"
+  },
+  "760463": {
+    "id": "760463",
+    "kickoff_utc": "2026-06-24T19:00Z",
+    "venue": "BC Place",
+    "city": "Vancouver",
+    "group": "B",
+    "home": {
+      "code": "SUI",
+      "name": "Switzerland",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "elo": 1943.7,
+      "form_ppg10": 1.7
+    },
+    "away": {
+      "code": "CAN",
+      "name": "Canada",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "elo": 1901.9,
+      "form_ppg10": 1.5
+    },
+    "prediction": {
+      "winner": "Switzerland",
+      "winner_code": "SUI",
+      "scoreline": "1:0",
+      "prob": {
+        "home": 0.4,
+        "draw": 0.32,
+        "away": 0.28
+      },
+      "confidence": "Niedrig",
+      "expected_goals": {
+        "home": 1.44,
+        "away": 1.266
+      },
+      "over_2_5": 0.508,
+      "btts": 0.5481,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1218
+        },
+        {
+          "score": "1:0",
+          "p": 0.0961
+        },
+        {
+          "score": "2:1",
+          "p": 0.0877
+        },
+        {
+          "score": "0:1",
+          "p": 0.0845
+        },
+        {
+          "score": "1:2",
+          "p": 0.0771
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "SUI +140",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+140",
+        "draw": 205,
+        "away": "+235"
+      },
+      "implied": {
+        "home": 0.3995,
+        "draw": 0.3143,
+        "away": 0.2862
+      }
+    },
+    "key_factors": [
+      "Gruppen-B-Entscheid: Kanada reicht ein Remis, Schweiz muss gewinnen",
+      "Kanada mit Heimvorteil (Vancouver)",
+      "Schweiz mit mehr individueller Klasse",
+      "Sehr enges Spiel – Remis gut möglich"
+    ],
+    "rationale_de": "Im Gruppen-B-Endspiel reicht Gastgeber Kanada in Vancouver ein Remis, die Schweiz muss gewinnen. Die Schweiz hat die größere individuelle Klasse und drückt – knapp 1:0; bei Kanadas Heimvorteil ist aber auch ein Remis sehr gut möglich.",
+    "enriched_by": "claude"
+  },
+  "760464": {
+    "id": "760464",
+    "kickoff_utc": "2026-06-24T22:00Z",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "group": "C",
+    "home": {
+      "code": "MAR",
+      "name": "Morocco",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "elo": 2024.9,
+      "form_ppg10": 2.2
+    },
+    "away": {
+      "code": "HAI",
+      "name": "Haiti",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "elo": 1682.9,
+      "form_ppg10": 1.3
+    },
+    "prediction": {
+      "winner": "Morocco",
+      "winner_code": "MAR",
+      "scoreline": "3:0",
+      "prob": {
+        "home": 0.78,
+        "draw": 0.13,
+        "away": 0.09
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 2.267,
+        "away": 0.865
+      },
+      "over_2_5": 0.6051,
+      "btts": 0.5186,
+      "top_scorelines": [
+        {
+          "score": "2:0",
+          "p": 0.1121
+        },
+        {
+          "score": "1:0",
+          "p": 0.0989
+        },
+        {
+          "score": "2:1",
+          "p": 0.097
+        },
+        {
+          "score": "1:1",
+          "p": 0.0856
+        },
+        {
+          "score": "3:0",
+          "p": 0.0847
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "MAR -525",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-525",
+        "draw": 600,
+        "away": "+1500"
+      },
+      "implied": {
+        "home": 0.8036,
+        "draw": 0.1367,
+        "away": 0.0598
+      }
+    },
+    "key_factors": [
+      "Marokko klar favorisiert gegen Minnow Haiti",
+      "Hakimi & Brahim Díaz",
+      "Marokko braucht Tore fürs Weiterkommen",
+      "Echter Klassenunterschied"
+    ],
+    "rationale_de": "Marokko ist gegen WM-Außenseiter Haiti klar überlegen und will mit Blick auf das Weiterkommen Tore sammeln. Mit Hakimi und Brahim Díaz ist ein klarer 3:0-Sieg zu erwarten.",
+    "enriched_by": "claude"
+  },
+  "760465": {
+    "id": "760465",
+    "kickoff_utc": "2026-06-24T22:00Z",
+    "venue": "Hard Rock Stadium",
+    "city": "Miami Gardens, Florida",
+    "group": "C",
+    "home": {
+      "code": "SCO",
+      "name": "Scotland",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "elo": 1860.4,
+      "form_ppg10": 1.8
+    },
+    "away": {
+      "code": "BRA",
+      "name": "Brazil",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "elo": 2065.6,
+      "form_ppg10": 2.0
+    },
+    "prediction": {
+      "winner": "Brazil",
+      "winner_code": "BRA",
+      "scoreline": "0:2",
+      "prob": {
+        "home": 0.18,
+        "draw": 0.22,
+        "away": 0.6
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.017,
+        "away": 1.852
+      },
+      "over_2_5": 0.5467,
+      "btts": 0.5381,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1069
+        },
+        {
+          "score": "0:1",
+          "p": 0.1051
+        },
+        {
+          "score": "1:2",
+          "p": 0.099
+        },
+        {
+          "score": "0:2",
+          "p": 0.0973
+        },
+        {
+          "score": "1:3",
+          "p": 0.0611
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "BRA -310",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+850",
+        "draw": 450,
+        "away": "-310"
+      },
+      "implied": {
+        "home": 0.1009,
+        "draw": 0.1743,
+        "away": 0.7248
+      }
+    },
+    "key_factors": [
+      "Brasilien klar favorisiert",
+      "Schottland unterlegen, evtl. schon ausgeschieden",
+      "Brasilien evtl. mit Rotation",
+      "Vinícius & Raphinha"
+    ],
+    "rationale_de": "Brasilien ist gegen Schottland klar favorisiert und sollte mit Vinícius und Raphinha gewinnen. Etwas Rotation ist möglich, doch ein 0:2-Auswärtssieg bleibt die wahrscheinlichste Variante.",
+    "enriched_by": "claude"
+  },
+  "760467": {
+    "id": "760467",
+    "kickoff_utc": "2026-06-25T01:00Z",
+    "venue": "Estadio Banorte",
+    "city": "Mexico City",
+    "group": "A",
+    "home": {
+      "code": "CZE",
+      "name": "Czechia",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "elo": 1777.6,
+      "form_ppg10": 1.6
+    },
+    "away": {
+      "code": "MEX",
+      "name": "Mexico",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "elo": 1996.1,
+      "form_ppg10": 2.6
+    },
+    "prediction": {
+      "winner": "Mexico",
+      "winner_code": "MEX",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.26,
+        "draw": 0.26,
+        "away": 0.48
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.034,
+        "away": 1.819
+      },
+      "over_2_5": 0.5429,
+      "btts": 0.5398,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1085
+        },
+        {
+          "score": "0:1",
+          "p": 0.1049
+        },
+        {
+          "score": "1:2",
+          "p": 0.0987
+        },
+        {
+          "score": "0:2",
+          "p": 0.0954
+        },
+        {
+          "score": "1:3",
+          "p": 0.0598
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "MEX -105",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+270",
+        "draw": 285,
+        "away": "-105"
+      },
+      "implied": {
+        "home": 0.2593,
+        "draw": 0.2492,
+        "away": 0.4915
+      }
+    },
+    "key_factors": [
+      "Mexiko (Gruppensieg-Kurs) favorisiert",
+      "Tschechien braucht Punkte",
+      "Knappes Spiel um die Platzierung",
+      "Mexikos Offensive gefährlich"
+    ],
+    "rationale_de": "Mexiko ist auf Kurs Gruppensieg und favorisiert, Tschechien braucht aber noch Punkte – ein enges Spiel. Mit der gefährlichen mexikanischen Offensive tippe ich einen knappen 0:1-Auswärtssieg.",
+    "enriched_by": "claude"
+  },
+  "760466": {
+    "id": "760466",
+    "kickoff_utc": "2026-06-25T01:00Z",
+    "venue": "Estadio BBVA",
+    "city": "Guadalupe",
+    "group": "A",
+    "home": {
+      "code": "RSA",
+      "name": "South Africa",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "elo": 1673.3,
+      "form_ppg10": 1.2
+    },
+    "away": {
+      "code": "KOR",
+      "name": "South Korea",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "elo": 1887.3,
+      "form_ppg10": 1.8
+    },
+    "prediction": {
+      "winner": "South Korea",
+      "winner_code": "KOR",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.2,
+        "draw": 0.25,
+        "away": 0.55
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 0.971,
+        "away": 1.827
+      },
+      "over_2_5": 0.5299,
+      "btts": 0.5212,
+      "top_scorelines": [
+        {
+          "score": "0:1",
+          "p": 0.1113
+        },
+        {
+          "score": "1:1",
+          "p": 0.1081
+        },
+        {
+          "score": "0:2",
+          "p": 0.1017
+        },
+        {
+          "score": "1:2",
+          "p": 0.0987
+        },
+        {
+          "score": "0:3",
+          "p": 0.0619
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "KOR -150",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+450",
+        "draw": 295,
+        "away": "-150"
+      },
+      "implied": {
+        "home": 0.1757,
+        "draw": 0.2446,
+        "away": 0.5797
+      }
+    },
+    "key_factors": [
+      "Südkorea mit Son favorisiert",
+      "Südafrika kämpferisch, aber unterlegen",
+      "Beide mit Achtelfinal-Ambitionen",
+      "Knappes Resultat erwartet"
+    ],
+    "rationale_de": "Südkorea ist mit Son die individuell stärkere Mannschaft und favorisiert. Südafrika ist kämpferisch, dürfte aber unterliegen – ein knapper 0:1-Sieg für Korea ist am wahrscheinlichsten.",
+    "enriched_by": "claude"
   }
 }
