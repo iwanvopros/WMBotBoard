@@ -39,7 +39,10 @@ function todayYMD() {
 /* Fetch JSON mit CORS-Fallback über öffentliche Proxys (nur für ESPN nötig) */
 async function getJSON(url, useProxyFallback = false) {
   try {
-    const r = await fetch(url, { cache: "no-store" });
+    // Lokale Datendateien mit Zeitstempel laden -> umgeht den GitHub-Pages-Edge-Cache,
+    // damit neue Tipps/Resultate sofort ankommen (ESPN-URLs unverändert lassen).
+    const u = url.startsWith("http") ? url : url + (url.includes("?") ? "&" : "?") + "t=" + Date.now();
+    const r = await fetch(u, { cache: "no-store" });
     if (!r.ok) throw new Error(r.status);
     return await r.json();
   } catch (e) {
