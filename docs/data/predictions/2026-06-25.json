@@ -1,6 +1,6 @@
 {
   "date": "2026-06-25",
-  "generated_at": "2026-06-25T16:36:27+00:00",
+  "generated_at": "2026-06-25T18:36:41+00:00",
   "count": 6,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
@@ -107,9 +107,9 @@
         "winner_code": "GER",
         "scoreline": "0:1",
         "prob": {
-          "home": 0.2347,
-          "draw": 0.229,
-          "away": 0.5363
+          "home": 0.2382,
+          "draw": 0.2307,
+          "away": 0.5312
         },
         "confidence": "Mittel",
         "expected_goals": {
@@ -143,21 +143,21 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "GER -165",
+        "details": "GER -160",
         "over_under": 2.5,
         "moneyline": {
-          "home": "+400",
-          "draw": 370,
-          "away": "-165"
+          "home": "+380",
+          "draw": 360,
+          "away": "-160"
         },
         "implied": {
-          "home": 0.1932,
-          "draw": 0.2055,
-          "away": 0.6013
+          "home": 0.2001,
+          "draw": 0.2088,
+          "away": 0.5911
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Germany vorne (54%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht Germany vorne (53%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     },
     {
@@ -185,9 +185,9 @@
         "winner_code": "JPN",
         "scoreline": "2:1",
         "prob": {
-          "home": 0.5536,
-          "draw": 0.2417,
-          "away": 0.2045
+          "home": 0.5441,
+          "draw": 0.2448,
+          "away": 0.211
         },
         "confidence": "Mittel",
         "expected_goals": {
@@ -221,21 +221,21 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "JPN -110",
+        "details": "JPN +100",
         "over_under": 2.5,
         "moneyline": {
-          "home": "-110",
-          "draw": 245,
-          "away": "+320"
+          "home": "+100",
+          "draw": 240,
+          "away": "+300"
         },
         "implied": {
-          "home": 0.498,
-          "draw": 0.2756,
-          "away": 0.2264
+          "home": 0.4789,
+          "draw": 0.2817,
+          "away": 0.2394
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Japan vorne (55%). Wahrscheinlichstes Resultat 2:1. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht Japan vorne (54%). Wahrscheinlichstes Resultat 2:1. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     },
     {
