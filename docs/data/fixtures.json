@@ -1813,17 +1813,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "CIV -575",
+      "details": "CIV -525",
       "over_under": 3.5,
       "moneyline": {
-        "home": "+1500",
-        "draw": 700,
-        "away": "-575"
+        "home": "+1400",
+        "draw": 650,
+        "away": "-525"
       },
       "implied": {
-        "home": 0.0601,
-        "draw": 0.1203,
-        "away": 0.8196
+        "home": 0.0641,
+        "draw": 0.1282,
+        "away": 0.8077
       }
     },
     "group": "E"
@@ -1860,17 +1860,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "GER -180",
+      "details": "GER -165",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+425",
-        "draw": 380,
-        "away": "-180"
+        "home": "+400",
+        "draw": 370,
+        "away": "-165"
       },
       "implied": {
-        "home": 0.1829,
-        "draw": 0.2,
-        "away": 0.6171
+        "home": 0.1932,
+        "draw": 0.2055,
+        "away": 0.6013
       }
     },
     "group": "E"
@@ -1954,17 +1954,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "NED -1100",
+      "details": "NED -900",
       "over_under": 3.5,
       "moneyline": {
-        "home": "+2500",
-        "draw": 1000,
-        "away": "-1100"
+        "home": "+2200",
+        "draw": 950,
+        "away": "-900"
       },
       "implied": {
-        "home": 0.0368,
-        "draw": 0.0869,
-        "away": 0.8763
+        "home": 0.0419,
+        "draw": 0.0917,
+        "away": 0.8665
       }
     },
     "group": "F"
@@ -2001,17 +2001,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "PAR +170",
+      "details": "PAR +165",
       "over_under": 1.5,
       "moneyline": {
-        "home": "+170",
+        "home": "+165",
         "draw": 130,
-        "away": "+320"
+        "away": "+340"
       },
       "implied": {
-        "home": 0.355,
-        "draw": 0.4168,
-        "away": 0.2282
+        "home": 0.363,
+        "draw": 0.4183,
+        "away": 0.2187
       }
     },
     "group": "D"
@@ -2048,17 +2048,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "USA -110",
+      "details": "USA -115",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+270",
-        "draw": 300,
-        "away": "-110"
+        "home": "+285",
+        "draw": 310,
+        "away": "-115"
       },
       "implied": {
-        "home": 0.2589,
-        "draw": 0.2394,
-        "away": 0.5017
+        "home": 0.2501,
+        "draw": 0.2349,
+        "away": 0.515
       }
     },
     "group": "D"
@@ -2189,17 +2189,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "CPV +155",
+      "details": "CPV +165",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+155",
+        "home": "+165",
         "draw": 235,
-        "away": "+185"
+        "away": "+170"
       },
       "implied": {
-        "home": 0.3765,
-        "draw": 0.2866,
-        "away": 0.3369
+        "home": 0.3607,
+        "draw": 0.2853,
+        "away": 0.354
       }
     },
     "group": "H"
@@ -2236,17 +2236,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ESP -205",
+      "details": "ESP -200",
       "over_under": 2.5,
       "moneyline": {
         "home": "+650",
-        "draw": 320,
-        "away": "-205"
+        "draw": 310,
+        "away": "-200"
       },
       "implied": {
-        "home": 0.1278,
-        "draw": 0.2282,
-        "away": 0.6441
+        "home": 0.1277,
+        "draw": 0.2336,
+        "away": 0.6386
       }
     },
     "group": "H"
@@ -2663,13 +2663,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "+400",
-        "draw": 255,
+        "draw": 260,
         "away": "-130"
       },
       "implied": {
-        "home": 0.191,
-        "draw": 0.2691,
-        "away": 0.5399
+        "home": 0.1918,
+        "draw": 0.2663,
+        "away": 0.5419
       }
     },
     "group": null
