@@ -4313,9 +4313,9 @@
       "winner_code": "CIV",
       "scoreline": "0:1",
       "prob": {
-        "home": 0.128,
-        "draw": 0.1692,
-        "away": 0.7027
+        "home": 0.1314,
+        "draw": 0.1728,
+        "away": 0.6958
       },
       "confidence": "Hoch",
       "expected_goals": {
@@ -4349,17 +4349,17 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "CIV -650",
+      "details": "CIV -575",
       "over_under": 3.5,
       "moneyline": {
-        "home": "+1700",
-        "draw": 750,
-        "away": "-650"
+        "home": "+1500",
+        "draw": 700,
+        "away": "-575"
       },
       "implied": {
-        "home": 0.0534,
-        "draw": 0.1131,
-        "away": 0.8334
+        "home": 0.0601,
+        "draw": 0.1203,
+        "away": 0.8196
       }
     },
     "key_factors": [],
@@ -4391,9 +4391,9 @@
       "winner_code": "GER",
       "scoreline": "0:1",
       "prob": {
-        "home": 0.2626,
-        "draw": 0.2404,
-        "away": 0.497
+        "home": 0.2296,
+        "draw": 0.2263,
+        "away": 0.5442
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -4427,21 +4427,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "GER -120",
+      "details": "GER -180",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+285",
-        "draw": 320,
-        "away": "-120"
+        "home": "+425",
+        "draw": 380,
+        "away": "-180"
       },
       "implied": {
-        "home": 0.249,
-        "draw": 0.2282,
-        "away": 0.5228
+        "home": 0.1829,
+        "draw": 0.2,
+        "away": 0.6171
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Germany vorne (50%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Germany vorne (54%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   },
   "760471": {
@@ -4469,9 +4469,9 @@
       "winner_code": "JPN",
       "scoreline": "2:1",
       "prob": {
-        "home": 0.5608,
-        "draw": 0.2389,
-        "away": 0.2001
+        "home": 0.5536,
+        "draw": 0.2417,
+        "away": 0.2045
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -4505,21 +4505,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "JPN -115",
+      "details": "JPN -110",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-115",
-        "draw": 255,
-        "away": "+340"
+        "home": "-110",
+        "draw": 245,
+        "away": "+320"
       },
       "implied": {
-        "home": 0.5124,
-        "draw": 0.2699,
-        "away": 0.2177
+        "home": 0.498,
+        "draw": 0.2756,
+        "away": 0.2264
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Japan vorne (56%). Wahrscheinlichstes Resultat 2:1. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Japan vorne (55%). Wahrscheinlichstes Resultat 2:1. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   },
   "760472": {
@@ -4547,9 +4547,9 @@
       "winner_code": "NED",
       "scoreline": "0:2",
       "prob": {
-        "home": 0.0774,
-        "draw": 0.1345,
-        "away": 0.7877
+        "home": 0.0729,
+        "draw": 0.1275,
+        "away": 0.7993
       },
       "confidence": "Hoch",
       "expected_goals": {
@@ -4583,21 +4583,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "NED -800",
+      "details": "NED -1100",
       "over_under": 3.5,
       "moneyline": {
-        "home": "+2000",
-        "draw": 850,
-        "away": "-800"
+        "home": "+2500",
+        "draw": 1000,
+        "away": "-1100"
       },
       "implied": {
-        "home": 0.0457,
-        "draw": 0.101,
-        "away": 0.8532
+        "home": 0.0368,
+        "draw": 0.0869,
+        "away": 0.8763
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Netherlands vorne (79%). Wahrscheinlichstes Resultat 0:2. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Netherlands vorne (80%). Wahrscheinlichstes Resultat 0:2. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   },
   "760469": {
@@ -4625,9 +4625,9 @@
       "winner_code": null,
       "scoreline": "1:1",
       "prob": {
-        "home": 0.3209,
-        "draw": 0.3457,
-        "away": 0.3333
+        "home": 0.3349,
+        "draw": 0.3397,
+        "away": 0.3253
       },
       "confidence": "Niedrig",
       "expected_goals": {
@@ -4661,21 +4661,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "PAR +195",
+      "details": "PAR +170",
       "over_under": 1.5,
       "moneyline": {
-        "home": "+195",
-        "draw": 125,
-        "away": "+295"
+        "home": "+170",
+        "draw": 130,
+        "away": "+320"
       },
       "implied": {
-        "home": 0.327,
-        "draw": 0.4288,
-        "away": 0.2442
+        "home": 0.355,
+        "draw": 0.4168,
+        "away": 0.2282
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Australia vorne (35%). Wahrscheinlichstes Resultat 1:1. Die Buchmacher sehen es etwas anders als das Modell.",
+    "rationale_de": "Das Modell sieht Paraguay vorne (34%). Wahrscheinlichstes Resultat 1:1. Die Buchmacher sehen es etwas anders als das Modell.",
     "enriched_by": "model"
   },
   "760470": {
@@ -4703,33 +4703,33 @@
       "winner_code": "USA",
       "scoreline": "0:1",
       "prob": {
-        "home": 0.2931,
-        "draw": 0.2444,
-        "away": 0.4626
+        "home": 0.2874,
+        "draw": 0.2442,
+        "away": 0.4684
       },
       "confidence": "Mittel",
       "expected_goals": {
-        "home": 1.28,
-        "away": 1.542
+        "home": 1.281,
+        "away": 1.545
       },
-      "over_2_5": 0.5359,
-      "btts": 0.5676,
+      "over_2_5": 0.5366,
+      "btts": 0.5681,
       "top_scorelines": [
         {
           "score": "1:1",
-          "p": 0.1174
+          "p": 0.1173
         },
         {
           "score": "0:1",
-          "p": 0.0917
+          "p": 0.0916
         },
         {
           "score": "1:2",
-          "p": 0.0905
+          "p": 0.0906
         },
         {
           "score": "1:0",
-          "p": 0.0761
+          "p": 0.0759
         },
         {
           "score": "2:1",
@@ -4739,21 +4739,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "USA -105",
+      "details": "USA -110",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+255",
+        "home": "+270",
         "draw": 300,
-        "away": "-105"
+        "away": "-110"
       },
       "implied": {
-        "home": 0.2698,
-        "draw": 0.2395,
-        "away": 0.4907
+        "home": 0.2589,
+        "draw": 0.2394,
+        "away": 0.5017
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht United States vorne (46%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht United States vorne (47%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   }
 }
