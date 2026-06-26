@@ -4781,9 +4781,9 @@
       "winner_code": "FRA",
       "scoreline": "1:2",
       "prob": {
-        "home": 0.2461,
-        "draw": 0.2253,
-        "away": 0.5286
+        "home": 0.2165,
+        "draw": 0.212,
+        "away": 0.5715
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -4817,21 +4817,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "FRA -160",
+      "details": "FRA -240",
       "over_under": 3.5,
       "moneyline": {
-        "home": "+390",
-        "draw": 360,
-        "away": "-160"
+        "home": "+600",
+        "draw": 425,
+        "away": "-240"
       },
       "implied": {
-        "home": 0.1968,
-        "draw": 0.2097,
-        "away": 0.5935
+        "home": 0.1375,
+        "draw": 0.1833,
+        "away": 0.6792
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht France vorne (53%). Wahrscheinlichstes Resultat 1:2. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht France vorne (57%). Wahrscheinlichstes Resultat 1:2. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   },
   "760474": {
@@ -4859,9 +4859,9 @@
       "winner_code": "SEN",
       "scoreline": "1:0",
       "prob": {
-        "home": 0.6522,
-        "draw": 0.1939,
-        "away": 0.1539
+        "home": 0.6572,
+        "draw": 0.1888,
+        "away": 0.154
       },
       "confidence": "Hoch",
       "expected_goals": {
@@ -4895,21 +4895,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "SEN -425",
+      "details": "SEN -450",
       "over_under": 3.5,
       "moneyline": {
-        "home": "-425",
-        "draw": 550,
+        "home": "-450",
+        "draw": 600,
         "away": "+1100"
       },
       "implied": {
-        "home": 0.7734,
-        "draw": 0.147,
-        "away": 0.0796
+        "home": 0.7834,
+        "draw": 0.1368,
+        "away": 0.0798
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Senegal vorne (65%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Senegal vorne (66%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   },
   "760478": {
@@ -4937,9 +4937,9 @@
       "winner_code": "KSA",
       "scoreline": "0:1",
       "prob": {
-        "home": 0.3489,
-        "draw": 0.2751,
-        "away": 0.376
+        "home": 0.3514,
+        "draw": 0.2767,
+        "away": 0.372
       },
       "confidence": "Niedrig",
       "expected_goals": {
@@ -4973,21 +4973,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "CPV +170",
+      "details": "CPV +165",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+170",
-        "draw": 235,
-        "away": "+170"
+        "home": "+165",
+        "draw": 230,
+        "away": "+175"
       },
       "implied": {
-        "home": 0.3564,
-        "draw": 0.2872,
-        "away": 0.3564
+        "home": 0.3614,
+        "draw": 0.2903,
+        "away": 0.3483
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Saudi Arabia vorne (38%). Wahrscheinlichstes Resultat 0:1. Die Buchmacher sehen es etwas anders als das Modell.",
+    "rationale_de": "Das Modell sieht Saudi Arabia vorne (37%). Wahrscheinlichstes Resultat 0:1. Die Buchmacher sehen es etwas anders als das Modell.",
     "enriched_by": "model"
   },
   "760479": {
@@ -5171,9 +5171,9 @@
       "winner_code": "BEL",
       "scoreline": "0:1",
       "prob": {
-        "home": 0.1376,
-        "draw": 0.1753,
-        "away": 0.6871
+        "home": 0.1402,
+        "draw": 0.1754,
+        "away": 0.6844
       },
       "confidence": "Hoch",
       "expected_goals": {
@@ -5207,21 +5207,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "BEL -525",
+      "details": "BEL -500",
       "over_under": 3.5,
       "moneyline": {
-        "home": "+1300",
+        "home": "+1200",
         "draw": 650,
-        "away": "-525"
+        "away": "-500"
       },
       "implied": {
-        "home": 0.0684,
-        "draw": 0.1276,
-        "away": 0.804
+        "home": 0.0737,
+        "draw": 0.1278,
+        "away": 0.7985
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Belgium vorne (69%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Belgium vorne (68%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   }
 }
