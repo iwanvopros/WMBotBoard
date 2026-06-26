@@ -97,6 +97,12 @@ main { max-width: 1100px; margin: 0 auto; padding: 8px 24px 40px; }
 .team img { width: 46px; height: 46px; object-fit: contain; border-radius: 8px; background: #fff1; padding: 3px; }
 .team .tname { font-weight: 700; font-size: 14px; }
 .team .elo { color: var(--muted); font-size: 11px; }
+/* bisherige WM-Resultate unter der Flagge */
+.team-form { display: flex; flex-wrap: wrap; gap: 3px; justify-content: center; margin-top: 5px; }
+.rchip { font-size: 9.5px; font-weight: 700; padding: 1px 5px; border-radius: 5px; border: 1px solid; white-space: nowrap; }
+.rchip.w { color: var(--accent); border-color: rgba(0,210,122,.4); background: rgba(0,210,122,.12); }
+.rchip.d { color: var(--draw); border-color: rgba(245,177,61,.4); background: rgba(245,177,61,.12); }
+.rchip.l { color: var(--away); border-color: rgba(255,93,122,.4); background: rgba(255,93,122,.12); }
 .center { text-align: center; min-width: 70px; }
 .score { font-size: 26px; font-weight: 800; letter-spacing: 1px; }
 .vs { color: var(--muted); font-size: 12px; }

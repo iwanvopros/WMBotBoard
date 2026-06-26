@@ -84,16 +84,19 @@ async function refreshPre() {
 
   let archive, events;
   try {
-    // Tipp-Archiv (statisch) + Spielplan (heute + morgen) live von ESPN
+    // Tipp-Archiv (statisch) + kompletter Turnierstand live von ESPN (für anstehende Spiele
+    // UND die bisherigen Resultate jeder Nation).
     [archive, events] = await Promise.all([
       getJSON("data/predictions/archive.json"),
-      getJSON(`${ESPN}?dates=${ymd(-1)}-${ymd(2)}&limit=120`, true).then((d) => d.events || []),
+      getJSON(`${ESPN}?dates=20260611-20260719&limit=400`, true).then((d) => d.events || []),
     ]);
   } catch (e) {
     return preFallback();
   }
   // Tipps global fürs Live-Tracking verfügbar machen
   Object.values(archive).forEach((t) => (state.byId[t.id] = t));
+  // bisherige WM-Resultate je Nation (für die Form-Anzeige unter der Flagge)
+  state.teamResults = buildTeamResults(events);
 
   // Ein Spieltag wird nach US-Ostküsten-Datum gebündelt (wie bei ESPN/den Tipps). Wir zeigen
   // die beiden nächsten anstehenden Spieltage: heute und morgen (Vorschau).
@@ -150,6 +153,25 @@ function ymdToIso(y) {
   return `${y.slice(0, 4)}-${y.slice(4, 6)}-${y.slice(6, 8)}`;
 }
 
+// Bisherige (beendete) WM-Resultate je Nation: code -> [{opp, gf, ga, date}], chronologisch.
+function buildTeamResults(events) {
+  const map = {};
+  const add = (code, r) => { if (code) (map[code] ||= []).push(r); };
+  for (const e of events) {
+    if ((((e.status || {}).type || {}).state) !== "post") continue;
+    const cs = (e.competitions || [{}])[0].competitors || [];
+    const home = cs.find((c) => c.homeAway === "home") || cs[0] || {};
+    const away = cs.find((c) => c.homeAway === "away") || cs[1] || {};
+    const hs = parseInt(home.score, 10), as = parseInt(away.score, 10);
+    if (Number.isNaN(hs) || Number.isNaN(as)) continue;
+    const hc = (home.team || {}).abbreviation, ac = (away.team || {}).abbreviation;
+    add(hc, { opp: ac, gf: hs, ga: as, date: e.date });
+    add(ac, { opp: hc, gf: as, ga: hs, date: e.date });
+  }
+  Object.values(map).forEach((a) => a.sort((x, y) => x.date.localeCompare(y.date)));
+  return map;
+}
+
 // Minimal-Karte für ein heutiges Spiel, für das (noch) kein Tipp im Archiv liegt
 function preNoTipCard(e) {
   const g = normLive(e);
@@ -157,7 +179,7 @@ function preNoTipCard(e) {
   c.appendChild(el("div", "meta",
     `<span class="group-badge">WM 2026</span><span class="kickoff">${fmtTime(g.date)}</span>`));
   c.appendChild(el("div", "match",
-    `${teamHTML(g.home)}<div class="center"><div class="vs">Tipp folgt</div></div>${teamHTML(g.away)}`));
+    `${teamHTML(g.home, true)}<div class="center"><div class="vs">Tipp folgt</div></div>${teamHTML(g.away, true)}`));
   return c;
 }
 
@@ -170,13 +192,13 @@ function predCard(m, played = false) {
      <span>${played ? "✓ gespielt" : (m.venue ? m.venue + " · " : "") + (m.city || "")}</span>`));
 
   c.appendChild(el("div", "match", `
-    ${teamHTML(m.home)}
+    ${teamHTML(m.home, true)}
     <div class="center">
       <div class="kickoff">${fmtTime(m.kickoff_utc)}</div>
       <div class="score">${p.scoreline}</div>
       <div class="vs">Tipp</div>
     </div>
-    ${teamHTML(m.away)}`));
+    ${teamHTML(m.away, true)}`));
 
   c.appendChild(el("div", "probbar", `
     <i class="h" style="width:${pct(pr.home)}%"></i>
@@ -216,12 +238,24 @@ function predCard(m, played = false) {
   return c;
 }
 
-function teamHTML(t) {
+function teamHTML(t, showForm = false) {
+  let form = "";
+  if (showForm) {
+    const res = (state.teamResults && state.teamResults[t.code]) || [];
+    if (res.length) {
+      const chips = res.map((r) => {
+        const cls = r.gf > r.ga ? "w" : r.gf < r.ga ? "l" : "d";
+        return `<span class="rchip ${cls}" title="gegen ${r.opp}: ${r.gf}:${r.ga}">${r.opp} ${r.gf}:${r.ga}</span>`;
+      }).join("");
+      form = `<div class="team-form" title="Bisherige WM-2026-Resultate">${chips}</div>`;
+    }
+  }
   return `<div class="team">
     <img src="${t.logo || ""}" alt="${t.code}" loading="lazy"
          onerror="this.style.visibility='hidden'"/>
     <span class="tname">${t.name}</span>
     ${t.elo ? `<span class="elo">Elo ${Math.round(t.elo)}</span>` : ""}
+    ${form}
   </div>`;
 }
 
