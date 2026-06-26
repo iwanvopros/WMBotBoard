@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T12:27:16+00:00",
+  "generated_at": "2026-06-26T16:03:10+00:00",
   "count": 6,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
@@ -29,9 +29,9 @@
         "winner_code": "FRA",
         "scoreline": "1:2",
         "prob": {
-          "home": 0.2524,
-          "draw": 0.2229,
-          "away": 0.5247
+          "home": 0.2461,
+          "draw": 0.2253,
+          "away": 0.5286
         },
         "confidence": "Mittel",
         "expected_goals": {
@@ -65,21 +65,21 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "FRA -155",
+        "details": "FRA -160",
         "over_under": 3.5,
         "moneyline": {
-          "home": "+360",
-          "draw": 370,
-          "away": "-155"
+          "home": "+390",
+          "draw": 360,
+          "away": "-160"
         },
         "implied": {
-          "home": 0.2094,
-          "draw": 0.205,
-          "away": 0.5856
+          "home": 0.1968,
+          "draw": 0.2097,
+          "away": 0.5935
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht France vorne (52%). Wahrscheinlichstes Resultat 1:2. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht France vorne (53%). Wahrscheinlichstes Resultat 1:2. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     },
     {
@@ -107,9 +107,9 @@
         "winner_code": "SEN",
         "scoreline": "1:0",
         "prob": {
-          "home": 0.6531,
-          "draw": 0.1933,
-          "away": 0.1536
+          "home": 0.6522,
+          "draw": 0.1939,
+          "away": 0.1539
         },
         "confidence": "Hoch",
         "expected_goals": {
@@ -143,17 +143,17 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "SEN -450",
+        "details": "SEN -425",
         "over_under": 3.5,
         "moneyline": {
-          "home": "-450",
+          "home": "-425",
           "draw": 550,
           "away": "+1100"
         },
         "implied": {
-          "home": 0.7753,
-          "draw": 0.1458,
-          "away": 0.079
+          "home": 0.7734,
+          "draw": 0.147,
+          "away": 0.0796
         }
       },
       "key_factors": [],
@@ -185,9 +185,9 @@
         "winner_code": "KSA",
         "scoreline": "0:1",
         "prob": {
-          "home": 0.3481,
-          "draw": 0.2767,
-          "away": 0.3752
+          "home": 0.3489,
+          "draw": 0.2751,
+          "away": 0.376
         },
         "confidence": "Niedrig",
         "expected_goals": {
@@ -225,13 +225,13 @@
         "over_under": 2.5,
         "moneyline": {
           "home": "+170",
-          "draw": 230,
+          "draw": 235,
           "away": "+170"
         },
         "implied": {
-          "home": 0.3548,
-          "draw": 0.2903,
-          "away": 0.3548
+          "home": 0.3564,
+          "draw": 0.2872,
+          "away": 0.3564
         }
       },
       "key_factors": [],
@@ -263,9 +263,9 @@
         "winner_code": "ESP",
         "scoreline": "0:2",
         "prob": {
-          "home": 0.1565,
-          "draw": 0.2303,
-          "away": 0.613
+          "home": 0.16,
+          "draw": 0.2341,
+          "away": 0.6058
         },
         "confidence": "Hoch",
         "expected_goals": {
@@ -299,17 +299,17 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "ESP -155",
+        "details": "ESP -145",
         "over_under": 2.5,
         "moneyline": {
-          "home": "+500",
-          "draw": 270,
-          "away": "-155"
+          "home": "+475",
+          "draw": 260,
+          "away": "-145"
         },
         "implied": {
-          "home": 0.1595,
-          "draw": 0.2587,
-          "away": 0.5818
+          "home": 0.1667,
+          "draw": 0.2662,
+          "away": 0.5672
         }
       },
       "key_factors": [],
@@ -341,9 +341,9 @@
         "winner_code": "EGY",
         "scoreline": "1:0",
         "prob": {
-          "home": 0.3533,
-          "draw": 0.3125,
-          "away": 0.3342
+          "home": 0.3546,
+          "draw": 0.3137,
+          "away": 0.3317
         },
         "confidence": "Niedrig",
         "expected_goals": {
@@ -382,12 +382,12 @@
         "moneyline": {
           "home": "+150",
           "draw": 160,
-          "away": "+280"
+          "away": "+290"
         },
         "implied": {
-          "home": 0.3818,
-          "draw": 0.3671,
-          "away": 0.2512
+          "home": 0.3842,
+          "draw": 0.3695,
+          "away": 0.2463
         }
       },
       "key_factors": [],
