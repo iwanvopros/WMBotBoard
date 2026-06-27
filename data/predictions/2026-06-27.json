@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T12:02:40+00:00",
+  "generated_at": "2026-06-27T15:50:33+00:00",
   "count": 6,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
@@ -29,9 +29,9 @@
         "winner_code": "CRO",
         "scoreline": "2:0",
         "prob": {
-          "home": 0.5674,
-          "draw": 0.2548,
-          "away": 0.1778
+          "home": 0.5658,
+          "draw": 0.2595,
+          "away": 0.1746
         },
         "confidence": "Mittel",
         "expected_goals": {
@@ -65,17 +65,17 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "CRO -115",
+        "details": "CRO -110",
         "over_under": 2.5,
         "moneyline": {
-          "home": "-115",
-          "draw": 215,
-          "away": "+400"
+          "home": "-110",
+          "draw": 210,
+          "away": "+425"
         },
         "implied": {
-          "home": 0.5083,
-          "draw": 0.3017,
-          "away": 0.1901
+          "home": 0.5052,
+          "draw": 0.3111,
+          "away": 0.1837
         }
       },
       "key_factors": [],
@@ -107,9 +107,9 @@
         "winner_code": "ENG",
         "scoreline": "0:2",
         "prob": {
-          "home": 0.0998,
-          "draw": 0.1549,
-          "away": 0.7452
+          "home": 0.0977,
+          "draw": 0.1512,
+          "away": 0.751
         },
         "confidence": "Hoch",
         "expected_goals": {
@@ -143,17 +143,17 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "ENG -575",
+        "details": "ENG -650",
         "over_under": 3.5,
         "moneyline": {
-          "home": "+1400",
-          "draw": 700,
-          "away": "-575"
+          "home": "+1500",
+          "draw": 750,
+          "away": "-650"
         },
         "implied": {
-          "home": 0.0639,
-          "draw": 0.1198,
-          "away": 0.8163
+          "home": 0.0597,
+          "draw": 0.1124,
+          "away": 0.8279
         }
       },
       "key_factors": [],
@@ -185,9 +185,9 @@
         "winner_code": "POR",
         "scoreline": "0:1",
         "prob": {
-          "home": 0.3235,
-          "draw": 0.2524,
-          "away": 0.424
+          "home": 0.3196,
+          "draw": 0.2506,
+          "away": 0.4296
         },
         "confidence": "Niedrig",
         "expected_goals": {
@@ -221,21 +221,21 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "POR +100",
+        "details": "POR -105",
         "over_under": 2.5,
         "moneyline": {
-          "home": "+255",
-          "draw": 280,
-          "away": "+100"
+          "home": "+265",
+          "draw": 285,
+          "away": "-105"
         },
         "implied": {
-          "home": 0.2696,
-          "draw": 0.2519,
-          "away": 0.4785
+          "home": 0.2619,
+          "draw": 0.2483,
+          "away": 0.4897
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Portugal vorne (42%). Wahrscheinlichstes Resultat 0:1. Die Buchmacher sehen es etwas anders als das Modell.",
+      "rationale_de": "Das Modell sieht Portugal vorne (43%). Wahrscheinlichstes Resultat 0:1. Die Buchmacher sehen es etwas anders als das Modell.",
       "enriched_by": "model"
     },
     {
@@ -263,9 +263,9 @@
         "winner_code": "COD",
         "scoreline": "1:0",
         "prob": {
-          "home": 0.4739,
-          "draw": 0.2508,
-          "away": 0.2753
+          "home": 0.4607,
+          "draw": 0.256,
+          "away": 0.2834
         },
         "confidence": "Mittel",
         "expected_goals": {
@@ -299,21 +299,21 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "COD -160",
+        "details": "COD -145",
         "over_under": 2.5,
         "moneyline": {
-          "home": "-160",
-          "draw": 310,
-          "away": "+450"
+          "home": "-145",
+          "draw": 290,
+          "away": "+400"
         },
         "implied": {
-          "home": 0.5911,
-          "draw": 0.2343,
-          "away": 0.1746
+          "home": 0.5646,
+          "draw": 0.2446,
+          "away": 0.1908
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Congo DR vorne (47%). Wahrscheinlichstes Resultat 1:0. Die Buchmacher sehen es etwas anders als das Modell.",
+      "rationale_de": "Das Modell sieht Congo DR vorne (46%). Wahrscheinlichstes Resultat 1:0. Die Buchmacher sehen es etwas anders als das Modell.",
       "enriched_by": "model"
     },
     {
@@ -341,9 +341,9 @@
         "winner_code": null,
         "scoreline": "1:1",
         "prob": {
-          "home": 0.2938,
-          "draw": 0.3555,
-          "away": 0.3508
+          "home": 0.3072,
+          "draw": 0.3561,
+          "away": 0.3367
         },
         "confidence": "Niedrig",
         "expected_goals": {
@@ -377,17 +377,17 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "AUT +200",
+        "details": "AUT +230",
         "over_under": 1.5,
         "moneyline": {
-          "home": "+330",
+          "home": "+285",
           "draw": 110,
-          "away": "+200"
+          "away": "+230"
         },
         "implied": {
-          "home": 0.2232,
-          "draw": 0.457,
-          "away": 0.3199
+          "home": 0.25,
+          "draw": 0.4583,
+          "away": 0.2917
         }
       },
       "key_factors": [],
