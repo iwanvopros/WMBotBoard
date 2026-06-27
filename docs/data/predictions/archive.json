@@ -5249,9 +5249,9 @@
       "winner_code": "CRO",
       "scoreline": "2:0",
       "prob": {
-        "home": 0.5637,
-        "draw": 0.2558,
-        "away": 0.1804
+        "home": 0.5674,
+        "draw": 0.2548,
+        "away": 0.1778
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -5285,21 +5285,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "CRO -110",
+      "details": "CRO -115",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-110",
+        "home": "-115",
         "draw": 215,
-        "away": "+390"
+        "away": "+400"
       },
       "implied": {
-        "home": 0.5011,
-        "draw": 0.3037,
-        "away": 0.1952
+        "home": 0.5083,
+        "draw": 0.3017,
+        "away": 0.1901
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Croatia vorne (56%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Croatia vorne (57%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   },
   "760485": {
@@ -5483,9 +5483,9 @@
       "winner_code": "COD",
       "scoreline": "1:0",
       "prob": {
-        "home": 0.4776,
-        "draw": 0.2509,
-        "away": 0.2716
+        "home": 0.4739,
+        "draw": 0.2508,
+        "away": 0.2753
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -5519,21 +5519,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "COD -165",
+      "details": "COD -160",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-165",
+        "home": "-160",
         "draw": 310,
-        "away": "+475"
+        "away": "+450"
       },
       "implied": {
-        "home": 0.5984,
-        "draw": 0.2344,
-        "away": 0.1672
+        "home": 0.5911,
+        "draw": 0.2343,
+        "away": 0.1746
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Congo DR vorne (48%). Wahrscheinlichstes Resultat 1:0. Die Buchmacher sehen es etwas anders als das Modell.",
+    "rationale_de": "Das Modell sieht Congo DR vorne (47%). Wahrscheinlichstes Resultat 1:0. Die Buchmacher sehen es etwas anders als das Modell.",
     "enriched_by": "model"
   },
   "760484": {
