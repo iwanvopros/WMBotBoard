@@ -553,7 +553,7 @@
       "short": "Senegal",
       "code": "SEN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-      "color": "006436",
+      "color": "FFFFFF",
       "score": "1",
       "winner": false
     },
@@ -577,7 +577,7 @@
       "short": "Iraq",
       "code": "IRQ",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-      "color": "0A4D2E",
+      "color": "FFFFFF",
       "score": "1",
       "winner": false
     },
@@ -1378,7 +1378,7 @@
       "short": "Iraq",
       "code": "IRQ",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-      "color": "0A4D2E",
+      "color": "FFFFFF",
       "score": "0",
       "winner": false
     },
@@ -1411,7 +1411,7 @@
       "short": "Senegal",
       "code": "SEN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-      "color": "006436",
+      "color": "FFFFFF",
       "score": "2",
       "winner": false
     },
@@ -1983,11 +1983,11 @@
     "id": "760475",
     "date_utc": "2026-06-26T19:00Z",
     "name": "France at Norway",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+5'",
+    "period": 2,
     "venue": "Gillette Stadium",
     "city": "Foxborough, Massachusetts",
     "country": "USA",
@@ -1997,7 +1997,7 @@
       "code": "NOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "color": "C8102E",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -2006,35 +2006,21 @@
       "code": "FRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "color": "000080",
-      "score": "0",
-      "winner": false
+      "score": "4",
+      "winner": true
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "FRA -240",
-      "over_under": 3.5,
-      "moneyline": {
-        "home": "+600",
-        "draw": 425,
-        "away": "-240"
-      },
-      "implied": {
-        "home": 0.1375,
-        "draw": 0.1833,
-        "away": 0.6792
-      }
-    },
+    "odds": null,
     "group": "I"
   },
   {
     "id": "760474",
     "date_utc": "2026-06-26T19:00Z",
     "name": "Iraq at Senegal",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+6'",
+    "period": 2,
     "venue": "BMO Field",
     "city": "Toronto",
     "country": "Canada",
@@ -2043,45 +2029,31 @@
       "short": "Senegal",
       "code": "SEN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-      "color": "006436",
-      "score": "0",
-      "winner": false
+      "color": "FFFFFF",
+      "score": "5",
+      "winner": true
     },
     "away": {
       "name": "Iraq",
       "short": "Iraq",
       "code": "IRQ",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-      "color": "0A4D2E",
+      "color": "FFFFFF",
       "score": "0",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "SEN -450",
-      "over_under": 3.5,
-      "moneyline": {
-        "home": "-450",
-        "draw": 600,
-        "away": "+1100"
-      },
-      "implied": {
-        "home": 0.7834,
-        "draw": 0.1368,
-        "away": 0.0798
-      }
-    },
+    "odds": null,
     "group": "I"
   },
   {
     "id": "760478",
     "date_utc": "2026-06-27T00:00Z",
     "name": "Saudi Arabia at Cape Verde",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+5'",
+    "period": 2,
     "venue": "NRG Stadium",
     "city": "Houston, Texas",
     "country": "USA",
@@ -2103,32 +2075,18 @@
       "score": "0",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "CPV +165",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "+165",
-        "draw": 230,
-        "away": "+175"
-      },
-      "implied": {
-        "home": 0.3614,
-        "draw": 0.2903,
-        "away": 0.3483
-      }
-    },
+    "odds": null,
     "group": "H"
   },
   {
     "id": "760479",
     "date_utc": "2026-06-27T00:00Z",
     "name": "Spain at Uruguay",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+6'",
+    "period": 2,
     "venue": "Estadio Akron",
     "city": "Guadalajara",
     "country": "Mexico",
@@ -2147,35 +2105,21 @@
       "code": "ESP",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "color": "c60b1e",
-      "score": "0",
-      "winner": false
+      "score": "1",
+      "winner": true
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "ESP -145",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "+475",
-        "draw": 260,
-        "away": "-145"
-      },
-      "implied": {
-        "home": 0.1667,
-        "draw": 0.2662,
-        "away": 0.5672
-      }
-    },
+    "odds": null,
     "group": "H"
   },
   {
     "id": "760476",
     "date_utc": "2026-06-27T03:00Z",
     "name": "Iran at Egypt",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+9'",
+    "period": 2,
     "venue": "Lumen Field",
     "city": "Seattle, Washington",
     "country": "USA",
@@ -2185,7 +2129,7 @@
       "code": "EGY",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "color": "D20300",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -2194,35 +2138,21 @@
       "code": "IRN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
       "color": "FFFFFF",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "EGY +150",
-      "over_under": 1.5,
-      "moneyline": {
-        "home": "+150",
-        "draw": 160,
-        "away": "+290"
-      },
-      "implied": {
-        "home": 0.3842,
-        "draw": 0.3695,
-        "away": 0.2463
-      }
-    },
+    "odds": null,
     "group": "G"
   },
   {
     "id": "760477",
     "date_utc": "2026-06-27T03:00Z",
     "name": "Belgium at New Zealand",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+6'",
+    "period": 2,
     "venue": "BC Place",
     "city": "Vancouver",
     "country": "Canada",
@@ -2232,7 +2162,7 @@
       "code": "NZL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
       "color": "000000",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -2241,24 +2171,10 @@
       "code": "BEL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "color": "E30613",
-      "score": "0",
-      "winner": false
+      "score": "5",
+      "winner": true
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "BEL -500",
-      "over_under": 3.5,
-      "moneyline": {
-        "home": "+1200",
-        "draw": 650,
-        "away": "-500"
-      },
-      "implied": {
-        "home": 0.0737,
-        "draw": 0.1278,
-        "away": 0.7985
-      }
-    },
+    "odds": null,
     "group": "G"
   },
   {
@@ -2293,17 +2209,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "CRO -130",
+      "details": "CRO -110",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-130",
-        "draw": 240,
-        "away": "+450"
+        "home": "-110",
+        "draw": 215,
+        "away": "+390"
       },
       "implied": {
-        "home": 0.5429,
-        "draw": 0.2825,
-        "away": 0.1746
+        "home": 0.5011,
+        "draw": 0.3037,
+        "away": 0.1952
       }
     },
     "group": "L"
@@ -2340,17 +2256,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ENG -600",
+      "details": "ENG -575",
       "over_under": 3.5,
       "moneyline": {
-        "home": "+1500",
-        "draw": 750,
-        "away": "-600"
+        "home": "+1400",
+        "draw": 700,
+        "away": "-575"
       },
       "implied": {
-        "home": 0.0603,
-        "draw": 0.1134,
-        "away": 0.8263
+        "home": 0.0639,
+        "draw": 0.1198,
+        "away": 0.8163
       }
     },
     "group": "L"
@@ -2387,17 +2303,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "POR -115",
+      "details": "POR +100",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+310",
-        "draw": 275,
-        "away": "-115"
+        "home": "+255",
+        "draw": 280,
+        "away": "+100"
       },
       "implied": {
-        "home": 0.2333,
-        "draw": 0.2551,
-        "away": 0.5116
+        "home": 0.2696,
+        "draw": 0.2519,
+        "away": 0.4785
       }
     },
     "group": "K"
@@ -2434,17 +2350,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "COD -125",
+      "details": "COD -165",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-125",
-        "draw": 300,
-        "away": "+330"
+        "home": "-165",
+        "draw": 310,
+        "away": "+475"
       },
       "implied": {
-        "home": 0.5352,
-        "draw": 0.2408,
-        "away": 0.224
+        "home": 0.5984,
+        "draw": 0.2344,
+        "away": 0.1672
       }
     },
     "group": "K"
@@ -2481,17 +2397,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "AUT +190",
+      "details": "AUT +200",
       "over_under": 1.5,
       "moneyline": {
-        "home": "+300",
-        "draw": 120,
-        "away": "+190"
+        "home": "+330",
+        "draw": 110,
+        "away": "+200"
       },
       "implied": {
-        "home": 0.2382,
-        "draw": 0.4332,
-        "away": 0.3286
+        "home": 0.2232,
+        "draw": 0.457,
+        "away": 0.3199
       }
     },
     "group": "J"
@@ -2528,17 +2444,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ARG -550",
+      "details": "ARG -650",
       "over_under": 3.5,
       "moneyline": {
-        "home": "+1400",
-        "draw": 650,
-        "away": "-550"
+        "home": "+1700",
+        "draw": 750,
+        "away": "-650"
       },
       "implied": {
-        "home": 0.0637,
-        "draw": 0.1275,
-        "away": 0.8088
+        "home": 0.0534,
+        "draw": 0.1131,
+        "away": 0.8334
       }
     },
     "group": "J"
@@ -2578,14 +2494,14 @@
       "details": "CAN -140",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+450",
-        "draw": 270,
+        "home": "+425",
+        "draw": 265,
         "away": "-140"
       },
       "implied": {
-        "home": 0.1756,
-        "draw": 0.261,
-        "away": 0.5634
+        "home": 0.1818,
+        "draw": 0.2615,
+        "away": 0.5567
       }
     },
     "group": null
@@ -2640,7 +2556,7 @@
   {
     "id": "760489",
     "date_utc": "2026-06-29T20:30Z",
-    "name": "Third Place Group A/B/C/D/F at Germany",
+    "name": "Paraguay at Germany",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -2659,15 +2575,29 @@
       "winner": false
     },
     "away": {
-      "name": "Third Place Group A/B/C/D/F",
-      "short": "3RD A/B/C/D/F",
-      "code": "3RD",
-      "logo": null,
-      "color": "000000",
+      "name": "Paraguay",
+      "short": "Paraguay",
+      "code": "PAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "color": "ea2300",
       "score": "0",
       "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "GER -255",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-255",
+        "draw": 400,
+        "away": "+700"
+      },
+      "implied": {
+        "home": 0.6885,
+        "draw": 0.1917,
+        "away": 0.1198
+      }
+    },
     "group": null
   },
   {
@@ -2707,12 +2637,12 @@
       "moneyline": {
         "home": "+115",
         "draw": 230,
-        "away": "+260"
+        "away": "+270"
       },
       "implied": {
-        "home": 0.4447,
-        "draw": 0.2897,
-        "away": 0.2656
+        "home": 0.4479,
+        "draw": 0.2918,
+        "away": 0.2603
       }
     },
     "group": null
@@ -2720,7 +2650,7 @@
   {
     "id": "760490",
     "date_utc": "2026-06-30T17:00Z",
-    "name": "Group I 2nd Place at Ivory Coast",
+    "name": "Norway at Ivory Coast",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -2739,21 +2669,35 @@
       "winner": false
     },
     "away": {
-      "name": "Group I 2nd Place",
-      "short": "2I",
-      "code": "2I",
-      "logo": null,
-      "color": "000000",
+      "name": "Norway",
+      "short": "Norway",
+      "code": "NOR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "color": "C8102E",
       "score": "0",
       "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "NOR +100",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+280",
+        "draw": 255,
+        "away": "+100"
+      },
+      "implied": {
+        "home": 0.2519,
+        "draw": 0.2696,
+        "away": 0.4785
+      }
+    },
     "group": null
   },
   {
     "id": "760492",
     "date_utc": "2026-06-30T21:00Z",
-    "name": "Third Place Group C/D/F/G/H at Group I Winner",
+    "name": "Sweden at France",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -2763,24 +2707,38 @@
     "city": "East Rutherford, New Jersey",
     "country": "USA",
     "home": {
-      "name": "Group I Winner",
-      "short": "1I",
-      "code": "1I",
-      "logo": null,
-      "color": "000000",
+      "name": "France",
+      "short": "France",
+      "code": "FRA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "color": "000080",
       "score": "0",
       "winner": false
     },
     "away": {
-      "name": "Third Place Group C/D/F/G/H",
-      "short": "3RD C/D/F/G/H",
-      "code": "3RD",
-      "logo": null,
-      "color": "000000",
+      "name": "Sweden",
+      "short": "Sweden",
+      "code": "SWE",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "color": "fecb00",
       "score": "0",
       "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "FRA -330",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-330",
+        "draw": 475,
+        "away": "+900"
+      },
+      "implied": {
+        "home": 0.737,
+        "draw": 0.167,
+        "away": 0.096
+      }
+    },
     "group": null
   },
   {
@@ -2852,7 +2810,7 @@
   {
     "id": "760493",
     "date_utc": "2026-07-01T20:00Z",
-    "name": "Third Place Group A/E/H/I/J at Group G Winner",
+    "name": "Third Place Group A/E/H/I/J at Belgium",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -2862,11 +2820,11 @@
     "city": "Seattle, Washington",
     "country": "USA",
     "home": {
-      "name": "Group G Winner",
-      "short": "1G",
-      "code": "1G",
-      "logo": null,
-      "color": "000000",
+      "name": "Belgium",
+      "short": "Belgium",
+      "code": "BEL",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "color": "E30613",
       "score": "0",
       "winner": false
     },
@@ -2914,16 +2872,16 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "USA -250",
+      "details": "USA -255",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-250",
-        "draw": 380,
+        "home": "-255",
+        "draw": 390,
         "away": "+750"
       },
       "implied": {
-        "home": 0.6866,
-        "draw": 0.2003,
+        "home": 0.6907,
+        "draw": 0.1962,
         "away": 0.1131
       }
     },
@@ -2932,7 +2890,7 @@
   {
     "id": "760497",
     "date_utc": "2026-07-02T19:00Z",
-    "name": "Group J 2nd Place at Group H Winner",
+    "name": "Group J 2nd Place at Spain",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -2942,11 +2900,11 @@
     "city": "Inglewood, California",
     "country": "USA",
     "home": {
-      "name": "Group H Winner",
-      "short": "1H",
-      "code": "1H",
-      "logo": null,
-      "color": "000000",
+      "name": "Spain",
+      "short": "Spain",
+      "code": "ESP",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "color": "c60b1e",
       "score": "0",
       "winner": false
     },
@@ -3031,7 +2989,7 @@
   {
     "id": "760499",
     "date_utc": "2026-07-03T18:00Z",
-    "name": "Group G 2nd Place at Australia",
+    "name": "Egypt at Australia",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -3050,21 +3008,35 @@
       "winner": false
     },
     "away": {
-      "name": "Group G 2nd Place",
-      "short": "2G",
-      "code": "2G",
-      "logo": null,
-      "color": "000000",
+      "name": "Egypt",
+      "short": "Egypt",
+      "code": "EGY",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "color": "D20300",
       "score": "0",
       "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "EGY +150",
+      "over_under": 1.5,
+      "moneyline": {
+        "home": "+225",
+        "draw": 200,
+        "away": "+150"
+      },
+      "implied": {
+        "home": 0.2956,
+        "draw": 0.3202,
+        "away": 0.3842
+      }
+    },
     "group": null
   },
   {
     "id": "760500",
     "date_utc": "2026-07-03T22:00Z",
-    "name": "Group H 2nd Place at Argentina",
+    "name": "Cape Verde at Argentina",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -3083,15 +3055,29 @@
       "winner": false
     },
     "away": {
-      "name": "Group H 2nd Place",
-      "short": "2H",
-      "code": "2H",
-      "logo": null,
-      "color": "000000",
+      "name": "Cape Verde",
+      "short": "Cape Verde",
+      "code": "CPV",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "color": "000080",
       "score": "0",
       "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "ARG -650",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-650",
+        "draw": 700,
+        "away": "+1800"
+      },
+      "implied": {
+        "home": 0.8299,
+        "draw": 0.1197,
+        "away": 0.0504
+      }
+    },
     "group": null
   },
   {
