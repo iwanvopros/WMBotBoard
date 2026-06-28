@@ -1,10 +1,637 @@
 {
-  "generated_at": "2026-06-27T15:50:33+00:00",
-  "count": 65,
-  "overall_quote": 42.7,
-  "tendency_rate": 63,
-  "exact_rate": 12,
+  "generated_at": "2026-06-28T11:18:43+00:00",
+  "count": 71,
+  "overall_quote": 44.2,
+  "tendency_rate": 65,
+  "exact_rate": 13,
   "groups": [
+    {
+      "group": "J",
+      "matches": [
+        {
+          "id": "760484",
+          "date_utc": "2026-06-28T02:00Z",
+          "group": "J",
+          "home": {
+            "name": "Algeria",
+            "code": "ALG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
+          },
+          "away": {
+            "name": "Austria",
+            "code": "AUT",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
+          },
+          "actual": "3:3",
+          "tip": {
+            "scoreline": "1:1",
+            "winner": "Unentschieden",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.3072,
+              "draw": 0.3561,
+              "away": 0.3367
+            }
+          },
+          "result_score": 73.6,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": false,
+            "prob_actual": 0.356
+          },
+          "verdict": "Tendenz + Tordifferenz"
+        },
+        {
+          "id": "760483",
+          "date_utc": "2026-06-28T02:00Z",
+          "group": "J",
+          "home": {
+            "name": "Jordan",
+            "code": "JOR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
+          },
+          "away": {
+            "name": "Argentina",
+            "code": "ARG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+          },
+          "actual": "1:3",
+          "tip": {
+            "scoreline": "0:2",
+            "winner": "Argentina",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.0592,
+              "draw": 0.119,
+              "away": 0.8206
+            }
+          },
+          "result_score": 78.2,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": false,
+            "prob_actual": 0.821
+          },
+          "verdict": "Tendenz + Tordifferenz"
+        },
+        {
+          "id": "760455",
+          "date_utc": "2026-06-23T03:00Z",
+          "group": "J",
+          "home": {
+            "name": "Jordan",
+            "code": "JOR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
+          },
+          "away": {
+            "name": "Algeria",
+            "code": "ALG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
+          },
+          "actual": "1:2",
+          "tip": {
+            "scoreline": "0:1",
+            "winner": "Algeria",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.2,
+              "draw": 0.25,
+              "away": 0.55
+            }
+          },
+          "result_score": 75.5,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": false,
+            "prob_actual": 0.55
+          },
+          "verdict": "Tendenz + Tordifferenz"
+        },
+        {
+          "id": "760456",
+          "date_utc": "2026-06-22T17:00Z",
+          "group": "J",
+          "home": {
+            "name": "Argentina",
+            "code": "ARG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+          },
+          "away": {
+            "name": "Austria",
+            "code": "AUT",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
+          },
+          "actual": "2:0",
+          "tip": {
+            "scoreline": "2:1",
+            "winner": "Argentina",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.66,
+              "draw": 0.21,
+              "away": 0.13
+            }
+          },
+          "result_score": 56.6,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.66
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760431",
+          "date_utc": "2026-06-17T04:00Z",
+          "group": "J",
+          "home": {
+            "name": "Austria",
+            "code": "AUT",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
+          },
+          "away": {
+            "name": "Jordan",
+            "code": "JOR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
+          },
+          "actual": "3:1",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "Austria",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.5548,
+              "draw": 0.229,
+              "away": 0.2161
+            }
+          },
+          "result_score": 55.5,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.555
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760433",
+          "date_utc": "2026-06-17T01:00Z",
+          "group": "J",
+          "home": {
+            "name": "Argentina",
+            "code": "ARG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+          },
+          "away": {
+            "name": "Algeria",
+            "code": "ALG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
+          },
+          "actual": "3:0",
+          "tip": {
+            "scoreline": "2:0",
+            "winner": "Argentina",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.7,
+              "draw": 0.18,
+              "away": 0.12
+            }
+          },
+          "result_score": 57.0,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.7
+          },
+          "verdict": "Tendenz richtig"
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "matches": [
+        {
+          "id": "760481",
+          "date_utc": "2026-06-27T23:30Z",
+          "group": "K",
+          "home": {
+            "name": "Colombia",
+            "code": "COL",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
+          },
+          "away": {
+            "name": "Portugal",
+            "code": "POR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
+          },
+          "actual": "0:0",
+          "tip": {
+            "scoreline": "0:1",
+            "winner": "Portugal",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.3196,
+              "draw": 0.2506,
+              "away": 0.4296
+            }
+          },
+          "result_score": 2.5,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.251
+          },
+          "verdict": "Daneben"
+        },
+        {
+          "id": "760482",
+          "date_utc": "2026-06-27T23:30Z",
+          "group": "K",
+          "home": {
+            "name": "Congo DR",
+            "code": "COD",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
+          },
+          "away": {
+            "name": "Uzbekistan",
+            "code": "UZB",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
+          },
+          "actual": "3:1",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "Congo DR",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.4607,
+              "draw": 0.256,
+              "away": 0.2834
+            }
+          },
+          "result_score": 54.6,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.461
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760459",
+          "date_utc": "2026-06-24T02:00Z",
+          "group": "K",
+          "home": {
+            "name": "Colombia",
+            "code": "COL",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
+          },
+          "away": {
+            "name": "Congo DR",
+            "code": "COD",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
+          },
+          "actual": "1:0",
+          "tip": {
+            "scoreline": "2:0",
+            "winner": "Colombia",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.6321,
+              "draw": 0.2228,
+              "away": 0.145
+            }
+          },
+          "result_score": 56.3,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.632
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760461",
+          "date_utc": "2026-06-23T17:00Z",
+          "group": "K",
+          "home": {
+            "name": "Portugal",
+            "code": "POR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
+          },
+          "away": {
+            "name": "Uzbekistan",
+            "code": "UZB",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
+          },
+          "actual": "5:0",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "Portugal",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.7129,
+              "draw": 0.1668,
+              "away": 0.1201
+            }
+          },
+          "result_score": 57.1,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.713
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760436",
+          "date_utc": "2026-06-18T02:00Z",
+          "group": "K",
+          "home": {
+            "name": "Uzbekistan",
+            "code": "UZB",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
+          },
+          "away": {
+            "name": "Colombia",
+            "code": "COL",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
+          },
+          "actual": "1:3",
+          "tip": {
+            "scoreline": "0:1",
+            "winner": "Colombia",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.1507,
+              "draw": 0.2117,
+              "away": 0.6375
+            }
+          },
+          "result_score": 56.4,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.637
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760435",
+          "date_utc": "2026-06-17T17:00Z",
+          "group": "K",
+          "home": {
+            "name": "Portugal",
+            "code": "POR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
+          },
+          "away": {
+            "name": "Congo DR",
+            "code": "COD",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
+          },
+          "actual": "1:1",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "Portugal",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.6154,
+              "draw": 0.2147,
+              "away": 0.1697
+            }
+          },
+          "result_score": 2.1,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.215
+          },
+          "verdict": "Daneben"
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "matches": [
+        {
+          "id": "760480",
+          "date_utc": "2026-06-27T21:00Z",
+          "group": "L",
+          "home": {
+            "name": "Croatia",
+            "code": "CRO",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
+          },
+          "away": {
+            "name": "Ghana",
+            "code": "GHA",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
+          },
+          "actual": "2:1",
+          "tip": {
+            "scoreline": "2:0",
+            "winner": "Croatia",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.5658,
+              "draw": 0.2595,
+              "away": 0.1746
+            }
+          },
+          "result_score": 55.7,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.566
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760485",
+          "date_utc": "2026-06-27T21:00Z",
+          "group": "L",
+          "home": {
+            "name": "Panama",
+            "code": "PAN",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png"
+          },
+          "away": {
+            "name": "England",
+            "code": "ENG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+          },
+          "actual": "0:2",
+          "tip": {
+            "scoreline": "0:2",
+            "winner": "England",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.0977,
+              "draw": 0.1512,
+              "away": 0.751
+            }
+          },
+          "result_score": 97.5,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": true,
+            "prob_actual": 0.751
+          },
+          "verdict": "Volltreffer"
+        },
+        {
+          "id": "760460",
+          "date_utc": "2026-06-23T23:00Z",
+          "group": "L",
+          "home": {
+            "name": "Panama",
+            "code": "PAN",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png"
+          },
+          "away": {
+            "name": "Croatia",
+            "code": "CRO",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
+          },
+          "actual": "0:1",
+          "tip": {
+            "scoreline": "0:1",
+            "winner": "Croatia",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.1948,
+              "draw": 0.2289,
+              "away": 0.5763
+            }
+          },
+          "result_score": 95.8,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": true,
+            "prob_actual": 0.576
+          },
+          "verdict": "Volltreffer"
+        },
+        {
+          "id": "760458",
+          "date_utc": "2026-06-23T20:00Z",
+          "group": "L",
+          "home": {
+            "name": "England",
+            "code": "ENG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+          },
+          "away": {
+            "name": "Ghana",
+            "code": "GHA",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
+          },
+          "actual": "0:0",
+          "tip": {
+            "scoreline": "2:0",
+            "winner": "England",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.797,
+              "draw": 0.1358,
+              "away": 0.0664
+            }
+          },
+          "result_score": 1.4,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.136
+          },
+          "verdict": "Daneben"
+        },
+        {
+          "id": "760434",
+          "date_utc": "2026-06-17T23:00Z",
+          "group": "L",
+          "home": {
+            "name": "Ghana",
+            "code": "GHA",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
+          },
+          "away": {
+            "name": "Panama",
+            "code": "PAN",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png"
+          },
+          "actual": "1:0",
+          "tip": {
+            "scoreline": "0:1",
+            "winner": "Panama",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.303,
+              "draw": 0.2612,
+              "away": 0.4356
+            }
+          },
+          "result_score": 3.0,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.303
+          },
+          "verdict": "Daneben"
+        },
+        {
+          "id": "760437",
+          "date_utc": "2026-06-17T20:00Z",
+          "group": "L",
+          "home": {
+            "name": "England",
+            "code": "ENG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+          },
+          "away": {
+            "name": "Croatia",
+            "code": "CRO",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
+          },
+          "actual": "4:2",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "England",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.5373,
+              "draw": 0.2464,
+              "away": 0.2162
+            }
+          },
+          "result_score": 55.4,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.537
+          },
+          "verdict": "Tendenz richtig"
+        }
+      ]
+    },
     {
       "group": "G",
       "matches": [
@@ -1849,429 +2476,6 @@
             "prob_actual": 0.26
           },
           "verdict": "Daneben"
-        }
-      ]
-    },
-    {
-      "group": "K",
-      "matches": [
-        {
-          "id": "760459",
-          "date_utc": "2026-06-24T02:00Z",
-          "group": "K",
-          "home": {
-            "name": "Colombia",
-            "code": "COL",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
-          },
-          "away": {
-            "name": "Congo DR",
-            "code": "COD",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
-          },
-          "actual": "1:0",
-          "tip": {
-            "scoreline": "2:0",
-            "winner": "Colombia",
-            "confidence": "Hoch",
-            "prob": {
-              "home": 0.6321,
-              "draw": 0.2228,
-              "away": 0.145
-            }
-          },
-          "result_score": 56.3,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.632
-          },
-          "verdict": "Tendenz richtig"
-        },
-        {
-          "id": "760461",
-          "date_utc": "2026-06-23T17:00Z",
-          "group": "K",
-          "home": {
-            "name": "Portugal",
-            "code": "POR",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
-          },
-          "away": {
-            "name": "Uzbekistan",
-            "code": "UZB",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
-          },
-          "actual": "5:0",
-          "tip": {
-            "scoreline": "1:0",
-            "winner": "Portugal",
-            "confidence": "Hoch",
-            "prob": {
-              "home": 0.7129,
-              "draw": 0.1668,
-              "away": 0.1201
-            }
-          },
-          "result_score": 57.1,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.713
-          },
-          "verdict": "Tendenz richtig"
-        },
-        {
-          "id": "760436",
-          "date_utc": "2026-06-18T02:00Z",
-          "group": "K",
-          "home": {
-            "name": "Uzbekistan",
-            "code": "UZB",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
-          },
-          "away": {
-            "name": "Colombia",
-            "code": "COL",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
-          },
-          "actual": "1:3",
-          "tip": {
-            "scoreline": "0:1",
-            "winner": "Colombia",
-            "confidence": "Hoch",
-            "prob": {
-              "home": 0.1507,
-              "draw": 0.2117,
-              "away": 0.6375
-            }
-          },
-          "result_score": 56.4,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.637
-          },
-          "verdict": "Tendenz richtig"
-        },
-        {
-          "id": "760435",
-          "date_utc": "2026-06-17T17:00Z",
-          "group": "K",
-          "home": {
-            "name": "Portugal",
-            "code": "POR",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
-          },
-          "away": {
-            "name": "Congo DR",
-            "code": "COD",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
-          },
-          "actual": "1:1",
-          "tip": {
-            "scoreline": "1:0",
-            "winner": "Portugal",
-            "confidence": "Mittel",
-            "prob": {
-              "home": 0.6154,
-              "draw": 0.2147,
-              "away": 0.1697
-            }
-          },
-          "result_score": 2.1,
-          "factors": {
-            "tendenz": false,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.215
-          },
-          "verdict": "Daneben"
-        }
-      ]
-    },
-    {
-      "group": "L",
-      "matches": [
-        {
-          "id": "760460",
-          "date_utc": "2026-06-23T23:00Z",
-          "group": "L",
-          "home": {
-            "name": "Panama",
-            "code": "PAN",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png"
-          },
-          "away": {
-            "name": "Croatia",
-            "code": "CRO",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
-          },
-          "actual": "0:1",
-          "tip": {
-            "scoreline": "0:1",
-            "winner": "Croatia",
-            "confidence": "Mittel",
-            "prob": {
-              "home": 0.1948,
-              "draw": 0.2289,
-              "away": 0.5763
-            }
-          },
-          "result_score": 95.8,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": true,
-            "exakt": true,
-            "prob_actual": 0.576
-          },
-          "verdict": "Volltreffer"
-        },
-        {
-          "id": "760458",
-          "date_utc": "2026-06-23T20:00Z",
-          "group": "L",
-          "home": {
-            "name": "England",
-            "code": "ENG",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
-          },
-          "away": {
-            "name": "Ghana",
-            "code": "GHA",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
-          },
-          "actual": "0:0",
-          "tip": {
-            "scoreline": "2:0",
-            "winner": "England",
-            "confidence": "Hoch",
-            "prob": {
-              "home": 0.797,
-              "draw": 0.1358,
-              "away": 0.0664
-            }
-          },
-          "result_score": 1.4,
-          "factors": {
-            "tendenz": false,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.136
-          },
-          "verdict": "Daneben"
-        },
-        {
-          "id": "760434",
-          "date_utc": "2026-06-17T23:00Z",
-          "group": "L",
-          "home": {
-            "name": "Ghana",
-            "code": "GHA",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
-          },
-          "away": {
-            "name": "Panama",
-            "code": "PAN",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png"
-          },
-          "actual": "1:0",
-          "tip": {
-            "scoreline": "0:1",
-            "winner": "Panama",
-            "confidence": "Niedrig",
-            "prob": {
-              "home": 0.303,
-              "draw": 0.2612,
-              "away": 0.4356
-            }
-          },
-          "result_score": 3.0,
-          "factors": {
-            "tendenz": false,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.303
-          },
-          "verdict": "Daneben"
-        },
-        {
-          "id": "760437",
-          "date_utc": "2026-06-17T20:00Z",
-          "group": "L",
-          "home": {
-            "name": "England",
-            "code": "ENG",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
-          },
-          "away": {
-            "name": "Croatia",
-            "code": "CRO",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
-          },
-          "actual": "4:2",
-          "tip": {
-            "scoreline": "1:0",
-            "winner": "England",
-            "confidence": "Mittel",
-            "prob": {
-              "home": 0.5373,
-              "draw": 0.2464,
-              "away": 0.2162
-            }
-          },
-          "result_score": 55.4,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.537
-          },
-          "verdict": "Tendenz richtig"
-        }
-      ]
-    },
-    {
-      "group": "J",
-      "matches": [
-        {
-          "id": "760455",
-          "date_utc": "2026-06-23T03:00Z",
-          "group": "J",
-          "home": {
-            "name": "Jordan",
-            "code": "JOR",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
-          },
-          "away": {
-            "name": "Algeria",
-            "code": "ALG",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
-          },
-          "actual": "1:2",
-          "tip": {
-            "scoreline": "0:1",
-            "winner": "Algeria",
-            "confidence": "Mittel",
-            "prob": {
-              "home": 0.2,
-              "draw": 0.25,
-              "away": 0.55
-            }
-          },
-          "result_score": 75.5,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": true,
-            "exakt": false,
-            "prob_actual": 0.55
-          },
-          "verdict": "Tendenz + Tordifferenz"
-        },
-        {
-          "id": "760456",
-          "date_utc": "2026-06-22T17:00Z",
-          "group": "J",
-          "home": {
-            "name": "Argentina",
-            "code": "ARG",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
-          },
-          "away": {
-            "name": "Austria",
-            "code": "AUT",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
-          },
-          "actual": "2:0",
-          "tip": {
-            "scoreline": "2:1",
-            "winner": "Argentina",
-            "confidence": "Mittel",
-            "prob": {
-              "home": 0.66,
-              "draw": 0.21,
-              "away": 0.13
-            }
-          },
-          "result_score": 56.6,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.66
-          },
-          "verdict": "Tendenz richtig"
-        },
-        {
-          "id": "760431",
-          "date_utc": "2026-06-17T04:00Z",
-          "group": "J",
-          "home": {
-            "name": "Austria",
-            "code": "AUT",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
-          },
-          "away": {
-            "name": "Jordan",
-            "code": "JOR",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
-          },
-          "actual": "3:1",
-          "tip": {
-            "scoreline": "1:0",
-            "winner": "Austria",
-            "confidence": "Mittel",
-            "prob": {
-              "home": 0.5548,
-              "draw": 0.229,
-              "away": 0.2161
-            }
-          },
-          "result_score": 55.5,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.555
-          },
-          "verdict": "Tendenz richtig"
-        },
-        {
-          "id": "760433",
-          "date_utc": "2026-06-17T01:00Z",
-          "group": "J",
-          "home": {
-            "name": "Argentina",
-            "code": "ARG",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
-          },
-          "away": {
-            "name": "Algeria",
-            "code": "ALG",
-            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
-          },
-          "actual": "3:0",
-          "tip": {
-            "scoreline": "2:0",
-            "winner": "Argentina",
-            "confidence": "Hoch",
-            "prob": {
-              "home": 0.7,
-              "draw": 0.18,
-              "away": 0.12
-            }
-          },
-          "result_score": 57.0,
-          "factors": {
-            "tendenz": true,
-            "tordifferenz": false,
-            "exakt": false,
-            "prob_actual": 0.7
-          },
-          "verdict": "Tendenz richtig"
         }
       ]
     }

@@ -5691,5 +5691,83 @@
     "key_factors": [],
     "rationale_de": "Das Modell sieht Argentina vorne (82%). Wahrscheinlichstes Resultat 0:2. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
+  },
+  "760486": {
+    "id": "760486",
+    "kickoff_utc": "2026-06-28T19:00Z",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "group": null,
+    "home": {
+      "code": "RSA",
+      "name": "South Africa",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "elo": 1719.7,
+      "form_ppg10": 1.2
+    },
+    "away": {
+      "code": "CAN",
+      "name": "Canada",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "elo": 1870.4,
+      "form_ppg10": 1.5
+    },
+    "prediction": {
+      "winner": "Canada",
+      "winner_code": "CAN",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.2068,
+        "draw": 0.2528,
+        "away": 0.5404
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.067,
+        "away": 1.599
+      },
+      "over_2_5": 0.498,
+      "btts": 0.5235,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1186
+        },
+        {
+          "score": "0:1",
+          "p": 0.1111
+        },
+        {
+          "score": "1:2",
+          "p": 0.0948
+        },
+        {
+          "score": "0:2",
+          "p": 0.0889
+        },
+        {
+          "score": "1:0",
+          "p": 0.0742
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "CAN -155",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+500",
+        "draw": 275,
+        "away": "-155"
+      },
+      "implied": {
+        "home": 0.1601,
+        "draw": 0.2561,
+        "away": 0.5838
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Canada vorne (54%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
   }
 }
