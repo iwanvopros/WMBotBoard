@@ -5717,9 +5717,9 @@
       "winner_code": "CAN",
       "scoreline": "0:1",
       "prob": {
-        "home": 0.2068,
-        "draw": 0.2528,
-        "away": 0.5404
+        "home": 0.2098,
+        "draw": 0.2555,
+        "away": 0.5348
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -5753,21 +5753,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "CAN -155",
+      "details": "CAN -150",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+500",
-        "draw": 275,
-        "away": "-155"
+        "home": "+475",
+        "draw": 265,
+        "away": "-150"
       },
       "implied": {
-        "home": 0.1601,
-        "draw": 0.2561,
-        "away": 0.5838
+        "home": 0.166,
+        "draw": 0.2615,
+        "away": 0.5726
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Canada vorne (54%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Canada vorne (53%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   }
 }
