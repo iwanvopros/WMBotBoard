@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T12:19:32+00:00",
+  "generated_at": "2026-06-28T15:54:01+00:00",
   "count": 1,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
@@ -29,9 +29,9 @@
         "winner_code": "CAN",
         "scoreline": "0:1",
         "prob": {
-          "home": 0.2098,
-          "draw": 0.2555,
-          "away": 0.5348
+          "home": 0.2069,
+          "draw": 0.2563,
+          "away": 0.5368
         },
         "confidence": "Mittel",
         "expected_goals": {
@@ -68,18 +68,18 @@
         "details": "CAN -150",
         "over_under": 2.5,
         "moneyline": {
-          "home": "+475",
+          "home": "+500",
           "draw": 265,
           "away": "-150"
         },
         "implied": {
-          "home": 0.166,
-          "draw": 0.2615,
-          "away": 0.5726
+          "home": 0.1602,
+          "draw": 0.2633,
+          "away": 0.5766
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Canada vorne (53%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht Canada vorne (54%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     }
   ]
