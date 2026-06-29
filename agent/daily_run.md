@@ -15,22 +15,14 @@ Das aktualisiert die Elo-Werte (inkl. fertiger WM-Spiele), holt den heutigen Spi
 Quoten von ESPN, berechnet die Modell-Basis und schreibt `data/predictions/latest.json`
 sowie `data/results.json` (Bewertung der bereits gespielten Spiele).
 
-## 2. Beendete Spiele analysieren & Erkenntnisse ableiten
-Lies `data/results.json` (gespielte Spiele inkl. Tipp, Endstand, Trefferquote, Verdict).
-Analysiere **kurz**:
-- Wo lagen die Tipps richtig/falsch – und **warum** (Favorit bestätigt? Überraschung?
-  Remis statt Sieg? Heimvorteil über-/unterschätzt?).
-- Erkenne **Muster** über mehrere Spiele (z. B. „schwere Favoriten straucheln in
-  Auftaktspielen", „enge Spiele enden oft remis").
+## 2. Beendete Spiele reviewen (Erkenntnisse)
+`run_daily.sh` (Schritt 1) erzeugt über `results.py` bereits eine **aktuelle, datengetriebene**
+`data/insights.json` (Gesamt-Trefferquote, größte Überraschungen, Muster + Konsequenz; je Spiel
+ein Kurz-Kommentar). Diese wird bei **jedem** Lauf neu berechnet und veraltet damit nicht.
 
-Schreibe die Analyse nach `data/insights.json`:
-```json
-{ "generated_at": "<ISO-UTC>", "enriched_by": "claude",
-  "overall": "1–3 Sätze Gesamt-Erkenntnis inkl. Konsequenz für die nächsten Tipps",
-  "per_game": { "<ESPN-Match-ID>": "1 kurzer Satz je gespieltem Spiel" } }
-```
-Die Match-IDs stehen in `data/results.json` (Feld `id`). Bei **0** gespielten Spielen diesen
-Schritt überspringen.
+Lies sie kurz und **berücksichtige die Konsequenz beim Verfeinern (Schritt 4)**. Optional darfst
+du das Feld `overall` mit qualitativer Färbung anreichern (aktuelle Team-Stärke, auffällige
+Über-/Underperformer) – Pflicht ist das nicht, da die datengetriebene Version ohnehin aktuell ist.
 
 ## 3. Pro heutigem Spiel recherchieren (Web)
 Lies `data/predictions/latest.json`. Bei **0 Spielen** weiter zu Schritt 5. Sonst für **jedes**

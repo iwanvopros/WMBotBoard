@@ -25,6 +25,7 @@ PRED_DIR = os.path.join(ROOT, "data", "predictions")
 TEAMS = os.path.join(ROOT, "data", "teams.json")
 OUT = os.path.join(ROOT, "data", "results.json")
 ARCHIVE = os.path.join(ROOT, "data", "predictions", "archive.json")
+INSIGHTS = os.path.join(ROOT, "data", "insights.json")
 TOURNAMENT = "20260611-20260719"
 
 
@@ -172,10 +173,63 @@ def dump_archive():
     print(f"{len(arch)} Tipps ins Archiv geschrieben -> data/predictions/archive.json")
 
 
+def _game_note(m: dict) -> str:
+    """Datengetriebener Kurz-Kommentar je Spiel (immer aktuell)."""
+    f = m["factors"]
+    actual, tip = m["actual"], m["tip"]["scoreline"]
+    h, a = m["home"]["name"], m["away"]["name"]
+    if f["exakt"]:
+        return f"Volltreffer – Tipp {tip} exakt eingetroffen."
+    if f["tendenz"] and f["tordifferenz"]:
+        return f"Sieger und Tordifferenz korrekt (real {actual})."
+    if f["tendenz"]:
+        return f"Richtiger Sieger, Höhe daneben (real {actual}, Tipp {tip})."
+    hs, as_ = (int(x) for x in actual.split(":"))
+    if hs == as_:
+        return f"Überraschung – {actual} statt eines Siegers ({m['tip']['winner']} getippt)."
+    return f"Überraschung – {h if hs > as_ else a} gewann {actual} (Tipp {tip})."
+
+
+def build_insights(out: dict) -> dict:
+    """Erzeugt bei JEDEM Lauf eine aktuelle, datengetriebene Erkenntnis-Analyse über alle
+    bisher gespielten Spiele (verhindert, dass die 'Erkenntnisse' veralten)."""
+    games = [m for g in out["groups"] for m in g["matches"]]
+    n = len(games)
+    per_game = {m["id"]: _game_note(m) for m in games}
+    if not n:
+        overall = "Noch keine gespielten Spiele."
+    else:
+        upsets = [m for m in games if not m["factors"]["tendenz"]]
+        big = sorted(upsets, key=lambda m: m["factors"]["prob_actual"])[:2]
+        high = max(games, key=lambda m: sum(int(x) for x in m["actual"].split(":")))
+        high_total = sum(int(x) for x in high["actual"].split(":"))
+        parts = [
+            f"{n} Spiele bewertet · Trefferquote {out['overall_quote']} % "
+            f"(Tendenz {out['tendency_rate']} %, exakt {out['exact_rate']} %).",
+        ]
+        if out["exact_rate"] < 25:
+            parts.append("Das Turnier ist überraschungs- und remisreich – die Tendenz (richtiger Sieger) "
+                         "stimmt oft, exakte Resultathöhen sind aber schwer planbar.")
+        if big:
+            sv = "; ".join(f"{m['home']['name']} {m['actual']} {m['away']['name']}" for m in big)
+            parts.append(f"Größte Überraschungen: {sv}.")
+        parts.append(f"Klare Klassenunterschiede führen zu hohen Resultaten (Höchstwert {high['home']['name']} "
+                     f"{high['actual']} {high['away']['name']}, {high_total} Tore) – das stützt das nachgeschärfte "
+                     f"Tor-Modell. Konsequenz: bei echten Favoriten ruhig klare Höhen tippen, bei ebenbürtigen/"
+                     f"defensiv starken Gegnern mehr Remis und knappe Ausgänge einplanen.")
+        overall = " ".join(parts)
+    return {
+        "generated_at": out["generated_at"], "enriched_by": "model",
+        "overall": overall, "per_game": per_game,
+    }
+
+
 def main():
     out = build()
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
+    with open(INSIGHTS, "w", encoding="utf-8") as f:
+        json.dump(build_insights(out), f, ensure_ascii=False, indent=2)
     dump_archive()
     print(f"{out['count']} gespielte Spiele bewertet -> data/results.json")
     print(f"  Gesamt-Trefferquote: {out['overall_quote']}% | Tendenz {out['tendency_rate']}% | Exakt {out['exact_rate']}%")
