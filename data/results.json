@@ -1,10 +1,49 @@
 {
-  "generated_at": "2026-06-28T15:54:01+00:00",
-  "count": 71,
-  "overall_quote": 44.2,
+  "generated_at": "2026-06-29T14:49:41+00:00",
+  "count": 72,
+  "overall_quote": 44.9,
   "tendency_rate": 65,
-  "exact_rate": 13,
+  "exact_rate": 14,
   "groups": [
+    {
+      "group": "K.o.-Runde",
+      "matches": [
+        {
+          "id": "760486",
+          "date_utc": "2026-06-28T19:00Z",
+          "group": null,
+          "home": {
+            "name": "South Africa",
+            "code": "RSA",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png"
+          },
+          "away": {
+            "name": "Canada",
+            "code": "CAN",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
+          },
+          "actual": "0:1",
+          "tip": {
+            "scoreline": "0:1",
+            "winner": "Canada",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.2069,
+              "draw": 0.2563,
+              "away": 0.5368
+            }
+          },
+          "result_score": 95.4,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": true,
+            "prob_actual": 0.537
+          },
+          "verdict": "Volltreffer"
+        }
+      ]
+    },
     {
       "group": "J",
       "matches": [

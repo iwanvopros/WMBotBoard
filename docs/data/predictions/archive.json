@@ -5769,5 +5769,254 @@
     "key_factors": [],
     "rationale_de": "Das Modell sieht Canada vorne (54%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
+  },
+  "760487": {
+    "id": "760487",
+    "kickoff_utc": "2026-06-29T17:00Z",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "group": null,
+    "home": {
+      "code": "BRA",
+      "name": "Brazil",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "elo": 2090.2,
+      "form_ppg10": 2.0
+    },
+    "away": {
+      "code": "JPN",
+      "name": "Japan",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "elo": 1999.2,
+      "form_ppg10": 2.4
+    },
+    "prediction": {
+      "winner": "Brazil",
+      "winner_code": "BRA",
+      "scoreline": "2:1",
+      "prob": {
+        "home": 0.5,
+        "draw": 0.27,
+        "away": 0.23
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.493,
+        "away": 1.345
+      },
+      "over_2_5": 0.5394,
+      "btts": 0.5732,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1176
+        },
+        {
+          "score": "2:1",
+          "p": 0.0878
+        },
+        {
+          "score": "1:0",
+          "p": 0.0874
+        },
+        {
+          "score": "1:2",
+          "p": 0.0791
+        },
+        {
+          "score": "0:1",
+          "p": 0.0788
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "BRA -135",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-135",
+        "draw": 265,
+        "away": "+400"
+      },
+      "implied": {
+        "home": 0.5479,
+        "draw": 0.2613,
+        "away": 0.1908
+      }
+    },
+    "key_factors": [
+      "Achtelfinal – Brasilien Favorit aufs Weiterkommen (-320)",
+      "Japan stark (u.a. 4:0 vs Tunesien)",
+      "Enges Spiel – Verlängerung/Elfmeter möglich",
+      "Vinícius & Raphinha als Trumpf"
+    ],
+    "rationale_de": "Brasilien ist Favorit aufs Weiterkommen (-320), doch Japan war im Turnier stark und unangenehm. Mit Vinícius und Raphinha sollte Brasilien knapp die Oberhand behalten (2:1) – bei einem Remis entscheidet aber die Verlängerung bzw. das Elfmeterschießen.",
+    "enriched_by": "claude"
+  },
+  "760489": {
+    "id": "760489",
+    "kickoff_utc": "2026-06-29T20:30Z",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "group": null,
+    "home": {
+      "code": "GER",
+      "name": "Germany",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "elo": 2003.0,
+      "form_ppg10": 2.7
+    },
+    "away": {
+      "code": "PAR",
+      "name": "Paraguay",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "elo": 1895.3,
+      "form_ppg10": 1.4
+    },
+    "prediction": {
+      "winner": "Germany",
+      "winner_code": "GER",
+      "scoreline": "3:1",
+      "prob": {
+        "home": 0.74,
+        "draw": 0.16,
+        "away": 0.1
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 1.638,
+        "away": 1.096
+      },
+      "over_2_5": 0.5145,
+      "btts": 0.5363,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1166
+        },
+        {
+          "score": "1:0",
+          "p": 0.1064
+        },
+        {
+          "score": "2:1",
+          "p": 0.0955
+        },
+        {
+          "score": "2:0",
+          "p": 0.0871
+        },
+        {
+          "score": "0:1",
+          "p": 0.0712
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "GER -275",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-275",
+        "draw": 400,
+        "away": "+800"
+      },
+      "implied": {
+        "home": 0.7021,
+        "draw": 0.1915,
+        "away": 0.1064
+      }
+    },
+    "key_factors": [
+      "Deutschland haushoher Favorit (-950 aufs Weiterkommen)",
+      "Schlagkräftige Offensive (zuletzt viele Tore)",
+      "Paraguay unterlegen",
+      "Experten erwarten klaren Sieg (3:1)"
+    ],
+    "rationale_de": "Deutschland ist gegen Paraguay haushoher Favorit (-950) und mit seiner schlagkräftigen Offensive klar überlegen. Ein deutlicher 3:1-Sieg ist zu erwarten; Paraguay dürfte höchstens für einen Ehrentreffer sorgen.",
+    "enriched_by": "claude"
+  },
+  "760488": {
+    "id": "760488",
+    "kickoff_utc": "2026-06-30T01:00Z",
+    "venue": "Estadio BBVA",
+    "city": "Guadalupe",
+    "group": null,
+    "home": {
+      "code": "NED",
+      "name": "Netherlands",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "elo": 2051.0,
+      "form_ppg10": 2.1
+    },
+    "away": {
+      "code": "MAR",
+      "name": "Morocco",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "elo": 2035.9,
+      "form_ppg10": 2.2
+    },
+    "prediction": {
+      "winner": "Netherlands",
+      "winner_code": "NED",
+      "scoreline": "1:0",
+      "prob": {
+        "home": 0.43,
+        "draw": 0.29,
+        "away": 0.28
+      },
+      "confidence": "Niedrig",
+      "expected_goals": {
+        "home": 1.398,
+        "away": 1.384
+      },
+      "over_2_5": 0.5262,
+      "btts": 0.5642,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1198
+        },
+        {
+          "score": "1:0",
+          "p": 0.0865
+        },
+        {
+          "score": "0:1",
+          "p": 0.0857
+        },
+        {
+          "score": "2:1",
+          "p": 0.0837
+        },
+        {
+          "score": "1:2",
+          "p": 0.0829
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "NED +130",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+130",
+        "draw": 210,
+        "away": "+250"
+      },
+      "implied": {
+        "home": 0.4168,
+        "draw": 0.3093,
+        "away": 0.2739
+      }
+    },
+    "key_factors": [
+      "Echtes Toss-up – Niederlande nur knapp favorisiert (-174 aufs Weiterkommen)",
+      "Marokkos Defensive top (hielt Brasilien 1:1)",
+      "Marokko mit Hakimi/Díaz gefährlich",
+      "Verlängerung/Elfmeter gut möglich"
+    ],
+    "rationale_de": "Ein offenes Achtelfinal: Die Niederlande sind nur knapp favorisiert (-174), Marokko hat im Turnier eine starke, kompakte Defensive gezeigt (1:1 gegen Brasilien). Ich tippe einen knappen 1:0-Sieg der Niederlande – realistisch ist aber auch eine Entscheidung in der Verlängerung oder im Elfmeterschießen.",
+    "enriched_by": "claude"
   }
 }
