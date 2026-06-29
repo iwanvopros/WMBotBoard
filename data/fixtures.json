@@ -2412,11 +2412,11 @@
     "id": "760487",
     "date_utc": "2026-06-29T17:00Z",
     "name": "Japan at Brazil",
-    "state": "pre",
-    "status": "Scheduled",
+    "state": "in",
+    "status": "First Half",
     "completed": false,
-    "clock": "0'",
-    "period": null,
+    "clock": "24'",
+    "period": 1,
     "venue": "NRG Stadium",
     "city": "Houston, Texas",
     "country": "USA",
@@ -2440,17 +2440,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "BRA -130",
+      "details": "BRA -135",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-130",
-        "draw": 255,
-        "away": "+400"
+        "home": "-135",
+        "draw": 260,
+        "away": "+425"
       },
       "implied": {
-        "home": 0.5399,
-        "draw": 0.2691,
-        "away": 0.191
+        "home": 0.5509,
+        "draw": 0.2664,
+        "away": 0.1827
       }
     },
     "group": null
@@ -2581,17 +2581,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "NOR +105",
+      "details": "NOR +115",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+265",
-        "draw": 255,
-        "away": "+105"
+        "home": "+250",
+        "draw": 245,
+        "away": "+115"
       },
       "implied": {
-        "home": 0.2626,
-        "draw": 0.27,
-        "away": 0.4675
+        "home": 0.2745,
+        "draw": 0.2785,
+        "away": 0.4469
       }
     },
     "group": null
