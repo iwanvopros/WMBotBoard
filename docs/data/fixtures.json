@@ -2413,10 +2413,10 @@
     "date_utc": "2026-06-29T17:00Z",
     "name": "Japan at Brazil",
     "state": "in",
-    "status": "First Half",
+    "status": "Second Half",
     "completed": false,
-    "clock": "24'",
-    "period": 1,
+    "clock": "69'",
+    "period": 2,
     "venue": "NRG Stadium",
     "city": "Houston, Texas",
     "country": "USA",
@@ -2426,7 +2426,7 @@
       "code": "BRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
       "color": "fee000",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -2435,7 +2435,7 @@
       "code": "JPN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
       "color": "000555",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "odds": {
@@ -2816,17 +2816,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "USA -260",
+      "details": "USA -265",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-260",
+        "home": "-265",
         "draw": 390,
         "away": "+800"
       },
       "implied": {
-        "home": 0.6962,
-        "draw": 0.1967,
-        "away": 0.1071
+        "home": 0.6973,
+        "draw": 0.196,
+        "away": 0.1067
       }
     },
     "group": null
