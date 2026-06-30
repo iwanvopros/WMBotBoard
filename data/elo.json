@@ -1,103 +1,4 @@
 {
-  "Marshall Islands": {
-    "rating": 1416.6,
-    "matches_3y": 2,
-    "gf": 1.0,
-    "ga": 3.5,
-    "ppg": 0.0,
-    "form_ppg10": 0.0,
-    "last_played": "2025-08-16"
-  },
-  "Malta": {
-    "rating": 1358.1,
-    "matches_3y": 26,
-    "gf": 0.769,
-    "ga": 1.923,
-    "ppg": 1.0,
-    "form_ppg10": 1.1,
-    "last_played": "2026-06-05"
-  },
-  "Saugeais": {
-    "rating": 1494.2,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2013-06-29"
-  },
-  "British Virgin Islands": {
-    "rating": 1005.7,
-    "matches_3y": 22,
-    "gf": 1.182,
-    "ga": 1.636,
-    "ppg": 0.955,
-    "form_ppg10": 1.4,
-    "last_played": "2026-06-06"
-  },
-  "Colombia": {
-    "rating": 2082.4,
-    "matches_3y": 40,
-    "gf": 1.875,
-    "ga": 0.85,
-    "ppg": 1.975,
-    "form_ppg10": 2.0,
-    "last_played": "2026-06-27"
-  },
-  "Botswana": {
-    "rating": 1390.1,
-    "matches_3y": 27,
-    "gf": 0.815,
-    "ga": 1.481,
-    "ppg": 1.074,
-    "form_ppg10": 0.7,
-    "last_played": "2026-03-31"
-  },
-  "Abkhazia": {
-    "rating": 1638.7,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-06-08"
-  },
-  "San Marino": {
-    "rating": 925.7,
-    "matches_3y": 30,
-    "gf": 0.533,
-    "ga": 2.8,
-    "ppg": 0.3,
-    "form_ppg10": 0.1,
-    "last_played": "2026-06-09"
-  },
-  "Saint Kitts and Nevis": {
-    "rating": 1270.1,
-    "matches_3y": 28,
-    "gf": 1.5,
-    "ga": 2.143,
-    "ppg": 1.321,
-    "form_ppg10": 1.3,
-    "last_played": "2026-03-30"
-  },
-  "Tahiti": {
-    "rating": 1509.6,
-    "matches_3y": 15,
-    "gf": 2.067,
-    "ga": 1.067,
-    "ppg": 1.933,
-    "form_ppg10": 1.6,
-    "last_played": "2025-03-21"
-  },
-  "Taiwan": {
-    "rating": 1045.8,
-    "matches_3y": 20,
-    "gf": 1.25,
-    "ga": 2.5,
-    "ppg": 0.65,
-    "form_ppg10": 0.6,
-    "last_played": "2025-11-18"
-  },
   "Maldives": {
     "rating": 985.1,
     "matches_3y": 15,
@@ -106,762 +7,6 @@
     "ppg": 0.533,
     "form_ppg10": 0.4,
     "last_played": "2026-06-01"
-  },
-  "Western Armenia": {
-    "rating": 1524.7,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-06-09"
-  },
-  "England": {
-    "rating": 2111.1,
-    "matches_3y": 40,
-    "gf": 1.925,
-    "ga": 0.6,
-    "ppg": 2.15,
-    "form_ppg10": 2.3,
-    "last_played": "2026-06-27"
-  },
-  "Tibet": {
-    "rating": 1260.5,
-    "matches_3y": 4,
-    "gf": 2.25,
-    "ga": 4.5,
-    "ppg": 0.0,
-    "form_ppg10": 0.0,
-    "last_played": "2025-07-03"
-  },
-  "Yemen": {
-    "rating": 1299.0,
-    "matches_3y": 19,
-    "gf": 1.947,
-    "ga": 1.105,
-    "ppg": 1.421,
-    "form_ppg10": 1.8,
-    "last_played": "2025-11-26"
-  },
-  "Chechnya": {
-    "rating": 1447.9,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2006-02-18"
-  },
-  "Chameria": {
-    "rating": 1570.9,
-    "matches_3y": 2,
-    "gf": 2.5,
-    "ga": 2.0,
-    "ppg": 1.5,
-    "form_ppg10": 1.5,
-    "last_played": "2023-07-01"
-  },
-  "Algeria": {
-    "rating": 1891.0,
-    "matches_3y": 48,
-    "gf": 2.25,
-    "ga": 0.792,
-    "ppg": 2.229,
-    "form_ppg10": 2.0,
-    "last_played": "2026-06-27"
-  },
-  "Scotland": {
-    "rating": 1835.8,
-    "matches_3y": 36,
-    "gf": 1.417,
-    "ga": 1.556,
-    "ppg": 1.25,
-    "form_ppg10": 1.5,
-    "last_played": "2026-06-24"
-  },
-  "German DR": {
-    "rating": 1726.3,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1990-09-12"
-  },
-  "Saarland": {
-    "rating": 1452.7,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1956-06-06"
-  },
-  "Hong Kong": {
-    "rating": 1332.3,
-    "matches_3y": 37,
-    "gf": 1.757,
-    "ga": 1.216,
-    "ppg": 1.432,
-    "form_ppg10": 1.5,
-    "last_played": "2026-06-09"
-  },
-  "Lebanon": {
-    "rating": 1437.6,
-    "matches_3y": 29,
-    "gf": 1.241,
-    "ga": 1.0,
-    "ppg": 1.241,
-    "form_ppg10": 1.8,
-    "last_played": "2025-11-26"
-  },
-  "Brunei": {
-    "rating": 898.2,
-    "matches_3y": 18,
-    "gf": 0.667,
-    "ga": 2.778,
-    "ppg": 1.056,
-    "form_ppg10": 0.7,
-    "last_played": "2025-11-18"
-  },
-  "Burkina Faso": {
-    "rating": 1642.8,
-    "matches_3y": 43,
-    "gf": 1.581,
-    "ga": 1.07,
-    "ppg": 1.628,
-    "form_ppg10": 1.7,
-    "last_played": "2026-06-09"
-  },
-  "Darfur": {
-    "rating": 1201.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2014-06-07"
-  },
-  "Cuba": {
-    "rating": 1422.7,
-    "matches_3y": 27,
-    "gf": 1.074,
-    "ga": 1.926,
-    "ppg": 1.037,
-    "form_ppg10": 1.1,
-    "last_played": "2026-03-29"
-  },
-  "Arameans Suryoye": {
-    "rating": 1554.2,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2014-06-08"
-  },
-  "Bermuda": {
-    "rating": 1345.1,
-    "matches_3y": 28,
-    "gf": 1.607,
-    "ga": 2.393,
-    "ppg": 1.214,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-06"
-  },
-  "Cameroon": {
-    "rating": 1724.4,
-    "matches_3y": 34,
-    "gf": 1.353,
-    "ga": 0.765,
-    "ppg": 1.706,
-    "form_ppg10": 1.7,
-    "last_played": "2026-03-31"
-  },
-  "Mali": {
-    "rating": 1706.5,
-    "matches_3y": 35,
-    "gf": 1.571,
-    "ga": 0.657,
-    "ppg": 1.8,
-    "form_ppg10": 1.4,
-    "last_played": "2026-06-04"
-  },
-  "Niue": {
-    "rating": 1425.3,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1983-08-22"
-  },
-  "Venezuela": {
-    "rating": 1820.3,
-    "matches_3y": 32,
-    "gf": 1.094,
-    "ga": 1.281,
-    "ppg": 1.219,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-09"
-  },
-  "Mayotte": {
-    "rating": 1450.3,
-    "matches_3y": 2,
-    "gf": 0.0,
-    "ga": 0.0,
-    "ppg": 1.0,
-    "form_ppg10": 1.0,
-    "last_played": "2023-08-26"
-  },
-  "Tanzania": {
-    "rating": 1425.6,
-    "matches_3y": 34,
-    "gf": 0.735,
-    "ga": 1.059,
-    "ppg": 0.912,
-    "form_ppg10": 0.5,
-    "last_played": "2026-03-29"
-  },
-  "Panama": {
-    "rating": 1761.5,
-    "matches_3y": 51,
-    "gf": 1.608,
-    "ga": 1.255,
-    "ppg": 1.686,
-    "form_ppg10": 0.9,
-    "last_played": "2026-06-27"
-  },
-  "Occitania": {
-    "rating": 1722.2,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2014-12-30"
-  },
-  "Chile": {
-    "rating": 1797.6,
-    "matches_3y": 32,
-    "gf": 1.156,
-    "ga": 1.344,
-    "ppg": 1.156,
-    "form_ppg10": 1.6,
-    "last_played": "2026-06-09"
-  },
-  "Gibraltar": {
-    "rating": 1133.7,
-    "matches_3y": 29,
-    "gf": 0.724,
-    "ga": 2.586,
-    "ppg": 0.69,
-    "form_ppg10": 0.9,
-    "last_played": "2026-06-06"
-  },
-  "Belize": {
-    "rating": 1295.3,
-    "matches_3y": 24,
-    "gf": 1.417,
-    "ga": 1.75,
-    "ppg": 1.375,
-    "form_ppg10": 1.0,
-    "last_played": "2026-03-30"
-  },
-  "Oman": {
-    "rating": 1580.0,
-    "matches_3y": 39,
-    "gf": 1.0,
-    "ga": 1.026,
-    "ppg": 1.385,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-05"
-  },
-  "Faroe Islands": {
-    "rating": 1449.6,
-    "matches_3y": 29,
-    "gf": 0.862,
-    "ga": 1.138,
-    "ppg": 1.069,
-    "form_ppg10": 2.1,
-    "last_played": "2026-06-09"
-  },
-  "Sri Lanka": {
-    "rating": 1030.1,
-    "matches_3y": 21,
-    "gf": 0.714,
-    "ga": 1.19,
-    "ppg": 1.143,
-    "form_ppg10": 1.3,
-    "last_played": "2025-11-18"
-  },
-  "Canary Islands": {
-    "rating": 1521.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2007-12-29"
-  },
-  "France": {
-    "rating": 2188.9,
-    "matches_3y": 39,
-    "gf": 2.308,
-    "ga": 0.949,
-    "ppg": 2.103,
-    "form_ppg10": 2.5,
-    "last_played": "2026-06-26"
-  },
-  "Jordan": {
-    "rating": 1720.0,
-    "matches_3y": 51,
-    "gf": 1.588,
-    "ga": 1.431,
-    "ppg": 1.412,
-    "form_ppg10": 0.8,
-    "last_played": "2026-06-27"
-  },
-  "Italy": {
-    "rating": 1934.6,
-    "matches_3y": 34,
-    "gf": 1.882,
-    "ga": 1.147,
-    "ppg": 1.971,
-    "form_ppg10": 2.5,
-    "last_played": "2026-06-07"
-  },
-  "Isle of Wight": {
-    "rating": 1663.5,
-    "matches_3y": 4,
-    "gf": 1.75,
-    "ga": 1.0,
-    "ppg": 2.25,
-    "form_ppg10": 2.25,
-    "last_played": "2023-07-13"
-  },
-  "Zanzibar": {
-    "rating": 1556.0,
-    "matches_3y": 4,
-    "gf": 1.0,
-    "ga": 0.5,
-    "ppg": 2.25,
-    "form_ppg10": 2.25,
-    "last_played": "2025-01-13"
-  },
-  "Greece": {
-    "rating": 1819.9,
-    "matches_3y": 30,
-    "gf": 1.767,
-    "ga": 1.0,
-    "ppg": 1.667,
-    "form_ppg10": 0.9,
-    "last_played": "2026-06-07"
-  },
-  "Malaysia": {
-    "rating": 1511.7,
-    "matches_3y": 30,
-    "gf": 1.6,
-    "ga": 1.333,
-    "ppg": 1.7,
-    "form_ppg10": 2.3,
-    "last_played": "2025-11-18"
-  },
-  "Moldova": {
-    "rating": 1345.0,
-    "matches_3y": 29,
-    "gf": 0.931,
-    "ga": 2.138,
-    "ppg": 0.897,
-    "form_ppg10": 0.3,
-    "last_played": "2026-06-09"
-  },
-  "Tuvalu": {
-    "rating": 1205.8,
-    "matches_3y": 4,
-    "gf": 2.0,
-    "ga": 2.5,
-    "ppg": 1.5,
-    "form_ppg10": 1.5,
-    "last_played": "2023-11-30"
-  },
-  "Vatican City": {
-    "rating": 1406.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2022-04-22"
-  },
-  "Aruba": {
-    "rating": 1190.4,
-    "matches_3y": 21,
-    "gf": 1.667,
-    "ga": 1.905,
-    "ppg": 1.286,
-    "form_ppg10": 1.4,
-    "last_played": "2026-06-06"
-  },
-  "Cilento": {
-    "rating": 1489.9,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2011-12-29"
-  },
-  "Orkney": {
-    "rating": 1400.3,
-    "matches_3y": 7,
-    "gf": 2.143,
-    "ga": 1.714,
-    "ppg": 1.857,
-    "form_ppg10": 1.857,
-    "last_played": "2025-07-17"
-  },
-  "Găgăuzia": {
-    "rating": 1428.5,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2006-11-21"
-  },
-  "Croatia": {
-    "rating": 1967.9,
-    "matches_3y": 36,
-    "gf": 1.889,
-    "ga": 1.056,
-    "ppg": 1.917,
-    "form_ppg10": 2.1,
-    "last_played": "2026-06-27"
-  },
-  "Azerbaijan": {
-    "rating": 1394.7,
-    "matches_3y": 30,
-    "gf": 0.967,
-    "ga": 1.967,
-    "ppg": 0.867,
-    "form_ppg10": 0.8,
-    "last_played": "2026-06-09"
-  },
-  "Yoruba Nation": {
-    "rating": 1483.7,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2022-05-23"
-  },
-  "Myanmar": {
-    "rating": 1143.7,
-    "matches_3y": 25,
-    "gf": 1.24,
-    "ga": 2.4,
-    "ppg": 1.08,
-    "form_ppg10": 1.4,
-    "last_played": "2026-06-09"
-  },
-  "Macau": {
-    "rating": 817.3,
-    "matches_3y": 10,
-    "gf": 0.3,
-    "ga": 2.8,
-    "ppg": 0.1,
-    "form_ppg10": 0.1,
-    "last_played": "2026-03-29"
-  },
-  "Peru": {
-    "rating": 1767.2,
-    "matches_3y": 32,
-    "gf": 0.656,
-    "ga": 1.188,
-    "ppg": 0.875,
-    "form_ppg10": 0.6,
-    "last_played": "2026-06-08"
-  },
-  "Spain": {
-    "rating": 2209.3,
-    "matches_3y": 40,
-    "gf": 2.7,
-    "ga": 0.775,
-    "ppg": 2.475,
-    "form_ppg10": 2.2,
-    "last_played": "2026-06-26"
-  },
-  "Chad": {
-    "rating": 1246.9,
-    "matches_3y": 23,
-    "gf": 0.565,
-    "ga": 1.739,
-    "ppg": 0.522,
-    "form_ppg10": 0.3,
-    "last_played": "2025-11-17"
-  },
-  "Ivory Coast": {
-    "rating": 1862.4,
-    "matches_3y": 44,
-    "gf": 1.818,
-    "ga": 0.636,
-    "ppg": 2.091,
-    "form_ppg10": 2.2,
-    "last_played": "2026-06-25"
-  },
-  "Madrid": {
-    "rating": 1491.0,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2013-06-07"
-  },
-  "Felvidék": {
-    "rating": 1512.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2017-06-09"
-  },
-  "Zimbabwe": {
-    "rating": 1491.3,
-    "matches_3y": 26,
-    "gf": 0.885,
-    "ga": 1.192,
-    "ppg": 0.962,
-    "form_ppg10": 1.1,
-    "last_played": "2026-05-30"
-  },
-  "Albania": {
-    "rating": 1685.8,
-    "matches_3y": 33,
-    "gf": 1.061,
-    "ga": 0.909,
-    "ppg": 1.394,
-    "form_ppg10": 1.5,
-    "last_played": "2026-06-06"
-  },
-  "Kernow": {
-    "rating": 1601.3,
-    "matches_3y": 1,
-    "gf": 2.0,
-    "ga": 1.0,
-    "ppg": 3.0,
-    "form_ppg10": 3.0,
-    "last_played": "2023-07-16"
-  },
-  "Gambia": {
-    "rating": 1535.6,
-    "matches_3y": 25,
-    "gf": 1.76,
-    "ga": 1.72,
-    "ppg": 1.08,
-    "form_ppg10": 1.4,
-    "last_played": "2026-05-29"
-  },
-  "Biafra": {
-    "rating": 1515.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2022-05-25"
-  },
-  "Fiji": {
-    "rating": 1403.7,
-    "matches_3y": 25,
-    "gf": 1.88,
-    "ga": 1.76,
-    "ppg": 1.32,
-    "form_ppg10": 0.6,
-    "last_played": "2026-06-06"
-  },
-  "South Yemen": {
-    "rating": 1469.0,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1982-11-25"
-  },
-  "Ukraine": {
-    "rating": 1823.7,
-    "matches_3y": 33,
-    "gf": 1.455,
-    "ga": 1.394,
-    "ppg": 1.576,
-    "form_ppg10": 1.6,
-    "last_played": "2026-06-07"
-  },
-  "Mongolia": {
-    "rating": 977.8,
-    "matches_3y": 12,
-    "gf": 0.417,
-    "ga": 2.167,
-    "ppg": 0.5,
-    "form_ppg10": 0.6,
-    "last_played": "2026-06-05"
-  },
-  "Kárpátalja": {
-    "rating": 1618.5,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2018-06-09"
-  },
-  "Comoros": {
-    "rating": 1491.8,
-    "matches_3y": 40,
-    "gf": 1.2,
-    "ga": 1.225,
-    "ppg": 1.325,
-    "form_ppg10": 0.7,
-    "last_played": "2026-06-09"
-  },
-  "Cyprus": {
-    "rating": 1378.1,
-    "matches_3y": 30,
-    "gf": 1.133,
-    "ga": 2.067,
-    "ppg": 0.967,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-07"
-  },
-  "Guinea-Bissau": {
-    "rating": 1363.5,
-    "matches_3y": 26,
-    "gf": 0.731,
-    "ga": 1.538,
-    "ppg": 0.731,
-    "form_ppg10": 0.5,
-    "last_played": "2026-03-31"
-  },
-  "Kiribati": {
-    "rating": 1222.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2011-09-05"
-  },
-  "South Africa": {
-    "rating": 1702.0,
-    "matches_3y": 50,
-    "gf": 1.32,
-    "ga": 0.82,
-    "ppg": 1.62,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-28"
-  },
-  "Raetia": {
-    "rating": 1379.5,
-    "matches_3y": 1,
-    "gf": 5.0,
-    "ga": 1.0,
-    "ppg": 3.0,
-    "form_ppg10": 3.0,
-    "last_played": "2023-08-06"
-  },
-  "United Koreans in Japan": {
-    "rating": 1506.3,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2018-06-09"
-  },
-  "Åland Islands": {
-    "rating": 1473.3,
-    "matches_3y": 4,
-    "gf": 0.5,
-    "ga": 2.25,
-    "ppg": 0.25,
-    "form_ppg10": 0.25,
-    "last_played": "2023-07-13"
-  },
-  "Turkey": {
-    "rating": 1927.3,
-    "matches_3y": 38,
-    "gf": 1.763,
-    "ga": 1.368,
-    "ppg": 1.816,
-    "form_ppg10": 2.2,
-    "last_played": "2026-06-25"
-  },
-  "Hungary": {
-    "rating": 1768.4,
-    "matches_3y": 33,
-    "gf": 1.364,
-    "ga": 1.424,
-    "ppg": 1.545,
-    "form_ppg10": 1.8,
-    "last_played": "2026-06-09"
-  },
-  "Vanuatu": {
-    "rating": 1432.8,
-    "matches_3y": 23,
-    "gf": 1.348,
-    "ga": 2.174,
-    "ppg": 1.174,
-    "form_ppg10": 1.4,
-    "last_played": "2026-06-06"
-  },
-  "Silesia": {
-    "rating": 1515.5,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2006-12-09"
-  },
-  "Iran": {
-    "rating": 1890.1,
-    "matches_3y": 37,
-    "gf": 2.054,
-    "ga": 0.757,
-    "ppg": 2.135,
-    "form_ppg10": 1.7,
-    "last_played": "2026-06-26"
-  },
-  "Slovakia": {
-    "rating": 1729.4,
-    "matches_3y": 34,
-    "gf": 1.5,
-    "ga": 1.206,
-    "ppg": 1.647,
-    "form_ppg10": 1.9,
-    "last_played": "2026-06-05"
-  },
-  "Haiti": {
-    "rating": 1671.9,
-    "matches_3y": 32,
-    "gf": 2.125,
-    "ga": 1.312,
-    "ppg": 1.531,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-24"
-  },
-  "Mauritania": {
-    "rating": 1454.0,
-    "matches_3y": 34,
-    "gf": 0.588,
-    "ga": 1.147,
-    "ppg": 0.912,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-08"
   },
   "East Turkestan": {
     "rating": 1452.5,
@@ -872,545 +17,77 @@
     "form_ppg10": 1.0,
     "last_played": "2025-07-04"
   },
-  "Guyana": {
-    "rating": 1494.4,
-    "matches_3y": 26,
-    "gf": 2.269,
-    "ga": 1.577,
-    "ppg": 1.769,
-    "form_ppg10": 2.4,
-    "last_played": "2026-03-30"
-  },
-  "Mapuche": {
-    "rating": 1508.5,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2022-06-18"
-  },
-  "North Vietnam": {
-    "rating": 1485.3,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1970-09-20"
-  },
-  "Nepal": {
-    "rating": 1082.9,
-    "matches_3y": 21,
-    "gf": 0.524,
-    "ga": 1.762,
-    "ppg": 0.714,
-    "form_ppg10": 0.9,
-    "last_played": "2025-11-18"
-  },
-  "Israel": {
-    "rating": 1690.5,
-    "matches_3y": 27,
-    "gf": 1.444,
-    "ga": 1.741,
-    "ppg": 1.296,
-    "form_ppg10": 1.7,
-    "last_played": "2026-06-03"
-  },
-  "Kyrgyzstan": {
-    "rating": 1465.2,
-    "matches_3y": 28,
-    "gf": 1.214,
-    "ga": 1.5,
-    "ppg": 1.036,
-    "form_ppg10": 0.7,
-    "last_played": "2026-06-09"
-  },
-  "South Ossetia": {
-    "rating": 1489.6,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-12-08"
-  },
-  "Nigeria": {
-    "rating": 1877.6,
-    "matches_3y": 45,
-    "gf": 1.733,
-    "ga": 0.867,
-    "ppg": 1.911,
-    "form_ppg10": 1.9,
-    "last_played": "2026-06-10"
-  },
-  "Switzerland": {
-    "rating": 1975.3,
-    "matches_3y": 38,
-    "gf": 1.868,
-    "ga": 1.105,
-    "ppg": 1.632,
-    "form_ppg10": 1.7,
-    "last_played": "2026-06-24"
-  },
-  "Thailand": {
-    "rating": 1537.1,
+  "England": {
+    "rating": 2111.1,
     "matches_3y": 40,
-    "gf": 1.9,
-    "ga": 1.325,
-    "ppg": 1.75,
-    "form_ppg10": 2.0,
-    "last_played": "2026-06-09"
-  },
-  "Barawa": {
-    "rating": 1378.5,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-05-25"
-  },
-  "Yorkshire": {
-    "rating": 1556.8,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-06-01"
-  },
-  "United States": {
-    "rating": 1909.8,
-    "matches_3y": 48,
-    "gf": 1.896,
-    "ga": 1.312,
-    "ppg": 1.625,
-    "form_ppg10": 1.8,
-    "last_played": "2026-06-25"
-  },
-  "Ambazonia": {
-    "rating": 1314.3,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2007-06-07"
-  },
-  "Saudi Arabia": {
-    "rating": 1716.3,
-    "matches_3y": 55,
-    "gf": 1.164,
-    "ga": 1.055,
-    "ppg": 1.473,
-    "form_ppg10": 0.9,
-    "last_played": "2026-06-26"
-  },
-  "Saint Helena": {
-    "rating": 1343.0,
-    "matches_3y": 4,
-    "gf": 0.5,
-    "ga": 4.25,
-    "ppg": 0.0,
-    "form_ppg10": 0.0,
-    "last_played": "2023-07-13"
-  },
-  "Bahrain": {
-    "rating": 1548.4,
-    "matches_3y": 40,
-    "gf": 1.075,
-    "ga": 1.375,
-    "ppg": 1.225,
-    "form_ppg10": 0.7,
-    "last_played": "2026-06-05"
-  },
-  "Togo": {
-    "rating": 1503.2,
-    "matches_3y": 23,
-    "gf": 1.13,
-    "ga": 1.304,
-    "ppg": 1.174,
-    "form_ppg10": 1.3,
-    "last_played": "2026-06-09"
-  },
-  "Equatorial Guinea": {
-    "rating": 1436.9,
-    "matches_3y": 34,
-    "gf": 0.941,
-    "ga": 1.265,
-    "ppg": 1.088,
-    "form_ppg10": 0.5,
-    "last_played": "2026-06-09"
-  },
-  "Portugal": {
-    "rating": 2062.8,
-    "matches_3y": 39,
-    "gf": 2.41,
-    "ga": 0.872,
-    "ppg": 2.154,
-    "form_ppg10": 1.9,
+    "gf": 1.925,
+    "ga": 0.6,
+    "ppg": 2.15,
+    "form_ppg10": 2.3,
     "last_played": "2026-06-27"
   },
-  "Monaco": {
-    "rating": 1423.5,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2017-04-29"
+  "Turkey": {
+    "rating": 1927.3,
+    "matches_3y": 38,
+    "gf": 1.763,
+    "ga": 1.368,
+    "ppg": 1.816,
+    "form_ppg10": 2.2,
+    "last_played": "2026-06-25"
   },
-  "Ellan Vannin": {
-    "rating": 1553.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2018-06-03"
-  },
-  "Two Sicilies": {
-    "rating": 1378.9,
-    "matches_3y": 2,
-    "gf": 0.5,
-    "ga": 5.0,
-    "ppg": 0.0,
-    "form_ppg10": 0.0,
-    "last_played": "2023-07-02"
-  },
-  "Brittany": {
-    "rating": 1508.5,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2013-05-28"
-  },
-  "Donetsk PR": {
-    "rating": 1510.9,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2017-08-31"
-  },
-  "Hmong": {
-    "rating": 1459.3,
-    "matches_3y": 3,
-    "gf": 2.0,
-    "ga": 3.333,
-    "ppg": 1.0,
-    "form_ppg10": 1.0,
-    "last_played": "2023-08-08"
-  },
-  "Western Isles": {
-    "rating": 1429.2,
-    "matches_3y": 6,
-    "gf": 1.167,
-    "ga": 1.167,
-    "ppg": 1.167,
-    "form_ppg10": 1.167,
-    "last_played": "2025-07-17"
-  },
-  "Singapore": {
-    "rating": 1325.3,
-    "matches_3y": 30,
-    "gf": 1.433,
-    "ga": 1.9,
-    "ppg": 1.267,
-    "form_ppg10": 1.7,
-    "last_played": "2026-06-05"
-  },
-  "Mexico": {
-    "rating": 2013.7,
+  "Morocco": {
+    "rating": 2037.2,
     "matches_3y": 51,
-    "gf": 1.51,
-    "ga": 0.863,
-    "ppg": 1.882,
-    "form_ppg10": 2.6,
-    "last_played": "2026-06-24"
-  },
-  "Egypt": {
-    "rating": 1860.0,
-    "matches_3y": 46,
-    "gf": 1.543,
-    "ga": 0.804,
-    "ppg": 1.87,
-    "form_ppg10": 1.6,
-    "last_played": "2026-06-26"
-  },
-  "Curaçao": {
-    "rating": 1604.9,
-    "matches_3y": 33,
-    "gf": 1.818,
-    "ga": 1.273,
-    "ppg": 1.455,
-    "form_ppg10": 0.9,
-    "last_played": "2026-06-25"
-  },
-  "Guadeloupe": {
-    "rating": 1546.1,
-    "matches_3y": 19,
-    "gf": 1.947,
-    "ga": 1.105,
-    "ppg": 1.789,
-    "form_ppg10": 1.6,
-    "last_played": "2025-06-24"
-  },
-  "Gotland": {
-    "rating": 1452.5,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2017-06-29"
-  },
-  "Finland": {
-    "rating": 1578.4,
-    "matches_3y": 30,
-    "gf": 1.1,
-    "ga": 1.767,
-    "ppg": 1.0,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-05"
-  },
-  "Belarus": {
-    "rating": 1581.4,
-    "matches_3y": 30,
-    "gf": 1.1,
-    "ga": 1.467,
-    "ppg": 1.267,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-09"
-  },
-  "Vietnam": {
-    "rating": 1474.5,
-    "matches_3y": 32,
-    "gf": 1.625,
-    "ga": 1.5,
-    "ppg": 1.562,
-    "form_ppg10": 2.7,
-    "last_played": "2026-03-26"
-  },
-  "Galicia": {
-    "rating": 1536.4,
-    "matches_3y": 1,
-    "gf": 0.0,
-    "ga": 2.0,
-    "ppg": 0.0,
-    "form_ppg10": 0.0,
-    "last_played": "2024-05-21"
-  },
-  "Kuwait": {
-    "rating": 1485.8,
-    "matches_3y": 37,
-    "gf": 1.108,
-    "ga": 1.622,
-    "ppg": 1.0,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-05"
-  },
-  "Saare County": {
-    "rating": 1339.9,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2017-06-29"
-  },
-  "Yemen DPR": {
-    "rating": 1349.6,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1989-11-05"
-  },
-  "Tunisia": {
-    "rating": 1654.2,
-    "matches_3y": 45,
-    "gf": 1.333,
-    "ga": 1.022,
-    "ppg": 1.622,
-    "form_ppg10": 0.6,
-    "last_played": "2026-06-25"
-  },
-  "Luxembourg": {
-    "rating": 1464.6,
-    "matches_3y": 27,
-    "gf": 0.593,
-    "ga": 1.704,
-    "ppg": 0.741,
-    "form_ppg10": 0.4,
-    "last_played": "2026-06-06"
-  },
-  "Kurdistan": {
-    "rating": 1565.6,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2013-06-28"
-  },
-  "Tonga": {
-    "rating": 1048.3,
-    "matches_3y": 8,
-    "gf": 1.5,
-    "ga": 2.875,
-    "ppg": 0.75,
-    "form_ppg10": 0.75,
-    "last_played": "2024-09-09"
-  },
-  "Grenada": {
-    "rating": 1296.1,
-    "matches_3y": 24,
-    "gf": 1.208,
-    "ga": 2.042,
-    "ppg": 1.042,
-    "form_ppg10": 1.5,
-    "last_played": "2026-05-16"
-  },
-  "Madagascar": {
-    "rating": 1496.6,
-    "matches_3y": 28,
-    "gf": 1.429,
-    "ga": 1.286,
-    "ppg": 1.5,
-    "form_ppg10": 1.6,
-    "last_played": "2026-06-02"
-  },
-  "Greenland": {
-    "rating": 1460.2,
-    "matches_3y": 4,
-    "gf": 1.25,
-    "ga": 3.0,
-    "ppg": 1.0,
-    "form_ppg10": 1.0,
-    "last_played": "2024-06-01"
-  },
-  "Jersey": {
-    "rating": 1801.1,
-    "matches_3y": 8,
-    "gf": 3.0,
-    "ga": 1.125,
-    "ppg": 2.375,
-    "form_ppg10": 2.375,
-    "last_played": "2025-07-18"
-  },
-  "Sierra Leone": {
-    "rating": 1456.8,
-    "matches_3y": 24,
-    "gf": 1.083,
-    "ga": 1.458,
-    "ppg": 1.167,
-    "form_ppg10": 1.4,
-    "last_played": "2026-06-09"
-  },
-  "Germany": {
-    "rating": 1994.0,
-    "matches_3y": 39,
-    "gf": 2.308,
-    "ga": 1.128,
-    "ppg": 2.026,
-    "form_ppg10": 2.5,
+    "gf": 2.235,
+    "ga": 0.392,
+    "ppg": 2.549,
+    "form_ppg10": 2.2,
     "last_played": "2026-06-29"
   },
-  "Solomon Islands": {
-    "rating": 1330.4,
-    "matches_3y": 23,
-    "gf": 1.696,
-    "ga": 1.87,
-    "ppg": 1.217,
-    "form_ppg10": 0.6,
-    "last_played": "2026-03-30"
+  "Libya": {
+    "rating": 1522.6,
+    "matches_3y": 26,
+    "gf": 1.308,
+    "ga": 0.885,
+    "ppg": 1.692,
+    "form_ppg10": 1.5,
+    "last_played": "2026-03-31"
   },
-  "Sealand": {
-    "rating": 1478.5,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2014-08-10"
-  },
-  "Palau": {
-    "rating": 1421.9,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1998-08-01"
-  },
-  "Seychelles": {
-    "rating": 997.9,
-    "matches_3y": 15,
-    "gf": 0.267,
-    "ga": 4.267,
-    "ppg": 0.0,
-    "form_ppg10": 0.0,
-    "last_played": "2025-10-14"
-  },
-  "Djibouti": {
-    "rating": 1094.9,
-    "matches_3y": 14,
-    "gf": 0.429,
-    "ga": 2.643,
-    "ppg": 0.214,
-    "form_ppg10": 0.2,
-    "last_played": "2025-11-26"
-  },
-  "Norway": {
-    "rating": 1994.6,
+  "Georgia": {
+    "rating": 1720.1,
     "matches_3y": 33,
-    "gf": 2.727,
-    "ga": 1.061,
-    "ppg": 2.091,
-    "form_ppg10": 1.8,
+    "gf": 1.788,
+    "ga": 1.485,
+    "ppg": 1.394,
+    "form_ppg10": 1.1,
+    "last_played": "2026-06-05"
+  },
+  "China": {
+    "rating": 1563.2,
+    "matches_3y": 29,
+    "gf": 0.931,
+    "ga": 1.414,
+    "ppg": 1.069,
+    "form_ppg10": 1.1,
+    "last_played": "2026-06-09"
+  },
+  "France": {
+    "rating": 2188.9,
+    "matches_3y": 39,
+    "gf": 2.308,
+    "ga": 0.949,
+    "ppg": 2.103,
+    "form_ppg10": 2.5,
     "last_played": "2026-06-26"
   },
-  "Wales": {
-    "rating": 1756.8,
-    "matches_3y": 30,
-    "gf": 1.6,
-    "ga": 1.067,
-    "ppg": 1.6,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-06"
-  },
-  "Frøya": {
-    "rating": 1187.0,
-    "matches_3y": 7,
-    "gf": 1.0,
-    "ga": 4.143,
-    "ppg": 0.429,
-    "form_ppg10": 0.429,
-    "last_played": "2025-07-17"
-  },
-  "Bolivia": {
-    "rating": 1715.2,
-    "matches_3y": 38,
-    "gf": 0.816,
-    "ga": 2.053,
-    "ppg": 0.868,
-    "form_ppg10": 0.7,
-    "last_played": "2026-06-10"
-  },
-  "Denmark": {
-    "rating": 1932.9,
-    "matches_3y": 34,
-    "gf": 1.824,
-    "ga": 0.941,
-    "ppg": 1.882,
-    "form_ppg10": 1.9,
-    "last_played": "2026-06-07"
+  "Tuvalu": {
+    "rating": 1205.8,
+    "matches_3y": 4,
+    "gf": 2.0,
+    "ga": 2.5,
+    "ppg": 1.5,
+    "form_ppg10": 1.5,
+    "last_played": "2023-11-30"
   },
   "Gabon": {
     "rating": 1521.9,
@@ -1421,221 +98,95 @@
     "form_ppg10": 1.1,
     "last_played": "2026-03-30"
   },
-  "Guinea": {
-    "rating": 1572.9,
-    "matches_3y": 32,
-    "gf": 1.438,
-    "ga": 0.875,
-    "ppg": 1.562,
-    "form_ppg10": 1.3,
-    "last_played": "2026-06-04"
-  },
-  "Eswatini": {
-    "rating": 1299.2,
-    "matches_3y": 24,
-    "gf": 0.708,
-    "ga": 1.667,
-    "ppg": 0.583,
-    "form_ppg10": 0.5,
-    "last_played": "2025-10-13"
-  },
-  "Honduras": {
-    "rating": 1711.6,
-    "matches_3y": 38,
-    "gf": 1.5,
-    "ga": 1.105,
-    "ppg": 1.579,
-    "form_ppg10": 1.1,
-    "last_played": "2026-06-06"
-  },
-  "Ecuador": {
-    "rating": 1986.6,
-    "matches_3y": 38,
-    "gf": 1.026,
-    "ga": 0.553,
-    "ppg": 1.684,
-    "form_ppg10": 1.7,
-    "last_played": "2026-06-25"
-  },
-  "Artsakh": {
-    "rating": 1579.6,
+  "Panjab": {
+    "rating": 1585.5,
     "matches_3y": 0,
     "gf": null,
     "ga": null,
     "ppg": null,
     "form_ppg10": null,
-    "last_played": "2019-06-08"
+    "last_played": "2019-12-29"
   },
-  "Niger": {
-    "rating": 1499.1,
-    "matches_3y": 27,
-    "gf": 1.296,
-    "ga": 1.222,
-    "ppg": 1.222,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-08"
+  "Haiti": {
+    "rating": 1671.9,
+    "matches_3y": 32,
+    "gf": 2.125,
+    "ga": 1.312,
+    "ppg": 1.531,
+    "form_ppg10": 1.0,
+    "last_played": "2026-06-24"
   },
-  "Antigua and Barbuda": {
-    "rating": 1092.2,
-    "matches_3y": 18,
-    "gf": 0.722,
-    "ga": 2.556,
-    "ppg": 0.389,
-    "form_ppg10": 0.2,
+  "Tonga": {
+    "rating": 1048.3,
+    "matches_3y": 8,
+    "gf": 1.5,
+    "ga": 2.875,
+    "ppg": 0.75,
+    "form_ppg10": 0.75,
+    "last_played": "2024-09-09"
+  },
+  "Brittany": {
+    "rating": 1508.5,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2013-05-28"
+  },
+  "Sri Lanka": {
+    "rating": 1030.1,
+    "matches_3y": 21,
+    "gf": 0.714,
+    "ga": 1.19,
+    "ppg": 1.143,
+    "form_ppg10": 1.3,
     "last_played": "2025-11-18"
   },
-  "Kenya": {
-    "rating": 1466.0,
-    "matches_3y": 28,
-    "gf": 1.286,
-    "ga": 1.357,
-    "ppg": 1.25,
-    "form_ppg10": 1.5,
-    "last_played": "2026-06-04"
-  },
-  "Poland": {
-    "rating": 1767.8,
-    "matches_3y": 33,
-    "gf": 1.606,
-    "ga": 1.333,
-    "ppg": 1.606,
-    "form_ppg10": 1.8,
-    "last_played": "2026-06-03"
-  },
-  "Russia": {
-    "rating": 1845.8,
-    "matches_3y": 23,
-    "gf": 2.565,
-    "ga": 0.565,
-    "ppg": 2.217,
-    "form_ppg10": 2.0,
+  "Belarus": {
+    "rating": 1581.4,
+    "matches_3y": 30,
+    "gf": 1.1,
+    "ga": 1.467,
+    "ppg": 1.267,
+    "form_ppg10": 1.2,
     "last_played": "2026-06-09"
   },
-  "Sark": {
-    "rating": 1327.7,
+  "North Vietnam": {
+    "rating": 1485.3,
     "matches_3y": 0,
     "gf": null,
     "ga": null,
     "ppg": null,
     "form_ppg10": null,
-    "last_played": "2003-07-03"
+    "last_played": "1970-09-20"
   },
-  "Nicaragua": {
-    "rating": 1520.1,
-    "matches_3y": 29,
-    "gf": 1.31,
-    "ga": 1.241,
-    "ppg": 1.345,
-    "form_ppg10": 0.5,
-    "last_played": "2026-06-05"
+  "Samoa": {
+    "rating": 1221.9,
+    "matches_3y": 14,
+    "gf": 1.857,
+    "ga": 2.357,
+    "ppg": 1.286,
+    "form_ppg10": 1.2,
+    "last_played": "2024-11-18"
   },
-  "Argentina": {
-    "rating": 2218.3,
-    "matches_3y": 38,
-    "gf": 2.105,
-    "ga": 0.395,
-    "ppg": 2.526,
-    "form_ppg10": 3.0,
-    "last_played": "2026-06-27"
-  },
-  "Slovenia": {
-    "rating": 1740.8,
-    "matches_3y": 35,
-    "gf": 1.257,
+  "Greece": {
+    "rating": 1819.9,
+    "matches_3y": 30,
+    "gf": 1.767,
     "ga": 1.0,
-    "ppg": 1.6,
-    "form_ppg10": 0.8,
+    "ppg": 1.667,
+    "form_ppg10": 0.9,
     "last_played": "2026-06-07"
   },
-  "Congo": {
-    "rating": 1320.9,
-    "matches_3y": 13,
-    "gf": 0.846,
-    "ga": 2.308,
-    "ppg": 0.538,
-    "form_ppg10": 0.5,
-    "last_played": "2025-10-14"
-  },
-  "Cayman Islands": {
-    "rating": 1023.7,
-    "matches_3y": 20,
-    "gf": 1.0,
-    "ga": 2.1,
-    "ppg": 1.05,
-    "form_ppg10": 0.7,
-    "last_played": "2026-06-06"
-  },
-  "Armenia": {
-    "rating": 1424.7,
-    "matches_3y": 29,
-    "gf": 0.897,
-    "ga": 2.172,
-    "ppg": 0.621,
-    "form_ppg10": 0.6,
-    "last_played": "2026-06-09"
-  },
-  "Malawi": {
-    "rating": 1426.6,
-    "matches_3y": 27,
-    "gf": 1.0,
-    "ga": 1.0,
-    "ppg": 1.259,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-09"
-  },
-  "DR Congo": {
-    "rating": 1818.5,
-    "matches_3y": 44,
-    "gf": 1.159,
-    "ga": 0.614,
-    "ppg": 1.727,
-    "form_ppg10": 1.5,
-    "last_played": "2026-06-27"
-  },
-  "Afghanistan": {
-    "rating": 1141.3,
-    "matches_3y": 21,
-    "gf": 0.524,
-    "ga": 1.524,
-    "ppg": 0.857,
-    "form_ppg10": 0.5,
-    "last_played": "2026-06-10"
-  },
-  "Gozo": {
-    "rating": 1431.5,
-    "matches_3y": 7,
-    "gf": 1.0,
-    "ga": 1.0,
-    "ppg": 1.143,
-    "form_ppg10": 1.143,
-    "last_played": "2025-07-17"
-  },
-  "Dominica": {
-    "rating": 1149.0,
-    "matches_3y": 20,
-    "gf": 1.1,
-    "ga": 2.05,
-    "ppg": 1.0,
-    "form_ppg10": 0.7,
-    "last_played": "2026-03-30"
-  },
-  "Indonesia": {
-    "rating": 1521.3,
-    "matches_3y": 39,
-    "gf": 1.41,
-    "ga": 1.513,
-    "ppg": 1.333,
-    "form_ppg10": 1.6,
-    "last_played": "2026-06-09"
-  },
-  "South Sudan": {
-    "rating": 1266.7,
-    "matches_3y": 21,
-    "gf": 0.524,
-    "ga": 1.81,
-    "ppg": 0.619,
-    "form_ppg10": 0.6,
-    "last_played": "2025-11-25"
+  "Republic of St. Pauli": {
+    "rating": 1488.2,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2006-06-03"
   },
   "Elba Island": {
     "rating": 1515.7,
@@ -1646,41 +197,68 @@
     "form_ppg10": null,
     "last_played": "2022-07-16"
   },
-  "Martinique": {
-    "rating": 1485.4,
-    "matches_3y": 17,
-    "gf": 0.824,
-    "ga": 1.412,
-    "ppg": 0.882,
-    "form_ppg10": 0.7,
-    "last_played": "2026-03-29"
-  },
-  "Republic of Ireland": {
-    "rating": 1762.5,
-    "matches_3y": 31,
-    "gf": 1.097,
-    "ga": 1.226,
-    "ppg": 1.323,
-    "form_ppg10": 1.8,
-    "last_played": "2026-06-05"
-  },
-  "Montserrat": {
-    "rating": 1220.2,
-    "matches_3y": 16,
-    "gf": 0.938,
-    "ga": 2.125,
-    "ppg": 0.938,
-    "form_ppg10": 0.6,
-    "last_played": "2025-06-10"
-  },
-  "Panjab": {
-    "rating": 1585.5,
+  "Western Armenia": {
+    "rating": 1524.7,
     "matches_3y": 0,
     "gf": null,
     "ga": null,
     "ppg": null,
     "form_ppg10": null,
-    "last_played": "2019-12-29"
+    "last_played": "2019-06-09"
+  },
+  "Cape Verde": {
+    "rating": 1689.0,
+    "matches_3y": 39,
+    "gf": 1.205,
+    "ga": 1.103,
+    "ppg": 1.487,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-26"
+  },
+  "Armenia": {
+    "rating": 1424.7,
+    "matches_3y": 29,
+    "gf": 0.897,
+    "ga": 2.172,
+    "ppg": 0.621,
+    "form_ppg10": 0.6,
+    "last_played": "2026-06-09"
+  },
+  "Angola": {
+    "rating": 1590.6,
+    "matches_3y": 39,
+    "gf": 1.103,
+    "ga": 0.821,
+    "ppg": 1.462,
+    "form_ppg10": 1.4,
+    "last_played": "2026-06-09"
+  },
+  "Bulgaria": {
+    "rating": 1527.5,
+    "matches_3y": 30,
+    "gf": 1.033,
+    "ga": 1.767,
+    "ppg": 0.933,
+    "form_ppg10": 1.0,
+    "last_played": "2026-06-05"
+  },
+  "Uzbekistan": {
+    "rating": 1739.6,
+    "matches_3y": 39,
+    "gf": 1.41,
+    "ga": 1.051,
+    "ppg": 1.718,
+    "form_ppg10": 0.9,
+    "last_played": "2026-06-27"
+  },
+  "Gozo": {
+    "rating": 1431.5,
+    "matches_3y": 7,
+    "gf": 1.0,
+    "ga": 1.0,
+    "ppg": 1.143,
+    "form_ppg10": 1.143,
+    "last_played": "2025-07-17"
   },
   "El Salvador": {
     "rating": 1499.9,
@@ -1689,6 +267,87 @@
     "ga": 1.184,
     "ppg": 1.132,
     "form_ppg10": 0.8,
+    "last_played": "2026-06-06"
+  },
+  "Spain": {
+    "rating": 2209.3,
+    "matches_3y": 40,
+    "gf": 2.7,
+    "ga": 0.775,
+    "ppg": 2.475,
+    "form_ppg10": 2.2,
+    "last_played": "2026-06-26"
+  },
+  "Artsakh": {
+    "rating": 1579.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-06-08"
+  },
+  "North Korea": {
+    "rating": 1486.8,
+    "matches_3y": 18,
+    "gf": 1.222,
+    "ga": 1.556,
+    "ppg": 0.778,
+    "form_ppg10": 0.4,
+    "last_played": "2025-06-10"
+  },
+  "Vietnam Republic": {
+    "rating": 1342.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1975-03-23"
+  },
+  "Mongolia": {
+    "rating": 977.8,
+    "matches_3y": 12,
+    "gf": 0.417,
+    "ga": 2.167,
+    "ppg": 0.5,
+    "form_ppg10": 0.6,
+    "last_played": "2026-06-05"
+  },
+  "Afghanistan": {
+    "rating": 1141.3,
+    "matches_3y": 21,
+    "gf": 0.524,
+    "ga": 1.524,
+    "ppg": 0.857,
+    "form_ppg10": 0.5,
+    "last_played": "2026-06-10"
+  },
+  "Donetsk PR": {
+    "rating": 1510.9,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2017-08-31"
+  },
+  "Northern Ireland": {
+    "rating": 1664.5,
+    "matches_3y": 30,
+    "gf": 1.233,
+    "ga": 1.3,
+    "ppg": 1.367,
+    "form_ppg10": 1.3,
+    "last_played": "2026-06-08"
+  },
+  "Cayman Islands": {
+    "rating": 1023.7,
+    "matches_3y": 20,
+    "gf": 1.0,
+    "ga": 2.1,
+    "ppg": 1.05,
+    "form_ppg10": 0.7,
     "last_played": "2026-06-06"
   },
   "Palestine": {
@@ -1700,50 +359,23 @@
     "form_ppg10": 0.9,
     "last_played": "2026-06-09"
   },
-  "India": {
-    "rating": 1235.7,
-    "matches_3y": 28,
-    "gf": 0.536,
-    "ga": 1.286,
-    "ppg": 0.607,
-    "form_ppg10": 0.3,
-    "last_played": "2026-06-09"
+  "Yugoslavia": {
+    "rating": 1870.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1992-03-25"
   },
-  "Sint Maarten": {
-    "rating": 1294.0,
-    "matches_3y": 16,
-    "gf": 1.188,
-    "ga": 2.312,
-    "ppg": 1.438,
-    "form_ppg10": 1.7,
-    "last_played": "2026-03-30"
-  },
-  "Dominican Republic": {
-    "rating": 1502.8,
-    "matches_3y": 30,
-    "gf": 2.3,
-    "ga": 1.233,
-    "ppg": 1.6,
-    "form_ppg10": 0.7,
-    "last_played": "2026-06-03"
-  },
-  "Bahamas": {
-    "rating": 925.5,
-    "matches_3y": 17,
-    "gf": 1.176,
-    "ga": 4.0,
-    "ppg": 0.294,
-    "form_ppg10": 0.4,
-    "last_played": "2026-03-29"
-  },
-  "Ticino": {
-    "rating": 1406.4,
-    "matches_3y": 1,
-    "gf": 1.0,
-    "ga": 5.0,
-    "ppg": 0.0,
-    "form_ppg10": 0.0,
-    "last_played": "2023-08-06"
+  "Greenland": {
+    "rating": 1460.2,
+    "matches_3y": 4,
+    "gf": 1.25,
+    "ga": 3.0,
+    "ppg": 1.0,
+    "form_ppg10": 1.0,
+    "last_played": "2024-06-01"
   },
   "Burundi": {
     "rating": 1380.4,
@@ -1754,33 +386,6 @@
     "form_ppg10": 0.7,
     "last_played": "2026-05-26"
   },
-  "Réunion": {
-    "rating": 1577.8,
-    "matches_3y": 4,
-    "gf": 0.75,
-    "ga": 0.75,
-    "ppg": 1.25,
-    "form_ppg10": 1.25,
-    "last_played": "2023-09-02"
-  },
-  "Iraq": {
-    "rating": 1677.3,
-    "matches_3y": 44,
-    "gf": 1.318,
-    "ga": 1.159,
-    "ppg": 1.705,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-26"
-  },
-  "Shetland": {
-    "rating": 1499.3,
-    "matches_3y": 7,
-    "gf": 2.286,
-    "ga": 1.571,
-    "ppg": 1.571,
-    "form_ppg10": 1.571,
-    "last_played": "2025-07-17"
-  },
   "Kazakhstan": {
     "rating": 1511.9,
     "matches_3y": 31,
@@ -1790,104 +395,32 @@
     "form_ppg10": 1.2,
     "last_played": "2026-06-09"
   },
-  "Kosovo": {
-    "rating": 1786.7,
-    "matches_3y": 29,
-    "gf": 1.586,
-    "ga": 1.103,
-    "ppg": 1.828,
-    "form_ppg10": 1.7,
+  "Gambia": {
+    "rating": 1535.6,
+    "matches_3y": 25,
+    "gf": 1.76,
+    "ga": 1.72,
+    "ppg": 1.08,
+    "form_ppg10": 1.4,
+    "last_played": "2026-05-29"
+  },
+  "Slovenia": {
+    "rating": 1740.8,
+    "matches_3y": 35,
+    "gf": 1.257,
+    "ga": 1.0,
+    "ppg": 1.6,
+    "form_ppg10": 0.8,
     "last_played": "2026-06-07"
   },
-  "Aymara": {
-    "rating": 1463.2,
+  "South Yemen": {
+    "rating": 1469.0,
     "matches_3y": 0,
     "gf": null,
     "ga": null,
     "ppg": null,
     "form_ppg10": null,
-    "last_played": "2022-06-19"
-  },
-  "Central African Republic": {
-    "rating": 1343.8,
-    "matches_3y": 22,
-    "gf": 1.273,
-    "ga": 2.045,
-    "ppg": 0.955,
-    "form_ppg10": 0.8,
-    "last_played": "2026-06-09"
-  },
-  "Corsica": {
-    "rating": 1563.8,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2017-05-26"
-  },
-  "Sudan": {
-    "rating": 1464.7,
-    "matches_3y": 30,
-    "gf": 0.633,
-    "ga": 1.033,
-    "ppg": 1.133,
-    "form_ppg10": 0.7,
-    "last_played": "2026-01-03"
-  },
-  "Somalia": {
-    "rating": 1049.0,
-    "matches_3y": 16,
-    "gf": 0.438,
-    "ga": 1.938,
-    "ppg": 0.375,
-    "form_ppg10": 0.5,
-    "last_played": "2025-11-26"
-  },
-  "Puerto Rico": {
-    "rating": 1366.7,
-    "matches_3y": 25,
-    "gf": 2.12,
-    "ga": 1.68,
-    "ppg": 1.48,
-    "form_ppg10": 1.1,
-    "last_played": "2026-06-05"
-  },
-  "Ynys Môn": {
-    "rating": 1642.2,
-    "matches_3y": 6,
-    "gf": 2.167,
-    "ga": 1.167,
-    "ppg": 2.5,
-    "form_ppg10": 2.5,
-    "last_played": "2025-07-17"
-  },
-  "Timor-Leste": {
-    "rating": 898.4,
-    "matches_3y": 16,
-    "gf": 0.688,
-    "ga": 2.812,
-    "ppg": 0.625,
-    "form_ppg10": 0.3,
-    "last_played": "2025-11-18"
-  },
-  "Isle of Man": {
-    "rating": 1705.0,
-    "matches_3y": 9,
-    "gf": 3.333,
-    "ga": 1.333,
-    "ppg": 2.0,
-    "form_ppg10": 2.0,
-    "last_played": "2025-07-18"
-  },
-  "Ghana": {
-    "rating": 1674.2,
-    "matches_3y": 36,
-    "gf": 1.306,
-    "ga": 1.278,
-    "ppg": 1.25,
-    "form_ppg10": 0.8,
-    "last_played": "2026-06-27"
+    "last_played": "1982-11-25"
   },
   "Turks and Caicos Islands": {
     "rating": 952.5,
@@ -1898,194 +431,41 @@
     "form_ppg10": 1.0,
     "last_played": "2025-08-16"
   },
-  "Australia": {
-    "rating": 1912.6,
-    "matches_3y": 38,
-    "gf": 1.789,
-    "ga": 0.658,
-    "ppg": 1.947,
-    "form_ppg10": 1.1,
-    "last_played": "2026-06-25"
-  },
-  "Matabeleland": {
-    "rating": 1486.0,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2022-05-25"
-  },
-  "Falkland Islands": {
-    "rating": 1211.1,
-    "matches_3y": 4,
-    "gf": 0.75,
-    "ga": 3.25,
-    "ppg": 0.25,
-    "form_ppg10": 0.25,
-    "last_played": "2023-07-13"
-  },
-  "New Caledonia": {
-    "rating": 1588.4,
-    "matches_3y": 14,
-    "gf": 2.643,
-    "ga": 0.857,
-    "ppg": 2.071,
-    "form_ppg10": 2.0,
-    "last_played": "2026-03-26"
-  },
-  "Latvia": {
-    "rating": 1332.0,
-    "matches_3y": 28,
-    "gf": 0.536,
-    "ga": 1.679,
-    "ppg": 0.714,
-    "form_ppg10": 0.5,
-    "last_played": "2026-06-09"
-  },
-  "Ethiopia": {
-    "rating": 1387.2,
-    "matches_3y": 22,
-    "gf": 0.864,
-    "ga": 1.409,
-    "ppg": 1.045,
-    "form_ppg10": 1.3,
-    "last_played": "2026-06-09"
-  },
-  "United Arab Emirates": {
-    "rating": 1676.6,
-    "matches_3y": 38,
-    "gf": 1.632,
-    "ga": 0.974,
-    "ppg": 1.632,
-    "form_ppg10": 1.2,
-    "last_played": "2025-12-15"
-  },
-  "Turkmenistan": {
-    "rating": 1387.6,
-    "matches_3y": 15,
-    "gf": 1.333,
-    "ga": 1.6,
-    "ppg": 1.2,
-    "form_ppg10": 1.6,
-    "last_played": "2025-11-18"
-  },
-  "Barbados": {
-    "rating": 1118.2,
-    "matches_3y": 22,
-    "gf": 1.727,
-    "ga": 2.727,
-    "ppg": 0.818,
-    "form_ppg10": 0.6,
-    "last_played": "2026-03-29"
-  },
-  "Czechoslovakia": {
-    "rating": 1789.9,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1993-11-17"
-  },
-  "Wallis Islands and Futuna": {
-    "rating": 1289.4,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1995-08-20"
-  },
-  "Suriname": {
-    "rating": 1606.4,
-    "matches_3y": 27,
-    "gf": 1.519,
-    "ga": 1.037,
-    "ppg": 1.444,
-    "form_ppg10": 1.0,
-    "last_played": "2026-03-26"
-  },
-  "Ryūkyū": {
-    "rating": 1474.9,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2016-11-26"
-  },
-  "Liberia": {
-    "rating": 1433.7,
-    "matches_3y": 26,
-    "gf": 1.038,
-    "ga": 1.5,
-    "ppg": 1.038,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-09"
-  },
-  "Paraguay": {
-    "rating": 1904.3,
-    "matches_3y": 35,
-    "gf": 0.914,
-    "ga": 1.0,
-    "ppg": 1.343,
-    "form_ppg10": 1.4,
-    "last_played": "2026-06-29"
-  },
-  "Namibia": {
-    "rating": 1401.8,
+  "Faroe Islands": {
+    "rating": 1449.6,
     "matches_3y": 29,
-    "gf": 0.621,
-    "ga": 1.172,
-    "ppg": 0.897,
-    "form_ppg10": 0.8,
-    "last_played": "2026-03-28"
+    "gf": 0.862,
+    "ga": 1.138,
+    "ppg": 1.069,
+    "form_ppg10": 2.1,
+    "last_played": "2026-06-09"
   },
-  "Franconia": {
-    "rating": 1467.7,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-06-25"
+  "Iceland": {
+    "rating": 1620.5,
+    "matches_3y": 33,
+    "gf": 1.485,
+    "ga": 1.788,
+    "ppg": 1.152,
+    "form_ppg10": 0.6,
+    "last_played": "2026-06-09"
   },
-  "North Korea": {
-    "rating": 1486.8,
-    "matches_3y": 18,
-    "gf": 1.222,
-    "ga": 1.556,
-    "ppg": 0.778,
-    "form_ppg10": 0.4,
-    "last_played": "2025-06-10"
+  "Mozambique": {
+    "rating": 1497.8,
+    "matches_3y": 35,
+    "gf": 1.257,
+    "ga": 1.514,
+    "ppg": 1.343,
+    "form_ppg10": 1.0,
+    "last_played": "2026-06-09"
   },
-  "Western Australia": {
-    "rating": 1393.6,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1980-11-25"
-  },
-  "Somaliland": {
-    "rating": 1474.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-05-04"
-  },
-  "Székely Land": {
-    "rating": 1478.1,
-    "matches_3y": 2,
-    "gf": 5.0,
-    "ga": 1.0,
-    "ppg": 3.0,
-    "form_ppg10": 3.0,
-    "last_played": "2023-07-02"
+  "Saint Lucia": {
+    "rating": 1211.6,
+    "matches_3y": 19,
+    "gf": 1.263,
+    "ga": 2.211,
+    "ppg": 1.211,
+    "form_ppg10": 0.9,
+    "last_played": "2026-03-27"
   },
   "Délvidék": {
     "rating": 1498.7,
@@ -2096,59 +476,14 @@
     "form_ppg10": null,
     "last_played": "2016-08-03"
   },
-  "United States Virgin Islands": {
-    "rating": 946.4,
-    "matches_3y": 14,
-    "gf": 1.429,
-    "ga": 2.214,
-    "ppg": 0.786,
-    "form_ppg10": 1.0,
-    "last_played": "2026-03-28"
-  },
-  "Czech Republic": {
-    "rating": 1760.0,
-    "matches_3y": 36,
-    "gf": 1.806,
-    "ga": 1.222,
-    "ppg": 1.722,
-    "form_ppg10": 1.5,
-    "last_played": "2026-06-24"
-  },
-  "Jamaica": {
-    "rating": 1669.5,
-    "matches_3y": 48,
-    "gf": 1.396,
-    "ga": 1.042,
-    "ppg": 1.708,
+  "British Virgin Islands": {
+    "rating": 1005.7,
+    "matches_3y": 22,
+    "gf": 1.182,
+    "ga": 1.636,
+    "ppg": 0.955,
     "form_ppg10": 1.4,
     "last_played": "2026-06-06"
-  },
-  "Saint Barthélemy": {
-    "rating": 1413.4,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2023-03-10"
-  },
-  "Saint Martin": {
-    "rating": 1310.8,
-    "matches_3y": 16,
-    "gf": 2.312,
-    "ga": 1.5,
-    "ppg": 1.688,
-    "form_ppg10": 1.5,
-    "last_played": "2026-03-29"
-  },
-  "Saint Vincent and the Grenadines": {
-    "rating": 1364.5,
-    "matches_3y": 29,
-    "gf": 2.103,
-    "ga": 1.552,
-    "ppg": 1.69,
-    "form_ppg10": 1.9,
-    "last_played": "2026-03-29"
   },
   "Philippines": {
     "rating": 1363.6,
@@ -2168,212 +503,41 @@
     "form_ppg10": null,
     "last_played": "2019-03-25"
   },
-  "Menorca": {
-    "rating": 1562.7,
-    "matches_3y": 4,
-    "gf": 1.5,
-    "ga": 1.75,
-    "ppg": 0.75,
-    "form_ppg10": 0.75,
-    "last_played": "2023-07-13"
-  },
-  "Belgium": {
-    "rating": 1955.5,
-    "matches_3y": 37,
-    "gf": 2.243,
-    "ga": 0.838,
-    "ppg": 1.838,
-    "form_ppg10": 2.2,
-    "last_played": "2026-06-26"
-  },
-  "Papua New Guinea": {
-    "rating": 1445.8,
-    "matches_3y": 21,
-    "gf": 1.381,
-    "ga": 1.667,
-    "ppg": 1.286,
-    "form_ppg10": 1.8,
-    "last_played": "2025-11-23"
-  },
-  "Alderney": {
-    "rating": 1078.7,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2022-04-23"
-  },
-  "Japan": {
-    "rating": 1976.9,
-    "matches_3y": 38,
-    "gf": 2.816,
-    "ga": 0.711,
-    "ppg": 2.289,
-    "form_ppg10": 2.3,
-    "last_played": "2026-06-29"
-  },
-  "Georgia": {
-    "rating": 1720.1,
-    "matches_3y": 33,
-    "gf": 1.788,
-    "ga": 1.485,
-    "ppg": 1.394,
-    "form_ppg10": 1.1,
-    "last_played": "2026-06-05"
-  },
-  "Iceland": {
-    "rating": 1620.5,
-    "matches_3y": 33,
-    "gf": 1.485,
-    "ga": 1.788,
-    "ppg": 1.152,
-    "form_ppg10": 0.6,
-    "last_played": "2026-06-09"
-  },
-  "French Guiana": {
-    "rating": 1399.0,
-    "matches_3y": 12,
-    "gf": 1.417,
-    "ga": 1.417,
-    "ppg": 1.0,
-    "form_ppg10": 1.1,
-    "last_played": "2024-11-19"
-  },
-  "Guam": {
-    "rating": 953.4,
-    "matches_3y": 10,
-    "gf": 1.4,
-    "ga": 2.8,
-    "ppg": 0.7,
-    "form_ppg10": 0.7,
+  "Bermuda": {
+    "rating": 1345.1,
+    "matches_3y": 28,
+    "gf": 1.607,
+    "ga": 2.393,
+    "ppg": 1.214,
+    "form_ppg10": 1.0,
     "last_played": "2026-06-06"
   },
-  "Micronesia": {
-    "rating": 1320.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2003-07-07"
-  },
-  "Manchukuo": {
-    "rating": 1432.4,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1942-08-09"
-  },
-  "Austria": {
-    "rating": 1905.1,
-    "matches_3y": 36,
-    "gf": 2.194,
-    "ga": 0.917,
-    "ppg": 2.028,
-    "form_ppg10": 2.0,
+  "Panama": {
+    "rating": 1761.5,
+    "matches_3y": 51,
+    "gf": 1.608,
+    "ga": 1.255,
+    "ppg": 1.686,
+    "form_ppg10": 0.9,
     "last_played": "2026-06-27"
   },
-  "Quebec": {
-    "rating": 1543.2,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2013-06-27"
+  "Brunei": {
+    "rating": 898.2,
+    "matches_3y": 18,
+    "gf": 0.667,
+    "ga": 2.778,
+    "ppg": 1.056,
+    "form_ppg10": 0.7,
+    "last_played": "2025-11-18"
   },
-  "Pakistan": {
-    "rating": 1097.9,
-    "matches_3y": 16,
-    "gf": 0.625,
-    "ga": 2.188,
-    "ppg": 0.938,
-    "form_ppg10": 1.1,
-    "last_played": "2026-06-10"
-  },
-  "Parishes of Jersey": {
-    "rating": 1515.6,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-06-02"
-  },
-  "Saint Lucia": {
-    "rating": 1211.6,
-    "matches_3y": 19,
-    "gf": 1.263,
-    "ga": 2.211,
-    "ppg": 1.211,
-    "form_ppg10": 0.9,
-    "last_played": "2026-03-27"
-  },
-  "Sápmi": {
-    "rating": 1471.0,
-    "matches_3y": 1,
-    "gf": 1.0,
-    "ga": 2.0,
-    "ppg": 0.0,
-    "form_ppg10": 0.0,
-    "last_played": "2023-07-16"
-  },
-  "American Samoa": {
-    "rating": 907.2,
-    "matches_3y": 7,
-    "gf": 0.571,
-    "ga": 6.286,
-    "ppg": 0.0,
-    "form_ppg10": 0.0,
-    "last_played": "2026-03-28"
-  },
-  "Padania": {
-    "rating": 1704.4,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-06-08"
-  },
-  "Uganda": {
-    "rating": 1517.2,
-    "matches_3y": 28,
-    "gf": 1.143,
-    "ga": 1.357,
-    "ppg": 1.5,
-    "form_ppg10": 1.4,
-    "last_played": "2025-12-30"
-  },
-  "Serbia": {
-    "rating": 1810.8,
-    "matches_3y": 32,
-    "gf": 1.062,
-    "ga": 1.312,
-    "ppg": 1.281,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-04"
-  },
-  "Bangladesh": {
-    "rating": 1142.4,
-    "matches_3y": 25,
-    "gf": 0.8,
-    "ga": 1.6,
-    "ppg": 1.04,
-    "form_ppg10": 1.3,
-    "last_played": "2026-06-05"
-  },
-  "Liechtenstein": {
-    "rating": 956.5,
-    "matches_3y": 30,
-    "gf": 0.3,
-    "ga": 2.5,
-    "ppg": 0.333,
-    "form_ppg10": 0.3,
-    "last_played": "2026-06-07"
+  "Guyana": {
+    "rating": 1494.4,
+    "matches_3y": 26,
+    "gf": 2.269,
+    "ga": 1.577,
+    "ppg": 1.769,
+    "form_ppg10": 2.4,
+    "last_played": "2026-03-30"
   },
   "Surrey": {
     "rating": 1514.8,
@@ -2384,215 +548,17 @@
     "form_ppg10": null,
     "last_played": "2018-05-06"
   },
-  "Montenegro": {
-    "rating": 1522.2,
-    "matches_3y": 30,
-    "gf": 1.267,
-    "ga": 1.667,
-    "ppg": 1.3,
-    "form_ppg10": 1.3,
-    "last_played": "2026-06-05"
-  },
-  "Zambia": {
-    "rating": 1560.1,
-    "matches_3y": 32,
-    "gf": 1.062,
-    "ga": 1.406,
-    "ppg": 1.25,
-    "form_ppg10": 0.5,
-    "last_played": "2026-03-31"
-  },
-  "Qatar": {
-    "rating": 1555.6,
-    "matches_3y": 46,
-    "gf": 1.457,
-    "ga": 1.565,
-    "ppg": 1.391,
-    "form_ppg10": 0.6,
-    "last_played": "2026-06-24"
-  },
-  "Western Sahara": {
-    "rating": 1392.8,
+  "Saint Barthélemy": {
+    "rating": 1413.4,
     "matches_3y": 0,
     "gf": null,
     "ga": null,
     "ppg": null,
     "form_ppg10": null,
-    "last_played": "2013-06-28"
+    "last_played": "2023-03-10"
   },
-  "Trinidad and Tobago": {
-    "rating": 1540.3,
-    "matches_3y": 40,
-    "gf": 1.45,
-    "ga": 1.925,
-    "ppg": 1.2,
-    "form_ppg10": 0.7,
-    "last_played": "2026-06-09"
-  },
-  "Vietnam Republic": {
-    "rating": 1342.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1975-03-23"
-  },
-  "Luhansk PR": {
-    "rating": 1487.4,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-12-08"
-  },
-  "Cape Verde": {
-    "rating": 1689.0,
-    "matches_3y": 39,
-    "gf": 1.205,
-    "ga": 1.103,
-    "ppg": 1.487,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-26"
-  },
-  "Cascadia": {
-    "rating": 1544.1,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-05-25"
-  },
-  "Provence": {
-    "rating": 1466.8,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2013-06-28"
-  },
-  "Uzbekistan": {
-    "rating": 1739.6,
-    "matches_3y": 39,
-    "gf": 1.41,
-    "ga": 1.051,
-    "ppg": 1.718,
-    "form_ppg10": 0.9,
-    "last_played": "2026-06-27"
-  },
-  "Maule Sur": {
-    "rating": 1528.3,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2022-06-19"
-  },
-  "Tamil Eelam": {
-    "rating": 1577.3,
-    "matches_3y": 6,
-    "gf": 3.333,
-    "ga": 0.5,
-    "ppg": 3.0,
-    "form_ppg10": 3.0,
-    "last_played": "2025-07-04"
-  },
-  "Andalusia": {
-    "rating": 1604.9,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2013-06-07"
-  },
-  "Benin": {
-    "rating": 1527.9,
-    "matches_3y": 31,
-    "gf": 1.0,
-    "ga": 1.419,
-    "ppg": 1.194,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-09"
-  },
-  "Cook Islands": {
-    "rating": 1124.8,
-    "matches_3y": 9,
-    "gf": 0.556,
-    "ga": 3.444,
-    "ppg": 0.667,
-    "form_ppg10": 0.667,
-    "last_played": "2024-09-06"
-  },
-  "Republic of St. Pauli": {
-    "rating": 1488.2,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2006-06-03"
-  },
-  "Rhodes": {
-    "rating": 1594.6,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2011-06-27"
-  },
-  "Central Spain": {
-    "rating": 1494.6,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1923-11-25"
-  },
-  "São Tomé and Príncipe": {
-    "rating": 1159.3,
-    "matches_3y": 13,
-    "gf": 0.462,
-    "ga": 2.538,
-    "ppg": 0.385,
-    "form_ppg10": 0.5,
-    "last_played": "2025-10-13"
-  },
-  "China": {
-    "rating": 1563.2,
-    "matches_3y": 29,
-    "gf": 0.931,
-    "ga": 1.414,
-    "ppg": 1.069,
-    "form_ppg10": 1.1,
-    "last_played": "2026-06-09"
-  },
-  "Brazil": {
-    "rating": 2112.6,
-    "matches_3y": 38,
-    "gf": 1.789,
-    "ga": 0.974,
-    "ppg": 1.789,
-    "form_ppg10": 2.3,
-    "last_played": "2026-06-29"
-  },
-  "County of Nice": {
-    "rating": 1626.9,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2015-06-21"
-  },
-  "Kabylia": {
-    "rating": 1456.2,
+  "United Koreans in Japan": {
+    "rating": 1506.3,
     "matches_3y": 0,
     "gf": null,
     "ga": null,
@@ -2600,257 +566,14 @@
     "form_ppg10": null,
     "last_played": "2018-06-09"
   },
-  "Bonaire": {
-    "rating": 1102.6,
-    "matches_3y": 17,
-    "gf": 1.0,
-    "ga": 1.882,
-    "ppg": 0.824,
-    "form_ppg10": 0.6,
-    "last_played": "2026-06-06"
-  },
-  "Guatemala": {
-    "rating": 1645.5,
-    "matches_3y": 42,
-    "gf": 1.238,
-    "ga": 1.5,
-    "ppg": 1.214,
-    "form_ppg10": 0.8,
-    "last_played": "2026-06-07"
-  },
-  "Chagos Islands": {
-    "rating": 1347.6,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-12-29"
-  },
-  "Angola": {
-    "rating": 1590.6,
-    "matches_3y": 39,
-    "gf": 1.103,
-    "ga": 0.821,
-    "ppg": 1.462,
-    "form_ppg10": 1.4,
-    "last_played": "2026-06-09"
-  },
-  "Tajikistan": {
-    "rating": 1440.3,
-    "matches_3y": 28,
-    "gf": 1.571,
-    "ga": 1.0,
-    "ppg": 1.643,
-    "form_ppg10": 2.3,
-    "last_played": "2026-06-09"
-  },
-  "Costa Rica": {
-    "rating": 1741.5,
-    "matches_3y": 41,
-    "gf": 1.878,
-    "ga": 1.439,
-    "ppg": 1.488,
-    "form_ppg10": 0.8,
-    "last_played": "2026-06-10"
-  },
-  "Lithuania": {
-    "rating": 1331.9,
-    "matches_3y": 30,
-    "gf": 0.833,
-    "ga": 1.533,
-    "ppg": 0.767,
-    "form_ppg10": 0.6,
-    "last_played": "2026-06-09"
-  },
-  "Canada": {
-    "rating": 1888.1,
-    "matches_3y": 42,
-    "gf": 1.452,
-    "ga": 0.929,
-    "ppg": 1.667,
-    "form_ppg10": 1.7,
-    "last_played": "2026-06-28"
-  },
-  "Asturias": {
-    "rating": 1519.0,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1923-02-25"
-  },
-  "Basque Country": {
-    "rating": 1809.8,
-    "matches_3y": 2,
-    "gf": 2.0,
-    "ga": 0.5,
-    "ppg": 2.0,
-    "form_ppg10": 2.0,
-    "last_played": "2025-11-15"
-  },
-  "Uruguay": {
-    "rating": 1916.7,
-    "matches_3y": 38,
-    "gf": 1.263,
-    "ga": 0.816,
-    "ppg": 1.474,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-26"
-  },
-  "Laos": {
-    "rating": 948.5,
-    "matches_3y": 14,
-    "gf": 1.0,
-    "ga": 2.5,
-    "ppg": 0.5,
-    "form_ppg10": 0.5,
-    "last_played": "2025-11-19"
-  },
-  "Seborga": {
-    "rating": 1487.4,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2014-08-10"
-  },
-  "Mauritius": {
-    "rating": 1203.8,
-    "matches_3y": 22,
-    "gf": 0.636,
-    "ga": 1.318,
-    "ppg": 0.773,
-    "form_ppg10": 0.6,
-    "last_played": "2025-10-13"
-  },
-  "South Korea": {
-    "rating": 1840.8,
-    "matches_3y": 40,
-    "gf": 2.0,
-    "ga": 0.825,
-    "ppg": 2.05,
-    "form_ppg10": 1.8,
-    "last_played": "2026-06-24"
-  },
-  "West Papua": {
-    "rating": 1473.6,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2022-11-13"
-  },
-  "Senegal": {
-    "rating": 1901.4,
-    "matches_3y": 44,
-    "gf": 1.977,
-    "ga": 0.614,
-    "ppg": 2.182,
-    "form_ppg10": 1.6,
-    "last_played": "2026-06-26"
-  },
-  "Bulgaria": {
-    "rating": 1527.5,
-    "matches_3y": 30,
-    "gf": 1.033,
-    "ga": 1.767,
-    "ppg": 0.933,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-05"
-  },
-  "Romania": {
-    "rating": 1707.2,
-    "matches_3y": 34,
-    "gf": 1.647,
-    "ga": 1.0,
-    "ppg": 1.676,
-    "form_ppg10": 1.4,
-    "last_played": "2026-06-06"
-  },
-  "Northern Ireland": {
-    "rating": 1664.5,
-    "matches_3y": 30,
-    "gf": 1.233,
-    "ga": 1.3,
-    "ppg": 1.367,
-    "form_ppg10": 1.3,
-    "last_played": "2026-06-08"
-  },
-  "Lesotho": {
-    "rating": 1405.1,
-    "matches_3y": 29,
-    "gf": 0.724,
-    "ga": 1.345,
-    "ppg": 1.0,
-    "form_ppg10": 0.9,
-    "last_played": "2026-06-04"
-  },
-  "Rwanda": {
-    "rating": 1460.9,
-    "matches_3y": 21,
-    "gf": 0.81,
-    "ga": 1.0,
-    "ppg": 1.238,
-    "form_ppg10": 1.0,
-    "last_played": "2026-03-30"
-  },
-  "Andorra": {
-    "rating": 1147.5,
-    "matches_3y": 31,
-    "gf": 0.258,
-    "ga": 1.71,
-    "ppg": 0.387,
-    "form_ppg10": 0.6,
-    "last_played": "2026-06-07"
-  },
-  "Bosnia and Herzegovina": {
-    "rating": 1684.6,
+  "Venezuela": {
+    "rating": 1820.3,
     "matches_3y": 32,
-    "gf": 1.281,
-    "ga": 1.719,
-    "ppg": 1.125,
-    "form_ppg10": 1.5,
-    "last_played": "2026-06-24"
-  },
-  "Guernsey": {
-    "rating": 1743.3,
-    "matches_3y": 4,
-    "gf": 1.75,
-    "ga": 0.75,
-    "ppg": 2.25,
-    "form_ppg10": 2.25,
-    "last_played": "2023-07-13"
-  },
-  "Yugoslavia": {
-    "rating": 1870.6,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "1992-03-25"
-  },
-  "Libya": {
-    "rating": 1522.6,
-    "matches_3y": 26,
-    "gf": 1.308,
-    "ga": 0.885,
-    "ppg": 1.692,
-    "form_ppg10": 1.5,
-    "last_played": "2026-03-31"
-  },
-  "Netherlands": {
-    "rating": 2049.7,
-    "matches_3y": 40,
-    "gf": 2.45,
-    "ga": 0.925,
-    "ppg": 2.0,
-    "form_ppg10": 1.9,
-    "last_played": "2026-06-29"
+    "gf": 1.094,
+    "ga": 1.281,
+    "ppg": 1.219,
+    "form_ppg10": 1.0,
+    "last_played": "2026-06-09"
   },
   "Romani people": {
     "rating": 1465.3,
@@ -2861,89 +584,35 @@
     "form_ppg10": null,
     "last_played": "2016-05-16"
   },
-  "Samoa": {
-    "rating": 1221.9,
-    "matches_3y": 14,
-    "gf": 1.857,
-    "ga": 2.357,
-    "ppg": 1.286,
-    "form_ppg10": 1.2,
-    "last_played": "2024-11-18"
-  },
-  "Syria": {
-    "rating": 1592.8,
-    "matches_3y": 33,
-    "gf": 1.485,
-    "ga": 1.182,
-    "ppg": 1.545,
-    "form_ppg10": 1.8,
-    "last_played": "2026-06-05"
-  },
-  "Anguilla": {
-    "rating": 876.3,
-    "matches_3y": 20,
-    "gf": 0.55,
-    "ga": 3.05,
-    "ppg": 0.55,
+  "Solomon Islands": {
+    "rating": 1330.4,
+    "matches_3y": 23,
+    "gf": 1.696,
+    "ga": 1.87,
+    "ppg": 1.217,
     "form_ppg10": 0.6,
-    "last_played": "2026-03-29"
+    "last_played": "2026-03-30"
   },
-  "Northern Mariana Islands": {
-    "rating": 955.5,
-    "matches_3y": 6,
-    "gf": 1.5,
-    "ga": 3.667,
-    "ppg": 1.167,
-    "form_ppg10": 1.167,
-    "last_played": "2024-04-07"
-  },
-  "Crimea": {
-    "rating": 1499.7,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2006-11-25"
-  },
-  "Sweden": {
-    "rating": 1812.6,
-    "matches_3y": 34,
+  "Basque Country": {
+    "rating": 1809.8,
+    "matches_3y": 2,
     "gf": 2.0,
-    "ga": 1.618,
-    "ppg": 1.588,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-25"
+    "ga": 0.5,
+    "ppg": 2.0,
+    "form_ppg10": 2.0,
+    "last_played": "2025-11-15"
   },
-  "Eritrea": {
-    "rating": 1199.3,
-    "matches_3y": 0,
-    "gf": null,
-    "ga": null,
-    "ppg": null,
-    "form_ppg10": null,
-    "last_played": "2019-09-10"
+  "Algeria": {
+    "rating": 1891.0,
+    "matches_3y": 48,
+    "gf": 2.25,
+    "ga": 0.792,
+    "ppg": 2.229,
+    "form_ppg10": 2.0,
+    "last_played": "2026-06-27"
   },
-  "Bhutan": {
-    "rating": 847.2,
-    "matches_3y": 14,
-    "gf": 0.429,
-    "ga": 2.429,
-    "ppg": 0.714,
-    "form_ppg10": 0.4,
-    "last_played": "2026-06-04"
-  },
-  "Estonia": {
-    "rating": 1426.1,
-    "matches_3y": 32,
-    "gf": 0.844,
-    "ga": 2.094,
-    "ppg": 0.75,
-    "form_ppg10": 1.2,
-    "last_played": "2026-06-09"
-  },
-  "Northern Cyprus": {
-    "rating": 1724.2,
+  "Kabylia": {
+    "rating": 1456.2,
     "matches_3y": 0,
     "gf": null,
     "ga": null,
@@ -2951,32 +620,185 @@
     "form_ppg10": null,
     "last_played": "2018-06-09"
   },
-  "Iraqi Kurdistan": {
-    "rating": 1716.3,
+  "Myanmar": {
+    "rating": 1143.7,
+    "matches_3y": 25,
+    "gf": 1.24,
+    "ga": 2.4,
+    "ppg": 1.08,
+    "form_ppg10": 1.4,
+    "last_played": "2026-06-09"
+  },
+  "Wallis Islands and Futuna": {
+    "rating": 1289.4,
     "matches_3y": 0,
     "gf": null,
     "ga": null,
     "ppg": null,
     "form_ppg10": null,
-    "last_played": "2016-06-04"
+    "last_played": "1995-08-20"
   },
-  "Morocco": {
-    "rating": 2037.2,
-    "matches_3y": 51,
-    "gf": 2.235,
-    "ga": 0.392,
-    "ppg": 2.549,
-    "form_ppg10": 2.2,
+  "Portugal": {
+    "rating": 2062.8,
+    "matches_3y": 39,
+    "gf": 2.41,
+    "ga": 0.872,
+    "ppg": 2.154,
+    "form_ppg10": 1.9,
+    "last_played": "2026-06-27"
+  },
+  "Frøya": {
+    "rating": 1187.0,
+    "matches_3y": 7,
+    "gf": 1.0,
+    "ga": 4.143,
+    "ppg": 0.429,
+    "form_ppg10": 0.429,
+    "last_played": "2025-07-17"
+  },
+  "Ambazonia": {
+    "rating": 1314.3,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2007-06-07"
+  },
+  "Seborga": {
+    "rating": 1487.4,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2014-08-10"
+  },
+  "Quebec": {
+    "rating": 1543.2,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2013-06-27"
+  },
+  "Bonaire": {
+    "rating": 1102.6,
+    "matches_3y": 17,
+    "gf": 1.0,
+    "ga": 1.882,
+    "ppg": 0.824,
+    "form_ppg10": 0.6,
+    "last_played": "2026-06-06"
+  },
+  "Silesia": {
+    "rating": 1515.5,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2006-12-09"
+  },
+  "Hong Kong": {
+    "rating": 1332.3,
+    "matches_3y": 37,
+    "gf": 1.757,
+    "ga": 1.216,
+    "ppg": 1.432,
+    "form_ppg10": 1.5,
+    "last_played": "2026-06-09"
+  },
+  "Kuwait": {
+    "rating": 1485.8,
+    "matches_3y": 37,
+    "gf": 1.108,
+    "ga": 1.622,
+    "ppg": 1.0,
+    "form_ppg10": 1.0,
+    "last_played": "2026-06-05"
+  },
+  "Uganda": {
+    "rating": 1517.2,
+    "matches_3y": 28,
+    "gf": 1.143,
+    "ga": 1.357,
+    "ppg": 1.5,
+    "form_ppg10": 1.4,
+    "last_played": "2025-12-30"
+  },
+  "Croatia": {
+    "rating": 1967.9,
+    "matches_3y": 36,
+    "gf": 1.889,
+    "ga": 1.056,
+    "ppg": 1.917,
+    "form_ppg10": 2.1,
+    "last_played": "2026-06-27"
+  },
+  "Brazil": {
+    "rating": 2112.6,
+    "matches_3y": 38,
+    "gf": 1.789,
+    "ga": 0.974,
+    "ppg": 1.789,
+    "form_ppg10": 2.3,
     "last_played": "2026-06-29"
   },
-  "Mozambique": {
-    "rating": 1497.8,
-    "matches_3y": 35,
-    "gf": 1.257,
-    "ga": 1.514,
-    "ppg": 1.343,
-    "form_ppg10": 1.0,
-    "last_played": "2026-06-09"
+  "Sealand": {
+    "rating": 1478.5,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2014-08-10"
+  },
+  "New Caledonia": {
+    "rating": 1588.4,
+    "matches_3y": 14,
+    "gf": 2.643,
+    "ga": 0.857,
+    "ppg": 2.071,
+    "form_ppg10": 2.0,
+    "last_played": "2026-03-26"
+  },
+  "Qatar": {
+    "rating": 1555.6,
+    "matches_3y": 46,
+    "gf": 1.457,
+    "ga": 1.565,
+    "ppg": 1.391,
+    "form_ppg10": 0.6,
+    "last_played": "2026-06-24"
+  },
+  "Macau": {
+    "rating": 817.3,
+    "matches_3y": 10,
+    "gf": 0.3,
+    "ga": 2.8,
+    "ppg": 0.1,
+    "form_ppg10": 0.1,
+    "last_played": "2026-03-29"
+  },
+  "Zanzibar": {
+    "rating": 1556.0,
+    "matches_3y": 4,
+    "gf": 1.0,
+    "ga": 0.5,
+    "ppg": 2.25,
+    "form_ppg10": 2.25,
+    "last_played": "2025-01-13"
+  },
+  "Scotland": {
+    "rating": 1835.8,
+    "matches_3y": 36,
+    "gf": 1.417,
+    "ga": 1.556,
+    "ppg": 1.25,
+    "form_ppg10": 1.5,
+    "last_played": "2026-06-24"
   },
   "Saint Pierre and Miquelon": {
     "rating": 1288.1,
@@ -2987,14 +809,122 @@
     "form_ppg10": null,
     "last_played": "2012-09-28"
   },
-  "North Macedonia": {
-    "rating": 1649.9,
+  "Aruba": {
+    "rating": 1190.4,
+    "matches_3y": 21,
+    "gf": 1.667,
+    "ga": 1.905,
+    "ppg": 1.286,
+    "form_ppg10": 1.4,
+    "last_played": "2026-06-06"
+  },
+  "Ryūkyū": {
+    "rating": 1474.9,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2016-11-26"
+  },
+  "Grenada": {
+    "rating": 1296.1,
+    "matches_3y": 24,
+    "gf": 1.208,
+    "ga": 2.042,
+    "ppg": 1.042,
+    "form_ppg10": 1.5,
+    "last_played": "2026-05-16"
+  },
+  "San Marino": {
+    "rating": 925.7,
     "matches_3y": 30,
-    "gf": 1.167,
-    "ga": 1.267,
-    "ppg": 1.367,
-    "form_ppg10": 0.8,
-    "last_played": "2026-06-01"
+    "gf": 0.533,
+    "ga": 2.8,
+    "ppg": 0.3,
+    "form_ppg10": 0.1,
+    "last_played": "2026-06-09"
+  },
+  "Kernow": {
+    "rating": 1601.3,
+    "matches_3y": 1,
+    "gf": 2.0,
+    "ga": 1.0,
+    "ppg": 3.0,
+    "form_ppg10": 3.0,
+    "last_played": "2023-07-16"
+  },
+  "Chameria": {
+    "rating": 1570.9,
+    "matches_3y": 2,
+    "gf": 2.5,
+    "ga": 2.0,
+    "ppg": 1.5,
+    "form_ppg10": 1.5,
+    "last_played": "2023-07-01"
+  },
+  "Sark": {
+    "rating": 1327.7,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2003-07-03"
+  },
+  "Darfur": {
+    "rating": 1201.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2014-06-07"
+  },
+  "Zimbabwe": {
+    "rating": 1491.3,
+    "matches_3y": 26,
+    "gf": 0.885,
+    "ga": 1.192,
+    "ppg": 0.962,
+    "form_ppg10": 1.1,
+    "last_played": "2026-05-30"
+  },
+  "Madagascar": {
+    "rating": 1496.6,
+    "matches_3y": 28,
+    "gf": 1.429,
+    "ga": 1.286,
+    "ppg": 1.5,
+    "form_ppg10": 1.6,
+    "last_played": "2026-06-02"
+  },
+  "Alderney": {
+    "rating": 1078.7,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2022-04-23"
+  },
+  "Western Sahara": {
+    "rating": 1392.8,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2013-06-28"
+  },
+  "São Tomé and Príncipe": {
+    "rating": 1159.3,
+    "matches_3y": 13,
+    "gf": 0.462,
+    "ga": 2.538,
+    "ppg": 0.385,
+    "form_ppg10": 0.5,
+    "last_played": "2025-10-13"
   },
   "Hitra": {
     "rating": 1338.6,
@@ -3005,6 +935,1851 @@
     "form_ppg10": 1.5,
     "last_played": "2025-07-17"
   },
+  "Andorra": {
+    "rating": 1147.5,
+    "matches_3y": 31,
+    "gf": 0.258,
+    "ga": 1.71,
+    "ppg": 0.387,
+    "form_ppg10": 0.6,
+    "last_played": "2026-06-07"
+  },
+  "Vietnam": {
+    "rating": 1474.5,
+    "matches_3y": 32,
+    "gf": 1.625,
+    "ga": 1.5,
+    "ppg": 1.562,
+    "form_ppg10": 2.7,
+    "last_played": "2026-03-26"
+  },
+  "Iran": {
+    "rating": 1890.1,
+    "matches_3y": 37,
+    "gf": 2.054,
+    "ga": 0.757,
+    "ppg": 2.135,
+    "form_ppg10": 1.7,
+    "last_played": "2026-06-26"
+  },
+  "Pakistan": {
+    "rating": 1097.9,
+    "matches_3y": 16,
+    "gf": 0.625,
+    "ga": 2.188,
+    "ppg": 0.938,
+    "form_ppg10": 1.1,
+    "last_played": "2026-06-10"
+  },
+  "Galicia": {
+    "rating": 1536.4,
+    "matches_3y": 1,
+    "gf": 0.0,
+    "ga": 2.0,
+    "ppg": 0.0,
+    "form_ppg10": 0.0,
+    "last_played": "2024-05-21"
+  },
+  "Papua New Guinea": {
+    "rating": 1445.8,
+    "matches_3y": 21,
+    "gf": 1.381,
+    "ga": 1.667,
+    "ppg": 1.286,
+    "form_ppg10": 1.8,
+    "last_played": "2025-11-23"
+  },
+  "Slovakia": {
+    "rating": 1729.4,
+    "matches_3y": 34,
+    "gf": 1.5,
+    "ga": 1.206,
+    "ppg": 1.647,
+    "form_ppg10": 1.9,
+    "last_played": "2026-06-05"
+  },
+  "Gibraltar": {
+    "rating": 1133.7,
+    "matches_3y": 29,
+    "gf": 0.724,
+    "ga": 2.586,
+    "ppg": 0.69,
+    "form_ppg10": 0.9,
+    "last_played": "2026-06-06"
+  },
+  "Iraq": {
+    "rating": 1677.3,
+    "matches_3y": 44,
+    "gf": 1.318,
+    "ga": 1.159,
+    "ppg": 1.705,
+    "form_ppg10": 1.0,
+    "last_played": "2026-06-26"
+  },
+  "Yemen": {
+    "rating": 1299.0,
+    "matches_3y": 19,
+    "gf": 1.947,
+    "ga": 1.105,
+    "ppg": 1.421,
+    "form_ppg10": 1.8,
+    "last_played": "2025-11-26"
+  },
+  "Bahamas": {
+    "rating": 925.5,
+    "matches_3y": 17,
+    "gf": 1.176,
+    "ga": 4.0,
+    "ppg": 0.294,
+    "form_ppg10": 0.4,
+    "last_played": "2026-03-29"
+  },
+  "Parishes of Jersey": {
+    "rating": 1515.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-06-02"
+  },
+  "Senegal": {
+    "rating": 1901.4,
+    "matches_3y": 44,
+    "gf": 1.977,
+    "ga": 0.614,
+    "ppg": 2.182,
+    "form_ppg10": 1.6,
+    "last_played": "2026-06-26"
+  },
+  "United States Virgin Islands": {
+    "rating": 946.4,
+    "matches_3y": 14,
+    "gf": 1.429,
+    "ga": 2.214,
+    "ppg": 0.786,
+    "form_ppg10": 1.0,
+    "last_played": "2026-03-28"
+  },
+  "Rhodes": {
+    "rating": 1594.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2011-06-27"
+  },
+  "Matabeleland": {
+    "rating": 1486.0,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2022-05-25"
+  },
+  "Namibia": {
+    "rating": 1401.8,
+    "matches_3y": 29,
+    "gf": 0.621,
+    "ga": 1.172,
+    "ppg": 0.897,
+    "form_ppg10": 0.8,
+    "last_played": "2026-03-28"
+  },
+  "Finland": {
+    "rating": 1578.4,
+    "matches_3y": 30,
+    "gf": 1.1,
+    "ga": 1.767,
+    "ppg": 1.0,
+    "form_ppg10": 1.0,
+    "last_played": "2026-06-05"
+  },
+  "Congo": {
+    "rating": 1320.9,
+    "matches_3y": 13,
+    "gf": 0.846,
+    "ga": 2.308,
+    "ppg": 0.538,
+    "form_ppg10": 0.5,
+    "last_played": "2025-10-14"
+  },
+  "Ecuador": {
+    "rating": 1986.6,
+    "matches_3y": 38,
+    "gf": 1.026,
+    "ga": 0.553,
+    "ppg": 1.684,
+    "form_ppg10": 1.7,
+    "last_played": "2026-06-25"
+  },
+  "Chechnya": {
+    "rating": 1447.9,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2006-02-18"
+  },
+  "Luxembourg": {
+    "rating": 1464.6,
+    "matches_3y": 27,
+    "gf": 0.593,
+    "ga": 1.704,
+    "ppg": 0.741,
+    "form_ppg10": 0.4,
+    "last_played": "2026-06-06"
+  },
+  "Suriname": {
+    "rating": 1606.4,
+    "matches_3y": 27,
+    "gf": 1.519,
+    "ga": 1.037,
+    "ppg": 1.444,
+    "form_ppg10": 1.0,
+    "last_played": "2026-03-26"
+  },
+  "Western Isles": {
+    "rating": 1429.2,
+    "matches_3y": 6,
+    "gf": 1.167,
+    "ga": 1.167,
+    "ppg": 1.167,
+    "form_ppg10": 1.167,
+    "last_played": "2025-07-17"
+  },
+  "Martinique": {
+    "rating": 1485.4,
+    "matches_3y": 17,
+    "gf": 0.824,
+    "ga": 1.412,
+    "ppg": 0.882,
+    "form_ppg10": 0.7,
+    "last_played": "2026-03-29"
+  },
+  "Barawa": {
+    "rating": 1378.5,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-05-25"
+  },
+  "Gotland": {
+    "rating": 1452.5,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2017-06-29"
+  },
+  "Saint Helena": {
+    "rating": 1343.0,
+    "matches_3y": 4,
+    "gf": 0.5,
+    "ga": 4.25,
+    "ppg": 0.0,
+    "form_ppg10": 0.0,
+    "last_played": "2023-07-13"
+  },
+  "Anguilla": {
+    "rating": 876.3,
+    "matches_3y": 20,
+    "gf": 0.55,
+    "ga": 3.05,
+    "ppg": 0.55,
+    "form_ppg10": 0.6,
+    "last_played": "2026-03-29"
+  },
+  "Montenegro": {
+    "rating": 1522.2,
+    "matches_3y": 30,
+    "gf": 1.267,
+    "ga": 1.667,
+    "ppg": 1.3,
+    "form_ppg10": 1.3,
+    "last_played": "2026-06-05"
+  },
+  "Marshall Islands": {
+    "rating": 1416.6,
+    "matches_3y": 2,
+    "gf": 1.0,
+    "ga": 3.5,
+    "ppg": 0.0,
+    "form_ppg10": 0.0,
+    "last_played": "2025-08-16"
+  },
+  "Comoros": {
+    "rating": 1491.8,
+    "matches_3y": 40,
+    "gf": 1.2,
+    "ga": 1.225,
+    "ppg": 1.325,
+    "form_ppg10": 0.7,
+    "last_played": "2026-06-09"
+  },
+  "Malaysia": {
+    "rating": 1511.7,
+    "matches_3y": 30,
+    "gf": 1.6,
+    "ga": 1.333,
+    "ppg": 1.7,
+    "form_ppg10": 2.3,
+    "last_played": "2025-11-18"
+  },
+  "Liberia": {
+    "rating": 1433.7,
+    "matches_3y": 26,
+    "gf": 1.038,
+    "ga": 1.5,
+    "ppg": 1.038,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-09"
+  },
+  "Czech Republic": {
+    "rating": 1760.0,
+    "matches_3y": 36,
+    "gf": 1.806,
+    "ga": 1.222,
+    "ppg": 1.722,
+    "form_ppg10": 1.5,
+    "last_played": "2026-06-24"
+  },
+  "Guinea": {
+    "rating": 1572.9,
+    "matches_3y": 32,
+    "gf": 1.438,
+    "ga": 0.875,
+    "ppg": 1.562,
+    "form_ppg10": 1.3,
+    "last_played": "2026-06-04"
+  },
+  "Montserrat": {
+    "rating": 1220.2,
+    "matches_3y": 16,
+    "gf": 0.938,
+    "ga": 2.125,
+    "ppg": 0.938,
+    "form_ppg10": 0.6,
+    "last_played": "2025-06-10"
+  },
+  "Mexico": {
+    "rating": 2013.7,
+    "matches_3y": 51,
+    "gf": 1.51,
+    "ga": 0.863,
+    "ppg": 1.882,
+    "form_ppg10": 2.6,
+    "last_played": "2026-06-24"
+  },
+  "Tahiti": {
+    "rating": 1509.6,
+    "matches_3y": 15,
+    "gf": 2.067,
+    "ga": 1.067,
+    "ppg": 1.933,
+    "form_ppg10": 1.6,
+    "last_played": "2025-03-21"
+  },
+  "Jamaica": {
+    "rating": 1669.5,
+    "matches_3y": 48,
+    "gf": 1.396,
+    "ga": 1.042,
+    "ppg": 1.708,
+    "form_ppg10": 1.4,
+    "last_played": "2026-06-06"
+  },
+  "Mali": {
+    "rating": 1706.5,
+    "matches_3y": 35,
+    "gf": 1.571,
+    "ga": 0.657,
+    "ppg": 1.8,
+    "form_ppg10": 1.4,
+    "last_played": "2026-06-04"
+  },
+  "Saint Kitts and Nevis": {
+    "rating": 1270.1,
+    "matches_3y": 28,
+    "gf": 1.5,
+    "ga": 2.143,
+    "ppg": 1.321,
+    "form_ppg10": 1.3,
+    "last_played": "2026-03-30"
+  },
+  "Dominica": {
+    "rating": 1149.0,
+    "matches_3y": 20,
+    "gf": 1.1,
+    "ga": 2.05,
+    "ppg": 1.0,
+    "form_ppg10": 0.7,
+    "last_played": "2026-03-30"
+  },
+  "Menorca": {
+    "rating": 1562.7,
+    "matches_3y": 4,
+    "gf": 1.5,
+    "ga": 1.75,
+    "ppg": 0.75,
+    "form_ppg10": 0.75,
+    "last_played": "2023-07-13"
+  },
+  "Canary Islands": {
+    "rating": 1521.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2007-12-29"
+  },
+  "Guinea-Bissau": {
+    "rating": 1363.5,
+    "matches_3y": 26,
+    "gf": 0.731,
+    "ga": 1.538,
+    "ppg": 0.731,
+    "form_ppg10": 0.5,
+    "last_played": "2026-03-31"
+  },
+  "Barbados": {
+    "rating": 1118.2,
+    "matches_3y": 22,
+    "gf": 1.727,
+    "ga": 2.727,
+    "ppg": 0.818,
+    "form_ppg10": 0.6,
+    "last_played": "2026-03-29"
+  },
+  "Colombia": {
+    "rating": 2082.4,
+    "matches_3y": 40,
+    "gf": 1.875,
+    "ga": 0.85,
+    "ppg": 1.975,
+    "form_ppg10": 2.0,
+    "last_played": "2026-06-27"
+  },
+  "Djibouti": {
+    "rating": 1094.9,
+    "matches_3y": 14,
+    "gf": 0.429,
+    "ga": 2.643,
+    "ppg": 0.214,
+    "form_ppg10": 0.2,
+    "last_played": "2025-11-26"
+  },
+  "Kyrgyzstan": {
+    "rating": 1465.2,
+    "matches_3y": 28,
+    "gf": 1.214,
+    "ga": 1.5,
+    "ppg": 1.036,
+    "form_ppg10": 0.7,
+    "last_played": "2026-06-09"
+  },
+  "South Sudan": {
+    "rating": 1266.7,
+    "matches_3y": 21,
+    "gf": 0.524,
+    "ga": 1.81,
+    "ppg": 0.619,
+    "form_ppg10": 0.6,
+    "last_played": "2025-11-25"
+  },
+  "Israel": {
+    "rating": 1690.5,
+    "matches_3y": 27,
+    "gf": 1.444,
+    "ga": 1.741,
+    "ppg": 1.296,
+    "form_ppg10": 1.7,
+    "last_played": "2026-06-03"
+  },
+  "Mapuche": {
+    "rating": 1508.5,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2022-06-18"
+  },
+  "Eswatini": {
+    "rating": 1299.2,
+    "matches_3y": 24,
+    "gf": 0.708,
+    "ga": 1.667,
+    "ppg": 0.583,
+    "form_ppg10": 0.5,
+    "last_played": "2025-10-13"
+  },
+  "Antigua and Barbuda": {
+    "rating": 1092.2,
+    "matches_3y": 18,
+    "gf": 0.722,
+    "ga": 2.556,
+    "ppg": 0.389,
+    "form_ppg10": 0.2,
+    "last_played": "2025-11-18"
+  },
+  "Zambia": {
+    "rating": 1560.1,
+    "matches_3y": 32,
+    "gf": 1.062,
+    "ga": 1.406,
+    "ppg": 1.25,
+    "form_ppg10": 0.5,
+    "last_played": "2026-03-31"
+  },
+  "Poland": {
+    "rating": 1767.8,
+    "matches_3y": 33,
+    "gf": 1.606,
+    "ga": 1.333,
+    "ppg": 1.606,
+    "form_ppg10": 1.8,
+    "last_played": "2026-06-03"
+  },
+  "Sápmi": {
+    "rating": 1471.0,
+    "matches_3y": 1,
+    "gf": 1.0,
+    "ga": 2.0,
+    "ppg": 0.0,
+    "form_ppg10": 0.0,
+    "last_played": "2023-07-16"
+  },
+  "Denmark": {
+    "rating": 1932.9,
+    "matches_3y": 34,
+    "gf": 1.824,
+    "ga": 0.941,
+    "ppg": 1.882,
+    "form_ppg10": 1.9,
+    "last_played": "2026-06-07"
+  },
+  "Australia": {
+    "rating": 1912.6,
+    "matches_3y": 38,
+    "gf": 1.789,
+    "ga": 0.658,
+    "ppg": 1.947,
+    "form_ppg10": 1.1,
+    "last_played": "2026-06-25"
+  },
+  "Chad": {
+    "rating": 1246.9,
+    "matches_3y": 23,
+    "gf": 0.565,
+    "ga": 1.739,
+    "ppg": 0.522,
+    "form_ppg10": 0.3,
+    "last_played": "2025-11-17"
+  },
+  "Kiribati": {
+    "rating": 1222.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2011-09-05"
+  },
+  "Ghana": {
+    "rating": 1674.2,
+    "matches_3y": 36,
+    "gf": 1.306,
+    "ga": 1.278,
+    "ppg": 1.25,
+    "form_ppg10": 0.8,
+    "last_played": "2026-06-27"
+  },
+  "Northern Mariana Islands": {
+    "rating": 955.5,
+    "matches_3y": 6,
+    "gf": 1.5,
+    "ga": 3.667,
+    "ppg": 1.167,
+    "form_ppg10": 1.167,
+    "last_played": "2024-04-07"
+  },
+  "Tunisia": {
+    "rating": 1654.2,
+    "matches_3y": 45,
+    "gf": 1.333,
+    "ga": 1.022,
+    "ppg": 1.622,
+    "form_ppg10": 0.6,
+    "last_played": "2026-06-25"
+  },
+  "Bangladesh": {
+    "rating": 1142.4,
+    "matches_3y": 25,
+    "gf": 0.8,
+    "ga": 1.6,
+    "ppg": 1.04,
+    "form_ppg10": 1.3,
+    "last_played": "2026-06-05"
+  },
+  "Micronesia": {
+    "rating": 1320.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2003-07-07"
+  },
+  "County of Nice": {
+    "rating": 1626.9,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2015-06-21"
+  },
+  "Cuba": {
+    "rating": 1422.7,
+    "matches_3y": 27,
+    "gf": 1.074,
+    "ga": 1.926,
+    "ppg": 1.037,
+    "form_ppg10": 1.1,
+    "last_played": "2026-03-29"
+  },
+  "Mauritania": {
+    "rating": 1454.0,
+    "matches_3y": 34,
+    "gf": 0.588,
+    "ga": 1.147,
+    "ppg": 0.912,
+    "form_ppg10": 1.0,
+    "last_played": "2026-06-08"
+  },
+  "Iraqi Kurdistan": {
+    "rating": 1716.3,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2016-06-04"
+  },
+  "Biafra": {
+    "rating": 1515.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2022-05-25"
+  },
+  "Malta": {
+    "rating": 1358.1,
+    "matches_3y": 26,
+    "gf": 0.769,
+    "ga": 1.923,
+    "ppg": 1.0,
+    "form_ppg10": 1.1,
+    "last_played": "2026-06-05"
+  },
+  "Saudi Arabia": {
+    "rating": 1716.3,
+    "matches_3y": 55,
+    "gf": 1.164,
+    "ga": 1.055,
+    "ppg": 1.473,
+    "form_ppg10": 0.9,
+    "last_played": "2026-06-26"
+  },
+  "Northern Cyprus": {
+    "rating": 1724.2,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2018-06-09"
+  },
+  "Isle of Wight": {
+    "rating": 1663.5,
+    "matches_3y": 4,
+    "gf": 1.75,
+    "ga": 1.0,
+    "ppg": 2.25,
+    "form_ppg10": 2.25,
+    "last_played": "2023-07-13"
+  },
+  "Latvia": {
+    "rating": 1332.0,
+    "matches_3y": 28,
+    "gf": 0.536,
+    "ga": 1.679,
+    "ppg": 0.714,
+    "form_ppg10": 0.5,
+    "last_played": "2026-06-09"
+  },
+  "Equatorial Guinea": {
+    "rating": 1436.9,
+    "matches_3y": 34,
+    "gf": 0.941,
+    "ga": 1.265,
+    "ppg": 1.088,
+    "form_ppg10": 0.5,
+    "last_played": "2026-06-09"
+  },
+  "Nepal": {
+    "rating": 1082.9,
+    "matches_3y": 21,
+    "gf": 0.524,
+    "ga": 1.762,
+    "ppg": 0.714,
+    "form_ppg10": 0.9,
+    "last_played": "2025-11-18"
+  },
+  "Vanuatu": {
+    "rating": 1432.8,
+    "matches_3y": 23,
+    "gf": 1.348,
+    "ga": 2.174,
+    "ppg": 1.174,
+    "form_ppg10": 1.4,
+    "last_played": "2026-06-06"
+  },
+  "Ivory Coast": {
+    "rating": 1862.4,
+    "matches_3y": 44,
+    "gf": 1.818,
+    "ga": 0.636,
+    "ppg": 2.091,
+    "form_ppg10": 2.2,
+    "last_played": "2026-06-25"
+  },
+  "Yorkshire": {
+    "rating": 1556.8,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-06-01"
+  },
+  "Saint Martin": {
+    "rating": 1310.8,
+    "matches_3y": 16,
+    "gf": 2.312,
+    "ga": 1.5,
+    "ppg": 1.688,
+    "form_ppg10": 1.5,
+    "last_played": "2026-03-29"
+  },
+  "Austria": {
+    "rating": 1905.1,
+    "matches_3y": 36,
+    "gf": 2.194,
+    "ga": 0.917,
+    "ppg": 2.028,
+    "form_ppg10": 2.0,
+    "last_played": "2026-06-27"
+  },
+  "Fiji": {
+    "rating": 1403.7,
+    "matches_3y": 25,
+    "gf": 1.88,
+    "ga": 1.76,
+    "ppg": 1.32,
+    "form_ppg10": 0.6,
+    "last_played": "2026-06-06"
+  },
+  "Luhansk PR": {
+    "rating": 1487.4,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-12-08"
+  },
+  "DR Congo": {
+    "rating": 1818.5,
+    "matches_3y": 44,
+    "gf": 1.159,
+    "ga": 0.614,
+    "ppg": 1.727,
+    "form_ppg10": 1.5,
+    "last_played": "2026-06-27"
+  },
+  "Guatemala": {
+    "rating": 1645.5,
+    "matches_3y": 42,
+    "gf": 1.238,
+    "ga": 1.5,
+    "ppg": 1.214,
+    "form_ppg10": 0.8,
+    "last_played": "2026-06-07"
+  },
+  "Palau": {
+    "rating": 1421.9,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1998-08-01"
+  },
+  "Guadeloupe": {
+    "rating": 1546.1,
+    "matches_3y": 19,
+    "gf": 1.947,
+    "ga": 1.105,
+    "ppg": 1.789,
+    "form_ppg10": 1.6,
+    "last_played": "2025-06-24"
+  },
+  "South Korea": {
+    "rating": 1840.8,
+    "matches_3y": 40,
+    "gf": 2.0,
+    "ga": 0.825,
+    "ppg": 2.05,
+    "form_ppg10": 1.8,
+    "last_played": "2026-06-24"
+  },
+  "Liechtenstein": {
+    "rating": 956.5,
+    "matches_3y": 30,
+    "gf": 0.3,
+    "ga": 2.5,
+    "ppg": 0.333,
+    "form_ppg10": 0.3,
+    "last_played": "2026-06-07"
+  },
+  "Botswana": {
+    "rating": 1390.1,
+    "matches_3y": 27,
+    "gf": 0.815,
+    "ga": 1.481,
+    "ppg": 1.074,
+    "form_ppg10": 0.7,
+    "last_played": "2026-03-31"
+  },
+  "Ellan Vannin": {
+    "rating": 1553.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2018-06-03"
+  },
+  "Isle of Man": {
+    "rating": 1705.0,
+    "matches_3y": 9,
+    "gf": 3.333,
+    "ga": 1.333,
+    "ppg": 2.0,
+    "form_ppg10": 2.0,
+    "last_played": "2025-07-18"
+  },
+  "Burkina Faso": {
+    "rating": 1642.8,
+    "matches_3y": 43,
+    "gf": 1.581,
+    "ga": 1.07,
+    "ppg": 1.628,
+    "form_ppg10": 1.7,
+    "last_played": "2026-06-09"
+  },
+  "Nicaragua": {
+    "rating": 1520.1,
+    "matches_3y": 29,
+    "gf": 1.31,
+    "ga": 1.241,
+    "ppg": 1.345,
+    "form_ppg10": 0.5,
+    "last_played": "2026-06-05"
+  },
+  "Canada": {
+    "rating": 1888.1,
+    "matches_3y": 42,
+    "gf": 1.452,
+    "ga": 0.929,
+    "ppg": 1.667,
+    "form_ppg10": 1.7,
+    "last_played": "2026-06-28"
+  },
+  "Republic of Ireland": {
+    "rating": 1762.5,
+    "matches_3y": 31,
+    "gf": 1.097,
+    "ga": 1.226,
+    "ppg": 1.323,
+    "form_ppg10": 1.8,
+    "last_played": "2026-06-05"
+  },
+  "Cascadia": {
+    "rating": 1544.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-05-25"
+  },
+  "United Arab Emirates": {
+    "rating": 1676.6,
+    "matches_3y": 38,
+    "gf": 1.632,
+    "ga": 0.974,
+    "ppg": 1.632,
+    "form_ppg10": 1.2,
+    "last_played": "2025-12-15"
+  },
+  "Jersey": {
+    "rating": 1801.1,
+    "matches_3y": 8,
+    "gf": 3.0,
+    "ga": 1.125,
+    "ppg": 2.375,
+    "form_ppg10": 2.375,
+    "last_played": "2025-07-18"
+  },
+  "Malawi": {
+    "rating": 1426.6,
+    "matches_3y": 27,
+    "gf": 1.0,
+    "ga": 1.0,
+    "ppg": 1.259,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-09"
+  },
+  "Bosnia and Herzegovina": {
+    "rating": 1684.6,
+    "matches_3y": 32,
+    "gf": 1.281,
+    "ga": 1.719,
+    "ppg": 1.125,
+    "form_ppg10": 1.5,
+    "last_played": "2026-06-24"
+  },
+  "Jordan": {
+    "rating": 1720.0,
+    "matches_3y": 51,
+    "gf": 1.588,
+    "ga": 1.431,
+    "ppg": 1.412,
+    "form_ppg10": 0.8,
+    "last_played": "2026-06-27"
+  },
+  "French Guiana": {
+    "rating": 1399.0,
+    "matches_3y": 12,
+    "gf": 1.417,
+    "ga": 1.417,
+    "ppg": 1.0,
+    "form_ppg10": 1.1,
+    "last_played": "2024-11-19"
+  },
+  "Chagos Islands": {
+    "rating": 1347.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-12-29"
+  },
+  "Ukraine": {
+    "rating": 1823.7,
+    "matches_3y": 33,
+    "gf": 1.455,
+    "ga": 1.394,
+    "ppg": 1.576,
+    "form_ppg10": 1.6,
+    "last_played": "2026-06-07"
+  },
+  "Falkland Islands": {
+    "rating": 1211.1,
+    "matches_3y": 4,
+    "gf": 0.75,
+    "ga": 3.25,
+    "ppg": 0.25,
+    "form_ppg10": 0.25,
+    "last_played": "2023-07-13"
+  },
+  "Andalusia": {
+    "rating": 1604.9,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2013-06-07"
+  },
+  "Switzerland": {
+    "rating": 1975.3,
+    "matches_3y": 38,
+    "gf": 1.868,
+    "ga": 1.105,
+    "ppg": 1.632,
+    "form_ppg10": 1.7,
+    "last_played": "2026-06-24"
+  },
+  "Crimea": {
+    "rating": 1499.7,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2006-11-25"
+  },
+  "Belize": {
+    "rating": 1295.3,
+    "matches_3y": 24,
+    "gf": 1.417,
+    "ga": 1.75,
+    "ppg": 1.375,
+    "form_ppg10": 1.0,
+    "last_played": "2026-03-30"
+  },
+  "Russia": {
+    "rating": 1845.8,
+    "matches_3y": 23,
+    "gf": 2.565,
+    "ga": 0.565,
+    "ppg": 2.217,
+    "form_ppg10": 2.0,
+    "last_played": "2026-06-09"
+  },
+  "Ticino": {
+    "rating": 1406.4,
+    "matches_3y": 1,
+    "gf": 1.0,
+    "ga": 5.0,
+    "ppg": 0.0,
+    "form_ppg10": 0.0,
+    "last_played": "2023-08-06"
+  },
+  "Belgium": {
+    "rating": 1955.5,
+    "matches_3y": 37,
+    "gf": 2.243,
+    "ga": 0.838,
+    "ppg": 1.838,
+    "form_ppg10": 2.2,
+    "last_played": "2026-06-26"
+  },
+  "Benin": {
+    "rating": 1527.9,
+    "matches_3y": 31,
+    "gf": 1.0,
+    "ga": 1.419,
+    "ppg": 1.194,
+    "form_ppg10": 1.0,
+    "last_played": "2026-06-09"
+  },
+  "Cyprus": {
+    "rating": 1378.1,
+    "matches_3y": 30,
+    "gf": 1.133,
+    "ga": 2.067,
+    "ppg": 0.967,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-07"
+  },
+  "Franconia": {
+    "rating": 1467.7,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-06-25"
+  },
+  "American Samoa": {
+    "rating": 907.2,
+    "matches_3y": 7,
+    "gf": 0.571,
+    "ga": 6.286,
+    "ppg": 0.0,
+    "form_ppg10": 0.0,
+    "last_played": "2026-03-28"
+  },
+  "Japan": {
+    "rating": 1976.9,
+    "matches_3y": 38,
+    "gf": 2.816,
+    "ga": 0.711,
+    "ppg": 2.289,
+    "form_ppg10": 2.3,
+    "last_played": "2026-06-29"
+  },
+  "Guam": {
+    "rating": 953.4,
+    "matches_3y": 10,
+    "gf": 1.4,
+    "ga": 2.8,
+    "ppg": 0.7,
+    "form_ppg10": 0.7,
+    "last_played": "2026-06-06"
+  },
+  "Costa Rica": {
+    "rating": 1741.5,
+    "matches_3y": 41,
+    "gf": 1.878,
+    "ga": 1.439,
+    "ppg": 1.488,
+    "form_ppg10": 0.8,
+    "last_played": "2026-06-10"
+  },
+  "Estonia": {
+    "rating": 1426.1,
+    "matches_3y": 32,
+    "gf": 0.844,
+    "ga": 2.094,
+    "ppg": 0.75,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-09"
+  },
+  "Ynys Môn": {
+    "rating": 1642.2,
+    "matches_3y": 6,
+    "gf": 2.167,
+    "ga": 1.167,
+    "ppg": 2.5,
+    "form_ppg10": 2.5,
+    "last_played": "2025-07-17"
+  },
+  "Two Sicilies": {
+    "rating": 1378.9,
+    "matches_3y": 2,
+    "gf": 0.5,
+    "ga": 5.0,
+    "ppg": 0.0,
+    "form_ppg10": 0.0,
+    "last_played": "2023-07-02"
+  },
+  "Tajikistan": {
+    "rating": 1440.3,
+    "matches_3y": 28,
+    "gf": 1.571,
+    "ga": 1.0,
+    "ppg": 1.643,
+    "form_ppg10": 2.3,
+    "last_played": "2026-06-09"
+  },
+  "Yemen DPR": {
+    "rating": 1349.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1989-11-05"
+  },
+  "Italy": {
+    "rating": 1934.6,
+    "matches_3y": 34,
+    "gf": 1.882,
+    "ga": 1.147,
+    "ppg": 1.971,
+    "form_ppg10": 2.5,
+    "last_played": "2026-06-07"
+  },
+  "Åland Islands": {
+    "rating": 1473.3,
+    "matches_3y": 4,
+    "gf": 0.5,
+    "ga": 2.25,
+    "ppg": 0.25,
+    "form_ppg10": 0.25,
+    "last_played": "2023-07-13"
+  },
+  "Saugeais": {
+    "rating": 1494.2,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2013-06-29"
+  },
+  "Kosovo": {
+    "rating": 1786.7,
+    "matches_3y": 29,
+    "gf": 1.586,
+    "ga": 1.103,
+    "ppg": 1.828,
+    "form_ppg10": 1.7,
+    "last_played": "2026-06-07"
+  },
+  "Laos": {
+    "rating": 948.5,
+    "matches_3y": 14,
+    "gf": 1.0,
+    "ga": 2.5,
+    "ppg": 0.5,
+    "form_ppg10": 0.5,
+    "last_played": "2025-11-19"
+  },
+  "Syria": {
+    "rating": 1592.8,
+    "matches_3y": 33,
+    "gf": 1.485,
+    "ga": 1.182,
+    "ppg": 1.545,
+    "form_ppg10": 1.8,
+    "last_played": "2026-06-05"
+  },
+  "Tibet": {
+    "rating": 1260.5,
+    "matches_3y": 4,
+    "gf": 2.25,
+    "ga": 4.5,
+    "ppg": 0.0,
+    "form_ppg10": 0.0,
+    "last_played": "2025-07-03"
+  },
+  "Somaliland": {
+    "rating": 1474.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-05-04"
+  },
+  "Lithuania": {
+    "rating": 1331.9,
+    "matches_3y": 30,
+    "gf": 0.833,
+    "ga": 1.533,
+    "ppg": 0.767,
+    "form_ppg10": 0.6,
+    "last_played": "2026-06-09"
+  },
+  "Argentina": {
+    "rating": 2218.3,
+    "matches_3y": 38,
+    "gf": 2.105,
+    "ga": 0.395,
+    "ppg": 2.526,
+    "form_ppg10": 3.0,
+    "last_played": "2026-06-27"
+  },
+  "Puerto Rico": {
+    "rating": 1366.7,
+    "matches_3y": 25,
+    "gf": 2.12,
+    "ga": 1.68,
+    "ppg": 1.48,
+    "form_ppg10": 1.1,
+    "last_played": "2026-06-05"
+  },
+  "Czechoslovakia": {
+    "rating": 1789.9,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1993-11-17"
+  },
+  "United States": {
+    "rating": 1909.8,
+    "matches_3y": 48,
+    "gf": 1.896,
+    "ga": 1.312,
+    "ppg": 1.625,
+    "form_ppg10": 1.8,
+    "last_played": "2026-06-25"
+  },
+  "Aymara": {
+    "rating": 1463.2,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2022-06-19"
+  },
+  "Maule Sur": {
+    "rating": 1528.3,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2022-06-19"
+  },
+  "Chile": {
+    "rating": 1797.6,
+    "matches_3y": 32,
+    "gf": 1.156,
+    "ga": 1.344,
+    "ppg": 1.156,
+    "form_ppg10": 1.6,
+    "last_played": "2026-06-09"
+  },
+  "Provence": {
+    "rating": 1466.8,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2013-06-28"
+  },
+  "Yoruba Nation": {
+    "rating": 1483.7,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2022-05-23"
+  },
+  "Székely Land": {
+    "rating": 1478.1,
+    "matches_3y": 2,
+    "gf": 5.0,
+    "ga": 1.0,
+    "ppg": 3.0,
+    "form_ppg10": 3.0,
+    "last_played": "2023-07-02"
+  },
+  "Tanzania": {
+    "rating": 1425.6,
+    "matches_3y": 34,
+    "gf": 0.735,
+    "ga": 1.059,
+    "ppg": 0.912,
+    "form_ppg10": 0.5,
+    "last_played": "2026-03-29"
+  },
+  "Niue": {
+    "rating": 1425.3,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1983-08-22"
+  },
+  "Vatican City": {
+    "rating": 1406.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2022-04-22"
+  },
+  "Găgăuzia": {
+    "rating": 1428.5,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2006-11-21"
+  },
+  "Abkhazia": {
+    "rating": 1638.7,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-06-08"
+  },
+  "Serbia": {
+    "rating": 1810.8,
+    "matches_3y": 32,
+    "gf": 1.062,
+    "ga": 1.312,
+    "ppg": 1.281,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-04"
+  },
+  "Lesotho": {
+    "rating": 1405.1,
+    "matches_3y": 29,
+    "gf": 0.724,
+    "ga": 1.345,
+    "ppg": 1.0,
+    "form_ppg10": 0.9,
+    "last_played": "2026-06-04"
+  },
+  "Monaco": {
+    "rating": 1423.5,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2017-04-29"
+  },
+  "Guernsey": {
+    "rating": 1743.3,
+    "matches_3y": 4,
+    "gf": 1.75,
+    "ga": 0.75,
+    "ppg": 2.25,
+    "form_ppg10": 2.25,
+    "last_played": "2023-07-13"
+  },
+  "Saint Vincent and the Grenadines": {
+    "rating": 1364.5,
+    "matches_3y": 29,
+    "gf": 2.103,
+    "ga": 1.552,
+    "ppg": 1.69,
+    "form_ppg10": 1.9,
+    "last_played": "2026-03-29"
+  },
+  "Rwanda": {
+    "rating": 1460.9,
+    "matches_3y": 21,
+    "gf": 0.81,
+    "ga": 1.0,
+    "ppg": 1.238,
+    "form_ppg10": 1.0,
+    "last_played": "2026-03-30"
+  },
+  "North Macedonia": {
+    "rating": 1649.9,
+    "matches_3y": 30,
+    "gf": 1.167,
+    "ga": 1.267,
+    "ppg": 1.367,
+    "form_ppg10": 0.8,
+    "last_played": "2026-06-01"
+  },
+  "Wales": {
+    "rating": 1756.8,
+    "matches_3y": 30,
+    "gf": 1.6,
+    "ga": 1.067,
+    "ppg": 1.6,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-06"
+  },
+  "Netherlands": {
+    "rating": 2049.7,
+    "matches_3y": 40,
+    "gf": 2.45,
+    "ga": 0.925,
+    "ppg": 2.0,
+    "form_ppg10": 1.9,
+    "last_played": "2026-06-29"
+  },
+  "Peru": {
+    "rating": 1767.2,
+    "matches_3y": 32,
+    "gf": 0.656,
+    "ga": 1.188,
+    "ppg": 0.875,
+    "form_ppg10": 0.6,
+    "last_played": "2026-06-08"
+  },
+  "Sudan": {
+    "rating": 1464.7,
+    "matches_3y": 30,
+    "gf": 0.633,
+    "ga": 1.033,
+    "ppg": 1.133,
+    "form_ppg10": 0.7,
+    "last_played": "2026-01-03"
+  },
+  "Cook Islands": {
+    "rating": 1124.8,
+    "matches_3y": 9,
+    "gf": 0.556,
+    "ga": 3.444,
+    "ppg": 0.667,
+    "form_ppg10": 0.667,
+    "last_played": "2024-09-06"
+  },
+  "South Ossetia": {
+    "rating": 1489.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-12-08"
+  },
+  "Sint Maarten": {
+    "rating": 1294.0,
+    "matches_3y": 16,
+    "gf": 1.188,
+    "ga": 2.312,
+    "ppg": 1.438,
+    "form_ppg10": 1.7,
+    "last_played": "2026-03-30"
+  },
+  "Hungary": {
+    "rating": 1768.4,
+    "matches_3y": 33,
+    "gf": 1.364,
+    "ga": 1.424,
+    "ppg": 1.545,
+    "form_ppg10": 1.8,
+    "last_played": "2026-06-09"
+  },
+  "Uruguay": {
+    "rating": 1916.7,
+    "matches_3y": 38,
+    "gf": 1.263,
+    "ga": 0.816,
+    "ppg": 1.474,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-26"
+  },
+  "Sierra Leone": {
+    "rating": 1456.8,
+    "matches_3y": 24,
+    "gf": 1.083,
+    "ga": 1.458,
+    "ppg": 1.167,
+    "form_ppg10": 1.4,
+    "last_played": "2026-06-09"
+  },
+  "Cameroon": {
+    "rating": 1724.4,
+    "matches_3y": 34,
+    "gf": 1.353,
+    "ga": 0.765,
+    "ppg": 1.706,
+    "form_ppg10": 1.7,
+    "last_played": "2026-03-31"
+  },
+  "Kárpátalja": {
+    "rating": 1618.5,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2018-06-09"
+  },
+  "Cilento": {
+    "rating": 1489.9,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2011-12-29"
+  },
+  "Germany": {
+    "rating": 1994.0,
+    "matches_3y": 39,
+    "gf": 2.308,
+    "ga": 1.128,
+    "ppg": 2.026,
+    "form_ppg10": 2.5,
+    "last_played": "2026-06-29"
+  },
+  "Moldova": {
+    "rating": 1345.0,
+    "matches_3y": 29,
+    "gf": 0.931,
+    "ga": 2.138,
+    "ppg": 0.897,
+    "form_ppg10": 0.3,
+    "last_played": "2026-06-09"
+  },
+  "Mauritius": {
+    "rating": 1203.8,
+    "matches_3y": 22,
+    "gf": 0.636,
+    "ga": 1.318,
+    "ppg": 0.773,
+    "form_ppg10": 0.6,
+    "last_played": "2025-10-13"
+  },
+  "South Africa": {
+    "rating": 1702.0,
+    "matches_3y": 50,
+    "gf": 1.32,
+    "ga": 0.82,
+    "ppg": 1.62,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-28"
+  },
+  "Ethiopia": {
+    "rating": 1387.2,
+    "matches_3y": 22,
+    "gf": 0.864,
+    "ga": 1.409,
+    "ppg": 1.045,
+    "form_ppg10": 1.3,
+    "last_played": "2026-06-09"
+  },
+  "Shetland": {
+    "rating": 1499.3,
+    "matches_3y": 7,
+    "gf": 2.286,
+    "ga": 1.571,
+    "ppg": 1.571,
+    "form_ppg10": 1.571,
+    "last_played": "2025-07-17"
+  },
+  "Indonesia": {
+    "rating": 1521.3,
+    "matches_3y": 39,
+    "gf": 1.41,
+    "ga": 1.513,
+    "ppg": 1.333,
+    "form_ppg10": 1.6,
+    "last_played": "2026-06-09"
+  },
+  "Azerbaijan": {
+    "rating": 1394.7,
+    "matches_3y": 30,
+    "gf": 0.967,
+    "ga": 1.967,
+    "ppg": 0.867,
+    "form_ppg10": 0.8,
+    "last_played": "2026-06-09"
+  },
+  "Trinidad and Tobago": {
+    "rating": 1540.3,
+    "matches_3y": 40,
+    "gf": 1.45,
+    "ga": 1.925,
+    "ppg": 1.2,
+    "form_ppg10": 0.7,
+    "last_played": "2026-06-09"
+  },
+  "Niger": {
+    "rating": 1499.1,
+    "matches_3y": 27,
+    "gf": 1.296,
+    "ga": 1.222,
+    "ppg": 1.222,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-08"
+  },
+  "Singapore": {
+    "rating": 1325.3,
+    "matches_3y": 30,
+    "gf": 1.433,
+    "ga": 1.9,
+    "ppg": 1.267,
+    "form_ppg10": 1.7,
+    "last_played": "2026-06-05"
+  },
+  "Kurdistan": {
+    "rating": 1565.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2013-06-28"
+  },
+  "Mayotte": {
+    "rating": 1450.3,
+    "matches_3y": 2,
+    "gf": 0.0,
+    "ga": 0.0,
+    "ppg": 1.0,
+    "form_ppg10": 1.0,
+    "last_played": "2023-08-26"
+  },
+  "Albania": {
+    "rating": 1685.8,
+    "matches_3y": 33,
+    "gf": 1.061,
+    "ga": 0.909,
+    "ppg": 1.394,
+    "form_ppg10": 1.5,
+    "last_played": "2026-06-06"
+  },
+  "Bhutan": {
+    "rating": 847.2,
+    "matches_3y": 14,
+    "gf": 0.429,
+    "ga": 2.429,
+    "ppg": 0.714,
+    "form_ppg10": 0.4,
+    "last_played": "2026-06-04"
+  },
+  "Manchukuo": {
+    "rating": 1432.4,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1942-08-09"
+  },
+  "Lebanon": {
+    "rating": 1437.6,
+    "matches_3y": 29,
+    "gf": 1.241,
+    "ga": 1.0,
+    "ppg": 1.241,
+    "form_ppg10": 1.8,
+    "last_played": "2025-11-26"
+  },
+  "Sweden": {
+    "rating": 1812.6,
+    "matches_3y": 34,
+    "gf": 2.0,
+    "ga": 1.618,
+    "ppg": 1.588,
+    "form_ppg10": 1.2,
+    "last_played": "2026-06-25"
+  },
+  "Oman": {
+    "rating": 1580.0,
+    "matches_3y": 39,
+    "gf": 1.0,
+    "ga": 1.026,
+    "ppg": 1.385,
+    "form_ppg10": 1.0,
+    "last_played": "2026-06-05"
+  },
+  "Corsica": {
+    "rating": 1563.8,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2017-05-26"
+  },
+  "Occitania": {
+    "rating": 1722.2,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2014-12-30"
+  },
+  "Norway": {
+    "rating": 1994.6,
+    "matches_3y": 33,
+    "gf": 2.727,
+    "ga": 1.061,
+    "ppg": 2.091,
+    "form_ppg10": 1.8,
+    "last_played": "2026-06-26"
+  },
+  "Saare County": {
+    "rating": 1339.9,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2017-06-29"
+  },
+  "Seychelles": {
+    "rating": 997.9,
+    "matches_3y": 15,
+    "gf": 0.267,
+    "ga": 4.267,
+    "ppg": 0.0,
+    "form_ppg10": 0.0,
+    "last_played": "2025-10-14"
+  },
+  "Somalia": {
+    "rating": 1049.0,
+    "matches_3y": 16,
+    "gf": 0.438,
+    "ga": 1.938,
+    "ppg": 0.375,
+    "form_ppg10": 0.5,
+    "last_played": "2025-11-26"
+  },
+  "German DR": {
+    "rating": 1726.3,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1990-09-12"
+  },
+  "Togo": {
+    "rating": 1503.2,
+    "matches_3y": 23,
+    "gf": 1.13,
+    "ga": 1.304,
+    "ppg": 1.174,
+    "form_ppg10": 1.3,
+    "last_played": "2026-06-09"
+  },
+  "India": {
+    "rating": 1235.7,
+    "matches_3y": 28,
+    "gf": 0.536,
+    "ga": 1.286,
+    "ppg": 0.607,
+    "form_ppg10": 0.3,
+    "last_played": "2026-06-09"
+  },
+  "Hmong": {
+    "rating": 1459.3,
+    "matches_3y": 3,
+    "gf": 2.0,
+    "ga": 3.333,
+    "ppg": 1.0,
+    "form_ppg10": 1.0,
+    "last_played": "2023-08-08"
+  },
+  "Honduras": {
+    "rating": 1711.6,
+    "matches_3y": 38,
+    "gf": 1.5,
+    "ga": 1.105,
+    "ppg": 1.579,
+    "form_ppg10": 1.1,
+    "last_played": "2026-06-06"
+  },
+  "West Papua": {
+    "rating": 1473.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2022-11-13"
+  },
+  "Réunion": {
+    "rating": 1577.8,
+    "matches_3y": 4,
+    "gf": 0.75,
+    "ga": 0.75,
+    "ppg": 1.25,
+    "form_ppg10": 1.25,
+    "last_played": "2023-09-02"
+  },
+  "Central Spain": {
+    "rating": 1494.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1923-11-25"
+  },
   "New Zealand": {
     "rating": 1688.7,
     "matches_3y": 33,
@@ -3014,6 +2789,222 @@
     "form_ppg10": 0.5,
     "last_played": "2026-06-26"
   },
+  "Paraguay": {
+    "rating": 1904.3,
+    "matches_3y": 35,
+    "gf": 0.914,
+    "ga": 1.0,
+    "ppg": 1.343,
+    "form_ppg10": 1.4,
+    "last_played": "2026-06-29"
+  },
+  "Orkney": {
+    "rating": 1400.3,
+    "matches_3y": 7,
+    "gf": 2.143,
+    "ga": 1.714,
+    "ppg": 1.857,
+    "form_ppg10": 1.857,
+    "last_played": "2025-07-17"
+  },
+  "Central African Republic": {
+    "rating": 1343.8,
+    "matches_3y": 22,
+    "gf": 1.273,
+    "ga": 2.045,
+    "ppg": 0.955,
+    "form_ppg10": 0.8,
+    "last_played": "2026-06-09"
+  },
+  "Western Australia": {
+    "rating": 1393.6,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1980-11-25"
+  },
+  "Felvidék": {
+    "rating": 1512.1,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2017-06-09"
+  },
+  "Eritrea": {
+    "rating": 1199.3,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-09-10"
+  },
+  "Padania": {
+    "rating": 1704.4,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2019-06-08"
+  },
+  "Madrid": {
+    "rating": 1491.0,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2013-06-07"
+  },
+  "Saarland": {
+    "rating": 1452.7,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1956-06-06"
+  },
+  "Bolivia": {
+    "rating": 1715.2,
+    "matches_3y": 38,
+    "gf": 0.816,
+    "ga": 2.053,
+    "ppg": 0.868,
+    "form_ppg10": 0.7,
+    "last_played": "2026-06-10"
+  },
+  "Taiwan": {
+    "rating": 1045.8,
+    "matches_3y": 20,
+    "gf": 1.25,
+    "ga": 2.5,
+    "ppg": 0.65,
+    "form_ppg10": 0.6,
+    "last_played": "2025-11-18"
+  },
+  "Raetia": {
+    "rating": 1379.5,
+    "matches_3y": 1,
+    "gf": 5.0,
+    "ga": 1.0,
+    "ppg": 3.0,
+    "form_ppg10": 3.0,
+    "last_played": "2023-08-06"
+  },
+  "Nigeria": {
+    "rating": 1877.6,
+    "matches_3y": 45,
+    "gf": 1.733,
+    "ga": 0.867,
+    "ppg": 1.911,
+    "form_ppg10": 1.9,
+    "last_played": "2026-06-10"
+  },
+  "Romania": {
+    "rating": 1707.2,
+    "matches_3y": 34,
+    "gf": 1.647,
+    "ga": 1.0,
+    "ppg": 1.676,
+    "form_ppg10": 1.4,
+    "last_played": "2026-06-06"
+  },
+  "Asturias": {
+    "rating": 1519.0,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "1923-02-25"
+  },
+  "Curaçao": {
+    "rating": 1604.9,
+    "matches_3y": 33,
+    "gf": 1.818,
+    "ga": 1.273,
+    "ppg": 1.455,
+    "form_ppg10": 0.9,
+    "last_played": "2026-06-25"
+  },
+  "Turkmenistan": {
+    "rating": 1387.6,
+    "matches_3y": 15,
+    "gf": 1.333,
+    "ga": 1.6,
+    "ppg": 1.2,
+    "form_ppg10": 1.6,
+    "last_played": "2025-11-18"
+  },
+  "Bahrain": {
+    "rating": 1548.4,
+    "matches_3y": 40,
+    "gf": 1.075,
+    "ga": 1.375,
+    "ppg": 1.225,
+    "form_ppg10": 0.7,
+    "last_played": "2026-06-05"
+  },
+  "Kenya": {
+    "rating": 1466.0,
+    "matches_3y": 28,
+    "gf": 1.286,
+    "ga": 1.357,
+    "ppg": 1.25,
+    "form_ppg10": 1.5,
+    "last_played": "2026-06-04"
+  },
+  "Timor-Leste": {
+    "rating": 898.4,
+    "matches_3y": 16,
+    "gf": 0.688,
+    "ga": 2.812,
+    "ppg": 0.625,
+    "form_ppg10": 0.3,
+    "last_played": "2025-11-18"
+  },
+  "Dominican Republic": {
+    "rating": 1502.8,
+    "matches_3y": 30,
+    "gf": 2.3,
+    "ga": 1.233,
+    "ppg": 1.6,
+    "form_ppg10": 0.7,
+    "last_played": "2026-06-03"
+  },
+  "Thailand": {
+    "rating": 1537.1,
+    "matches_3y": 40,
+    "gf": 1.9,
+    "ga": 1.325,
+    "ppg": 1.75,
+    "form_ppg10": 2.0,
+    "last_played": "2026-06-09"
+  },
+  "Arameans Suryoye": {
+    "rating": 1554.2,
+    "matches_3y": 0,
+    "gf": null,
+    "ga": null,
+    "ppg": null,
+    "form_ppg10": null,
+    "last_played": "2014-06-08"
+  },
+  "Tamil Eelam": {
+    "rating": 1577.3,
+    "matches_3y": 6,
+    "gf": 3.333,
+    "ga": 0.5,
+    "ppg": 3.0,
+    "form_ppg10": 3.0,
+    "last_played": "2025-07-04"
+  },
   "Cambodia": {
     "rating": 1087.7,
     "matches_3y": 22,
@@ -3022,5 +3013,14 @@
     "ppg": 1.091,
     "form_ppg10": 1.1,
     "last_played": "2026-06-09"
+  },
+  "Egypt": {
+    "rating": 1860.0,
+    "matches_3y": 46,
+    "gf": 1.543,
+    "ga": 0.804,
+    "ppg": 1.87,
+    "form_ppg10": 1.6,
+    "last_played": "2026-06-26"
   }
 }

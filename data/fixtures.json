@@ -2539,17 +2539,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "NOR +115",
+      "details": "NOR +120",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+255",
-        "draw": 240,
-        "away": "+115"
+        "home": "+250",
+        "draw": 235,
+        "away": "+120"
       },
       "implied": {
-        "home": 0.2706,
-        "draw": 0.2826,
-        "away": 0.4468
+        "home": 0.2751,
+        "draw": 0.2874,
+        "away": 0.4376
       }
     },
     "group": null
@@ -2590,13 +2590,13 @@
       "over_under": 3.5,
       "moneyline": {
         "home": "-340",
-        "draw": 475,
-        "away": "+900"
+        "draw": 500,
+        "away": "+950"
       },
       "implied": {
-        "home": 0.7383,
-        "draw": 0.1662,
-        "away": 0.0955
+        "home": 0.7469,
+        "draw": 0.1611,
+        "away": 0.0921
       }
     },
     "group": null
@@ -2637,13 +2637,13 @@
       "over_under": 1.5,
       "moneyline": {
         "home": "+130",
-        "draw": 190,
-        "away": "+285"
+        "draw": 185,
+        "away": "+295"
       },
       "implied": {
-        "home": 0.4183,
-        "draw": 0.3318,
-        "away": 0.2499
+        "home": 0.4185,
+        "draw": 0.3378,
+        "away": 0.2437
       }
     },
     "group": null
@@ -2680,17 +2680,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ENG -360",
+      "details": "ENG -350",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-360",
-        "draw": 450,
+        "home": "-350",
+        "draw": 425,
         "away": "+1200"
       },
       "implied": {
-        "home": 0.7515,
-        "draw": 0.1746,
-        "away": 0.0739
+        "home": 0.7442,
+        "draw": 0.1822,
+        "away": 0.0736
       }
     },
     "group": null
@@ -3103,17 +3103,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "MAR -130",
+      "details": "MAR -125",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+390",
-        "draw": 265,
-        "away": "-130"
+        "home": "+400",
+        "draw": 255,
+        "away": "-125"
       },
       "implied": {
-        "home": 0.1956,
-        "draw": 0.2626,
-        "away": 0.5418
+        "home": 0.1928,
+        "draw": 0.2716,
+        "away": 0.5356
       }
     },
     "group": null
