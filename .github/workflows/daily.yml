@@ -5,9 +5,8 @@ name: Tägliche WM-Tipps
 # Tipps nicht; die primäre, verlässlichere Anreicherung macht die Claude-Routine um 09:05.
 on:
   schedule:
-    - cron: "5 4 * * *"   # 06:05 CEST
-    - cron: "35 7 * * *"  # 09:35 CEST
-    - cron: "5 11 * * *"  # 13:05 CEST
+    - cron: "35 7 * * *"   # 09:35 CEST – frühe Basis-Tipps
+    - cron: "35 12 * * *"  # 14:35 CEST – Fallback NACH der 14:00-Claude-Routine
   workflow_dispatch:
     inputs:
       date:
