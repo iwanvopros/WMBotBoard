@@ -2,7 +2,7 @@
   "date": "2026-06-30",
   "generated_at": "2026-06-30T12:17:13+00:00",
   "count": 3,
-  "source": "elo+poisson model + ESPN odds",
+  "source": "Hybrid: Elo+Poisson-Modell, Buchmacher-Quoten, Tagesrecherche & Erkenntnisse aus gespielten Spielen",
   "matches": [
     {
       "id": "760490",
@@ -27,13 +27,13 @@
       "prediction": {
         "winner": "Norway",
         "winner_code": "NOR",
-        "scoreline": "0:1",
+        "scoreline": "1:2",
         "prob": {
-          "home": 0.2666,
-          "draw": 0.2614,
-          "away": 0.4719
+          "home": 0.3,
+          "draw": 0.28,
+          "away": 0.42
         },
-        "confidence": "Mittel",
+        "confidence": "Niedrig",
         "expected_goals": {
           "home": 1.165,
           "away": 1.693
@@ -78,9 +78,14 @@
           "away": 0.4468
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Norway vorne (47%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "K.o.-Runde – Sieger trifft Brasilien",
+        "Norwegen mit Haaland sehr torgefährlich",
+        "Elfenbeinküste defensiv organisiert",
+        "Enges Spiel – Verlängerung/Elfmeter möglich"
+      ],
+      "rationale_de": "Norwegen ist mit dem treffsicheren Haaland leicht favorisiert, doch die Elfenbeinküste ist kompakt und unangenehm. In einem offenen K.o.-Spiel tippe ich knapp 1:2 für Norwegen – eine Entscheidung in der Verlängerung oder im Elfmeterschießen ist aber gut möglich.",
+      "enriched_by": "claude"
     },
     {
       "id": "760492",
@@ -107,9 +112,9 @@
         "winner_code": "FRA",
         "scoreline": "2:0",
         "prob": {
-          "home": 0.7246,
-          "draw": 0.1673,
-          "away": 0.1076
+          "home": 0.72,
+          "draw": 0.16,
+          "away": 0.12
         },
         "confidence": "Hoch",
         "expected_goals": {
@@ -156,9 +161,14 @@
           "away": 0.0955
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht France vorne (72%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Frankreich Turnierfavorit (+300)",
+        "Mbappé in Topform",
+        "Schweden klar unterlegen",
+        "Echter Klassenunterschied"
+      ],
+      "rationale_de": "Frankreich ist Turnierfavorit (+300) und mit Mbappé in bestechender Form gegen Schweden klar überlegen. Ein souveräner 2:0-Sieg und der Einzug in die nächste Runde sind zu erwarten.",
+      "enriched_by": "claude"
     },
     {
       "id": "760491",
@@ -185,9 +195,9 @@
         "winner_code": "MEX",
         "scoreline": "1:0",
         "prob": {
-          "home": 0.432,
-          "draw": 0.2974,
-          "away": 0.2706
+          "home": 0.45,
+          "draw": 0.28,
+          "away": 0.27
         },
         "confidence": "Niedrig",
         "expected_goals": {
@@ -234,9 +244,14 @@
           "away": 0.2499
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Mexico vorne (43%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Gastgeber Mexiko mit Heimvorteil",
+        "Ecuador stark – schlug Deutschland in der Gruppe",
+        "Sehr ausgeglichenes Achtelfinal",
+        "Verlängerung/Elfmeter gut möglich"
+      ],
+      "rationale_de": "Ein echtes Toss-up: Gastgeber Mexiko hat den Heimvorteil, doch Ecuador ist stark (schlug Deutschland in der Gruppe) und defensiv stabil. Ich tippe knapp 1:0 für Mexiko – realistisch ist aber auch eine Entscheidung in der Verlängerung.",
+      "enriched_by": "claude"
     }
   ]
 }
