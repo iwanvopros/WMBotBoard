@@ -1,13 +1,115 @@
 {
-  "generated_at": "2026-06-29T18:31:10+00:00",
-  "count": 72,
-  "overall_quote": 44.9,
-  "tendency_rate": 65,
-  "exact_rate": 14,
+  "generated_at": "2026-06-30T12:17:13+00:00",
+  "count": 75,
+  "overall_quote": 44.4,
+  "tendency_rate": 64,
+  "exact_rate": 15,
   "groups": [
     {
       "group": "K.o.-Runde",
       "matches": [
+        {
+          "id": "760488",
+          "date_utc": "2026-06-30T01:00Z",
+          "group": null,
+          "home": {
+            "name": "Netherlands",
+            "code": "NED",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+          },
+          "away": {
+            "name": "Morocco",
+            "code": "MAR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
+          },
+          "actual": "1:1",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "Netherlands",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.43,
+              "draw": 0.29,
+              "away": 0.28
+            }
+          },
+          "result_score": 2.9,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.29
+          },
+          "verdict": "Daneben"
+        },
+        {
+          "id": "760489",
+          "date_utc": "2026-06-29T20:30Z",
+          "group": null,
+          "home": {
+            "name": "Germany",
+            "code": "GER",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
+          },
+          "away": {
+            "name": "Paraguay",
+            "code": "PAR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
+          },
+          "actual": "1:1",
+          "tip": {
+            "scoreline": "3:1",
+            "winner": "Germany",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.74,
+              "draw": 0.16,
+              "away": 0.1
+            }
+          },
+          "result_score": 1.6,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.16
+          },
+          "verdict": "Daneben"
+        },
+        {
+          "id": "760487",
+          "date_utc": "2026-06-29T17:00Z",
+          "group": null,
+          "home": {
+            "name": "Brazil",
+            "code": "BRA",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
+          },
+          "away": {
+            "name": "Japan",
+            "code": "JPN",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
+          },
+          "actual": "2:1",
+          "tip": {
+            "scoreline": "2:1",
+            "winner": "Brazil",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.5,
+              "draw": 0.27,
+              "away": 0.23
+            }
+          },
+          "result_score": 95.0,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": true,
+            "prob_actual": 0.5
+          },
+          "verdict": "Volltreffer"
+        },
         {
           "id": "760486",
           "date_utc": "2026-06-28T19:00Z",

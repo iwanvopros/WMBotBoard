@@ -1,257 +1,242 @@
 {
-  "date": "2026-06-29",
-  "generated_at": "2026-06-29T14:48:30+00:00",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T12:17:13+00:00",
   "count": 3,
-  "source": "Hybrid: Elo+Poisson-Modell, Buchmacher-Quoten, Tagesrecherche & Erkenntnisse aus gespielten Spielen",
+  "source": "elo+poisson model + ESPN odds",
   "matches": [
     {
-      "id": "760487",
-      "kickoff_utc": "2026-06-29T17:00Z",
-      "venue": "NRG Stadium",
-      "city": "Houston, Texas",
+      "id": "760490",
+      "kickoff_utc": "2026-06-30T17:00Z",
+      "venue": "AT&T Stadium",
+      "city": "Arlington, Texas",
       "group": null,
       "home": {
-        "code": "BRA",
-        "name": "Brazil",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-        "elo": 2090.2,
-        "form_ppg10": 2.0
+        "code": "CIV",
+        "name": "Ivory Coast",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+        "elo": 1862.4,
+        "form_ppg10": 2.2
       },
       "away": {
-        "code": "JPN",
-        "name": "Japan",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-        "elo": 1999.2,
-        "form_ppg10": 2.4
+        "code": "NOR",
+        "name": "Norway",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+        "elo": 1994.6,
+        "form_ppg10": 1.8
       },
       "prediction": {
-        "winner": "Brazil",
-        "winner_code": "BRA",
-        "scoreline": "2:1",
+        "winner": "Norway",
+        "winner_code": "NOR",
+        "scoreline": "0:1",
         "prob": {
-          "home": 0.5,
-          "draw": 0.27,
-          "away": 0.23
+          "home": 0.2666,
+          "draw": 0.2614,
+          "away": 0.4719
         },
         "confidence": "Mittel",
         "expected_goals": {
-          "home": 1.493,
-          "away": 1.345
+          "home": 1.165,
+          "away": 1.693
         },
-        "over_2_5": 0.5394,
-        "btts": 0.5732,
+        "over_2_5": 0.5443,
+        "btts": 0.5615,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.1176
-          },
-          {
-            "score": "2:1",
-            "p": 0.0878
-          },
-          {
-            "score": "1:0",
-            "p": 0.0874
-          },
-          {
-            "score": "1:2",
-            "p": 0.0791
+            "p": 0.1132
           },
           {
             "score": "0:1",
-            "p": 0.0788
+            "p": 0.0971
+          },
+          {
+            "score": "1:2",
+            "p": 0.0958
+          },
+          {
+            "score": "0:2",
+            "p": 0.0822
+          },
+          {
+            "score": "1:0",
+            "p": 0.0668
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "BRA -135",
+        "details": "NOR +115",
         "over_under": 2.5,
         "moneyline": {
-          "home": "-135",
-          "draw": 265,
-          "away": "+400"
+          "home": "+255",
+          "draw": 240,
+          "away": "+115"
         },
         "implied": {
-          "home": 0.5479,
-          "draw": 0.2613,
-          "away": 0.1908
+          "home": 0.2706,
+          "draw": 0.2826,
+          "away": 0.4468
         }
       },
-      "key_factors": [
-        "Achtelfinal – Brasilien Favorit aufs Weiterkommen (-320)",
-        "Japan stark (u.a. 4:0 vs Tunesien)",
-        "Enges Spiel – Verlängerung/Elfmeter möglich",
-        "Vinícius & Raphinha als Trumpf"
-      ],
-      "rationale_de": "Brasilien ist Favorit aufs Weiterkommen (-320), doch Japan war im Turnier stark und unangenehm. Mit Vinícius und Raphinha sollte Brasilien knapp die Oberhand behalten (2:1) – bei einem Remis entscheidet aber die Verlängerung bzw. das Elfmeterschießen.",
-      "enriched_by": "claude"
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht Norway vorne (47%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
     },
     {
-      "id": "760489",
-      "kickoff_utc": "2026-06-29T20:30Z",
-      "venue": "Gillette Stadium",
-      "city": "Foxborough, Massachusetts",
+      "id": "760492",
+      "kickoff_utc": "2026-06-30T21:00Z",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford, New Jersey",
       "group": null,
       "home": {
-        "code": "GER",
-        "name": "Germany",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-        "elo": 2003.0,
-        "form_ppg10": 2.7
+        "code": "FRA",
+        "name": "France",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+        "elo": 2188.9,
+        "form_ppg10": 2.5
       },
       "away": {
-        "code": "PAR",
-        "name": "Paraguay",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-        "elo": 1895.3,
-        "form_ppg10": 1.4
+        "code": "SWE",
+        "name": "Sweden",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+        "elo": 1812.6,
+        "form_ppg10": 1.2
       },
       "prediction": {
-        "winner": "Germany",
-        "winner_code": "GER",
-        "scoreline": "3:1",
+        "winner": "France",
+        "winner_code": "FRA",
+        "scoreline": "2:0",
         "prob": {
-          "home": 0.74,
-          "draw": 0.16,
-          "away": 0.1
+          "home": 0.7246,
+          "draw": 0.1673,
+          "away": 0.1076
         },
         "confidence": "Hoch",
         "expected_goals": {
-          "home": 1.638,
-          "away": 1.096
+          "home": 2.432,
+          "away": 0.897
         },
-        "over_2_5": 0.5145,
-        "btts": 0.5363,
+        "over_2_5": 0.6454,
+        "btts": 0.5395,
         "top_scorelines": [
           {
-            "score": "1:1",
-            "p": 0.1166
-          },
-          {
-            "score": "1:0",
-            "p": 0.1064
+            "score": "2:0",
+            "p": 0.106
           },
           {
             "score": "2:1",
-            "p": 0.0955
+            "p": 0.095
           },
           {
-            "score": "2:0",
-            "p": 0.0871
+            "score": "1:0",
+            "p": 0.0872
           },
           {
-            "score": "0:1",
-            "p": 0.0712
+            "score": "3:0",
+            "p": 0.0859
+          },
+          {
+            "score": "1:1",
+            "p": 0.0781
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "GER -275",
-        "over_under": 2.5,
+        "details": "FRA -340",
+        "over_under": 3.5,
         "moneyline": {
-          "home": "-275",
-          "draw": 400,
-          "away": "+800"
+          "home": "-340",
+          "draw": 475,
+          "away": "+900"
         },
         "implied": {
-          "home": 0.7021,
-          "draw": 0.1915,
-          "away": 0.1064
+          "home": 0.7383,
+          "draw": 0.1662,
+          "away": 0.0955
         }
       },
-      "key_factors": [
-        "Deutschland haushoher Favorit (-950 aufs Weiterkommen)",
-        "Schlagkräftige Offensive (zuletzt viele Tore)",
-        "Paraguay unterlegen",
-        "Experten erwarten klaren Sieg (3:1)"
-      ],
-      "rationale_de": "Deutschland ist gegen Paraguay haushoher Favorit (-950) und mit seiner schlagkräftigen Offensive klar überlegen. Ein deutlicher 3:1-Sieg ist zu erwarten; Paraguay dürfte höchstens für einen Ehrentreffer sorgen.",
-      "enriched_by": "claude"
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht France vorne (72%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
     },
     {
-      "id": "760488",
-      "kickoff_utc": "2026-06-30T01:00Z",
-      "venue": "Estadio BBVA",
-      "city": "Guadalupe",
+      "id": "760491",
+      "kickoff_utc": "2026-07-01T01:00Z",
+      "venue": "Estadio Banorte",
+      "city": "Mexico City",
       "group": null,
       "home": {
-        "code": "NED",
-        "name": "Netherlands",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-        "elo": 2051.0,
-        "form_ppg10": 2.1
+        "code": "MEX",
+        "name": "Mexico",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+        "elo": 2013.7,
+        "form_ppg10": 2.6
       },
       "away": {
-        "code": "MAR",
-        "name": "Morocco",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-        "elo": 2035.9,
-        "form_ppg10": 2.2
+        "code": "ECU",
+        "name": "Ecuador",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+        "elo": 1986.6,
+        "form_ppg10": 1.7
       },
       "prediction": {
-        "winner": "Netherlands",
-        "winner_code": "NED",
+        "winner": "Mexico",
+        "winner_code": "MEX",
         "scoreline": "1:0",
         "prob": {
-          "home": 0.43,
-          "draw": 0.29,
-          "away": 0.28
+          "home": 0.432,
+          "draw": 0.2974,
+          "away": 0.2706
         },
         "confidence": "Niedrig",
         "expected_goals": {
-          "home": 1.398,
-          "away": 1.384
+          "home": 1.435,
+          "away": 1.107
         },
-        "over_2_5": 0.5262,
-        "btts": 0.5642,
+        "over_2_5": 0.4669,
+        "btts": 0.51,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.1198
+            "p": 0.125
           },
           {
             "score": "1:0",
-            "p": 0.0865
-          },
-          {
-            "score": "0:1",
-            "p": 0.0857
+            "p": 0.1129
           },
           {
             "score": "2:1",
-            "p": 0.0837
+            "p": 0.0897
           },
           {
-            "score": "1:2",
-            "p": 0.0829
+            "score": "0:1",
+            "p": 0.0871
+          },
+          {
+            "score": "2:0",
+            "p": 0.081
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "NED +130",
-        "over_under": 2.5,
+        "details": "MEX +130",
+        "over_under": 1.5,
         "moneyline": {
           "home": "+130",
-          "draw": 210,
-          "away": "+250"
+          "draw": 190,
+          "away": "+285"
         },
         "implied": {
-          "home": 0.4168,
-          "draw": 0.3093,
-          "away": 0.2739
+          "home": 0.4183,
+          "draw": 0.3318,
+          "away": 0.2499
         }
       },
-      "key_factors": [
-        "Echtes Toss-up – Niederlande nur knapp favorisiert (-174 aufs Weiterkommen)",
-        "Marokkos Defensive top (hielt Brasilien 1:1)",
-        "Marokko mit Hakimi/Díaz gefährlich",
-        "Verlängerung/Elfmeter gut möglich"
-      ],
-      "rationale_de": "Ein offenes Achtelfinal: Die Niederlande sind nur knapp favorisiert (-174), Marokko hat im Turnier eine starke, kompakte Defensive gezeigt (1:1 gegen Brasilien). Ich tippe einen knappen 1:0-Sieg der Niederlande – realistisch ist aber auch eine Entscheidung in der Verlängerung oder im Elfmeterschießen.",
-      "enriched_by": "claude"
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht Mexico vorne (43%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
     }
   ]
 }

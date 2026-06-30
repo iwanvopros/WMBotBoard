@@ -6018,5 +6018,239 @@
     ],
     "rationale_de": "Ein offenes Achtelfinal: Die Niederlande sind nur knapp favorisiert (-174), Marokko hat im Turnier eine starke, kompakte Defensive gezeigt (1:1 gegen Brasilien). Ich tippe einen knappen 1:0-Sieg der Niederlande – realistisch ist aber auch eine Entscheidung in der Verlängerung oder im Elfmeterschießen.",
     "enriched_by": "claude"
+  },
+  "760490": {
+    "id": "760490",
+    "kickoff_utc": "2026-06-30T17:00Z",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "group": null,
+    "home": {
+      "code": "CIV",
+      "name": "Ivory Coast",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "elo": 1862.4,
+      "form_ppg10": 2.2
+    },
+    "away": {
+      "code": "NOR",
+      "name": "Norway",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "elo": 1994.6,
+      "form_ppg10": 1.8
+    },
+    "prediction": {
+      "winner": "Norway",
+      "winner_code": "NOR",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.2666,
+        "draw": 0.2614,
+        "away": 0.4719
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.165,
+        "away": 1.693
+      },
+      "over_2_5": 0.5443,
+      "btts": 0.5615,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1132
+        },
+        {
+          "score": "0:1",
+          "p": 0.0971
+        },
+        {
+          "score": "1:2",
+          "p": 0.0958
+        },
+        {
+          "score": "0:2",
+          "p": 0.0822
+        },
+        {
+          "score": "1:0",
+          "p": 0.0668
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "NOR +115",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+255",
+        "draw": 240,
+        "away": "+115"
+      },
+      "implied": {
+        "home": 0.2706,
+        "draw": 0.2826,
+        "away": 0.4468
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Norway vorne (47%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
+  },
+  "760492": {
+    "id": "760492",
+    "kickoff_utc": "2026-06-30T21:00Z",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "group": null,
+    "home": {
+      "code": "FRA",
+      "name": "France",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "elo": 2188.9,
+      "form_ppg10": 2.5
+    },
+    "away": {
+      "code": "SWE",
+      "name": "Sweden",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "elo": 1812.6,
+      "form_ppg10": 1.2
+    },
+    "prediction": {
+      "winner": "France",
+      "winner_code": "FRA",
+      "scoreline": "2:0",
+      "prob": {
+        "home": 0.7246,
+        "draw": 0.1673,
+        "away": 0.1076
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 2.432,
+        "away": 0.897
+      },
+      "over_2_5": 0.6454,
+      "btts": 0.5395,
+      "top_scorelines": [
+        {
+          "score": "2:0",
+          "p": 0.106
+        },
+        {
+          "score": "2:1",
+          "p": 0.095
+        },
+        {
+          "score": "1:0",
+          "p": 0.0872
+        },
+        {
+          "score": "3:0",
+          "p": 0.0859
+        },
+        {
+          "score": "1:1",
+          "p": 0.0781
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "FRA -340",
+      "over_under": 3.5,
+      "moneyline": {
+        "home": "-340",
+        "draw": 475,
+        "away": "+900"
+      },
+      "implied": {
+        "home": 0.7383,
+        "draw": 0.1662,
+        "away": 0.0955
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht France vorne (72%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
+  },
+  "760491": {
+    "id": "760491",
+    "kickoff_utc": "2026-07-01T01:00Z",
+    "venue": "Estadio Banorte",
+    "city": "Mexico City",
+    "group": null,
+    "home": {
+      "code": "MEX",
+      "name": "Mexico",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "elo": 2013.7,
+      "form_ppg10": 2.6
+    },
+    "away": {
+      "code": "ECU",
+      "name": "Ecuador",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "elo": 1986.6,
+      "form_ppg10": 1.7
+    },
+    "prediction": {
+      "winner": "Mexico",
+      "winner_code": "MEX",
+      "scoreline": "1:0",
+      "prob": {
+        "home": 0.432,
+        "draw": 0.2974,
+        "away": 0.2706
+      },
+      "confidence": "Niedrig",
+      "expected_goals": {
+        "home": 1.435,
+        "away": 1.107
+      },
+      "over_2_5": 0.4669,
+      "btts": 0.51,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.125
+        },
+        {
+          "score": "1:0",
+          "p": 0.1129
+        },
+        {
+          "score": "2:1",
+          "p": 0.0897
+        },
+        {
+          "score": "0:1",
+          "p": 0.0871
+        },
+        {
+          "score": "2:0",
+          "p": 0.081
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "MEX +130",
+      "over_under": 1.5,
+      "moneyline": {
+        "home": "+130",
+        "draw": 190,
+        "away": "+285"
+      },
+      "implied": {
+        "home": 0.4183,
+        "draw": 0.3318,
+        "away": 0.2499
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Mexico vorne (43%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
   }
 }
