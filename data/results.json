@@ -1,13 +1,115 @@
 {
-  "generated_at": "2026-06-30T18:25:45+00:00",
-  "count": 75,
-  "overall_quote": 44.4,
-  "tendency_rate": 64,
+  "generated_at": "2026-07-01T14:31:19+00:00",
+  "count": 78,
+  "overall_quote": 45.3,
+  "tendency_rate": 65,
   "exact_rate": 15,
   "groups": [
     {
       "group": "K.o.-Runde",
       "matches": [
+        {
+          "id": "760491",
+          "date_utc": "2026-07-01T02:00Z",
+          "group": null,
+          "home": {
+            "name": "Mexico",
+            "code": "MEX",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"
+          },
+          "away": {
+            "name": "Ecuador",
+            "code": "ECU",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
+          },
+          "actual": "2:0",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "Mexico",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.45,
+              "draw": 0.28,
+              "away": 0.27
+            }
+          },
+          "result_score": 54.5,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.45
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760492",
+          "date_utc": "2026-06-30T21:00Z",
+          "group": null,
+          "home": {
+            "name": "France",
+            "code": "FRA",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+          },
+          "away": {
+            "name": "Sweden",
+            "code": "SWE",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
+          },
+          "actual": "3:0",
+          "tip": {
+            "scoreline": "2:0",
+            "winner": "France",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.72,
+              "draw": 0.16,
+              "away": 0.12
+            }
+          },
+          "result_score": 57.2,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.72
+          },
+          "verdict": "Tendenz richtig"
+        },
+        {
+          "id": "760490",
+          "date_utc": "2026-06-30T17:00Z",
+          "group": null,
+          "home": {
+            "name": "Ivory Coast",
+            "code": "CIV",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
+          },
+          "away": {
+            "name": "Norway",
+            "code": "NOR",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
+          },
+          "actual": "1:2",
+          "tip": {
+            "scoreline": "1:2",
+            "winner": "Norway",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.3,
+              "draw": 0.28,
+              "away": 0.42
+            }
+          },
+          "result_score": 94.2,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": true,
+            "prob_actual": 0.42
+          },
+          "verdict": "Volltreffer"
+        },
         {
           "id": "760488",
           "date_utc": "2026-06-30T01:00Z",

@@ -2511,10 +2511,10 @@
     "id": "760490",
     "date_utc": "2026-06-30T17:00Z",
     "name": "Norway at Ivory Coast",
-    "state": "in",
-    "status": "Second Half",
-    "completed": false,
-    "clock": "65'",
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+8'",
     "period": 2,
     "venue": "AT&T Stadium",
     "city": "Arlington, Texas",
@@ -2525,7 +2525,7 @@
       "code": "CIV",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
       "color": "FF8200",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -2534,35 +2534,21 @@
       "code": "NOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "color": "C8102E",
-      "score": "1",
-      "winner": false
+      "score": "2",
+      "winner": true
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "NOR +115",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "+260",
-        "draw": 230,
-        "away": "+115"
-      },
-      "implied": {
-        "home": 0.2656,
-        "draw": 0.2897,
-        "away": 0.4447
-      }
-    },
+    "odds": null,
     "group": null
   },
   {
     "id": "760492",
     "date_utc": "2026-06-30T21:00Z",
     "name": "Sweden at France",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+4'",
+    "period": 2,
     "venue": "MetLife Stadium",
     "city": "East Rutherford, New Jersey",
     "country": "USA",
@@ -2572,8 +2558,8 @@
       "code": "FRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "color": "000080",
-      "score": "0",
-      "winner": false
+      "score": "3",
+      "winner": true
     },
     "away": {
       "name": "Sweden",
@@ -2584,32 +2570,18 @@
       "score": "0",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "FRA -340",
-      "over_under": 3.5,
-      "moneyline": {
-        "home": "-340",
-        "draw": 500,
-        "away": "+950"
-      },
-      "implied": {
-        "home": 0.7469,
-        "draw": 0.1611,
-        "away": 0.0921
-      }
-    },
+    "odds": null,
     "group": null
   },
   {
     "id": "760491",
-    "date_utc": "2026-07-01T01:00Z",
+    "date_utc": "2026-07-01T02:00Z",
     "name": "Ecuador at Mexico",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+9'",
+    "period": 2,
     "venue": "Estadio Banorte",
     "city": "Mexico City",
     "country": "Mexico",
@@ -2619,8 +2591,8 @@
       "code": "MEX",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "color": "006847",
-      "score": "0",
-      "winner": false
+      "score": "2",
+      "winner": true
     },
     "away": {
       "name": "Ecuador",
@@ -2631,21 +2603,7 @@
       "score": "0",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "MEX +130",
-      "over_under": 1.5,
-      "moneyline": {
-        "home": "+130",
-        "draw": 185,
-        "away": "+295"
-      },
-      "implied": {
-        "home": 0.4185,
-        "draw": 0.3378,
-        "away": 0.2437
-      }
-    },
+    "odds": null,
     "group": null
   },
   {
@@ -2680,17 +2638,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ENG -350",
+      "details": "ENG -330",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-350",
-        "draw": 425,
+        "home": "-330",
+        "draw": 400,
         "away": "+1200"
       },
       "implied": {
-        "home": 0.7442,
-        "draw": 0.1822,
-        "away": 0.0736
+        "home": 0.7348,
+        "draw": 0.1915,
+        "away": 0.0737
       }
     },
     "group": null
@@ -2727,17 +2685,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "BEL +125",
+      "details": "BEL +115",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+125",
-        "draw": 225,
-        "away": "+250"
+        "home": "+115",
+        "draw": 230,
+        "away": "+265"
       },
       "implied": {
-        "home": 0.4282,
-        "draw": 0.2965,
-        "away": 0.2753
+        "home": 0.4463,
+        "draw": 0.2908,
+        "away": 0.2629
       }
     },
     "group": null
@@ -2774,17 +2732,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "USA -265",
+      "details": "USA -260",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-265",
+        "home": "-260",
         "draw": 390,
         "away": "+800"
       },
       "implied": {
-        "home": 0.6973,
-        "draw": 0.196,
-        "away": 0.1067
+        "home": 0.6962,
+        "draw": 0.1967,
+        "away": 0.1071
       }
     },
     "group": null
@@ -2868,17 +2826,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "POR -130",
+      "details": "POR -125",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-130",
-        "draw": 265,
-        "away": "+400"
+        "home": "-125",
+        "draw": 260,
+        "away": "+380"
       },
       "implied": {
-        "home": 0.5439,
-        "draw": 0.2636,
-        "away": 0.1925
+        "home": 0.5333,
+        "draw": 0.2667,
+        "away": 0.2
       }
     },
     "group": null
@@ -2915,17 +2873,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "SUI +110",
+      "details": "SUI +105",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+110",
+        "home": "+105",
         "draw": 230,
-        "away": "+290"
+        "away": "+300"
       },
       "implied": {
-        "home": 0.4598,
-        "draw": 0.2926,
-        "away": 0.2476
+        "home": 0.4687,
+        "draw": 0.2911,
+        "away": 0.2402
       }
     },
     "group": null
@@ -3009,17 +2967,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ARG -575",
+      "details": "ARG -600",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-575",
-        "draw": 650,
-        "away": "+1700"
+        "home": "-600",
+        "draw": 700,
+        "away": "+1800"
       },
       "implied": {
-        "home": 0.8185,
-        "draw": 0.1281,
-        "away": 0.0534
+        "home": 0.8283,
+        "draw": 0.1208,
+        "away": 0.0509
       }
     },
     "group": null
@@ -3103,17 +3061,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "MAR -125",
+      "details": "MAR -120",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+400",
+        "home": "+380",
         "draw": 255,
-        "away": "-125"
+        "away": "-120"
       },
       "implied": {
-        "home": 0.1928,
-        "draw": 0.2716,
-        "away": 0.5356
+        "home": 0.2012,
+        "draw": 0.272,
+        "away": 0.5268
       }
     },
     "group": null
@@ -3121,7 +3079,7 @@
   {
     "id": "760503",
     "date_utc": "2026-07-04T21:00Z",
-    "name": "Round of 32 5 Winner at Paraguay",
+    "name": "France at Paraguay",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -3140,21 +3098,35 @@
       "winner": false
     },
     "away": {
-      "name": "Round of 32 5 Winner",
-      "short": "RD32 W5",
-      "code": "RD32",
-      "logo": null,
-      "color": "000000",
+      "name": "France",
+      "short": "France",
+      "code": "FRA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "color": "000080",
       "score": "0",
       "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "FRA -550",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+1700",
+        "draw": 600,
+        "away": "-550"
+      },
+      "implied": {
+        "home": 0.0532,
+        "draw": 0.1368,
+        "away": 0.8101
+      }
+    },
     "group": null
   },
   {
     "id": "760504",
     "date_utc": "2026-07-05T20:00Z",
-    "name": "Round of 32 6 Winner at Brazil",
+    "name": "Norway at Brazil",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -3173,21 +3145,35 @@
       "winner": false
     },
     "away": {
-      "name": "Round of 32 6 Winner",
-      "short": "RD32 W6",
-      "code": "RD32",
-      "logo": null,
-      "color": "000000",
+      "name": "Norway",
+      "short": "Norway",
+      "code": "NOR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "color": "C8102E",
       "score": "0",
       "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "BRA -105",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-105",
+        "draw": 260,
+        "away": "+300"
+      },
+      "implied": {
+        "home": 0.4925,
+        "draw": 0.2671,
+        "away": 0.2404
+      }
+    },
     "group": null
   },
   {
     "id": "760505",
     "date_utc": "2026-07-06T00:00Z",
-    "name": "Round of 32 8 Winner at Round of 32 7 Winner",
+    "name": "Round of 32 8 Winner at Mexico",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -3197,11 +3183,11 @@
     "city": "Mexico City",
     "country": "Mexico",
     "home": {
-      "name": "Round of 32 7 Winner",
-      "short": "RD32 W7",
-      "code": "RD32",
-      "logo": null,
-      "color": "000000",
+      "name": "Mexico",
+      "short": "Mexico",
+      "code": "MEX",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "color": "006847",
       "score": "0",
       "winner": false
     },

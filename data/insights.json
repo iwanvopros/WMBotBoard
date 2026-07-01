@@ -1,8 +1,11 @@
 {
-  "generated_at": "2026-06-30T18:25:45+00:00",
+  "generated_at": "2026-07-01T14:31:19+00:00",
   "enriched_by": "model",
-  "overall": "75 Spiele bewertet · Trefferquote 44.4 % (Tendenz 64 %, exakt 15 %). Das Turnier ist überraschungs- und remisreich – die Tendenz (richtiger Sieger) stimmt oft, exakte Resultathöhen sind aber schwer planbar. Größte Überraschungen: Spain 0:0 Cape Verde; Ecuador 0:0 Curaçao. Klare Klassenunterschiede führen zu hohen Resultaten (Höchstwert Germany 7:1 Curaçao, 8 Tore) – das stützt das nachgeschärfte Tor-Modell. Konsequenz: bei echten Favoriten ruhig klare Höhen tippen, bei ebenbürtigen/defensiv starken Gegnern mehr Remis und knappe Ausgänge einplanen.",
+  "overall": "78 Spiele bewertet · Trefferquote 45.3 % (Tendenz 65 %, exakt 15 %). Das Turnier ist überraschungs- und remisreich – die Tendenz (richtiger Sieger) stimmt oft, exakte Resultathöhen sind aber schwer planbar. Größte Überraschungen: Spain 0:0 Cape Verde; Ecuador 0:0 Curaçao. Klare Klassenunterschiede führen zu hohen Resultaten (Höchstwert Germany 7:1 Curaçao, 8 Tore) – das stützt das nachgeschärfte Tor-Modell. Konsequenz: bei echten Favoriten ruhig klare Höhen tippen, bei ebenbürtigen/defensiv starken Gegnern mehr Remis und knappe Ausgänge einplanen.",
   "per_game": {
+    "760491": "Richtiger Sieger, Höhe daneben (real 2:0, Tipp 1:0).",
+    "760492": "Richtiger Sieger, Höhe daneben (real 3:0, Tipp 2:0).",
+    "760490": "Volltreffer – Tipp 1:2 exakt eingetroffen.",
     "760488": "Überraschung – 1:1 statt eines Siegers (Netherlands getippt).",
     "760489": "Überraschung – 1:1 statt eines Siegers (Germany getippt).",
     "760487": "Volltreffer – Tipp 2:1 exakt eingetroffen.",
