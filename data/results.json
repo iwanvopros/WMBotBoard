@@ -1,13 +1,47 @@
 {
-  "generated_at": "2026-07-01T16:41:23+00:00",
-  "count": 78,
-  "overall_quote": 45.3,
-  "tendency_rate": 65,
+  "generated_at": "2026-07-01T19:21:24+00:00",
+  "count": 79,
+  "overall_quote": 45.5,
+  "tendency_rate": 66,
   "exact_rate": 15,
   "groups": [
     {
       "group": "K.o.-Runde",
       "matches": [
+        {
+          "id": "760495",
+          "date_utc": "2026-07-01T16:00Z",
+          "group": null,
+          "home": {
+            "name": "England",
+            "code": "ENG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+          },
+          "away": {
+            "name": "Congo DR",
+            "code": "COD",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
+          },
+          "actual": "2:1",
+          "tip": {
+            "scoreline": "2:0",
+            "winner": "England",
+            "confidence": "Hoch",
+            "prob": {
+              "home": 0.75,
+              "draw": 0.15,
+              "away": 0.1
+            }
+          },
+          "result_score": 57.5,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.75
+          },
+          "verdict": "Tendenz richtig"
+        },
         {
           "id": "760491",
           "date_utc": "2026-07-01T02:00Z",
