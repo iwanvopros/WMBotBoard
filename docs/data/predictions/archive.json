@@ -6542,9 +6542,9 @@
       "winner_code": "ESP",
       "scoreline": "2:0",
       "prob": {
-        "home": 0.6927,
-        "draw": 0.1847,
-        "away": 0.1224
+        "home": 0.75,
+        "draw": 0.16,
+        "away": 0.09
       },
       "confidence": "Hoch",
       "expected_goals": {
@@ -6591,9 +6591,14 @@
         "away": 0.087
       }
     },
-    "key_factors": [],
-    "rationale_de": "Das Modell sieht Spain vorne (69%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
-    "enriched_by": "model"
+    "key_factors": [
+      "Spanien haushoher Favorit (-950 aufs Weiterkommen)",
+      "Individuelle Klasse (Yamal, Pedri, Rodri)",
+      "Österreich solide, aber unterlegen",
+      "Echter Klassenunterschied"
+    ],
+    "rationale_de": "Spanien ist gegen Österreich haushoher Favorit (-950) und individuell klar überlegen. Österreich wird kompakt verteidigen, doch Spaniens Qualität sollte für einen kontrollierten 2:0-Sieg reichen.",
+    "enriched_by": "claude"
   },
   "760496": {
     "id": "760496",
@@ -6618,11 +6623,11 @@
     "prediction": {
       "winner": "Portugal",
       "winner_code": "POR",
-      "scoreline": "1:0",
+      "scoreline": "2:1",
       "prob": {
-        "home": 0.5147,
-        "draw": 0.2482,
-        "away": 0.237
+        "home": 0.5,
+        "draw": 0.27,
+        "away": 0.23
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -6669,9 +6674,14 @@
         "away": 0.1911
       }
     },
-    "key_factors": [],
-    "rationale_de": "Das Modell sieht Portugal vorne (51%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
-    "enriched_by": "model"
+    "key_factors": [
+      "Portugal favorisiert (-290 aufs Weiterkommen)",
+      "Kroatien erfahren und unangenehm",
+      "Portugal nach 0:0 gegen Kolumbien unter Druck",
+      "Verlängerung möglich"
+    ],
+    "rationale_de": "Portugal ist favorisiert (-290), muss aber nach dem enttäuschenden 0:0 gegen Kolumbien liefern. Kroatien ist erfahren und defensiv unangenehm – ich tippe einen knappen 2:1-Sieg, eine Entscheidung in der Verlängerung ist aber möglich.",
+    "enriched_by": "claude"
   },
   "760498": {
     "id": "760498",
@@ -6698,9 +6708,9 @@
       "winner_code": "SUI",
       "scoreline": "1:0",
       "prob": {
-        "home": 0.4499,
-        "draw": 0.2728,
-        "away": 0.2773
+        "home": 0.44,
+        "draw": 0.29,
+        "away": 0.27
       },
       "confidence": "Niedrig",
       "expected_goals": {
@@ -6747,8 +6757,13 @@
         "away": 0.2277
       }
     },
-    "key_factors": [],
-    "rationale_de": "Das Modell sieht Switzerland vorne (45%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
-    "enriched_by": "model"
+    "key_factors": [
+      "Sehr enges Spiel – Quoten fast ausgeglichen (ML +105)",
+      "Schweiz nur knapp favorisiert",
+      "Algerien mit Qualität (Mahrez), remisierte Österreich 3:3",
+      "Verlängerung/Elfmeter gut möglich"
+    ],
+    "rationale_de": "Ein enges Achtelfinal: Die Schweiz ist nur hauchdünn favorisiert (ML +105), Algerien ist mit Spielern wie Mahrez gefährlich. Ich tippe knapp 1:0 für die Schweiz – realistisch ist aber auch eine Entscheidung in der Verlängerung oder im Elfmeterschießen.",
+    "enriched_by": "claude"
   }
 }
