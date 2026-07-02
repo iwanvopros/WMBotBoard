@@ -6516,5 +6516,239 @@
     ],
     "rationale_de": "Die USA sind als Gastgeber favorisiert und offensiv gefährlich (Pulisic, Balogun). Bosnien ist mit Dzeko im Konter unangenehm, doch der Heimvorteil sollte den Amerikanern einen knappen 2:1-Sieg bringen.",
     "enriched_by": "claude"
+  },
+  "760497": {
+    "id": "760497",
+    "kickoff_utc": "2026-07-02T19:00Z",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "group": null,
+    "home": {
+      "code": "ESP",
+      "name": "Spain",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "elo": 2209.3,
+      "form_ppg10": 2.2
+    },
+    "away": {
+      "code": "AUT",
+      "name": "Austria",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "elo": 1905.1,
+      "form_ppg10": 2.0
+    },
+    "prediction": {
+      "winner": "Spain",
+      "winner_code": "ESP",
+      "scoreline": "2:0",
+      "prob": {
+        "home": 0.6927,
+        "draw": 0.1847,
+        "away": 0.1224
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 2.166,
+        "away": 0.969
+      },
+      "over_2_5": 0.606,
+      "btts": 0.5492,
+      "top_scorelines": [
+        {
+          "score": "2:0",
+          "p": 0.102
+        },
+        {
+          "score": "2:1",
+          "p": 0.0989
+        },
+        {
+          "score": "1:0",
+          "p": 0.0942
+        },
+        {
+          "score": "1:1",
+          "p": 0.0913
+        },
+        {
+          "score": "3:0",
+          "p": 0.0736
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "ESP -340",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-340",
+        "draw": 450,
+        "away": "+1000"
+      },
+      "implied": {
+        "home": 0.7391,
+        "draw": 0.1739,
+        "away": 0.087
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Spain vorne (69%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
+  },
+  "760496": {
+    "id": "760496",
+    "kickoff_utc": "2026-07-02T23:00Z",
+    "venue": "BMO Field",
+    "city": "Toronto",
+    "group": null,
+    "home": {
+      "code": "POR",
+      "name": "Portugal",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "elo": 2062.8,
+      "form_ppg10": 1.9
+    },
+    "away": {
+      "code": "CRO",
+      "name": "Croatia",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "elo": 1967.9,
+      "form_ppg10": 2.1
+    },
+    "prediction": {
+      "winner": "Portugal",
+      "winner_code": "POR",
+      "scoreline": "1:0",
+      "prob": {
+        "home": 0.5147,
+        "draw": 0.2482,
+        "away": 0.237
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.626,
+        "away": 1.204
+      },
+      "over_2_5": 0.5378,
+      "btts": 0.5624,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1155
+        },
+        {
+          "score": "1:0",
+          "p": 0.0959
+        },
+        {
+          "score": "2:1",
+          "p": 0.0939
+        },
+        {
+          "score": "2:0",
+          "p": 0.078
+        },
+        {
+          "score": "0:1",
+          "p": 0.071
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "POR -140",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-140",
+        "draw": 280,
+        "away": "+400"
+      },
+      "implied": {
+        "home": 0.5574,
+        "draw": 0.2515,
+        "away": 0.1911
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Portugal vorne (51%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
+  },
+  "760498": {
+    "id": "760498",
+    "kickoff_utc": "2026-07-03T03:00Z",
+    "venue": "BC Place",
+    "city": "Vancouver",
+    "group": null,
+    "home": {
+      "code": "SUI",
+      "name": "Switzerland",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "elo": 1975.3,
+      "form_ppg10": 1.7
+    },
+    "away": {
+      "code": "ALG",
+      "name": "Algeria",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "elo": 1891.0,
+      "form_ppg10": 2.0
+    },
+    "prediction": {
+      "winner": "Switzerland",
+      "winner_code": "SUI",
+      "scoreline": "1:0",
+      "prob": {
+        "home": 0.4499,
+        "draw": 0.2728,
+        "away": 0.2773
+      },
+      "confidence": "Niedrig",
+      "expected_goals": {
+        "home": 1.504,
+        "away": 1.294
+      },
+      "over_2_5": 0.5301,
+      "btts": 0.5646,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1186
+        },
+        {
+          "score": "1:0",
+          "p": 0.0916
+        },
+        {
+          "score": "2:1",
+          "p": 0.0892
+        },
+        {
+          "score": "0:1",
+          "p": 0.0788
+        },
+        {
+          "score": "1:2",
+          "p": 0.0767
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "SUI +100",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+100",
+        "draw": 225,
+        "away": "+320"
+      },
+      "implied": {
+        "home": 0.4781,
+        "draw": 0.2942,
+        "away": 0.2277
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Switzerland vorne (45%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
   }
 }
