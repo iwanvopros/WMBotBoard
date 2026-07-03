@@ -2709,11 +2709,11 @@
     "id": "760497",
     "date_utc": "2026-07-02T19:00Z",
     "name": "Austria at Spain",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+6'",
+    "period": 2,
     "venue": "SoFi Stadium",
     "city": "Inglewood, California",
     "country": "USA",
@@ -2723,8 +2723,8 @@
       "code": "ESP",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "color": "c60b1e",
-      "score": "0",
-      "winner": false
+      "score": "3",
+      "winner": true
     },
     "away": {
       "name": "Austria",
@@ -2735,32 +2735,18 @@
       "score": "0",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "ESP -330",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-330",
-        "draw": 450,
-        "away": "+1000"
-      },
-      "implied": {
-        "home": 0.7378,
-        "draw": 0.1748,
-        "away": 0.0874
-      }
-    },
+    "odds": null,
     "group": null
   },
   {
     "id": "760496",
     "date_utc": "2026-07-02T23:00Z",
     "name": "Croatia at Portugal",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+19'",
+    "period": 2,
     "venue": "BMO Field",
     "city": "Toronto",
     "country": "Canada",
@@ -2770,8 +2756,8 @@
       "code": "POR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "color": "da291c",
-      "score": "0",
-      "winner": false
+      "score": "2",
+      "winner": true
     },
     "away": {
       "name": "Croatia",
@@ -2779,35 +2765,21 @@
       "code": "CRO",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "color": "ff0000",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "POR -150",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-150",
-        "draw": 280,
-        "away": "+450"
-      },
-      "implied": {
-        "home": 0.5742,
-        "draw": 0.2518,
-        "away": 0.174
-      }
-    },
+    "odds": null,
     "group": null
   },
   {
     "id": "760498",
     "date_utc": "2026-07-03T03:00Z",
     "name": "Algeria at Switzerland",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+7'",
+    "period": 2,
     "venue": "BC Place",
     "city": "Vancouver",
     "country": "Canada",
@@ -2817,8 +2789,8 @@
       "code": "SUI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "color": "FF0000",
-      "score": "0",
-      "winner": false
+      "score": "2",
+      "winner": true
     },
     "away": {
       "name": "Algeria",
@@ -2829,21 +2801,7 @@
       "score": "0",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "SUI -110",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-110",
-        "draw": 230,
-        "away": "+350"
-      },
-      "implied": {
-        "home": 0.4993,
-        "draw": 0.2889,
-        "away": 0.2118
-      }
-    },
+    "odds": null,
     "group": null
   },
   {
@@ -2878,17 +2836,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "EGY +150",
+      "details": "EGY +135",
       "over_under": 1.5,
       "moneyline": {
-        "home": "+230",
-        "draw": 190,
-        "away": "+150"
+        "home": "+265",
+        "draw": 195,
+        "away": "+135"
       },
       "implied": {
-        "home": 0.2892,
-        "draw": 0.3291,
-        "away": 0.3817
+        "home": 0.2638,
+        "draw": 0.3264,
+        "away": 0.4098
       }
     },
     "group": null
@@ -2972,17 +2930,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "COL -200",
+      "details": "COL -230",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-200",
-        "draw": 310,
-        "away": "+650"
+        "home": "-230",
+        "draw": 340,
+        "away": "+750"
       },
       "implied": {
-        "home": 0.6386,
-        "draw": 0.2336,
-        "away": 0.1277
+        "home": 0.6689,
+        "draw": 0.2181,
+        "away": 0.1129
       }
     },
     "group": null
@@ -3066,17 +3024,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "FRA -575",
+      "details": "FRA -550",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+1800",
+        "home": "+1700",
         "draw": 600,
-        "away": "-575"
+        "away": "-550"
       },
       "implied": {
-        "home": 0.0503,
-        "draw": 0.1364,
-        "away": 0.8133
+        "home": 0.0532,
+        "draw": 0.1368,
+        "away": 0.8101
       }
     },
     "group": null
@@ -3178,7 +3136,7 @@
   {
     "id": "760506",
     "date_utc": "2026-07-06T19:00Z",
-    "name": "Round of 32 12 Winner at Round of 32 11 Winner",
+    "name": "Spain at Portugal",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -3188,24 +3146,38 @@
     "city": "Arlington, Texas",
     "country": "USA",
     "home": {
-      "name": "Round of 32 11 Winner",
-      "short": "RD32 W11",
-      "code": "RD32",
-      "logo": null,
-      "color": "000000",
+      "name": "Portugal",
+      "short": "Portugal",
+      "code": "POR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "color": "da291c",
       "score": "0",
       "winner": false
     },
     "away": {
-      "name": "Round of 32 12 Winner",
-      "short": "RD32 W12",
-      "code": "RD32",
-      "logo": null,
-      "color": "000000",
+      "name": "Spain",
+      "short": "Spain",
+      "code": "ESP",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "color": "c60b1e",
       "score": "0",
       "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "ESP -105",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+300",
+        "draw": 260,
+        "away": "-105"
+      },
+      "implied": {
+        "home": 0.2404,
+        "draw": 0.2671,
+        "away": 0.4925
+      }
+    },
     "group": null
   },
   {
@@ -3244,13 +3216,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "+155",
-        "draw": 245,
+        "draw": 240,
         "away": "+180"
       },
       "implied": {
-        "home": 0.3774,
-        "draw": 0.2789,
-        "away": 0.3437
+        "home": 0.3758,
+        "draw": 0.2819,
+        "away": 0.3423
       }
     },
     "group": null
@@ -3291,7 +3263,7 @@
   {
     "id": "760508",
     "date_utc": "2026-07-07T20:00Z",
-    "name": "Round of 32 15 Winner at Round of 32 13 Winner",
+    "name": "Round of 32 15 Winner at Switzerland",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -3301,11 +3273,11 @@
     "city": "Vancouver",
     "country": "Canada",
     "home": {
-      "name": "Round of 32 13 Winner",
-      "short": "RD32 W13",
-      "code": "RD32",
-      "logo": null,
-      "color": "000000",
+      "name": "Switzerland",
+      "short": "Switzerland",
+      "code": "SUI",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "color": "FF0000",
       "score": "0",
       "winner": false
     },
