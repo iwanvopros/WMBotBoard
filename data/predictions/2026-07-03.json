@@ -2,7 +2,7 @@
   "date": "2026-07-03",
   "generated_at": "2026-07-03T13:24:38+00:00",
   "count": 3,
-  "source": "elo+poisson model + ESPN odds",
+  "source": "Hybrid: Elo+Poisson-Modell, Buchmacher-Quoten, Tagesrecherche & Erkenntnisse aus gespielten Spielen",
   "matches": [
     {
       "id": "760499",
@@ -29,9 +29,9 @@
         "winner_code": "EGY",
         "scoreline": "0:1",
         "prob": {
-          "home": 0.344,
-          "draw": 0.2932,
-          "away": 0.3628
+          "home": 0.31,
+          "draw": 0.31,
+          "away": 0.38
         },
         "confidence": "Niedrig",
         "expected_goals": {
@@ -78,9 +78,14 @@
           "away": 0.4098
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Egypt vorne (36%). Wahrscheinlichstes Resultat 0:1. Die Buchmacher sehen es etwas anders als das Modell.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Echtes Toss-up (Opta: Ägypten 39% / Remis 31% / Australien 30%)",
+        "Ägypten mit Salah leicht favorisiert",
+        "Australien defensiv organisiert",
+        "Verlängerung/Elfmeter gut möglich"
+      ],
+      "rationale_de": "Ein ausgeglichenes Achtelfinal: Der Opta-Supercomputer sieht Ägypten (mit Salah) nur hauchdünn vorne. Ich tippe knapp 0:1 für Ägypten – bei der Enge ist aber auch eine Entscheidung in der Verlängerung oder im Elfmeterschießen sehr wahrscheinlich.",
+      "enriched_by": "claude"
     },
     {
       "id": "760500",
@@ -107,9 +112,9 @@
         "winner_code": "ARG",
         "scoreline": "2:0",
         "prob": {
-          "home": 0.835,
-          "draw": 0.1144,
-          "away": 0.0489
+          "home": 0.82,
+          "draw": 0.12,
+          "away": 0.06
         },
         "confidence": "Hoch",
         "expected_goals": {
@@ -156,9 +161,14 @@
           "away": 0.048
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Argentina vorne (84%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Weltmeister Argentinien haushoher Favorit (-700, Opta 81%)",
+        "Messi & Co. individuell überlegen",
+        "Kap Verde defensiv aber zäh (hielt Spanien 0:0)",
+        "Klarer Klassenunterschied"
+      ],
+      "rationale_de": "Der Weltmeister Argentinien ist mit Messi haushoher Favorit (-700, Opta 81 %). Kap Verde hat sich defensiv stark präsentiert (0:0 gegen Spanien), doch Argentiniens Klasse sollte für einen kontrollierten 2:0-Sieg reichen.",
+      "enriched_by": "claude"
     },
     {
       "id": "760501",
@@ -185,11 +195,11 @@
         "winner_code": "COL",
         "scoreline": "2:0",
         "prob": {
-          "home": 0.7053,
-          "draw": 0.1888,
-          "away": 0.1053
+          "home": 0.66,
+          "draw": 0.2,
+          "away": 0.14
         },
-        "confidence": "Hoch",
+        "confidence": "Mittel",
         "expected_goals": {
           "home": 2.446,
           "away": 0.769
@@ -234,9 +244,14 @@
           "away": 0.1129
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Colombia vorne (71%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Kolumbien favorisiert (-240)",
+        "Starke, ausgeglichene Mannschaft",
+        "Ghana kämpferisch, aber unterlegen",
+        "Experten: Kolumbien-Sieg unter 3.5 Toren"
+      ],
+      "rationale_de": "Kolumbien ist favorisiert (-240) und die individuell stärkere, ausgeglichene Mannschaft. Ghana ist kämpferisch, dürfte aber unterliegen – ein kontrollierter 2:0-Sieg ist die wahrscheinlichste Variante.",
+      "enriched_by": "claude"
     }
   ]
 }
