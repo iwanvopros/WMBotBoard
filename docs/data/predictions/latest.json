@@ -1,6 +1,6 @@
 {
   "date": "2026-07-04",
-  "generated_at": "2026-07-04T11:57:13+00:00",
+  "generated_at": "2026-07-04T16:16:18+00:00",
   "count": 2,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
@@ -29,9 +29,9 @@
         "winner_code": "MAR",
         "scoreline": "0:1",
         "prob": {
-          "home": 0.2231,
-          "draw": 0.2627,
-          "away": 0.5141
+          "home": 0.2273,
+          "draw": 0.2685,
+          "away": 0.5043
         },
         "confidence": "Mittel",
         "expected_goals": {
@@ -65,21 +65,21 @@
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "MAR -135",
+        "details": "MAR -125",
         "over_under": 2.5,
         "moneyline": {
-          "home": "+425",
-          "draw": 245,
-          "away": "-135"
+          "home": "+400",
+          "draw": 230,
+          "away": "-125"
         },
         "implied": {
-          "home": 0.1806,
-          "draw": 0.2748,
-          "away": 0.5446
+          "home": 0.1889,
+          "draw": 0.2863,
+          "away": 0.5248
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht Morocco vorne (51%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht Morocco vorne (50%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     },
     {
