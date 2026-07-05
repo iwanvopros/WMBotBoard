@@ -7170,5 +7170,161 @@
     "key_factors": [],
     "rationale_de": "Das Modell sieht France vorne (74%). Wahrscheinlichstes Resultat 0:2. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
+  },
+  "760504": {
+    "id": "760504",
+    "kickoff_utc": "2026-07-05T20:00Z",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "group": null,
+    "home": {
+      "code": "BRA",
+      "name": "Brazil",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "elo": 2112.6,
+      "form_ppg10": 2.3
+    },
+    "away": {
+      "code": "NOR",
+      "name": "Norway",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "elo": 2013.7,
+      "form_ppg10": 2.0
+    },
+    "prediction": {
+      "winner": "Brazil",
+      "winner_code": "BRA",
+      "scoreline": "2:1",
+      "prob": {
+        "home": 0.4802,
+        "draw": 0.2506,
+        "away": 0.2692
+      },
+      "confidence": "Mittel",
+      "expected_goals": {
+        "home": 1.557,
+        "away": 1.313
+      },
+      "over_2_5": 0.5472,
+      "btts": 0.577,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1159
+        },
+        {
+          "score": "2:1",
+          "p": 0.0902
+        },
+        {
+          "score": "1:0",
+          "p": 0.0882
+        },
+        {
+          "score": "1:2",
+          "p": 0.0761
+        },
+        {
+          "score": "0:1",
+          "p": 0.0744
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "BRA -125",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-125",
+        "draw": 275,
+        "away": "+340"
+      },
+      "implied": {
+        "home": 0.5294,
+        "draw": 0.2541,
+        "away": 0.2166
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Brazil vorne (48%). Wahrscheinlichstes Resultat 2:1. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
+  },
+  "760505": {
+    "id": "760505",
+    "kickoff_utc": "2026-07-06T00:00Z",
+    "venue": "Estadio Banorte",
+    "city": "Mexico City",
+    "group": null,
+    "home": {
+      "code": "MEX",
+      "name": "Mexico",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "elo": 2047.6,
+      "form_ppg10": 2.6
+    },
+    "away": {
+      "code": "ENG",
+      "name": "England",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "elo": 2120.5,
+      "form_ppg10": 2.3
+    },
+    "prediction": {
+      "winner": "England",
+      "winner_code": "ENG",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.3238,
+        "draw": 0.2836,
+        "away": 0.3926
+      },
+      "confidence": "Niedrig",
+      "expected_goals": {
+        "home": 1.26,
+        "away": 1.382
+      },
+      "over_2_5": 0.4919,
+      "btts": 0.5364,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.124
+        },
+        {
+          "score": "0:1",
+          "p": 0.0984
+        },
+        {
+          "score": "1:0",
+          "p": 0.0898
+        },
+        {
+          "score": "1:2",
+          "p": 0.0857
+        },
+        {
+          "score": "2:1",
+          "p": 0.0781
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "ENG +145",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+210",
+        "draw": 210,
+        "away": "+145"
+      },
+      "implied": {
+        "home": 0.3063,
+        "draw": 0.3063,
+        "away": 0.3875
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht England vorne (39%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
   }
 }
