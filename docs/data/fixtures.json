@@ -2907,11 +2907,11 @@
     "id": "760502",
     "date_utc": "2026-07-04T17:00Z",
     "name": "Morocco at Canada",
-    "state": "post",
-    "status": "Full Time",
-    "completed": true,
-    "clock": "90'+9'",
-    "period": 2,
+    "state": "pre",
+    "status": "Scheduled",
+    "completed": false,
+    "clock": "0'",
+    "period": null,
     "venue": "NRG Stadium",
     "city": "Houston, Texas",
     "country": "USA",
@@ -2930,21 +2930,35 @@
       "code": "MAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "color": "df2027",
-      "score": "3",
-      "winner": true
+      "score": "0",
+      "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "MAR -140",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+450",
+        "draw": 250,
+        "away": "-140"
+      },
+      "implied": {
+        "home": 0.173,
+        "draw": 0.2719,
+        "away": 0.5551
+      }
+    },
     "group": null
   },
   {
     "id": "760503",
     "date_utc": "2026-07-04T21:00Z",
     "name": "France at Paraguay",
-    "state": "post",
-    "status": "Full Time",
-    "completed": true,
-    "clock": "90'+11'",
-    "period": 2,
+    "state": "pre",
+    "status": "Scheduled",
+    "completed": false,
+    "clock": "0'",
+    "period": null,
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia, Pennsylvania",
     "country": "USA",
@@ -2963,10 +2977,24 @@
       "code": "FRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "color": "000080",
-      "score": "1",
-      "winner": true
+      "score": "0",
+      "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "FRA -575",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+1800",
+        "draw": 550,
+        "away": "-575"
+      },
+      "implied": {
+        "home": 0.0497,
+        "draw": 0.1454,
+        "away": 0.8049
+      }
+    },
     "group": null
   },
   {
@@ -3005,13 +3033,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "-125",
-        "draw": 275,
-        "away": "+340"
+        "draw": 285,
+        "away": "+320"
       },
       "implied": {
-        "home": 0.5294,
-        "draw": 0.2541,
-        "away": 0.2166
+        "home": 0.5274,
+        "draw": 0.2466,
+        "away": 0.226
       }
     },
     "group": null
@@ -3048,17 +3076,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ENG +145",
+      "details": "ENG +140",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+210",
-        "draw": 210,
-        "away": "+145"
+        "home": "+205",
+        "draw": 220,
+        "away": "+140"
       },
       "implied": {
-        "home": 0.3063,
-        "draw": 0.3063,
-        "away": 0.3875
+        "home": 0.3102,
+        "draw": 0.2956,
+        "away": 0.3942
       }
     },
     "group": null
@@ -3146,13 +3174,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "+160",
-        "draw": 230,
-        "away": "+170"
+        "draw": 240,
+        "away": "+165"
       },
       "implied": {
-        "home": 0.3635,
-        "draw": 0.2864,
-        "away": 0.3501
+        "home": 0.3642,
+        "draw": 0.2785,
+        "away": 0.3573
       }
     },
     "group": null
@@ -3189,17 +3217,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ARG -260",
+      "details": "ARG -285",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-260",
-        "draw": 360,
-        "away": "+750"
+        "home": "-285",
+        "draw": 380,
+        "away": "+850"
       },
       "implied": {
-        "home": 0.6831,
-        "draw": 0.2056,
-        "away": 0.1113
+        "home": 0.7024,
+        "draw": 0.1977,
+        "away": 0.0999
       }
     },
     "group": null
@@ -3236,17 +3264,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "COL +130",
+      "details": "COL +120",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+240",
-        "draw": 210,
-        "away": "+130"
+        "home": "+245",
+        "draw": 220,
+        "away": "+120"
       },
       "implied": {
-        "home": 0.2797,
-        "draw": 0.3068,
-        "away": 0.4135
+        "home": 0.2743,
+        "draw": 0.2957,
+        "away": 0.4301
       }
     },
     "group": null
@@ -3254,7 +3282,7 @@
   {
     "id": "760510",
     "date_utc": "2026-07-09T20:00Z",
-    "name": "Morocco at France",
+    "name": "Round of 16 2 Winner at Round of 16 1 Winner",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -3264,38 +3292,24 @@
     "city": "Foxborough, Massachusetts",
     "country": "USA",
     "home": {
-      "name": "France",
-      "short": "France",
-      "code": "FRA",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-      "color": "000080",
+      "name": "Round of 16 1 Winner",
+      "short": "RD16 W1",
+      "code": "RD16 W1",
+      "logo": null,
+      "color": "000000",
       "score": "0",
       "winner": false
     },
     "away": {
-      "name": "Morocco",
-      "short": "Morocco",
-      "code": "MAR",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-      "color": "df2027",
+      "name": "Round of 16 2 Winner",
+      "short": "RD16 W2",
+      "code": "RD16 W2",
+      "logo": null,
+      "color": "000000",
       "score": "0",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "FRA -175",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-175",
-        "draw": 285,
-        "away": "+500"
-      },
-      "implied": {
-        "home": 0.5988,
-        "draw": 0.2444,
-        "away": 0.1568
-      }
-    },
+    "odds": null,
     "group": null
   },
   {

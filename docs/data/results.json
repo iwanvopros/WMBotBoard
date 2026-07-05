@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T12:06:01+00:00",
+  "generated_at": "2026-07-05T14:58:01+00:00",
   "count": 89,
   "overall_quote": 46.0,
   "tendency_rate": 67,
@@ -62,17 +62,17 @@
             "winner": "Morocco",
             "confidence": "Mittel",
             "prob": {
-              "home": 0.2273,
-              "draw": 0.2685,
-              "away": 0.5043
+              "home": 0.2193,
+              "draw": 0.2613,
+              "away": 0.5194
             }
           },
-          "result_score": 55.0,
+          "result_score": 55.2,
           "factors": {
             "tendenz": true,
             "tordifferenz": false,
             "exakt": false,
-            "prob_actual": 0.504
+            "prob_actual": 0.519
           },
           "verdict": "Tendenz richtig"
         },

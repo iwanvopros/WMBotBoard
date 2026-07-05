@@ -7040,9 +7040,9 @@
       "winner_code": "MAR",
       "scoreline": "0:1",
       "prob": {
-        "home": 0.2273,
-        "draw": 0.2685,
-        "away": 0.5043
+        "home": 0.2193,
+        "draw": 0.2613,
+        "away": 0.5194
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -7076,21 +7076,21 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "MAR -125",
+      "details": "MAR -140",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+400",
-        "draw": 230,
-        "away": "-125"
+        "home": "+450",
+        "draw": 250,
+        "away": "-140"
       },
       "implied": {
-        "home": 0.1889,
-        "draw": 0.2863,
-        "away": 0.5248
+        "home": 0.173,
+        "draw": 0.2719,
+        "away": 0.5551
       }
     },
     "key_factors": [],
-    "rationale_de": "Das Modell sieht Morocco vorne (50%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "rationale_de": "Das Modell sieht Morocco vorne (52%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
     "enriched_by": "model"
   },
   "760503": {
@@ -7192,13 +7192,13 @@
       "form_ppg10": 2.0
     },
     "prediction": {
-      "winner": "Brazil",
+      "winner": "Brasilien",
       "winner_code": "BRA",
       "scoreline": "2:1",
       "prob": {
-        "home": 0.4802,
-        "draw": 0.2506,
-        "away": 0.2692
+        "home": 0.49,
+        "draw": 0.26,
+        "away": 0.25
       },
       "confidence": "Mittel",
       "expected_goals": {
@@ -7232,22 +7232,27 @@
     },
     "odds_snapshot": {
       "provider": "DraftKings",
-      "details": "BRA -125",
+      "details": "BRA -130",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-125",
+        "home": "-130",
         "draw": 275,
-        "away": "+340"
+        "away": "+350"
       },
       "implied": {
-        "home": 0.5294,
-        "draw": 0.2541,
-        "away": 0.2166
+        "home": 0.5362,
+        "draw": 0.253,
+        "away": 0.2108
       }
     },
-    "key_factors": [],
-    "rationale_de": "Das Modell sieht Brazil vorne (48%). Wahrscheinlichstes Resultat 2:1. Quoten und Modell stimmen weitgehend überein.",
-    "enriched_by": "model"
+    "key_factors": [
+      "Brasilien Favorit (Markt ~54 %), aber ohne Paquetá (turnierendende Verletzung) und Raphinha",
+      "Norwegen topfit; Haaland in Galaform – 5 Tore in 3 Spielen",
+      "Norwegen ist die einzige Nation, gegen die Brasilien noch nie gewonnen hat (Historie)",
+      "Beide offensivstark → Tore auf beiden Seiten wahrscheinlich (O/U 2.5)"
+    ],
+    "rationale_de": "Brasilien geht als Favorit ins Achtelfinale, muss den Ausfall von Paquetá (Turnier-Aus) und Raphinha aber kompensieren. Norwegen kommt topfit und mit einem überragenden Haaland (5 Tore in 3 Spielen) – die einzige Nation, gegen die Brasilien nie gewann. Wir erwarten einen knappen brasilianischen Sieg mit Toren auf beiden Seiten (2:1).",
+    "enriched_by": "claude"
   },
   "760505": {
     "id": "760505",
@@ -7274,9 +7279,9 @@
       "winner_code": "ENG",
       "scoreline": "0:1",
       "prob": {
-        "home": 0.3238,
-        "draw": 0.2836,
-        "away": 0.3926
+        "home": 0.31,
+        "draw": 0.3,
+        "away": 0.39
       },
       "confidence": "Niedrig",
       "expected_goals": {
@@ -7314,17 +7319,22 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "+210",
-        "draw": 210,
+        "draw": 215,
         "away": "+145"
       },
       "implied": {
-        "home": 0.3063,
-        "draw": 0.3063,
-        "away": 0.3875
+        "home": 0.3077,
+        "draw": 0.3029,
+        "away": 0.3894
       }
     },
-    "key_factors": [],
-    "rationale_de": "Das Modell sieht England vorne (39%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
-    "enriched_by": "model"
+    "key_factors": [
+      "Mexiko: 4 Spiele, 4 Siege, 0 Gegentore – defensiv das Turnier-Bollwerk",
+      "Heimvorteil Estadio Azteca + Höhe (~2200 m) gegen England",
+      "England individuell überlegen, offensiv das stärkere Team",
+      "Sehr enges Spiel – erhöhte Remis-/Elfmeterschießen-Wahrscheinlichkeit"
+    ],
+    "rationale_de": "Ein echtes Coin-Flip-Spiel: Mexiko ist mit vier Siegen und null Gegentoren defensiv das Bollwerk des Turniers und profitiert im Azteca von Heimkulisse und Höhe. England ist individuell überlegen und offensiv gefährlicher. Wir tippen knapp auf England (0:1), sehen aber ein hohes Remis-Risiko bis ins Elfmeterschießen – daher niedrige Konfidenz.",
+    "enriched_by": "claude"
   }
 }
