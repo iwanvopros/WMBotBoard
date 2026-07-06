@@ -3039,11 +3039,11 @@
     "id": "760506",
     "date_utc": "2026-07-06T19:00Z",
     "name": "Spain at Portugal",
-    "state": "pre",
-    "status": "Scheduled",
+    "state": "in",
+    "status": "First Half",
     "completed": false,
-    "clock": "0'",
-    "period": null,
+    "clock": "19'",
+    "period": 1,
     "venue": "AT&T Stadium",
     "city": "Arlington, Texas",
     "country": "USA",
@@ -3067,17 +3067,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ESP -110",
+      "details": "ESP -105",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+310",
+        "home": "+290",
         "draw": 255,
-        "away": "-110"
+        "away": "-105"
       },
       "implied": {
-        "home": 0.2324,
-        "draw": 0.2684,
-        "away": 0.4992
+        "home": 0.2441,
+        "draw": 0.2682,
+        "away": 0.4877
       }
     },
     "group": null
@@ -3114,17 +3114,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "USA +145",
+      "details": "USA +155",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+145",
+        "home": "+155",
         "draw": 240,
-        "away": "+185"
+        "away": "+175"
       },
       "implied": {
-        "home": 0.3876,
-        "draw": 0.2793,
-        "away": 0.3332
+        "home": 0.3735,
+        "draw": 0.2801,
+        "away": 0.3463
       }
     },
     "group": null
