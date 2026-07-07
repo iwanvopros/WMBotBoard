@@ -3105,11 +3105,11 @@
     "id": "760509",
     "date_utc": "2026-07-07T16:00Z",
     "name": "Egypt at Argentina",
-    "state": "in",
-    "status": "First Half",
-    "completed": false,
-    "clock": "41'",
-    "period": 1,
+    "state": "post",
+    "status": "Full Time",
+    "completed": true,
+    "clock": "90'+11'",
+    "period": 2,
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta, Georgia",
     "country": "USA",
@@ -3119,8 +3119,8 @@
       "code": "ARG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "color": "74acdf",
-      "score": "0",
-      "winner": false
+      "score": "3",
+      "winner": true
     },
     "away": {
       "name": "Egypt",
@@ -3128,24 +3128,10 @@
       "code": "EGY",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "color": "D20300",
-      "score": "1",
+      "score": "2",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "ARG -310",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "-310",
-        "draw": 390,
-        "away": "+1000"
-      },
-      "implied": {
-        "home": 0.7193,
-        "draw": 0.1942,
-        "away": 0.0865
-      }
-    },
+    "odds": null,
     "group": null
   },
   {
@@ -3180,17 +3166,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "COL +125",
+      "details": "COL +130",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+245",
-        "draw": 210,
-        "away": "+125"
+        "home": "+250",
+        "draw": 200,
+        "away": "+130"
       },
       "implied": {
-        "home": 0.2743,
-        "draw": 0.3052,
-        "away": 0.4205
+        "home": 0.2711,
+        "draw": 0.3163,
+        "away": 0.4126
       }
     },
     "group": null
@@ -3274,17 +3260,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ESP -160",
+      "details": "ESP -165",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-160",
-        "draw": 290,
+        "home": "-165",
+        "draw": 295,
         "away": "+450"
       },
       "implied": {
-        "home": 0.5841,
-        "draw": 0.2434,
-        "away": 0.1726
+        "home": 0.5887,
+        "draw": 0.2394,
+        "away": 0.1719
       }
     },
     "group": null
@@ -3339,7 +3325,7 @@
   {
     "id": "760513",
     "date_utc": "2026-07-12T01:00Z",
-    "name": "Round of 16 8 Winner at Round of 16 7 Winner",
+    "name": "Round of 16 8 Winner at Argentina",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -3349,11 +3335,11 @@
     "city": "Kansas City, Missouri",
     "country": "USA",
     "home": {
-      "name": "Round of 16 7 Winner",
-      "short": "RD16 W7",
-      "code": "RD16 W7",
-      "logo": null,
-      "color": "000000",
+      "name": "Argentina",
+      "short": "Argentina",
+      "code": "ARG",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "color": "74acdf",
       "score": "0",
       "winner": false
     },
