@@ -1,174 +1,164 @@
 {
-  "date": "2026-07-05",
-  "generated_at": "2026-07-05T14:56:14+00:00",
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T16:42:49+00:00",
   "count": 2,
-  "source": "Hybrid: Elo+Poisson-Modell, Buchmacher-Quoten, Tagesrecherche & Erkenntnisse aus gespielten Spielen",
+  "source": "elo+poisson model + ESPN odds",
   "matches": [
     {
-      "id": "760504",
-      "kickoff_utc": "2026-07-05T20:00Z",
-      "venue": "MetLife Stadium",
-      "city": "East Rutherford, New Jersey",
+      "id": "760509",
+      "kickoff_utc": "2026-07-07T16:00Z",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta, Georgia",
       "group": null,
       "home": {
-        "code": "BRA",
-        "name": "Brazil",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-        "elo": 2112.6,
-        "form_ppg10": 2.3
+        "code": "ARG",
+        "name": "Argentina",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+        "elo": 2221.0,
+        "form_ppg10": 3.0
       },
       "away": {
-        "code": "NOR",
-        "name": "Norway",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-        "elo": 2013.7,
-        "form_ppg10": 2.0
+        "code": "EGY",
+        "name": "Egypt",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+        "elo": 1864.5,
+        "form_ppg10": 1.4
       },
       "prediction": {
-        "winner": "Brasilien",
-        "winner_code": "BRA",
-        "scoreline": "2:1",
+        "winner": "Argentina",
+        "winner_code": "ARG",
+        "scoreline": "2:0",
         "prob": {
-          "home": 0.49,
-          "draw": 0.26,
-          "away": 0.25
+          "home": 0.7108,
+          "draw": 0.187,
+          "away": 0.1018
         },
-        "confidence": "Mittel",
+        "confidence": "Hoch",
         "expected_goals": {
-          "home": 1.557,
-          "away": 1.313
+          "home": 2.243,
+          "away": 0.792
         },
-        "over_2_5": 0.5472,
-        "btts": 0.577,
+        "over_2_5": 0.5842,
+        "btts": 0.4889,
         "top_scorelines": [
           {
-            "score": "1:1",
-            "p": 0.1159
-          },
-          {
-            "score": "2:1",
-            "p": 0.0902
+            "score": "2:0",
+            "p": 0.1209
           },
           {
             "score": "1:0",
-            "p": 0.0882
+            "p": 0.1078
           },
           {
-            "score": "1:2",
-            "p": 0.0761
+            "score": "2:1",
+            "p": 0.0958
           },
           {
-            "score": "0:1",
-            "p": 0.0744
+            "score": "3:0",
+            "p": 0.0904
+          },
+          {
+            "score": "1:1",
+            "p": 0.0854
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "BRA -130",
+        "details": "ARG -310",
         "over_under": 2.5,
         "moneyline": {
-          "home": "-130",
-          "draw": 275,
-          "away": "+350"
+          "home": "-310",
+          "draw": 390,
+          "away": "+1000"
         },
         "implied": {
-          "home": 0.5362,
-          "draw": 0.253,
-          "away": 0.2108
+          "home": 0.7193,
+          "draw": 0.1942,
+          "away": 0.0865
         }
       },
-      "key_factors": [
-        "Brasilien Favorit (Markt ~54 %), aber ohne Paquetá (turnierendende Verletzung) und Raphinha",
-        "Norwegen topfit; Haaland in Galaform – 5 Tore in 3 Spielen",
-        "Norwegen ist die einzige Nation, gegen die Brasilien noch nie gewonnen hat (Historie)",
-        "Beide offensivstark → Tore auf beiden Seiten wahrscheinlich (O/U 2.5)"
-      ],
-      "rationale_de": "Brasilien geht als Favorit ins Achtelfinale, muss den Ausfall von Paquetá (Turnier-Aus) und Raphinha aber kompensieren. Norwegen kommt topfit und mit einem überragenden Haaland (5 Tore in 3 Spielen) – die einzige Nation, gegen die Brasilien nie gewann. Wir erwarten einen knappen brasilianischen Sieg mit Toren auf beiden Seiten (2:1).",
-      "enriched_by": "claude"
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht Argentina vorne (71%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
     },
     {
-      "id": "760505",
-      "kickoff_utc": "2026-07-06T00:00Z",
-      "venue": "Estadio Banorte",
-      "city": "Mexico City",
+      "id": "760508",
+      "kickoff_utc": "2026-07-07T20:00Z",
+      "venue": "BC Place",
+      "city": "Vancouver",
       "group": null,
       "home": {
-        "code": "MEX",
-        "name": "Mexico",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-        "elo": 2047.6,
-        "form_ppg10": 2.6
+        "code": "SUI",
+        "name": "Switzerland",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+        "elo": 2009.6,
+        "form_ppg10": 1.9
       },
       "away": {
-        "code": "ENG",
-        "name": "England",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-        "elo": 2120.5,
-        "form_ppg10": 2.3
+        "code": "COL",
+        "name": "Colombia",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+        "elo": 2087.6,
+        "form_ppg10": 2.2
       },
       "prediction": {
-        "winner": "England",
-        "winner_code": "ENG",
+        "winner": "Colombia",
+        "winner_code": "COL",
         "scoreline": "0:1",
         "prob": {
-          "home": 0.31,
-          "draw": 0.3,
-          "away": 0.39
+          "home": 0.2896,
+          "draw": 0.2787,
+          "away": 0.4316
         },
         "confidence": "Niedrig",
         "expected_goals": {
-          "home": 1.26,
-          "away": 1.382
+          "home": 1.222,
+          "away": 1.525
         },
-        "over_2_5": 0.4919,
-        "btts": 0.5364,
+        "over_2_5": 0.5179,
+        "btts": 0.5519,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.124
+            "p": 0.1195
           },
           {
             "score": "0:1",
-            "p": 0.0984
-          },
-          {
-            "score": "1:0",
-            "p": 0.0898
+            "p": 0.0977
           },
           {
             "score": "1:2",
-            "p": 0.0857
+            "p": 0.0911
           },
           {
-            "score": "2:1",
-            "p": 0.0781
+            "score": "1:0",
+            "p": 0.0783
+          },
+          {
+            "score": "0:2",
+            "p": 0.0745
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "ENG +145",
+        "details": "COL +125",
         "over_under": 2.5,
         "moneyline": {
-          "home": "+210",
-          "draw": 215,
-          "away": "+145"
+          "home": "+245",
+          "draw": 210,
+          "away": "+125"
         },
         "implied": {
-          "home": 0.3077,
-          "draw": 0.3029,
-          "away": 0.3894
+          "home": 0.2743,
+          "draw": 0.3052,
+          "away": 0.4205
         }
       },
-      "key_factors": [
-        "Mexiko: 4 Spiele, 4 Siege, 0 Gegentore – defensiv das Turnier-Bollwerk",
-        "Heimvorteil Estadio Azteca + Höhe (~2200 m) gegen England",
-        "England individuell überlegen, offensiv das stärkere Team",
-        "Sehr enges Spiel – erhöhte Remis-/Elfmeterschießen-Wahrscheinlichkeit"
-      ],
-      "rationale_de": "Ein echtes Coin-Flip-Spiel: Mexiko ist mit vier Siegen und null Gegentoren defensiv das Bollwerk des Turniers und profitiert im Azteca von Heimkulisse und Höhe. England ist individuell überlegen und offensiv gefährlicher. Wir tippen knapp auf England (0:1), sehen aber ein hohes Remis-Risiko bis ins Elfmeterschießen – daher niedrige Konfidenz.",
-      "enriched_by": "claude"
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht Colombia vorne (43%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
     }
   ]
 }

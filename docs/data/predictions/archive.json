@@ -7502,5 +7502,161 @@
     ],
     "rationale_de": "Ein Pick'em-Duell: Die Buchmacher sehen kaum einen Favoriten. Die USA verlieren ihren Top-Torjäger Balogun gesperrt, bekommen dafür aber den fitten Pulisic zurück und die Heimkulisse in Seattle. Belgien setzt auf die Klasse von Lukaku und De Bruyne. Wir tippen mit minimalem Vorsprung auf Belgien (1:2), bei niedriger Konfidenz und hoher Remis-Wahrscheinlichkeit.",
     "enriched_by": "claude"
+  },
+  "760509": {
+    "id": "760509",
+    "kickoff_utc": "2026-07-07T16:00Z",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "group": null,
+    "home": {
+      "code": "ARG",
+      "name": "Argentina",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "elo": 2221.0,
+      "form_ppg10": 3.0
+    },
+    "away": {
+      "code": "EGY",
+      "name": "Egypt",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "elo": 1864.5,
+      "form_ppg10": 1.4
+    },
+    "prediction": {
+      "winner": "Argentina",
+      "winner_code": "ARG",
+      "scoreline": "2:0",
+      "prob": {
+        "home": 0.7108,
+        "draw": 0.187,
+        "away": 0.1018
+      },
+      "confidence": "Hoch",
+      "expected_goals": {
+        "home": 2.243,
+        "away": 0.792
+      },
+      "over_2_5": 0.5842,
+      "btts": 0.4889,
+      "top_scorelines": [
+        {
+          "score": "2:0",
+          "p": 0.1209
+        },
+        {
+          "score": "1:0",
+          "p": 0.1078
+        },
+        {
+          "score": "2:1",
+          "p": 0.0958
+        },
+        {
+          "score": "3:0",
+          "p": 0.0904
+        },
+        {
+          "score": "1:1",
+          "p": 0.0854
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "ARG -310",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-310",
+        "draw": 390,
+        "away": "+1000"
+      },
+      "implied": {
+        "home": 0.7193,
+        "draw": 0.1942,
+        "away": 0.0865
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Argentina vorne (71%). Wahrscheinlichstes Resultat 2:0. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
+  },
+  "760508": {
+    "id": "760508",
+    "kickoff_utc": "2026-07-07T20:00Z",
+    "venue": "BC Place",
+    "city": "Vancouver",
+    "group": null,
+    "home": {
+      "code": "SUI",
+      "name": "Switzerland",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "elo": 2009.6,
+      "form_ppg10": 1.9
+    },
+    "away": {
+      "code": "COL",
+      "name": "Colombia",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "elo": 2087.6,
+      "form_ppg10": 2.2
+    },
+    "prediction": {
+      "winner": "Colombia",
+      "winner_code": "COL",
+      "scoreline": "0:1",
+      "prob": {
+        "home": 0.2896,
+        "draw": 0.2787,
+        "away": 0.4316
+      },
+      "confidence": "Niedrig",
+      "expected_goals": {
+        "home": 1.222,
+        "away": 1.525
+      },
+      "over_2_5": 0.5179,
+      "btts": 0.5519,
+      "top_scorelines": [
+        {
+          "score": "1:1",
+          "p": 0.1195
+        },
+        {
+          "score": "0:1",
+          "p": 0.0977
+        },
+        {
+          "score": "1:2",
+          "p": 0.0911
+        },
+        {
+          "score": "1:0",
+          "p": 0.0783
+        },
+        {
+          "score": "0:2",
+          "p": 0.0745
+        }
+      ]
+    },
+    "odds_snapshot": {
+      "provider": "DraftKings",
+      "details": "COL +125",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "+245",
+        "draw": 210,
+        "away": "+125"
+      },
+      "implied": {
+        "home": 0.2743,
+        "draw": 0.3052,
+        "away": 0.4205
+      }
+    },
+    "key_factors": [],
+    "rationale_de": "Das Modell sieht Colombia vorne (43%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
+    "enriched_by": "model"
   }
 }
