@@ -2,7 +2,7 @@
   "date": "2026-07-07",
   "generated_at": "2026-07-07T16:42:49+00:00",
   "count": 2,
-  "source": "elo+poisson model + ESPN odds",
+  "source": "Hybrid: Elo+Poisson-Modell, Buchmacher-Quoten, Tagesrecherche (inkl. Verletzungen) & Erkenntnisse aus gespielten Spielen",
   "matches": [
     {
       "id": "760509",
@@ -103,15 +103,15 @@
         "form_ppg10": 2.2
       },
       "prediction": {
-        "winner": "Colombia",
+        "winner": "Kolumbien",
         "winner_code": "COL",
         "scoreline": "0:1",
         "prob": {
-          "home": 0.2896,
-          "draw": 0.2787,
-          "away": 0.4316
+          "home": 0.27,
+          "draw": 0.29,
+          "away": 0.44
         },
-        "confidence": "Niedrig",
+        "confidence": "Mittel",
         "expected_goals": {
           "home": 1.222,
           "away": 1.525
@@ -156,9 +156,15 @@
           "away": 0.4205
         }
       },
-      "key_factors": [],
-      "rationale_de": "Das Modell sieht Colombia vorne (43%). Wahrscheinlichstes Resultat 0:1. Quoten und Modell stimmen weitgehend überein.",
-      "enriched_by": "model"
+      "key_factors": [
+        "Kolumbien Favorit (Markt ~44 %); Schweiz nur ~27 %",
+        "Kolumbien ohne Jhon Córdoba (Turnier-Aus, Adduktoren-/Oberschenkelverletzung) – Luis Suárez ersetzt ihn im Sturm",
+        "Schweiz mit mehreren Fitnessfragezeichen: Manzambi (Knie) raus, Vargas später Fitnesstest, Aebischer/Jaquez/Widmer angeschlagen",
+        "Kolumbiens Arias & Ríos gelb-vorbelastet (Sperre bei erneuter Karte)",
+        "Tendenz zu wenigen Toren (Under 2.5) – enges Spiel erwartet"
+      ],
+      "rationale_de": "Kolumbien geht als Favorit (~44 %) ins Viertelfinale, verliert aber mit Jhon Córdoba (Turnier-Aus wegen Adduktoren-/Oberschenkelverletzung) seinen Stürmer – Luis Suárez rückt in die Spitze. Die Schweiz plagen gleich mehrere Personalsorgen: Manzambi (Knie) fällt aus, Vargas ist ein später Fitnesstest, dazu sind Aebischer, Jaquez und Widmer angeschlagen. Das verstärkt Kolumbiens Vorteil – wir tippen einen knappen kolumbianischen Sieg (0:1) in einem eher torarmen Spiel.",
+      "enriched_by": "claude"
     }
   ]
 }
