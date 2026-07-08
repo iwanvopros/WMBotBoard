@@ -3138,11 +3138,11 @@
     "id": "760508",
     "date_utc": "2026-07-07T20:00Z",
     "name": "Colombia at Switzerland",
-    "state": "pre",
-    "status": "Scheduled",
-    "completed": false,
-    "clock": "0'",
-    "period": null,
+    "state": "post",
+    "status": "Final Score - After Penalties",
+    "completed": true,
+    "clock": "120'",
+    "period": 5,
     "venue": "BC Place",
     "city": "Vancouver",
     "country": "Canada",
@@ -3153,7 +3153,7 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "color": "FF0000",
       "score": "0",
-      "winner": false
+      "winner": true
     },
     "away": {
       "name": "Colombia",
@@ -3164,21 +3164,7 @@
       "score": "0",
       "winner": false
     },
-    "odds": {
-      "provider": "DraftKings",
-      "details": "COL +130",
-      "over_under": 2.5,
-      "moneyline": {
-        "home": "+250",
-        "draw": 200,
-        "away": "+130"
-      },
-      "implied": {
-        "home": 0.2711,
-        "draw": 0.3163,
-        "away": 0.4126
-      }
-    },
+    "odds": null,
     "group": null
   },
   {
@@ -3217,13 +3203,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "-180",
-        "draw": 295,
+        "draw": 290,
         "away": "+550"
       },
       "implied": {
-        "home": 0.6123,
-        "draw": 0.2411,
-        "away": 0.1465
+        "home": 0.6104,
+        "draw": 0.2435,
+        "away": 0.1461
       }
     },
     "group": null
@@ -3310,14 +3296,14 @@
       "details": "ENG -115",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+295",
+        "home": "+310",
         "draw": 270,
         "away": "-115"
       },
       "implied": {
-        "home": 0.2392,
-        "draw": 0.2554,
-        "away": 0.5054
+        "home": 0.2325,
+        "draw": 0.2576,
+        "away": 0.5099
       }
     },
     "group": null
@@ -3325,7 +3311,7 @@
   {
     "id": "760513",
     "date_utc": "2026-07-12T01:00Z",
-    "name": "Round of 16 8 Winner at Argentina",
+    "name": "Switzerland at Argentina",
     "state": "pre",
     "status": "Scheduled",
     "completed": false,
@@ -3344,15 +3330,29 @@
       "winner": false
     },
     "away": {
-      "name": "Round of 16 8 Winner",
-      "short": "RD16 W8",
-      "code": "RD16 W8",
-      "logo": null,
-      "color": "000000",
+      "name": "Switzerland",
+      "short": "Switzerland",
+      "code": "SUI",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "color": "FF0000",
       "score": "0",
       "winner": false
     },
-    "odds": null,
+    "odds": {
+      "provider": "DraftKings",
+      "details": "ARG -140",
+      "over_under": 2.5,
+      "moneyline": {
+        "home": "-140",
+        "draw": 255,
+        "away": "+450"
+      },
+      "implied": {
+        "home": 0.5572,
+        "draw": 0.2691,
+        "away": 0.1737
+      }
+    },
     "group": null
   },
   {

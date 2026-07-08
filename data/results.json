@@ -1,13 +1,47 @@
 {
-  "generated_at": "2026-07-07T19:23:41+00:00",
-  "count": 94,
-  "overall_quote": 46.3,
-  "tendency_rate": 68,
+  "generated_at": "2026-07-08T13:16:40+00:00",
+  "count": 95,
+  "overall_quote": 45.8,
+  "tendency_rate": 67,
   "exact_rate": 14,
   "groups": [
     {
       "group": "K.o.-Runde",
       "matches": [
+        {
+          "id": "760508",
+          "date_utc": "2026-07-07T20:00Z",
+          "group": null,
+          "home": {
+            "name": "Switzerland",
+            "code": "SUI",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png"
+          },
+          "away": {
+            "name": "Colombia",
+            "code": "COL",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
+          },
+          "actual": "0:0",
+          "tip": {
+            "scoreline": "0:1",
+            "winner": "Kolumbien",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.27,
+              "draw": 0.29,
+              "away": 0.44
+            }
+          },
+          "result_score": 2.9,
+          "factors": {
+            "tendenz": false,
+            "tordifferenz": false,
+            "exakt": false,
+            "prob_actual": 0.29
+          },
+          "verdict": "Daneben"
+        },
         {
           "id": "760509",
           "date_utc": "2026-07-07T16:00Z",
