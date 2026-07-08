@@ -3246,17 +3246,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ESP -165",
+      "details": "ESP -160",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-165",
+        "home": "-160",
         "draw": 295,
-        "away": "+450"
+        "away": "+425"
       },
       "implied": {
-        "home": 0.5887,
-        "draw": 0.2394,
-        "away": 0.1719
+        "home": 0.5811,
+        "draw": 0.2391,
+        "away": 0.1799
       }
     },
     "group": null
@@ -3340,17 +3340,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ARG -140",
+      "details": "ARG -145",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-140",
+        "home": "-145",
         "draw": 255,
         "away": "+450"
       },
       "implied": {
-        "home": 0.5572,
-        "draw": 0.2691,
-        "away": 0.1737
+        "home": 0.5608,
+        "draw": 0.2669,
+        "away": 0.1723
       }
     },
     "group": null
