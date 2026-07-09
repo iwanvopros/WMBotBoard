@@ -3199,16 +3199,16 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "FRA -170",
+      "details": "FRA -165",
       "over_under": 2.5,
       "moneyline": {
-        "home": "-170",
-        "draw": 280,
+        "home": "-165",
+        "draw": 270,
         "away": "+500"
       },
       "implied": {
-        "home": 0.5943,
-        "draw": 0.2484,
+        "home": 0.5876,
+        "draw": 0.2551,
         "away": 0.1573
       }
     },
