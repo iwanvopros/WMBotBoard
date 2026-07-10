@@ -3236,13 +3236,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "-165",
-        "draw": 290,
+        "draw": 285,
         "away": "+475"
       },
       "implied": {
-        "home": 0.5913,
-        "draw": 0.2435,
-        "away": 0.1652
+        "home": 0.5895,
+        "draw": 0.2459,
+        "away": 0.1646
       }
     },
     "group": null
