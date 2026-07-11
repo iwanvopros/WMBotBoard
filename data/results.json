@@ -1,13 +1,47 @@
 {
-  "generated_at": "2026-07-10T18:11:37+00:00",
-  "count": 96,
-  "overall_quote": 46.4,
+  "generated_at": "2026-07-11T11:27:53+00:00",
+  "count": 97,
+  "overall_quote": 46.9,
   "tendency_rate": 68,
   "exact_rate": 15,
   "groups": [
     {
       "group": "K.o.-Runde",
       "matches": [
+        {
+          "id": "760511",
+          "date_utc": "2026-07-10T19:00Z",
+          "group": null,
+          "home": {
+            "name": "Spain",
+            "code": "ESP",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+          },
+          "away": {
+            "name": "Belgium",
+            "code": "BEL",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+          },
+          "actual": "2:1",
+          "tip": {
+            "scoreline": "2:1",
+            "winner": "Spanien",
+            "confidence": "Mittel",
+            "prob": {
+              "home": 0.59,
+              "draw": 0.24,
+              "away": 0.17
+            }
+          },
+          "result_score": 95.9,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": true,
+            "prob_actual": 0.59
+          },
+          "verdict": "Volltreffer"
+        },
         {
           "id": "760510",
           "date_utc": "2026-07-09T20:00Z",

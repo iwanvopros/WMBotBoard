@@ -1,92 +1,164 @@
 {
-  "date": "2026-07-10",
-  "generated_at": "2026-07-10T12:03:49+00:00",
-  "count": 1,
-  "source": "Hybrid: Elo+Poisson-Modell, Buchmacher-Quoten, Tagesrecherche (inkl. Verletzungen) & Erkenntnisse aus gespielten Spielen",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T11:27:53+00:00",
+  "count": 2,
+  "source": "elo+poisson model + ESPN odds",
   "matches": [
     {
-      "id": "760511",
-      "kickoff_utc": "2026-07-10T19:00Z",
-      "venue": "SoFi Stadium",
-      "city": "Inglewood, California",
+      "id": "760512",
+      "kickoff_utc": "2026-07-11T21:00Z",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens, Florida",
       "group": null,
       "home": {
-        "code": "ESP",
-        "name": "Spain",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-        "elo": 2243.4,
-        "form_ppg10": 2.2
+        "code": "NOR",
+        "name": "Norway",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+        "elo": 2052.0,
+        "form_ppg10": 2.0
       },
       "away": {
-        "code": "BEL",
-        "name": "Belgium",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-        "elo": 2033.9,
-        "form_ppg10": 2.4
+        "code": "ENG",
+        "name": "England",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+        "elo": 2149.4,
+        "form_ppg10": 2.3
       },
       "prediction": {
-        "winner": "Spanien",
-        "winner_code": "ESP",
-        "scoreline": "2:1",
+        "winner": "England",
+        "winner_code": "ENG",
+        "scoreline": "1:2",
         "prob": {
-          "home": 0.59,
-          "draw": 0.24,
-          "away": 0.17
+          "home": 0.2796,
+          "draw": 0.2541,
+          "away": 0.4662
         },
         "confidence": "Mittel",
         "expected_goals": {
-          "home": 1.897,
-          "away": 1.085
+          "home": 1.272,
+          "away": 1.574
         },
-        "over_2_5": 0.5727,
-        "btts": 0.5628,
+        "over_2_5": 0.5414,
+        "btts": 0.5705,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.1043
+            "p": 0.1163
+          },
+          {
+            "score": "1:2",
+            "p": 0.0915
+          },
+          {
+            "score": "0:1",
+            "p": 0.0914
           },
           {
             "score": "2:1",
-            "p": 0.099
+            "p": 0.0739
           },
           {
             "score": "1:0",
-            "p": 0.0961
-          },
-          {
-            "score": "2:0",
-            "p": 0.0912
-          },
-          {
-            "score": "3:1",
-            "p": 0.0626
+            "p": 0.0738
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "ESP -160",
+        "details": "ENG -105",
         "over_under": 2.5,
         "moneyline": {
-          "home": "-160",
-          "draw": 295,
+          "home": "+280",
+          "draw": 265,
+          "away": "-105"
+        },
+        "implied": {
+          "home": 0.2508,
+          "draw": 0.2611,
+          "away": 0.4881
+        }
+      },
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht England vorne (47%). Wahrscheinlichstes Resultat 1:2. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
+    },
+    {
+      "id": "760513",
+      "kickoff_utc": "2026-07-12T01:00Z",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "city": "Kansas City, Missouri",
+      "group": null,
+      "home": {
+        "code": "ARG",
+        "name": "Argentina",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+        "elo": 2227.8,
+        "form_ppg10": 3.0
+      },
+      "away": {
+        "code": "SUI",
+        "name": "Switzerland",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+        "elo": 2016.2,
+        "form_ppg10": 1.7
+      },
+      "prediction": {
+        "winner": "Argentina",
+        "winner_code": "ARG",
+        "scoreline": "1:0",
+        "prob": {
+          "home": 0.5692,
+          "draw": 0.2458,
+          "away": 0.185
+        },
+        "confidence": "Mittel",
+        "expected_goals": {
+          "home": 1.86,
+          "away": 0.99
+        },
+        "over_2_5": 0.5422,
+        "btts": 0.5304,
+        "top_scorelines": [
+          {
+            "score": "1:0",
+            "p": 0.1076
+          },
+          {
+            "score": "1:1",
+            "p": 0.1065
+          },
+          {
+            "score": "2:0",
+            "p": 0.1001
+          },
+          {
+            "score": "2:1",
+            "p": 0.0991
+          },
+          {
+            "score": "3:0",
+            "p": 0.0621
+          }
+        ]
+      },
+      "odds_snapshot": {
+        "provider": "DraftKings",
+        "details": "ARG -145",
+        "over_under": 2.5,
+        "moneyline": {
+          "home": "-145",
+          "draw": 255,
           "away": "+450"
         },
         "implied": {
-          "home": 0.5859,
-          "draw": 0.241,
-          "away": 0.1731
+          "home": 0.5608,
+          "draw": 0.2669,
+          "away": 0.1723
         }
       },
-      "key_factors": [
-        "Spanien klarer Favorit (Markt ~59 %); beste Defensive der verbliebenen Teams",
-        "Belgien OHNE Amadou Onana (Kreuzbandriss, Turnier-Aus) – schwerer Verlust im Mittelfeld",
-        "Spanien ohne Verletzungssorgen; Nico Williams (Adduktoren) nur Bank, Yamal spielt",
-        "De Bruyne nach Schonung gegen USA zurück – hält Belgien gefährlich",
-        "Elo+Poisson und Quoten decken sich klar auf Spanien"
-      ],
-      "rationale_de": "Spanien geht als klarer Favorit (~59 %) ins Viertelfinale und hat die beste Defensive der verbliebenen Teams. Belgien verliert mit Amadou Onana (Kreuzbandriss, Turnier-Aus) eine Schlüsselkraft im Mittelfeld, bleibt dank des zurückgekehrten De Bruyne aber gefährlich. Bei Spanien gibt es keine Verletzungssorgen (Nico Williams nur Bank). Modell und Markt stützen beide klar Spanien – wir tippen 2:1.",
-      "enriched_by": "claude"
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht Argentina vorne (57%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
     }
   ]
 }
