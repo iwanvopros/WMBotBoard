@@ -3335,13 +3335,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "+135",
-        "draw": 225,
+        "draw": 220,
         "away": "+220"
       },
       "implied": {
-        "home": 0.4069,
-        "draw": 0.2942,
-        "away": 0.2988
+        "home": 0.4051,
+        "draw": 0.2975,
+        "away": 0.2975
       }
     },
     "group": null
@@ -3378,17 +3378,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ENG +155",
+      "details": "ENG +160",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+155",
-        "draw": 200,
+        "home": "+160",
+        "draw": 195,
         "away": "+205"
       },
       "implied": {
-        "home": 0.3723,
-        "draw": 0.3164,
-        "away": 0.3113
+        "home": 0.3658,
+        "draw": 0.3224,
+        "away": 0.3118
       }
     },
     "group": null
