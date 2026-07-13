@@ -3335,13 +3335,13 @@
       "over_under": 2.5,
       "moneyline": {
         "home": "+135",
-        "draw": 220,
-        "away": "+220"
+        "draw": 215,
+        "away": "+225"
       },
       "implied": {
-        "home": 0.4051,
-        "draw": 0.2975,
-        "away": 0.2975
+        "home": 0.405,
+        "draw": 0.3021,
+        "away": 0.2928
       }
     },
     "group": null
