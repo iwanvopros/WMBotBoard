@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T09:27:54+00:00",
+  "generated_at": "2026-07-14T14:26:08+00:00",
   "count": 1,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
@@ -29,9 +29,9 @@
         "winner_code": "FRA",
         "scoreline": "2:1",
         "prob": {
-          "home": 0.3705,
-          "draw": 0.2758,
-          "away": 0.3537
+          "home": 0.3695,
+          "draw": 0.28,
+          "away": 0.3505
         },
         "confidence": "Niedrig",
         "expected_goals": {
@@ -69,13 +69,13 @@
         "over_under": 2.5,
         "moneyline": {
           "home": "+140",
-          "draw": 215,
-          "away": "+215"
+          "draw": 205,
+          "away": "+220"
         },
         "implied": {
-          "home": 0.3962,
-          "draw": 0.3019,
-          "away": 0.3019
+          "home": 0.3942,
+          "draw": 0.3102,
+          "away": 0.2956
         }
       },
       "key_factors": [],
