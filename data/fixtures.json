@@ -3331,17 +3331,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "FRA +135",
+      "details": "FRA +140",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+135",
-        "draw": 220,
-        "away": "+220"
+        "home": "+140",
+        "draw": 215,
+        "away": "+215"
       },
       "implied": {
-        "home": 0.4051,
-        "draw": 0.2975,
-        "away": 0.2975
+        "home": 0.3962,
+        "draw": 0.3019,
+        "away": 0.3019
       }
     },
     "group": null
@@ -3378,17 +3378,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ENG +160",
+      "details": "ENG +165",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+160",
-        "draw": 195,
-        "away": "+205"
+        "home": "+165",
+        "draw": 190,
+        "away": "+200"
       },
       "implied": {
-        "home": 0.3658,
-        "draw": 0.3224,
-        "away": 0.3118
+        "home": 0.3575,
+        "draw": 0.3267,
+        "away": 0.3158
       }
     },
     "group": null
