@@ -1,85 +1,85 @@
 {
-  "date": "2026-07-14",
-  "generated_at": "2026-07-14T14:26:08+00:00",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T09:32:06+00:00",
   "count": 1,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
     {
-      "id": "760514",
-      "kickoff_utc": "2026-07-14T19:00Z",
-      "venue": "AT&T Stadium",
-      "city": "Arlington, Texas",
+      "id": "760515",
+      "kickoff_utc": "2026-07-15T19:00Z",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta, Georgia",
       "group": null,
       "home": {
-        "code": "FRA",
-        "name": "France",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-        "elo": 2236.7,
-        "form_ppg10": 2.7
+        "code": "ENG",
+        "name": "England",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+        "elo": 2171.2,
+        "form_ppg10": 2.3
       },
       "away": {
-        "code": "ESP",
-        "name": "Spain",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-        "elo": 2257.2,
-        "form_ppg10": 2.4
+        "code": "ARG",
+        "name": "Argentina",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+        "elo": 2248.4,
+        "form_ppg10": 3.0
       },
       "prediction": {
-        "winner": "France",
-        "winner_code": "FRA",
-        "scoreline": "2:1",
+        "winner": "Argentina",
+        "winner_code": "ARG",
+        "scoreline": "0:1",
         "prob": {
-          "home": 0.3695,
-          "draw": 0.28,
-          "away": 0.3505
+          "home": 0.3234,
+          "draw": 0.2946,
+          "away": 0.3821
         },
         "confidence": "Niedrig",
         "expected_goals": {
-          "home": 1.356,
-          "away": 1.491
+          "home": 1.191,
+          "away": 1.51
         },
-        "over_2_5": 0.5415,
-        "btts": 0.5751,
+        "over_2_5": 0.5066,
+        "btts": 0.5423,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.1173
-          },
-          {
-            "score": "1:2",
-            "p": 0.0874
+            "p": 0.1207
           },
           {
             "score": "0:1",
-            "p": 0.0865
+            "p": 0.1014
           },
           {
-            "score": "2:1",
-            "p": 0.0795
+            "score": "1:2",
+            "p": 0.0912
           },
           {
             "score": "1:0",
-            "p": 0.0787
+            "p": 0.08
+          },
+          {
+            "score": "0:2",
+            "p": 0.0765
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "FRA +140",
+        "details": "ENG +175",
         "over_under": 2.5,
         "moneyline": {
-          "home": "+140",
-          "draw": 205,
-          "away": "+220"
+          "home": "+175",
+          "draw": 185,
+          "away": "+200"
         },
         "implied": {
-          "home": 0.3942,
-          "draw": 0.3102,
-          "away": 0.2956
+          "home": 0.347,
+          "draw": 0.3349,
+          "away": 0.3181
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht France vorne (37%). Wahrscheinlichstes Resultat 2:1. Die Buchmacher sehen es etwas anders als das Modell.",
+      "rationale_de": "Das Modell sieht Argentina vorne (38%). Wahrscheinlichstes Resultat 0:1. Die Buchmacher sehen es etwas anders als das Modell.",
       "enriched_by": "model"
     }
   ]
