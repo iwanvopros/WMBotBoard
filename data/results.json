@@ -1,13 +1,47 @@
 {
-  "generated_at": "2026-07-15T14:23:33+00:00",
-  "count": 100,
-  "overall_quote": 47.0,
+  "generated_at": "2026-07-16T09:36:30+00:00",
+  "count": 101,
+  "overall_quote": 47.3,
   "tendency_rate": 68,
   "exact_rate": 16,
   "groups": [
     {
       "group": "K.o.-Runde",
       "matches": [
+        {
+          "id": "760515",
+          "date_utc": "2026-07-15T19:00Z",
+          "group": null,
+          "home": {
+            "name": "England",
+            "code": "ENG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+          },
+          "away": {
+            "name": "Argentina",
+            "code": "ARG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+          },
+          "actual": "1:2",
+          "tip": {
+            "scoreline": "0:1",
+            "winner": "Argentina",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.3234,
+              "draw": 0.2946,
+              "away": 0.3821
+            }
+          },
+          "result_score": 73.8,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": false,
+            "prob_actual": 0.382
+          },
+          "verdict": "Tendenz + Tordifferenz"
+        },
         {
           "id": "760514",
           "date_utc": "2026-07-14T19:00Z",
