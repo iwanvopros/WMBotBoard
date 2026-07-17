@@ -3444,17 +3444,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "ESP +130",
+      "details": "ESP +125",
       "over_under": 2.5,
       "moneyline": {
-        "home": "+130",
-        "draw": 195,
+        "home": "+125",
+        "draw": 200,
         "away": "+255"
       },
       "implied": {
-        "home": 0.4119,
-        "draw": 0.3212,
-        "away": 0.2669
+        "home": 0.4195,
+        "draw": 0.3146,
+        "away": 0.2659
       }
     },
     "group": null
