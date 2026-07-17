@@ -3397,17 +3397,17 @@
     },
     "odds": {
       "provider": "DraftKings",
-      "details": "FRA -115",
+      "details": "FRA -110",
       "over_under": 3.5,
       "moneyline": {
-        "home": "-115",
+        "home": "-110",
         "draw": 285,
-        "away": "+285"
+        "away": "+270"
       },
       "implied": {
-        "home": 0.5073,
-        "draw": 0.2463,
-        "away": 0.2463
+        "home": 0.4971,
+        "draw": 0.2465,
+        "away": 0.2565
       }
     },
     "group": null
