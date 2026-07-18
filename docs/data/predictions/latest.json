@@ -1,7 +1,86 @@
 {
-  "date": "2026-07-17",
-  "generated_at": "2026-07-17T14:14:33+00:00",
-  "count": 0,
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T09:09:59+00:00",
+  "count": 1,
   "source": "elo+poisson model + ESPN odds",
-  "matches": []
+  "matches": [
+    {
+      "id": "760516",
+      "kickoff_utc": "2026-07-18T21:00Z",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens, Florida",
+      "group": null,
+      "home": {
+        "code": "FRA",
+        "name": "France",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+        "elo": 2194.5,
+        "form_ppg10": 2.4
+      },
+      "away": {
+        "code": "ENG",
+        "name": "England",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+        "elo": 2147.9,
+        "form_ppg10": 2.2
+      },
+      "prediction": {
+        "winner": "France",
+        "winner_code": "FRA",
+        "scoreline": "1:0",
+        "prob": {
+          "home": 0.4597,
+          "draw": 0.2472,
+          "away": 0.2931
+        },
+        "confidence": "Mittel",
+        "expected_goals": {
+          "home": 1.462,
+          "away": 1.289
+        },
+        "over_2_5": 0.5187,
+        "btts": 0.5565,
+        "top_scorelines": [
+          {
+            "score": "1:1",
+            "p": 0.1204
+          },
+          {
+            "score": "1:0",
+            "p": 0.0934
+          },
+          {
+            "score": "2:1",
+            "p": 0.088
+          },
+          {
+            "score": "0:1",
+            "p": 0.0823
+          },
+          {
+            "score": "1:2",
+            "p": 0.0776
+          }
+        ]
+      },
+      "odds_snapshot": {
+        "provider": "DraftKings",
+        "details": "FRA -115",
+        "over_under": 3.5,
+        "moneyline": {
+          "home": "-115",
+          "draw": 295,
+          "away": "+275"
+        },
+        "implied": {
+          "home": 0.5071,
+          "draw": 0.24,
+          "away": 0.2528
+        }
+      },
+      "key_factors": [],
+      "rationale_de": "Das Modell sieht France vorne (46%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+      "enriched_by": "model"
+    }
+  ]
 }
