@@ -1,85 +1,85 @@
 {
-  "date": "2026-07-18",
-  "generated_at": "2026-07-18T14:02:56+00:00",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T09:30:01+00:00",
   "count": 1,
   "source": "elo+poisson model + ESPN odds",
   "matches": [
     {
-      "id": "760516",
-      "kickoff_utc": "2026-07-18T21:00Z",
-      "venue": "Hard Rock Stadium",
-      "city": "Miami Gardens, Florida",
+      "id": "760517",
+      "kickoff_utc": "2026-07-19T19:00Z",
+      "venue": "MetLife Stadium",
+      "city": "East Rutherford, New Jersey",
       "group": null,
       "home": {
-        "code": "FRA",
-        "name": "France",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-        "elo": 2194.5,
+        "code": "ESP",
+        "name": "Spain",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+        "elo": 2299.7,
         "form_ppg10": 2.4
       },
       "away": {
-        "code": "ENG",
-        "name": "England",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-        "elo": 2147.9,
-        "form_ppg10": 2.2
+        "code": "ARG",
+        "name": "Argentina",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+        "elo": 2271.9,
+        "form_ppg10": 3.0
       },
       "prediction": {
-        "winner": "France",
-        "winner_code": "FRA",
+        "winner": "Spain",
+        "winner_code": "ESP",
         "scoreline": "1:0",
         "prob": {
-          "home": 0.4597,
-          "draw": 0.2472,
-          "away": 0.2931
+          "home": 0.4117,
+          "draw": 0.2845,
+          "away": 0.3038
         },
-        "confidence": "Mittel",
+        "confidence": "Niedrig",
         "expected_goals": {
-          "home": 1.462,
-          "away": 1.289
+          "home": 1.454,
+          "away": 1.327
         },
-        "over_2_5": 0.5187,
-        "btts": 0.5565,
+        "over_2_5": 0.526,
+        "btts": 0.5631,
         "top_scorelines": [
           {
             "score": "1:1",
-            "p": 0.1204
+            "p": 0.1196
           },
           {
             "score": "1:0",
-            "p": 0.0934
+            "p": 0.0901
           },
           {
             "score": "2:1",
-            "p": 0.088
+            "p": 0.087
           },
           {
             "score": "0:1",
-            "p": 0.0823
+            "p": 0.0822
           },
           {
             "score": "1:2",
-            "p": 0.0776
+            "p": 0.0793
           }
         ]
       },
       "odds_snapshot": {
         "provider": "DraftKings",
-        "details": "FRA -115",
-        "over_under": 3.5,
+        "details": "ESP +125",
+        "over_under": 2.5,
         "moneyline": {
-          "home": "-115",
-          "draw": 295,
-          "away": "+275"
+          "home": "+125",
+          "draw": 200,
+          "away": "+260"
         },
         "implied": {
-          "home": 0.5071,
-          "draw": 0.24,
-          "away": 0.2528
+          "home": 0.4211,
+          "draw": 0.3158,
+          "away": 0.2632
         }
       },
       "key_factors": [],
-      "rationale_de": "Das Modell sieht France vorne (46%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
+      "rationale_de": "Das Modell sieht Spain vorne (41%). Wahrscheinlichstes Resultat 1:0. Quoten und Modell stimmen weitgehend überein.",
       "enriched_by": "model"
     }
   ]
