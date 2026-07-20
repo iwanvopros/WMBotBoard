@@ -1,13 +1,47 @@
 {
-  "generated_at": "2026-07-19T14:07:31+00:00",
-  "count": 102,
-  "overall_quote": 46.8,
+  "generated_at": "2026-07-20T10:27:30+00:00",
+  "count": 103,
+  "overall_quote": 47.3,
   "tendency_rate": 68,
-  "exact_rate": 16,
+  "exact_rate": 17,
   "groups": [
     {
       "group": "K.o.-Runde",
       "matches": [
+        {
+          "id": "760517",
+          "date_utc": "2026-07-19T19:00Z",
+          "group": null,
+          "home": {
+            "name": "Spain",
+            "code": "ESP",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+          },
+          "away": {
+            "name": "Argentina",
+            "code": "ARG",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+          },
+          "actual": "1:0",
+          "tip": {
+            "scoreline": "1:0",
+            "winner": "Spain",
+            "confidence": "Niedrig",
+            "prob": {
+              "home": 0.4117,
+              "draw": 0.2845,
+              "away": 0.3038
+            }
+          },
+          "result_score": 94.1,
+          "factors": {
+            "tendenz": true,
+            "tordifferenz": true,
+            "exakt": true,
+            "prob_actual": 0.412
+          },
+          "verdict": "Volltreffer"
+        },
         {
           "id": "760516",
           "date_utc": "2026-07-18T21:00Z",
